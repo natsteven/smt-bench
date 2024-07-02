@@ -1,0 +1,38 @@
+BootStrap: docker
+From: alpine
+
+%post
+	apk update
+	apk add openjdk11
+
+# MAS
+%appfiles mas
+	bin/string-constraint-solvers-1.0-SNAPSHOT-jar-with-dependencies.jar mas.jar
+%apprun mas
+    exec java -jar ${SCIF_APPROOT}/mas.jar $1 -s Inverse -v 2 -l 2
+
+# Z3
+%appinstall z3
+	apk add z3
+#%appfiles z3
+	#bin/z3 z3
+%apprun z3
+    exec z3 $1
+
+# CVC5
+%appinstall cvc5
+	apk add build-base
+%appfiles cvc5
+	bin/cvc5 cvc5
+%apprun cvc5
+    exec ${SCIF_APPROOT}/cvc5 $1
+
+# Ostrich
+%appfiles ostrich
+	bin/ostrich-assembly-1.3.jar ostrich.jar
+%apprun ostrich
+    exec java -jar ${SCIF_APPROOT}/ostrich.jar $1 +incremental
+
+
+%labels
+   Author Nat Steven
