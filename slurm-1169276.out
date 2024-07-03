@@ -1,0 +1,237 @@
+Date              = Tue Jul  2 18:48:15 MDT 2024
+Hostname          = cpu115
+Working Directory = /bsuhome/nathanaelsteven/Benching
+
+Number of Nodes Allocated  = 1
+Number of Tasks Allocated  = 1
+
+Running mas on beasties01.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties02.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties03.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties04.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties05.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties06.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties07.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties08.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties09.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties10.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties11.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties12.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties13.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties14.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties15.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties16.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties17.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties18.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties19.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties20.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties21.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties22.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties23.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties24.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties25.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties26.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties27.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties28.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties29.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on beasties30.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql04.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql07.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql09.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql14.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql15.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql16.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql18.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql19.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql20.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql21.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql22.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql23.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql24.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql25.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql26.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql27.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql28.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql29.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql30.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql31.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql32.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql33.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on jxml2sql34.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame01.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame02.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame03.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame04.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame09.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame10.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame12.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame13.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame14.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame15.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame16.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame17.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame19.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame20.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame21.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame22.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame23.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame24.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame26.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame27.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame28.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame29.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame30.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running mas on mathQuizGame31.json
+cp: cannot stat ‘temp/solutions.txt’: No such file or directory
+Running z3 on beasties01.smt2
+Running z3 on beasties02.smt2
+Running z3 on beasties03.smt2
+Running z3 on beasties04.smt2
+Running z3 on beasties05.smt2
+Running z3 on beasties06.smt2
+Running z3 on beasties07.smt2
+Running z3 on beasties08.smt2
+Running z3 on beasties09.smt2
+Running z3 on beasties10.smt2
+Running z3 on beasties11.smt2
+Running z3 on beasties12.smt2
+Running z3 on beasties13.smt2
+Running z3 on beasties14.smt2
+Running z3 on beasties15.smt2
+Running z3 on beasties16.smt2
+Running z3 on beasties17.smt2
+Running z3 on beasties18.smt2
+Running z3 on beasties19.smt2
+Running z3 on beasties20.smt2
+Running z3 on beasties21.smt2
+Running z3 on beasties22.smt2
+Running z3 on beasties23.smt2
+Running z3 on beasties24.smt2
+Running z3 on beasties25.smt2
+Running z3 on beasties26.smt2
+Running z3 on beasties27.smt2
+Running z3 on beasties28.smt2
+Running z3 on beasties29.smt2
+Running z3 on beasties30.smt2
+Running z3 on jxml2sql04.smt2
+Running z3 on jxml2sql07.smt2
+Running z3 on jxml2sql09.smt2
+Running z3 on jxml2sql14.smt2
+Running z3 on jxml2sql15.smt2
+Running z3 on jxml2sql16.smt2
+Running z3 on jxml2sql18.smt2
+Running z3 on jxml2sql19.smt2
+Running z3 on jxml2sql20.smt2
+Running z3 on jxml2sql21.smt2
+Running z3 on jxml2sql22.smt2
+Running z3 on jxml2sql23.smt2
+Running z3 on jxml2sql24.smt2
+Running z3 on jxml2sql25.smt2
+Running z3 on jxml2sql26.smt2
+Running z3 on jxml2sql27.smt2
+Running z3 on jxml2sql28.smt2
+Running z3 on jxml2sql29.smt2
+Running z3 on jxml2sql30.smt2
+Running z3 on jxml2sql31.smt2
+Running z3 on jxml2sql32.smt2
+Running z3 on jxml2sql33.smt2
+Running z3 on jxml2sql34.smt2
+Running z3 on mathQuizGame01.smt2
+Running z3 on mathQuizGame02.smt2
+Running z3 on mathQuizGame03.smt2
+Running z3 on mathQuizGame04.smt2
+Running z3 on mathQuizGame09.smt2
+Running z3 on mathQuizGame10.smt2
+Running z3 on mathQuizGame12.smt2
+Running z3 on mathQuizGame13.smt2
+Running z3 on mathQuizGame14.smt2
+Running z3 on mathQuizGame15.smt2
+Running z3 on mathQuizGame16.smt2
+Running z3 on mathQuizGame17.smt2
+Running z3 on mathQuizGame19.smt2
+Running z3 on mathQuizGame20.smt2
+Running z3 on mathQuizGame21.smt2
+Running z3 on mathQuizGame22.smt2
+Running z3 on mathQuizGame23.smt2
+Running z3 on mathQuizGame24.smt2
+Running z3 on mathQuizGame26.smt2
+Running z3 on mathQuizGame27.smt2
+Running z3 on mathQuizGame28.smt2
+Running z3 on mathQuizGame29.smt2
+slurmstepd: error: *** JOB 1169276 ON cpu115 CANCELLED AT 2024-07-03T06:48:39 DUE TO TIME LIMIT ***

@@ -1,0 +1,301 @@
+Performance log for cvc5
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2
+
+real	0m0.682s
+user	0m0.073s
+sys	0m0.236s
+
+real	0m0.676s
+user	0m0.065s
+sys	0m0.250s
+
+real	0m0.677s
+user	0m0.065s
+sys	0m0.238s
+
+real	0m0.679s
+user	0m0.077s
+sys	0m0.244s
+
+real	0m0.684s
+user	0m0.078s
+sys	0m0.239s
+
+real	0m0.684s
+user	0m0.071s
+sys	0m0.244s
+
+real	0m0.683s
+user	0m0.070s
+sys	0m0.245s
+
+real	0m0.687s
+user	0m0.079s
+sys	0m0.232s
+
+real	0m0.686s
+user	0m0.082s
+sys	0m0.231s
+
+real	0m0.687s
+user	0m0.075s
+sys	0m0.235s
+
+real	0m0.695s
+user	0m0.075s
+sys	0m0.240s
+
+real	0m0.690s
+user	0m0.064s
+sys	0m0.245s
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2
+
+real	0m0.431s
+user	0m0.090s
+sys	0m0.252s
+
+
+real	0m0.433s
+real	0m0.429s
+user	0m0.092s
+user	0m0.086s
+sys	0m0.257s
+sys	0m0.256s
+
+real	0m0.428s
+user	0m0.086s
+sys	0m0.256s
+
+real	0m0.428s
+user	0m0.082s
+sys	0m0.258s
+
+real	0m0.434s
+user	0m0.093s
+sys	0m0.246s
+
+real	0m0.433s
+user	0m0.078s
+sys	0m0.264s
+
+real	0m0.433s
+user	0m0.087s
+sys	0m0.259s
+
+
+real	0m0.434s
+real	0m0.434s
+user	0m0.080s
+user	0m0.086s
+sys	0m0.260s
+sys	0m0.259s
+
+real	0m0.438s
+user	0m0.093s
+sys	0m0.252s
+
+real	0m0.444s
+user	0m0.086s
+sys	0m0.254s
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2
+
+real	0m2.572s
+user	0m2.211s
+sys	0m0.273s
+
+real	0m2.575s
+user	0m2.232s
+sys	0m0.256s
+
+real	0m2.587s
+user	0m2.216s
+sys	0m0.275s
+
+real	0m2.597s
+user	0m2.233s
+sys	0m0.269s
+
+real	0m2.665s
+user	0m2.301s
+sys	0m0.280s
+
+real	0m2.654s
+
+user	0m2.297s
+real	0m2.663s
+user	0m2.298s
+sys	0m0.275s
+sys	0m0.280s
+
+real	0m2.655s
+user	0m2.299s
+sys	0m0.276s
+
+real	0m2.677s
+user	0m2.323s
+sys	0m0.266s
+
+real	0m2.670s
+user	0m2.313s
+sys	0m0.274s
+
+real	0m2.756s
+user	0m2.399s
+sys	0m0.289s
+
+real	0m2.788s
+user	0m2.443s
+sys	0m0.285s
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2
+
+real	0m0.407s
+user	0m0.083s
+sys	0m0.247s
+
+real	0m0.418s
+user	0m0.081s
+sys	0m0.253s
+
+real	0m0.421s
+user	0m0.083s
+
+
+sys	0m0.261s
+real	0m0.422s
+real	0m0.421s
+user	0m0.091s
+user	0m0.075s
+sys	0m0.253s
+sys	0m0.261s
+
+real	0m0.431s
+user	0m0.083s
+sys	0m0.251s
+
+real	0m0.431s
+user	0m0.083s
+sys	0m0.250s
+
+real	0m0.431s
+user	0m0.081s
+sys	0m0.253s
+
+real	0m0.430s
+user	0m0.078s
+sys	0m0.254s
+
+real	0m0.432s
+user	0m0.077s
+sys	0m0.262s
+
+real	0m0.433s
+user	0m0.091s
+sys	0m0.248s
+
+real	0m0.437s
+user	0m0.079s
+sys	0m0.260s
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+simple-benches/cvc5/toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2
+
+real	0m0.409s
+user	0m0.093s
+sys	0m0.253s
+
+real	0m0.405s
+user	0m0.080s
+sys	0m0.251s
+
+real	0m0.409s
+user	0m0.088s
+sys	0m0.255s
+
+real	0m0.418s
+user	0m0.086s
+sys	0m0.255s
+
+real	0m0.416s
+user	0m0.078s
+sys	0m0.250s
+
+real	0m0.419s
+user	0m0.088s
+sys	0m0.259s
+
+real	0m0.422s
+user	0m0.086s
+sys	0m0.261s
+
+real	0m0.422s
+user	0m0.093s
+sys	0m0.251s
+
+real	0m0.424s
+user	0m0.089s
+sys	0m0.261s
+
+real	0m0.424s
+user	0m0.075s
+sys	0m0.268s
+
+real	0m0.425s
+user	0m0.082s
+sys	0m0.261s
+
+real	0m0.428s
+user	0m0.081s
+sys	0m0.262s
