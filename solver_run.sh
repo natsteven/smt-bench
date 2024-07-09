@@ -6,7 +6,6 @@ log="logs/$solver/$(basename "$file").log"
 performance_log="logs/$solver/$(basename "$file").time"
 
 echo -n "$solver, $(basename "$file"), "
-#echo "$file" >> "$performance_log"
 
 start=$(date +%s.%3N)
 
