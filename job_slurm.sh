@@ -5,7 +5,11 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH -t 12:00:00
+<<<<<<< HEAD
 #SBATCH --array=0-19
+=======
+#SBATCH --array=0-307
+>>>>>>> 1ee52c2 (merge stuff? results)
 #SBATCH --output=logs/slurm-%A_%a.out
 
 #echo "Date              = $(date)"
@@ -34,4 +38,8 @@ mkdir -p logs/"$solver"
 #performance_log="logs/${solver}_performance.log"
 #echo "Performance log for $solver" > "$performance_log"
 
+<<<<<<< HEAD
 srun ./solver_run.sh "$solver" "simple-benches/$solver/$file.$file_extension"
+=======
+srun ./solver_run.sh "$solver" "real/$solver/$file.$file_extension"
+>>>>>>> 1ee52c2 (merge stuff? results)
