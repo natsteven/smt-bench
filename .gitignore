@@ -1,3 +1,4 @@
 *.sif
 /.idea
 /logs
+.~lock.borah-results.ods#

@@ -8,12 +8,12 @@ fi
 solver=$1
 
 cd "logs/$solver" || exit
-out="$solver-logs.txt"
+out="$HOME/smt-bench/$solver-logs.txt"
 rm "$out" 2>/dev/null
 
 if [ "$solver" == "mas" ]; then
     for file in *.solutions.txt; do
-        { cat "$file"; echo ","; } >> "$out"
+        { tr '\n' ' ' < "$file"; echo ","; } >> "$out"
     done
     exit 0
 fi
