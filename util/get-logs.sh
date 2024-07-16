@@ -13,7 +13,7 @@ rm "$out" 2>/dev/null
 
 if [ "$solver" == "mas" ]; then
     for file in *.solutions.txt; do
-        { tr '\n' ' ' < "$file"; echo ","; } >> "$out"
+        { tr '\n' ' ' < "$file"; echo ";"; } >> "$out"
     done
     exit 0
 fi
