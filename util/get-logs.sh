@@ -12,8 +12,8 @@ out="$HOME/smt-bench/$solver-logs.txt"
 rm "$out" 2>/dev/null
 
 if [ "$solver" == "mas" ]; then
-    for file in *.solutions.txt; do
-        { tr '\n' ' ' < "$file"; echo ";"; } >> "$out"
+    for file in *.log; do
+        { awk '/DONE/{flag=1; next} flag' "$file"; echo -n ","; } >> "$out"
     done
     exit 0
 fi
