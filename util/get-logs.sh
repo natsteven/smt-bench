@@ -13,7 +13,7 @@ rm "$out" 2>/dev/null
 
 if [ "$solver" == "mas" ]; then
     for file in *.log; do
-        { awk '/DONE/{flag=1; next} flag' "$file"; echo -n ","; } >> "$out"
+        { awk '/DONE/{flag=1; next} flag' "$file" | tr '\n' ' '; echo ""; } >> "$out"
     done
     exit 0
 fi
