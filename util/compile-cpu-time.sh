@@ -9,7 +9,7 @@ solver=$1
 
 out="$HOME/smt-bench/$solver-times.txt"
 
-rm "$out" 2> dev/null
+rm "$out" 2>/dev/null
 
 cd "logs/$solver" || exit
 
