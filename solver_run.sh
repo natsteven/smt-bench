@@ -13,9 +13,6 @@ start=$(date +%s.%3N)
 if [ $? -eq 124 ]; then
   echo "Timeout: Solver $solver exceeded 20 minutes on file $(basename "$file")" > "$performance_log"
 fi
-if [ "$solver" = "mas" ]; then
-  cp temp/solutions.txt logs/"$solver"/"$(basename "$file")".solutions.txt
-fi
 
 end=$(date +%s.%3N)
 echo "$(echo "$end - $start" | bc)"
