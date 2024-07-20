@@ -1,0 +1,609 @@
+
+INPUT ID: 1, VALUE: efhahcc INPUT ID: 3, VALUE:  INPUT ID: 5, VALUE: fdhi INPUT ID: 8, VALUE: cbah 
+INPUT ID: 0, VALUE: aaa INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE:  
+
+INPUT ID: 1, VALUE: bicdj INPUT ID: 4, VALUE: gdcabf 
+INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE:  INPUT ID: 5, VALUE: dd 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 2, VALUE:  INPUT ID: 5, VALUE: ccdbbcbeddebcee 
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+
+
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+
+INPUT ID: 1, VALUE: a INPUT ID: 3, VALUE:  
+
+
+INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE:  INPUT ID: 6, VALUE:  INPUT ID: 7, VALUE: fhcfeb 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+INPUT ID: 0, VALUE:  INPUT ID: 2, VALUE:  INPUT ID: 5, VALUE:  
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 4, VALUE: chbfad INPUT ID: 6, VALUE: abgdecd 
+INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE: baeaabbecabcb INPUT ID: 7, VALUE:  
+INPUT ID: 0, VALUE:  INPUT ID: 2, VALUE:  
+INPUT ID: 0, VALUE:  INPUT ID: 2, VALUE:  
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+
+
+INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE: aaieig 
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: dbggbfea INPUT ID: 4, VALUE: gdfggaffadc 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 4, VALUE: jaediebbjgja 
+
+
+INPUT ID: 1, VALUE:  INPUT ID: 4, VALUE: ddcbdffbedffcfd 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: aebcecfdddacf INPUT ID: 4, VALUE:  INPUT ID: 6, VALUE:  
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: f INPUT ID: 3, VALUE:  INPUT ID: 6, VALUE:  INPUT ID: 7, VALUE: jch 
+INPUT ID: 0, VALUE:  INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE: aaaa 
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 2, VALUE:  INPUT ID: 3, VALUE:  INPUT ID: 4, VALUE: f 
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+
+
+INPUT ID: 1, VALUE: gefiaidbgcafig 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+
+INPUT ID: 1, VALUE:  INPUT ID: 2, VALUE:  INPUT ID: 3, VALUE: ccddgcgh INPUT ID: 5, VALUE:  
+INPUT ID: 1, VALUE:  INPUT ID: 4, VALUE: ga 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+
+INPUT ID: 1, VALUE: dccffccddcff 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: dde INPUT ID: 3, VALUE:  INPUT ID: 6, VALUE: gdbdccb 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 2, VALUE: gj 
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 2, VALUE: dggebdeh INPUT ID: 6, VALUE:  
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: acidagihgdcaf INPUT ID: 4, VALUE:  
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: gfhechbf INPUT ID: 4, VALUE: idcficcdhgaiega INPUT ID: 6, VALUE: eeb 
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: bi INPUT ID: 3, VALUE: ifibehed INPUT ID: 5, VALUE: gd INPUT ID: 7, VALUE:  
+INPUT ID: 1, VALUE: i INPUT ID: 3, VALUE: fcdcififbc INPUT ID: 6, VALUE: f 
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 0, VALUE: gbhff INPUT ID: 1, VALUE:  
+INPUT ID: 0, VALUE:  INPUT ID: 2, VALUE:  
+
+INPUT ID: 1, VALUE: ieecg INPUT ID: 4, VALUE: cj 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+INPUT ID: 1, VALUE: abcacbbbaaaacbb INPUT ID: 4, VALUE:  
+INPUT ID: 0, VALUE:  INPUT ID: 2, VALUE:  
+INPUT ID: 0, VALUE:  INPUT ID: 2, VALUE:  INPUT ID: 3, VALUE:  
+INPUT ID: 1, VALUE: ab 
+INPUT ID: 1, VALUE:  INPUT ID: 4, VALUE: accdcdaaaccddbc 
+INPUT ID: 1, VALUE:  INPUT ID: 2, VALUE: heec INPUT ID: 5, VALUE:  INPUT ID: 6, VALUE: e 
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+INPUT ID: 1, VALUE: jccj INPUT ID: 4, VALUE:  
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+
+INPUT ID: 1, VALUE: ggebcgdcbb INPUT ID: 4, VALUE: ba 
+
+INPUT ID: 1, VALUE: c INPUT ID: 4, VALUE: edddcfae 
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE: bcdecbadcdbeaa INPUT ID: 6, VALUE: dbaeae 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 2, VALUE: bihfe INPUT ID: 5, VALUE: jfbj 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+INPUT ID: 0, VALUE:  INPUT ID: 2, VALUE:  
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+INPUT ID: 1, VALUE:  INPUT ID: 4, VALUE: c 
+INPUT ID: 1, VALUE: adddcaabaccac 
+INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE: a 
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: aabaabba INPUT ID: 4, VALUE: bbabbaaba 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+INPUT ID: 1, VALUE:  INPUT ID: 4, VALUE: babaaccccaabbac 
+
+INPUT ID: 1, VALUE:  INPUT ID: 4, VALUE: bbcbc 
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+INPUT ID: 1, VALUE: acacbbaccabab INPUT ID: 4, VALUE: cacbbcbbac 
+INPUT ID: 1, VALUE: b INPUT ID: 4, VALUE: ccb 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+
+
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: agbjiigfgecfd INPUT ID: 3, VALUE:  
+
+
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE:  INPUT ID: 6, VALUE:  INPUT ID: 7, VALUE: acccaaccbcbacab 
+
+
+INPUT ID: 1, VALUE: abacbbc INPUT ID: 4, VALUE: abbbcbcabab 
+
+INPUT ID: 1, VALUE: accccbbba INPUT ID: 4, VALUE:  
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: eeecbcbbce INPUT ID: 3, VALUE: bbbee INPUT ID: 6, VALUE: c 
+INPUT ID: 1, VALUE: cbbbcbbcab 
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 3, VALUE: cbfbdef 
+
+INPUT ID: 1, VALUE: fac INPUT ID: 3, VALUE:  INPUT ID: 5, VALUE:  
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE: cbd INPUT ID: 2, VALUE:  
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+INPUT ID: 1, VALUE:  INPUT ID: 2, VALUE: eifececifibi INPUT ID: 5, VALUE:  
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INPUT ID: 16, VALUE:  INPUT ID: 0, VALUE: aaaa INPUT ID: 17, VALUE:  INPUT ID: 1, VALUE: a INPUT ID: 19, VALUE:  INPUT ID: 4, VALUE: a INPUT ID: 6, VALUE: aab INPUT ID: 8, VALUE: bbaa INPUT ID: 12, VALUE: aaa INPUT ID: 14, VALUE: aab 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+
+MISSING SOLUTIONS 3 expected IDs in set:  1, 4, UNSAT 
+
+
+
+
+
+
+
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+
+
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+
+
+
+INPUT ID: 0, VALUE:  INPUT ID: 2, VALUE:  INPUT ID: 19, VALUE:  INPUT ID: 5, VALUE:  INPUT ID: 11, VALUE:  INPUT ID: 13, VALUE:  
+
+
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+INPUT ID: 0, VALUE:  
+
+
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+
+
+
+MISSING SOLUTIONS 5 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+
+
+
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  1, 4, UNSAT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+MISSING SOLUTIONS 5 expected IDs in set:  UNSAT 
+
+
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+
+
+
+
+
+
+
+
+
+
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+
+
+MISSING SOLUTIONS 3 expected IDs in set:  UNSAT 
+
+
+
+
+MISSING SOLUTIONS 5 expected IDs in set:  UNSAT 
+
+MISSING SOLUTIONS 1 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+MISSING SOLUTIONS 4 expected IDs in set:  UNSAT 
+
+
+
+
+
+MISSING SOLUTIONS 2 expected IDs in set:  UNSAT 
+
+
+INPUT ID: 1, VALUE:  
+
+
+
+
+
+
+
+
+
+
+
