@@ -19,7 +19,7 @@ if [ "$solver" == "mas" ]; then
 fi
 
 for file in *.log; do
-	{ echo -n "$file:"; head -n 1 "$file" | tr '\n' ' '; echo -n ","; tail -n +2 "$file" | tr '\n' ' '; echo "";} >> "$out"
+	{ echo -n "$(basename "$file" .log): "; head -n 1 "$file" | tr '\n' ' '; echo -n ","; tail -n +2 "$file" | tr '\n' ' '; echo "";} >> "$out"
 done
 
 exit 0
