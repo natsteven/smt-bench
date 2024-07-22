@@ -16,4 +16,5 @@ Description: Produced by generating random strings, and replacing factors with v
 (assert (= (str.++  "cdebed" D "ccceebddbbadb" D "deebadabaaacdebcce")  (str.++  "cdebedebdccc" A "ce") ))
 (check-sat)
 
+(get-model)
 (exit)

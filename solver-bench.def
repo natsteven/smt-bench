@@ -25,7 +25,7 @@ From: alpine
 %appfiles cvc5
 	bin/cvc5 cvc5
 %apprun cvc5
-    exec ${SCIF_APPROOT}/cvc5 $1
+    exec ${SCIF_APPROOT}/cvc5 $1 --produce-models
 
 # Ostrich
 %appfiles ostrich

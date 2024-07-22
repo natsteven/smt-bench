@@ -192,4 +192,5 @@ Description: Consisting of a system of 100 small random word equations with at m
 (assert (= (str.++  "dbaaccda" B "aadad" B "aa" B "a" B "cacc" B "cccdbaaadcd" B "bc" B "bcaaadcaa" B "ccd")  (str.++  "d" B "aaccda" B "aadad" B "aa" B "a" B "caccbcccd" B "aaadcdb" B "c" B "bcaaadcaa" B "ccd") ))
 (check-sat)
 
+(get-model)
 (exit)

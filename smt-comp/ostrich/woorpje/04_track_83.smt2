@@ -122,4 +122,5 @@ Description: Consisting of a system of 100 small random word equations with at m
 (assert (= (str.++  "bbbbbbbbbbaaababbababbaabaaaaababbabbbaababababaabaabbaaaabaaaabbb" C "bbaabbbbbabaababababba")  (str.++  "bbbbbbbbbbaaababbababbaabaaaaababbabbbaababababaabaabbaaaabaaaabbb" C "bbaabbbbbabaababababba") ))
 (check-sat)
 
+(get-model)
 (exit)

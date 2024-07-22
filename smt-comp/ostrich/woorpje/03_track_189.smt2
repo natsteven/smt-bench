@@ -24,4 +24,5 @@ Description: Transoformed and expanded from Track02
 (assert (= (str.++  "aa" I "aa" I I "aaaa" I "aaa" I "aa" I I "aaaa" I "b" J "aaa" J J J "aba" M O "ab" Q S "b" V)  (str.++  "a" J H I I "aa" I "aa" J "aaa" M J "aaa" M "b" N N M N N N M N "b" S S S S "b" T T "baa") ))
 (check-sat)
 
+(get-model)
 (exit)

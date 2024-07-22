@@ -34,4 +34,5 @@ Description: Transoformed and expanded from Track02
 (assert (= P "aab"))
 (check-sat)
 
+(get-model)
 (exit)

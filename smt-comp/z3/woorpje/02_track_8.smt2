@@ -17,4 +17,5 @@ Description: based on the idea in Proposition 1 of [2]. The word equation is sho
 (assert (= (str.++  A "a" A "b" B)  (str.++  "a" A B B "baa") ))
 (check-sat)
 
+(get-model)
 (exit)

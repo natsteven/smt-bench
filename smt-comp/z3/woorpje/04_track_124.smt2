@@ -100,4 +100,5 @@ Description: Consisting of a system of 100 small random word equations with at m
 (assert (= (str.++  F C "baaa" F B "a")  (str.++  G "ab" G G "aaa" F "aa" G "a") ))
 (check-sat)
 
+(get-model)
 (exit)

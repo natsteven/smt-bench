@@ -361,4 +361,5 @@ String Analysis via Automata Manipulation with Logic Circuit Representation. CAV
 (assert (or (= x_291 x_283) (= x_291 x_284) (= x_291 x_281) (= x_291 x_282) (= x_291 literal_193) (= x_291 x_280) (= x_291 x_285)))
 (assert (str.in_re x_291 (re.++ (re.* re.allchar) (re.++ (str.to_re "\u{5c}\u{3c}\u{53}\u{43}\u{52}\u{49}\u{50}\u{54}") (re.* re.allchar)))))
 (check-sat)
+(get-model)
 (exit)

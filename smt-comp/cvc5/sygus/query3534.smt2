@@ -14,4 +14,5 @@ Target solver: CVC4
 (assert (let ((_let_0 (str.in_re x (re.++ (re.* re.allchar ) re.allchar  (re.* re.allchar ) (str.to_re (str.++ "C" "B")) (re.* re.allchar ) (str.to_re (str.++ "C" "B")) (re.* re.allchar ))))) (and (not (= _let_0 (str.in_re x (re.++ (re.* re.allchar ) re.allchar  (re.* re.allchar ) re.allchar  (re.* re.allchar ) (str.to_re (str.++ "C" (str.++ "B" (str.++ "C" "B")))) (re.* re.allchar ))))) (not (= (str.in_re x (re.++ (re.* re.allchar ) re.allchar  (re.* re.allchar ) (str.to_re (str.++ "C" (str.++ "B" "C"))) (re.* re.allchar ) (str.to_re "B") (re.* re.allchar ))) _let_0)))))
 (check-sat)
 (get-model)
+(get-model)
 (exit)

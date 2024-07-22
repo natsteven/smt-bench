@@ -18,4 +18,5 @@ String Analysis via Automata Manipulation with Logic Circuit Representation. CAV
 (assert (= literal_2 "\u{2f}\u{2f}\u{6d}\u{6f}\u{6f}\u{64}\u{6c}\u{65}\u{5f}\u{69}\u{6e}\u{78}\u{2e}\u{73}\u{65}\u{72}"))
 (assert (str.in_re literal_2 (re.++ (re.* re.allchar) (re.++ (str.to_re "\u{2f}\u{65}\u{76}\u{69}\u{6c}") (re.* re.allchar)))))
 (check-sat)
+(get-model)
 (exit)

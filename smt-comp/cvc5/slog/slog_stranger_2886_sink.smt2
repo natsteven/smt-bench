@@ -67,4 +67,5 @@ String Analysis via Automata Manipulation with Logic Circuit Representation. CAV
 (assert (or (= x_31 literal_30) (= x_31 x_29)))
 (assert (str.in_re x_31 (re.++ (re.* re.allchar) (re.++ (str.to_re "\u{2f}\u{65}\u{76}\u{69}\u{6c}") (re.* re.allchar)))))
 (check-sat)
+(get-model)
 (exit)
