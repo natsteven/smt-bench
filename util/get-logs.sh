@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ -z "$1" ]; then
- echo "Usage: $0 <solver>" >&2
- exit 1
+	echo "Usage: $0 <solver>" >&2
+	exit 1
 fi
 
 solver=$1
@@ -13,14 +13,13 @@ rm "$out" 2>/dev/null
 
 if [ "$solver" == "mas" ]; then
     for file in *.log; do
-        { awk '/DONE/{flag=1; next} flag' "$file" | tr '\n' ' '; echo ""; } >> "$out"
+        { echo -n "$file:"; awk '/DONE/{flag=1; next} flag' "$file" | tr '\n' ' '; echo ""; } >> "$out"
     done
     exit 0
 fi
 
 for file in *.log; do
- { head -n 1 "$file" | tr '\n' ' '; echo -n ","; tail -n +2 "$file" | tr '\n' ' '; } >> "$out"
- echo "" >> "$out"
+	{ head -n 1 "$file" | tr '\n' ' '; echo -n ","; tail -n +2 "$file" | tr '\n' ' '; echo "";} >> "$out"
 done
 
 exit 0
