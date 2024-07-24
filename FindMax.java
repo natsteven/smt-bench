@@ -39,7 +39,7 @@ public class FindMax {
                 }
 //                    String[] vals = line.split("\""); // note this will not work for weird things like slog
 //                    String[] start = vals[0].split(":");
-                    String filename = line.split(":")[0];
+                String filename = line.split(":")[0];
 //                    if (start[1].contains("unsat") || !start[1].contains("sat")) {
 //                        System.out.println(filename + ": unsat");
 //                        continue;
@@ -52,11 +52,15 @@ public class FindMax {
 //                            }
 //                        }
 //                    }
-                    System.out.println(filename + ": " + max + " : " + maxInput);
+                if (max == Integer.MIN_VALUE) {
+                    System.out.println(filename + ": unsat");
+                } else {
+                    System.out.println(filename + ": " + max);
                 }
-                scanner.close();
-            } catch(IOException e){
-                e.printStackTrace();
             }
+            scanner.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
+}
