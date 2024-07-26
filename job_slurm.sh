@@ -31,4 +31,4 @@ file=${files[$file_index]}
 
 mkdir -p logs/"$solver"
 
-srun ./solver_run.sh "$solver" "simple-benches/$solver/$file.$file_extension"
+srun ./solver_run.sh "$solver" "simple-benches/$solver/$file.$file_extension" 3
