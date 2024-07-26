@@ -15,7 +15,15 @@
 (declare-fun sym8 () String)
 (declare-fun sym11 () String)
 (declare-fun sym10 () String)
+(define-fun Alphabet () RegLan 
+	(re.* (re.union (str.to_re "A") (str.to_re "B") (str.to_re "C") (str.to_re "a") (str.to_re "b") (str.to_re "c") ))
+)
 
+(assert (str.in_re sym10 Alphabet))
+(assert (str.in_re sym11 Alphabet))
+(assert (str.in_re sym8 Alphabet))
+(assert (str.in_re sym7 Alphabet))
+(assert (str.in_re sym9 Alphabet))
 (assert "A" )
 (assert "B" )
 (assert "C" )

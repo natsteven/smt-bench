@@ -24,6 +24,9 @@
 (declare-fun L16  () String)
 (declare-fun L0  () String)
 (declare-fun L17  () String)
+(define-fun Alphabet () RegLan 
+	(re.* (re.union (str.to_re "A") (str.to_re "B") (str.to_re "C") (str.to_re "a") (str.to_re "b") (str.to_re "c") ))
+)
 (assert (toLower sym7  L17 ))
 (assert (toLower L1  L0 ))
 (assert (toLower L17  L16 ))
@@ -33,6 +36,11 @@
 (assert (toLower sym9  L3 ))
 (assert (toLower L4  L7 ))
 
+(assert (str.in_re sym10 Alphabet))
+(assert (str.in_re sym11 Alphabet))
+(assert (str.in_re sym8 Alphabet))
+(assert (str.in_re sym7 Alphabet))
+(assert (str.in_re sym9 Alphabet))
 (assert "A" )
 (assert "B" )
 (assert "C" )

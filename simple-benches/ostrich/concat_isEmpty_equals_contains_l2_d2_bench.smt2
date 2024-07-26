@@ -6,7 +6,15 @@
 (declare-fun sym5 () String)
 (declare-fun sym6 () String)
 (declare-fun sym4 () String)
+(define-fun Alphabet () RegLan 
+	(re.* (re.union (str.to_re "A") (str.to_re "B") (str.to_re "C") ))
+)
 
+(assert (str.in_re sym4 Alphabet))
+(assert (str.in_re sym6 Alphabet))
+(assert (str.in_re sym5 Alphabet))
+(assert (str.in_re sym8 Alphabet))
+(assert (str.in_re sym7 Alphabet))
 (assert (not (= "" (str.++ (str.++ sym6 sym4 )sym6 sym4 ))))
 (assert (not (= sym8 "B" )))
 (assert (not (= (str.++ (str.++ sym5 "B" )"C" )"B" )))
