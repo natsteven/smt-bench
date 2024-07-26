@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm logs/*.out
+rm logs/mas/*
+rm logs/cvc5/*
+rm logs/ostrich/*
+rm logs/z3/*
+
