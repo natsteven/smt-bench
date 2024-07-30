@@ -16,7 +16,6 @@
 (assert (str.in_re sym5 Alphabet))
 (assert (str.in_re sym8 Alphabet))
 (assert (str.in_re sym7 Alphabet))
-(assert "" )
 (assert (not (= (str.++ (str.del sym4  0 1)"B" )"CC" )))
 (assert (= "" (str.del (str.del (str.del sym4  0 1) 2 2) 0 2)))
 (assert (not (= (str.++ (str.++ (str.++ sym7 sym8 )sym8 "B" )"C" )"" )))

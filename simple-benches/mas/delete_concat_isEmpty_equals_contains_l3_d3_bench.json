@@ -446,16 +446,6 @@
     },
     {
       "num": 0,
-      "actualValue": "",
-      "incomingEdges": [],
-      "sourceConstraints": [],
-      "timeStamp": 1482521433,
-      "type": 0,
-      "id": 191,
-      "value": "\"\"!:!<init>"
-    },
-    {
-      "num": 0,
       "actualValue": "0",
       "incomingEdges": [],
       "sourceConstraints": [],
