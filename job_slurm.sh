@@ -13,7 +13,7 @@ module load apptainer/1.2.5
 declare -A extensions=( ["mas"]="smt2.json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
 solvers=( "mas" "z3" "ostrich" "cvc5")
 #benches=( "woorpje" "slog" "sygus" )
-files=()
+#files=()
 #for bench in "${benches[@]}"; do
 #	readarray -t tfiles < util/"$b"-filenames.txt
 #	files+=("${tfiles[@]}")
