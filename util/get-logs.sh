@@ -13,7 +13,16 @@ rm "$out" 2>/dev/null
 
 if [ "$solver" == "mas" ]; then
     for file in *.log; do
-        { echo -n "$(basename "$file" .json.log): "; awk '/DONE/{flag=1; next} flag' "$file" | tr '\n' ' '; echo ""; } >> "$out"
+        {
+        filename="$(basename "$file" .json.log)"
+        if [ ! -s "$file" ]; then
+            echo "$filename; unsat";
+        else
+            echo -n "$filename; sat, ";
+            tr '\n' ' ' < "$file";
+            echo "";
+    fi
+} >> "$out"
     done
     exit 0
 fi
