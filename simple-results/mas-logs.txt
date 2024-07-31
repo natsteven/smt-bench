@@ -1,13 +1,13 @@
-concat_isEmpty_equals_contains_l2_d2_bench:  4 "null",  5 "null",  6 "",  7 "null",  8 "A", 
-delete_concat_isEmpty_equals_contains_l3_d3_bench: 
-delete_isEmpty_equals_contains_l2_d2_bench:  4 "AA",  5 "",  6 "AC",  7 "BA",  8 "A", 
-replace_concat_isEmpty_equals_contains_l3_d3_bench: 
-replace_delete_concat_isEmpty_equals_contains_l3_d3_bench: 
-replace_isEmpty_equals_contains_l2_d2_bench:  4 "A",  5 "",  6 "A",  7 "A",  8 "", 
-replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench: 
-substring12_concat_isEmpty_equals_contains_l3_d2_bench: 
-substring12_concat_isEmpty_equals_contains_l3_d3_bench: 
-substring12_isEmpty_equals_contains_l2_d2_bench:  4 "AA",  5 "A",  6 "AA",  7 "AA",  8 "A", 
-toLowerCase_concat_isEmpty_equals_contains_l3_d3_bench: 
-toLowerCase_isEmpty_equals_contains_l2_d2_bench:  7 "A",  8 "A",  9 "A",  10 "A",  11 "A", 
-toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench: 
+concat_isEmpty_equals_contains_l2_d2_bench: sat, 4: CB 5:  6:  7: A 8: A 
+delete_concat_isEmpty_equals_contains_l3_d3_bench: unsat
+delete_isEmpty_equals_contains_l2_d2_bench: sat, 4: AA 5:  6: AC 7: BA 8: A 
+replace_concat_isEmpty_equals_contains_l3_d3_bench: unsat
+replace_delete_concat_isEmpty_equals_contains_l3_d3_bench: unsat
+replace_isEmpty_equals_contains_l2_d2_bench: sat, 4: A 5:  6: A 7: A 8:  
+replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench: unsat
+substring12_concat_isEmpty_equals_contains_l3_d2_bench: sat, 4: AAA 5:  6: AAA 7: AAA 8: AAA 
+substring12_concat_isEmpty_equals_contains_l3_d3_bench: unsat
+substring12_isEmpty_equals_contains_l2_d2_bench: sat, 4: AA 5: A 6: AA 7: AA 8: A 
+toLowerCase_concat_isEmpty_equals_contains_l3_d3_bench: unsat
+toLowerCase_isEmpty_equals_contains_l2_d2_bench: sat, 7: A 8: A 9: A 10: A 11: A 
+toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench: unsat
