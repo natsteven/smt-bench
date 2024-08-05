@@ -43,6 +43,10 @@ len=${lens[$file_index]}
 
 echo "$len"
 
+if [ "$len" -gt 15 ]; then
+	len=15
+fi
+
 mkdir -p logs/"$solver"
 
 srun ./solver_run.sh "$solver" "$benches/$solver$subdir/$file.$file_extension" "$len"
