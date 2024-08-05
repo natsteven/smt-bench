@@ -28,10 +28,10 @@ start=$(date +%s.%3N)
 #  	fi
 #  done
 #else
-  (time timeout 20m apptainer run --app "$solver" solver-bench.sif "$file" > "$log") 2> "$performance_log"
-  if [ $? -eq 124 ]; then
-    echo "Timeout: Solver $solver exceeded 20 minutes on file $(basename "$file")" > "$performance_log"
-  fi
+(time timeout 20m apptainer run --app "$solver" solver-bench.sif "$file" > "$log") 2> "$performance_log"
+if [ $? -eq 124 ]; then
+	echo "Timeout: Solver $solver exceeded 20 minutes on file $(basename "$file")" > "$performance_log"
+fi
 #fi
 
 end=$(date +%s.%3N)
