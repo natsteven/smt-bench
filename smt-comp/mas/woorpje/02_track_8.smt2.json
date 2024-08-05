@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
-		"size" : 3,
-		"declaration" : "a,b,\\u0000-\\uffff"
+		"size" : 95,
+		"declaration" : " -~"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r1!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"a\"!:!<init>"
@@ -30,7 +30,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"b\"!:!<init>"
@@ -40,7 +40,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 3,
 			"value" : "r0!:!getStringValue!!"
@@ -56,7 +56,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 12,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -66,7 +66,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 4,
 			"value" : "\"a\"!:!<init>"
@@ -76,7 +76,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 5,
 			"value" : "\"baa\"!:!<init>"
@@ -92,7 +92,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 13,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -108,7 +108,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 14,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -124,7 +124,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 10,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -140,7 +140,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 8,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -156,7 +156,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 6,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -172,7 +172,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 11,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -188,7 +188,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 9,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -204,7 +204,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546291350,
+			"timeStamp" : 1722894233715,
 			"type" : 0,
 			"id" : 7,
 			"value" : "concat!!Ljava/lang/String;!:!0"

@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
-		"size" : 13,
-		"declaration" : "#,e,h,i,l,p,v,[,\\,|,\\u0000-\\uffff,],_"
+		"size" : 95,
+		"declaration" : " -~"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r2!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 1,
 			"value" : "r0!:!getStringValue!!"
@@ -30,7 +30,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"#[\\\\|_]#\"!:!<init>"
@@ -40,7 +40,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 3,
 			"value" : "\"\"\"\"!:!<init>"
@@ -50,7 +50,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 10,
 			"value" : "replaceFirst!!Ljava/lang/String;Ljava/lang/String;!:0"
@@ -66,7 +66,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 11,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -76,7 +76,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 4,
 			"value" : "r3!:!getStringValue!!"
@@ -86,7 +86,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 5,
 			"value" : "\"_php\"!:!<init>"
@@ -102,7 +102,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 12,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -112,7 +112,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 6,
 			"value" : "r4!:!getStringValue!!"
@@ -128,7 +128,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 13,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -144,7 +144,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 14,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -154,7 +154,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 7,
 			"value" : "r5!:!getStringValue!!"
@@ -164,7 +164,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 8,
 			"value" : "\"_evil\"!:!<init>"
@@ -174,7 +174,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 9,
 			"value" : "r6!:!getStringValue!!"
@@ -190,7 +190,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 16,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -206,7 +206,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 17,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -222,7 +222,7 @@
 					"type" : "t"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722546288267,
+			"timeStamp" : 1722894230110,
 			"type" : 0,
 			"id" : 15,
 			"value" : "concat!!Ljava/lang/String;!:!0"

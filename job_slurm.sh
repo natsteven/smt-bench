@@ -36,6 +36,9 @@ file=${files[$file_index]}
 len=${lens[$file_index]}
 #bench=${benches[$((file_index / $]}
 
+if [ "$len" == "" ]; then
+	len=15
+fi
 if [ "$len" -gt 15 ]; then
 	len=15
 fi

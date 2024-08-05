@@ -16,7 +16,7 @@ public class GetGood {
             FileReader input = new FileReader(new File(args[0]));
             Scanner scanner = new Scanner(input);
 
-            HashSet<String> bad = new HashSet<>(Arrays.asList("re.union", "re.+", "re.loop", "re.range", "re.opt", "re.comp", "re.inter"));
+            HashSet<String> bad = new HashSet<>(Arrays.asList("re.union", "re.+", "re.loop", "re.range", "re.opt", "re.comp", "re.inter", "re.*", "re.allchar"));
             boolean good = true;
 
             while (scanner.hasNextLine()) {
