@@ -13,11 +13,6 @@ subdir="/woorpje" # include leading slash
 filenames="util/$benches$subdir-filenames.txt"
 lengths="util/$benches$subdir-lengths.txt"
 
-echo $benches
-echo $subdir
-echo $filenames
-echo $lengths
-
 module load apptainer/1.2.5
 
 declare -A extensions=( ["mas"]="smt2.json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
@@ -41,12 +36,12 @@ file=${files[$file_index]}
 len=${lens[$file_index]}
 #bench=${benches[$((file_index / $]}
 
-echo "$len"
-
 if [ "$len" -gt 15 ]; then
 	len=15
 fi
 
 mkdir -p logs/"$solver"
+
+echo "$solver" " $benches/$solver$subdir/$file.$file_extension" " $len"
 
 srun ./solver_run.sh "$solver" "$benches/$solver$subdir/$file.$file_extension" "$len"
