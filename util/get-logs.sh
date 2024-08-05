@@ -16,9 +16,9 @@ if [ "$solver" == "mas" ]; then
         {
         filename="$(basename "$file" .json.log)"
         if [ ! -s "$file" ]; then
-            echo "$filename; unsat";
+            echo "$filename; TO";
         else
-            echo -n "$filename; sat, ";
+            echo -n "$filename; ";
             tr '\n' ' ' < "$file";
             echo "";
     fi
