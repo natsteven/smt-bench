@@ -1,24 +1,34 @@
 #!/bin/bash
 
 if [ -z "$1" ]; then
-  echo "Usage: $0 <solver>" >&2
+  echo "Usage: $0 <benches>" >&2
   exit 1
 fi
 
-solver=$1
+benches=$1
 
-out="$HOME/smt-bench/$solver-times.txt"
+out="$HOME/smt-bench/cpu-times.txt"
 
 rm "$out" 2>/dev/null
 
-cd "logs/$solver" || exit
+readarray -t filenames < "util/$benches-filenames.txt"
+declare -A extensions=( ["mas"]="json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
+#cd "logs/$solver" || exit
 
-for file in *.time; do
-  filename="${file%.*}"
+echo ",mas,,,cvc5,,,ostrich,,,z3" > "$out"
+echo "filename,real,user,sys,real,user,sys,real,user,sys,real,user,sys" >> "$out"
 
-  # Use tail to get the last two lines, then awk to correctly parse and format the times
-  times=$(tail -n 2 "$file" | awk '/user/ {split($2, a, "m"); split(a[2], b, "s"); user_time=(a[1] * 60) + b[1]} /sys/ {split($2, a, "m"); split(a[2], b, "s"); sys_time=(a[1] * 60) + b[1]} END {printf "%.3f,%.3f\n", user_time, sys_time}')
+for file in "${filenames[@]}"; do
+	echo -n "$file," >> "$out"
+  	for solver in mas cvc5 ostrich z3; do
+		ext=${extensions[$solver]}
+  		f="logs/$solver/$file.$ext.time"
 
-  # Output filename, user time, and system time
-  echo "$filename,$times" >> "$out"
+  		# Use tail to get the last two lines, then awk to correctly parse and format the times
+  		times=$(tail -n 3 "$f" | awk '/real/ {split($2, a, "m"); split(a[2], b, "s"); real_time=(a[1] * 60) + b[1]} /user/ {split($2, a, "m"); split(a[2], b, "s"); user_time=(a[1] * 60) + b[1]} /sys/ {split($2, a, "m"); split(a[2], b, "s"); sys_time=(a[1] * 60) + b[1]} END {printf "%.3f,%.3f,%.3f,", real_time, user_time, sys_time}')
+
+  		# Output filename, user time, and system time
+  		echo -n "$times" >> "$out"
+  	done
+  	echo "" >> "$out"
 done

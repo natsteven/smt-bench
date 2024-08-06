@@ -10,6 +10,8 @@ public class GetGood {
     public static void main (String[] args) {
         if (args.length != 1) {
             System.out.println("Usage: java GetGood <input>");
+            System.out.println("Takes <input> file containing a list of files and their functions\n" +
+                    "and outputs the files that do not contain the bad functions");
             System.exit(0);
         }
         try {
@@ -23,13 +25,16 @@ public class GetGood {
                 String line = scanner.nextLine();
                 String[] info = line.split(":");
                 String file = info[0];
-                String funs = info[1];
+                String funs = String.join(":", Arrays.copyOfRange(info, 1, info.length));
                 String[] list = funs.split(",");
                 for (String fun : list) {
-                    if (bad.contains(fun.trim())){
-                        good = false;
-                        break;
+                    for (String b : bad){
+                        if (fun.contains(b)){
+                            good = false;
+                            break;
+                        }
                     }
+                    if (!good) break;
                 }
                 if (good) System.out.println(file+ ".smt2");
                 else good = true;
