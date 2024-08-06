@@ -8,7 +8,7 @@ public class FindMax {
     public static void main(String[] args) {
         if (args.length != 1) {
             System.out.println("Usage: java FindMax <input>");
-            System.out.println("takes input file in solver-log.txt formatr and prints\n" +
+            System.out.println("takes input file in solver-log.txt format and prints\n" +
                     "to std-out the maximum lengths of the strings in the model for each query");
             System.exit(0);
         }

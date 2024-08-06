@@ -16,5 +16,6 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "Subject:EnTrYExplorer*PORT2*Host:\u{a}")))
 (assert (not (str.in_re X (str.to_re "ReportIterenetUser-Agent:Host:KEYLOGGER/bar_pl/chk_bar.fcgi\u{a}"))))
 (check-sat)
+(get-model)
 
 (exit)

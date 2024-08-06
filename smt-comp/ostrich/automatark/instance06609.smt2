@@ -17,5 +17,6 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (not (str.in_re X (str.to_re "yddznydqir/eviaresflashdownloader.com\u{a}"))))
 (assert (str.in_re X (str.to_re "LIST]SpamBlockerUtilityTry2FindBasicHost:User-Agent:AcmeprotocolSpy\u{a}")))
 (check-sat)
+(get-model)
 
 (exit)

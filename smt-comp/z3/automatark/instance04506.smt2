@@ -15,5 +15,6 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (declare-const X String)
 (assert (not (str.in_re X (str.to_re "Toolbar\u{5c}home/lordofsearchthis\u{a}"))))
 (check-sat)
+(get-model)
 
 (exit)

@@ -16,5 +16,6 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "trackwww.alfacleaner.com\u{a}")))
 (assert (str.in_re X (str.to_re "vvvjkhmbgnbbw/qbn\u{1b}(robert@blackcastlesoft.com)\u{a}")))
 (check-sat)
+(get-model)
 
 (exit)

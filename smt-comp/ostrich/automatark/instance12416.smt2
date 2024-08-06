@@ -16,5 +16,6 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "BasicPointsHost:news\u{a}")))
 (assert (str.in_re X (str.to_re "Fen\u{ea}treEye/dss/cc.2_0_0.TROJAN-\u{a}")))
 (check-sat)
+(get-model)
 
 (exit)

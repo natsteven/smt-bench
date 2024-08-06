@@ -16,5 +16,6 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "pjpoptwql/rlnjsportsHost:Subject:YAHOOdestroyed!\u{a}")))
 (assert (not (str.in_re X (str.to_re "Host:PG=SPEEDBARReferer:\u{a}"))))
 (check-sat)
+(get-model)
 
 (exit)

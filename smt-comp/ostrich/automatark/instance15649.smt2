@@ -16,5 +16,6 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "Windows/client/Blackreportc.goclick.comX-Sender:\u{13}\u{a}")))
 (assert (not (str.in_re X (str.to_re "Computeron:com>2.41\u{a}"))))
 (check-sat)
+(get-model)
 
 (exit)

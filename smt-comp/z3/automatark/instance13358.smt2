@@ -16,5 +16,6 @@ Publications: Berzish, M., Kulczynski, M., Mora, F., Manea, F., Day, J. D., Nowo
 (assert (str.in_re X (str.to_re "thesearchresltLoggerHost:BetaHWAEHost:is\u{a}")))
 (assert (str.in_re X (str.to_re "weather2ResultX-Sender:\u{13}\u{a}")))
 (check-sat)
+(get-model)
 
 (exit)

@@ -5,11 +5,11 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH -t 12:00:00
-#SBATCH --array=0-608
+#SBATCH --array=0-819
 #SBATCH --output=logs/slurm-%A_%a.out
 
 benches="smt-comp"
-subdir="/woorpje" # include leading slash
+subdir="/automatark" #include leading slash
 filenames="util/$benches$subdir-filenames.txt"
 lengths="util/$benches$subdir-lengths.txt"
 
