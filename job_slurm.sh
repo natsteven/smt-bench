@@ -26,7 +26,7 @@ solvers=( "ostrich" "z3" )
 #	files+=("${tfiles[@]}")
 #done
 readarray -t files < $filenames
-readarray -t lens < $lengths
+#readarray -t lens < $lengths
 mkdir -p logs
 
 solver_index=$((SLURM_ARRAY_TASK_ID / ${#files[@]}))
