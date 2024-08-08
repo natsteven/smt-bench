@@ -39,4 +39,5 @@ Simple word equation with regular constraints.
 (assert  (= (str.++ "mongodb://" V35) (str.++ V33 "/" V34 k3)))
 
 (check-sat)
+(get-model)
 (exit)

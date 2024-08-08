@@ -21,4 +21,5 @@ This benchmark is a derivation from the introduction example in the paper "Word 
 (assert (str.in_re z (re.++(str.to_re "2") re.all)))
 
 (check-sat)
+(get-model)
 (exit)

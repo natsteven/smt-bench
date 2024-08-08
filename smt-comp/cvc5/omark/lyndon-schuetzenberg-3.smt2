@@ -24,4 +24,5 @@ This benchmark is based on the Lyndon and Schützenberger theorem on word equati
 (assert (= (str.++ X X X) (str.++ A A A B B B C C C)))
 
 (check-sat)
+(get-model)
 (exit)

@@ -14,4 +14,5 @@ Simple cyclic word equation.
 (declare-fun x () String)
 (assert (= (str.++ x x "b" x)(str.++ x "a" x x)))
 (check-sat)
+(get-model)
 (exit)

@@ -1,0 +1,820 @@
+instance00022.smt2; sat, 0: "" 
+instance00049.smt2; sat, 0: "" 
+instance00052.smt2; sat, 0: "" 
+instance00055.smt2; sat, 0: "" 
+instance00064.smt2; unsat 
+instance00073.smt2; unsat 
+instance00075.smt2; sat, 0: "" 
+instance00076.smt2; sat, 0: "" 
+instance00079.smt2; unsat 
+instance00086.smt2; unsat 
+instance00089.smt2; sat, 0: "" 
+instance00097.smt2; sat, 0: "" 
+instance00106.smt2; unsat 
+instance00115.smt2; sat, 0: "" 
+instance00141.smt2; unsat 
+instance00154.smt2; unsat 
+instance00159.smt2; sat, 0: "//jorg.html/U_" 
+instance00180.smt2; unsat 
+instance00185.smt2; unsat 
+instance00186.smt2; unsat 
+instance00209.smt2; unsat 
+instance00214.smt2; unsat 
+instance00217.smt2; unsat 
+instance00219.smt2; sat, 0: "" 
+instance00228.smt2; unsat 
+instance00248.smt2; unsat 
+instance00259.smt2; sat, 0: "" 
+instance00285.smt2; sat, 0: "" 
+instance00294.smt2; sat, 0: "" 
+instance00302.smt2; unsat 
+instance00316.smt2; unsat 
+instance00323.smt2; sat, 0: "" 
+instance00328.smt2; sat, 0: "" 
+instance00332.smt2; sat, 0: "" 
+instance00339.smt2; sat, 0: "" 
+instance00349.smt2; unsat 
+instance00355.smt2; unsat 
+instance00363.smt2; sat, 0: "" 
+instance00375.smt2; sat, 0: "" 
+instance00380.smt2; unsat 
+instance00394.smt2; unsat 
+instance00398.smt2; sat, 0: "" 
+instance00400.smt2; unsat 
+instance00404.smt2; sat, 0: "" 
+instance00406.smt2; unsat 
+instance00418.smt2; sat, 0: "" 
+instance00430.smt2; sat, 0: "/______/_" 
+instance00435.smt2; sat, 0: "" 
+instance00463.smt2; sat, 0: "" 
+instance00470.smt2; sat, 0: "" 
+instance00476.smt2; unsat 
+instance00480.smt2; sat, 0: "" 
+instance00481.smt2; unsat 
+instance00492.smt2; unsat 
+instance00495.smt2; unsat 
+instance00496.smt2; unsat 
+instance00497.smt2; sat, 0: "" 
+instance00501.smt2; sat, 0: "" 
+instance00519.smt2; sat, 0: "/.exe/U_" 
+instance00525.smt2; sat, 0: "" 
+instance00530.smt2; unsat 
+instance00538.smt2; sat, 0: "" 
+instance00586.smt2; unsat 
+instance00588.smt2; sat, 0: "" 
+instance00609.smt2; unsat 
+instance00611.smt2; sat, 0: "_________Furax_" 
+instance00617.smt2; unsat 
+instance00630.smt2; sat, 0: "" 
+instance00640.smt2; unsat 
+instance00642.smt2; unsat 
+instance00647.smt2; unsat 
+instance00660.smt2; sat, 0: "" 
+instance00661.smt2; unsat 
+instance00676.smt2; sat, 0: "" 
+instance00677.smt2; sat, 0: "" 
+instance00679.smt2; sat, 0: "" 
+instance00686.smt2; unsat 
+instance00689.smt2; sat, 0: "" 
+instance00713.smt2; sat, 0: "" 
+instance00714.smt2; sat, 0: "" 
+instance00715.smt2; sat, 0: "" 
+instance00722.smt2; unsat 
+instance00730.smt2; sat, 0: "" 
+instance00731.smt2; sat, 0: "" 
+instance00740.smt2; unsat 
+instance00742.smt2; unsat 
+instance00765.smt2; sat, 0: "" 
+instance00774.smt2; unsat 
+instance00776.smt2; sat, 0: "" 
+instance00777.smt2; sat, 0: "" 
+instance00782.smt2; sat, 0: "" 
+instance00784.smt2; unsat 
+instance00793.smt2; sat, 0: "" 
+instance00801.smt2; sat, 0: "" 
+instance00804.smt2; sat, 0: "" 
+instance00820.smt2; sat, 0: "" 
+instance00827.smt2; unsat 
+instance00845.smt2; sat, 0: "" 
+instance00847.smt2; unsat 
+instance00859.smt2; sat, 0: "" 
+instance00860.smt2; sat, 0: "" 
+instance00861.smt2; sat, 0: "" 
+instance00862.smt2; sat, 0: "/&h=11/U_" 
+instance00865.smt2; sat, 0: "" 
+instance00883.smt2; sat, 0: "" 
+instance00901.smt2; sat, 0: "" 
+instance00905.smt2; unsat 
+instance00907.smt2; sat, 0: "" 
+instance00918.smt2; unsat 
+instance00923.smt2; sat, 0: "" 
+instance00935.smt2; unsat 
+instance00938.smt2; sat, 0: "" 
+instance00948.smt2; sat, 0: "" 
+instance00952.smt2; unsat 
+instance00956.smt2; sat, 0: "" 
+instance00957.smt2; sat, 0: "" 
+instance00961.smt2; unsat 
+instance00970.smt2; unsat 
+instance00977.smt2; sat, 0: "" 
+instance00985.smt2; sat, 0: "" 
+instance00986.smt2; sat, 0: "" 
+instance00993.smt2; sat, 0: "" 
+instance01014.smt2; unsat 
+instance01023.smt2; unsat 
+instance01028.smt2; unsat 
+instance01030.smt2; sat, 0: "" 
+instance01040.smt2; unsat 
+instance01048.smt2; unsat 
+instance01053.smt2; sat, 0: "" 
+instance01054.smt2; sat, 0: "" 
+instance01056.smt2; unsat 
+instance01057.smt2; unsat 
+instance01067.smt2; unsat 
+instance01088.smt2; sat, 0: "" 
+instance01089.smt2; sat, 0: "" 
+instance01101.smt2; unsat 
+instance01107.smt2; unsat 
+instance01121.smt2; sat, 0: "" 
+instance01135.smt2; sat, 0: "" 
+instance01146.smt2; sat, 0: "" 
+instance01168.smt2; sat, 0: "" 
+instance01189.smt2; sat, 0: "" 
+instance01197.smt2; sat, 0: "" 
+instance01235.smt2; unsat 
+instance01242.smt2; sat, 0: "" 
+instance01256.smt2; sat, 0: "" 
+instance01258.smt2; sat, 0: "" 
+instance01271.smt2; sat, 0: "" 
+instance01273.smt2; unsat 
+instance01274.smt2; unsat 
+instance01275.smt2; sat, 0: "" 
+instance01277.smt2; unsat 
+instance01287.smt2; sat, 0: "" 
+instance01297.smt2; unsat 
+instance01298.smt2; unsat 
+instance01325.smt2; unsat 
+instance01335.smt2; unsat 
+instance01338.smt2; unsat 
+instance01353.smt2; sat, 0: "" 
+instance01355.smt2; sat, 0: "" 
+instance01359.smt2; sat, 0: "" 
+instance01360.smt2; sat, 0: "" 
+instance01361.smt2; sat, 0: "" 
+instance01367.smt2; sat, 0: "" 
+instance01368.smt2; unsat 
+instance01369.smt2; sat, 0: "" 
+instance01376.smt2; unsat 
+instance01401.smt2; sat, 0: "" 
+instance01402.smt2; sat, 0: "" 
+instance01408.smt2; sat, 0: "" 
+instance01410.smt2; sat, 0: "" 
+instance01412.smt2; unsat 
+instance01414.smt2; sat, 0: "" 
+instance01425.smt2; unsat 
+instance01427.smt2; unsat 
+instance01428.smt2; sat, 0: "" 
+instance01447.smt2; unsat 
+instance01458.smt2; sat, 0: "" 
+instance01468.smt2; sat, 0: "" 
+instance01474.smt2; sat, 0: "" 
+instance01476.smt2; sat, 0: "" 
+instance01478.smt2; unsat 
+instance01484.smt2; unsat 
+instance01491.smt2; unsat 
+instance01492.smt2; unsat 
+instance01495.smt2; sat, 0: "" 
+instance01523.smt2; sat, 0: "" 
+instance01526.smt2; unsat 
+instance01527.smt2; sat, 0: "" 
+instance01544.smt2; unsat 
+instance01558.smt2; unsat 
+instance01567.smt2; sat, 0: "" 
+instance01568.smt2; sat, 0: "" 
+instance01576.smt2; unsat 
+instance01592.smt2; sat, 0: "__" 
+instance01593.smt2; sat, 0: "//[fx].jar/U_" 
+instance01610.smt2; unsat 
+instance01612.smt2; unsat 
+instance01614.smt2; unsat 
+instance01617.smt2; unsat 
+instance01633.smt2; sat, 0: "" 
+instance01653.smt2; unsat 
+instance01657.smt2; sat, 0: "" 
+instance01658.smt2; sat, 0: "" 
+instance01660.smt2; sat, 0: "" 
+instance01666.smt2; unsat 
+instance01669.smt2; sat, 0: "" 
+instance01688.smt2; sat, 0: "" 
+instance01690.smt2; sat, 0: "" 
+instance01695.smt2; unsat 
+instance01697.smt2; sat, 0: "" 
+instance01701.smt2; sat, 0: "" 
+instance01711.smt2; unsat 
+instance01716.smt2; sat, 0: "" 
+instance01718.smt2; unsat 
+instance01725.smt2; unsat 
+instance01732.smt2; unsat 
+instance01733.smt2; unsat 
+instance01745.smt2; unsat 
+instance01746.smt2; unsat 
+instance01749.smt2; unsat 
+instance01758.smt2; unsat 
+instance01768.smt2; sat, 0: "" 
+instance01779.smt2; unsat 
+instance01785.smt2; sat, 0: "" 
+instance01795.smt2; sat, 0: "" 
+instance01805.smt2; sat, 0: "" 
+instance01808.smt2; sat, 0: "" 
+instance01814.smt2; unsat 
+instance01819.smt2; sat, 0: "" 
+instance01828.smt2; sat, 0: "/%3D/Im_" 
+instance01831.smt2; sat, 0: "" 
+instance01834.smt2; sat, 0: "" 
+instance01837.smt2; sat, 0: "" 
+instance01844.smt2; unsat 
+instance01853.smt2; unsat 
+instance01855.smt2; sat, 0: "" 
+instance01857.smt2; sat, 0: "" 
+instance01859.smt2; unsat 
+instance01875.smt2; sat, 0: "" 
+instance01884.smt2; sat, 0: "//cdmax/Ui_" 
+instance01894.smt2; sat, 0: "" 
+instance01902.smt2; unsat 
+instance01904.smt2; unsat 
+instance01917.smt2; unsat 
+instance01918.smt2; unsat 
+instance01922.smt2; sat, 0: "" 
+instance01924.smt2; sat, 0: "" 
+instance01945.smt2; unsat 
+instance01951.smt2; sat, 0: "" 
+instance01959.smt2; sat, 0: "" 
+instance01960.smt2; unsat 
+instance01964.smt2; unsat 
+instance01976.smt2; sat, 0: "//stat_u//U_" 
+instance01985.smt2; unsat 
+instance01989.smt2; unsat 
+instance01991.smt2; sat, 0: "" 
+instance02002.smt2; unsat 
+instance02006.smt2; unsat 
+instance02013.smt2; sat, 0: "" 
+instance02022.smt2; sat, 0: "" 
+instance02030.smt2; unsat 
+instance02038.smt2; unsat 
+instance02043.smt2; sat, 0: "" 
+instance02047.smt2; sat, 0: "" 
+instance02060.smt2; sat, 0: "" 
+instance02063.smt2; sat, 0: "" 
+instance02064.smt2; unsat 
+instance02066.smt2; sat, 0: "" 
+instance02074.smt2; unsat 
+instance02086.smt2; sat, 0: "" 
+instance02091.smt2; unsat 
+instance02093.smt2; sat, 0: "" 
+instance02098.smt2; sat, 0: "" 
+instance02120.smt2; sat, 0: "" 
+instance02130.smt2; sat, 0: "" 
+instance02140.smt2; unsat 
+instance02146.smt2; unsat 
+instance02153.smt2; unsat 
+instance02169.smt2; unsat 
+instance02170.smt2; unsat 
+instance02172.smt2; sat, 0: "" 
+instance02176.smt2; sat, 0: "" 
+instance02177.smt2; unsat 
+instance02179.smt2; unsat 
+instance02184.smt2; sat, 0: "//stat_svc//U_" 
+instance02187.smt2; sat, 0: "" 
+instance02188.smt2; sat, 0: "" 
+instance02192.smt2; sat, 0: "12/err_" 
+instance02197.smt2; unsat 
+instance02212.smt2; unsat 
+instance02216.smt2; sat, 0: "" 
+instance02219.smt2; unsat 
+instance02231.smt2; unsat 
+instance02265.smt2; sat, 0: "" 
+instance02270.smt2; sat, 0: "" 
+instance02273.smt2; unsat 
+instance02274.smt2; sat, 0: "" 
+instance02279.smt2; unsat 
+instance02299.smt2; sat, 0: "" 
+instance02304.smt2; sat, 0: "" 
+instance02306.smt2; unsat 
+instance02314.smt2; sat, 0: "" 
+instance02320.smt2; unsat 
+instance02324.smt2; sat, 0: "" 
+instance02327.smt2; sat, 0: "" 
+instance02332.smt2; sat, 0: "" 
+instance02345.smt2; sat, 0: "" 
+instance02354.smt2; sat, 0: "" 
+instance02357.smt2; sat, 0: "" 
+instance02358.smt2; sat, 0: "" 
+instance02365.smt2; unsat 
+instance02366.smt2; sat, 0: "" 
+instance02380.smt2; sat, 0: "" 
+instance02383.smt2; unsat 
+instance02390.smt2; sat, 0: "" 
+instance02395.smt2; sat, 0: "" 
+instance02398.smt2; unsat 
+instance02399.smt2; unsat 
+instance02403.smt2; unsat 
+instance02413.smt2; sat, 0: "" 
+instance02416.smt2; sat, 0: "" 
+instance02427.smt2; unsat 
+instance02429.smt2; unsat 
+instance02439.smt2; unsat 
+instance02451.smt2; sat, 0: "" 
+instance02458.smt2; sat, 0: "" 
+instance02459.smt2; unsat 
+instance02468.smt2; unsat 
+instance02478.smt2; unsat 
+instance02481.smt2; unsat 
+instance02482.smt2; sat, 0: "" 
+instance02489.smt2; sat, 0: "" 
+instance02507.smt2; sat, 0: "/xml/toolbar/_" 
+instance02514.smt2; sat, 0: "" 
+instance02518.smt2; unsat 
+instance02520.smt2; unsat 
+instance02542.smt2; sat, 0: "&_" 
+instance02573.smt2; unsat 
+instance02586.smt2; unsat 
+instance02591.smt2; sat, 0: "" 
+instance02596.smt2; sat, 0: "" 
+instance02601.smt2; unsat 
+instance02622.smt2; sat, 0: "" 
+instance02678.smt2; sat, 0: "" 
+instance02686.smt2; unsat 
+instance02697.smt2; unsat 
+instance02701.smt2; sat, 0: "" 
+instance02715.smt2; unsat 
+instance02732.smt2; unsat 
+instance02733.smt2; sat, 0: "" 
+instance02743.smt2; sat, 0: "" 
+instance02744.smt2; unsat 
+instance02745.smt2; sat, 0: "" 
+instance02753.smt2; sat, 0: "" 
+instance02758.smt2; sat, 0: "" 
+instance02759.smt2; sat, 0: "" 
+instance02770.smt2; sat, 0: "" 
+instance02771.smt2; unsat 
+instance02777.smt2; unsat 
+instance02800.smt2; unsat 
+instance02808.smt2; unsat 
+instance02812.smt2; unsat 
+instance02813.smt2; unsat 
+instance02814.smt2; sat, 0: "" 
+instance02816.smt2; unsat 
+instance02824.smt2; unsat 
+instance02825.smt2; sat, 0: "" 
+instance02826.smt2; sat, 0: "" 
+instance02844.smt2; unsat 
+instance02845.smt2; sat, 0: "" 
+instance02859.smt2; sat, 0: "" 
+instance02868.smt2; sat, 0: "" 
+instance02869.smt2; sat, 0: "" 
+instance02873.smt2; sat, 0: "" 
+instance02876.smt2; sat, 0: "" 
+instance02888.smt2; unsat 
+instance02890.smt2; sat, 0: "" 
+instance02891.smt2; sat, 0: "" 
+instance02892.smt2; unsat 
+instance02899.smt2; unsat 
+instance02912.smt2; sat, 0: "" 
+instance02918.smt2; unsat 
+instance02920.smt2; unsat 
+instance02929.smt2; sat, 0: "" 
+instance02934.smt2; unsat 
+instance02943.smt2; sat, 0: "" 
+instance02954.smt2; sat, 0: "" 
+instance02955.smt2; unsat 
+instance02957.smt2; sat, 0: "" 
+instance02971.smt2; unsat 
+instance02978.smt2; unsat 
+instance02987.smt2; sat, 0: "" 
+instance02997.smt2; sat, 0: ".txt_" 
+instance03001.smt2; unsat 
+instance03007.smt2; sat, 0: "" 
+instance03043.smt2; sat, 0: "" 
+instance03062.smt2; unsat 
+instance03094.smt2; sat, 0: "" 
+instance03097.smt2; unsat 
+instance03098.smt2; unsat 
+instance03108.smt2; sat, 0: "" 
+instance03116.smt2; sat, 0: "" 
+instance03127.smt2; sat, 0: "" 
+instance03133.smt2; unsat 
+instance03136.smt2; sat, 0: "" 
+instance03142.smt2; sat, 0: "" 
+instance03148.smt2; unsat 
+instance03153.smt2; sat, 0: "" 
+instance03161.smt2; sat, 0: "" 
+instance03163.smt2; unsat 
+instance03197.smt2; sat, 0: "" 
+instance03200.smt2; sat, 0: "" 
+instance03203.smt2; sat, 0: "" 
+instance03216.smt2; sat, 0: "" 
+instance03227.smt2; unsat 
+instance03232.smt2; unsat 
+instance03234.smt2; unsat 
+instance03235.smt2; sat, 0: "" 
+instance03246.smt2; unsat 
+instance03264.smt2; unsat 
+instance03270.smt2; unsat 
+instance03276.smt2; sat, 0: "" 
+instance03294.smt2; sat, 0: "" 
+instance03304.smt2; unsat 
+instance03309.smt2; sat, 0: "" 
+instance03316.smt2; unsat 
+instance03317.smt2; sat, 0: "" 
+instance03329.smt2; unsat 
+instance03331.smt2; unsat 
+instance03338.smt2; unsat 
+instance03342.smt2; unsat 
+instance03347.smt2; unsat 
+instance03366.smt2; sat, 0: "" 
+instance03370.smt2; unsat 
+instance03372.smt2; sat, 0: "//fnts.html/U_" 
+instance03374.smt2; sat, 0: "" 
+instance03382.smt2; unsat 
+instance03399.smt2; unsat 
+instance03405.smt2; sat, 0: "" 
+instance03413.smt2; unsat 
+instance03416.smt2; unsat 
+instance03431.smt2; sat, 0: "" 
+instance03433.smt2; unsat 
+instance03435.smt2; unsat 
+instance03441.smt2; sat, 0: "" 
+instance03444.smt2; sat, 0: "" 
+instance03459.smt2; sat, 0: "" 
+instance03465.smt2; unsat 
+instance03473.smt2; unsat 
+instance03495.smt2; sat, 0: "" 
+instance03522.smt2; unsat 
+instance03542.smt2; unsat 
+instance03545.smt2; sat, 0: "" 
+instance03547.smt2; unsat 
+instance03552.smt2; sat, 0: "" 
+instance03554.smt2; unsat 
+instance03556.smt2; unsat 
+instance03557.smt2; unsat 
+instance03559.smt2; unsat 
+instance03561.smt2; unsat 
+instance03565.smt2; sat, 0: "" 
+instance03575.smt2; sat, 0: "" 
+instance03576.smt2; sat, 0: "" 
+instance03578.smt2; unsat 
+instance03594.smt2; unsat 
+instance03598.smt2; sat, 0: "" 
+instance03614.smt2; unsat 
+instance03623.smt2; sat, 0: "" 
+instance03653.smt2; sat, 0: "" 
+instance03661.smt2; sat, 0: "" 
+instance03670.smt2; sat, 0: "//999/U_" 
+instance03671.smt2; sat, 0: "" 
+instance03673.smt2; unsat 
+instance03677.smt2; unsat 
+instance03683.smt2; unsat 
+instance03692.smt2; sat, 0: "" 
+instance03715.smt2; unsat 
+instance03717.smt2; unsat 
+instance03726.smt2; unsat 
+instance03730.smt2; sat, 0: "" 
+instance03763.smt2; unsat 
+instance03766.smt2; sat, 0: "" 
+instance03772.smt2; sat, 0: "" 
+instance03781.smt2; unsat 
+instance03791.smt2; unsat 
+instance03800.smt2; unsat 
+instance03808.smt2; sat, 0: "" 
+instance03844.smt2; unsat 
+instance03846.smt2; unsat 
+instance03859.smt2; sat, 0: "" 
+instance03880.smt2; unsat 
+instance03886.smt2; unsat 
+instance03905.smt2; sat, 0: "" 
+instance03906.smt2; sat, 0: "" 
+instance03912.smt2; unsat 
+instance03913.smt2; unsat 
+instance03914.smt2; unsat 
+instance03917.smt2; unsat 
+instance03922.smt2; unsat 
+instance03930.smt2; unsat 
+instance03937.smt2; sat, 0: "" 
+instance03956.smt2; unsat 
+instance03961.smt2; sat, 0: "/==/P_" 
+instance03965.smt2; sat, 0: "" 
+instance03977.smt2; sat, 0: "" 
+instance03982.smt2; unsat 
+instance03994.smt2; unsat 
+instance04017.smt2; sat, 0: "" 
+instance04030.smt2; unsat 
+instance04032.smt2; unsat 
+instance04052.smt2; unsat 
+instance04059.smt2; sat, 0: "" 
+instance04063.smt2; unsat 
+instance04073.smt2; unsat 
+instance04077.smt2; unsat 
+instance04080.smt2; unsat 
+instance04086.smt2; unsat 
+instance04090.smt2; unsat 
+instance04101.smt2; unsat 
+instance04105.smt2; unsat 
+instance04110.smt2; unsat 
+instance04112.smt2; unsat 
+instance04116.smt2; sat, 0: "" 
+instance04129.smt2; sat, 0: "" 
+instance04149.smt2; sat, 0: "" 
+instance04156.smt2; unsat 
+instance04159.smt2; unsat 
+instance04182.smt2; sat, 0: "" 
+instance04194.smt2; unsat 
+instance04213.smt2; unsat 
+instance04222.smt2; sat, 0: "" 
+instance04224.smt2; sat, 0: "" 
+instance04225.smt2; sat, 0: "" 
+instance04233.smt2; sat, 0: "" 
+instance04244.smt2; sat, 0: "" 
+instance04246.smt2; sat, 0: "" 
+instance04247.smt2; unsat 
+instance04249.smt2; unsat 
+instance04254.smt2; unsat 
+instance04261.smt2; unsat 
+instance04264.smt2; sat, 0: "" 
+instance04266.smt2; sat, 0: "//pdfx.html/U_" 
+instance04272.smt2; unsat 
+instance04303.smt2; sat, 0: "" 
+instance04329.smt2; sat, 0: "" 
+instance04338.smt2; sat, 0: "" 
+instance04346.smt2; unsat 
+instance04364.smt2; sat, 0: "" 
+instance04370.smt2; unsat 
+instance04372.smt2; unsat 
+instance04375.smt2; sat, 0: "" 
+instance04388.smt2; sat, 0: "" 
+instance04420.smt2; unsat 
+instance04424.smt2; sat, 0: "" 
+instance04427.smt2; unsat 
+instance04435.smt2; unsat 
+instance04439.smt2; sat, 0: "" 
+instance04447.smt2; sat, 0: "" 
+instance04466.smt2; unsat 
+instance04478.smt2; unsat 
+instance04479.smt2; sat, 0: "" 
+instance04498.smt2; unsat 
+instance04503.smt2; unsat 
+instance04506.smt2; sat, 0: "" 
+instance04507.smt2; sat, 0: "" 
+instance04516.smt2; unsat 
+instance04517.smt2; unsat 
+instance04524.smt2; unsat 
+instance04525.smt2; unsat 
+instance04527.smt2; sat, 0: "" 
+instance04538.smt2; sat, 0: "" 
+instance04542.smt2; sat, 0: "" 
+instance04543.smt2; unsat 
+instance04545.smt2; unsat 
+instance04559.smt2; sat, 0: "//stat_d//U_" 
+instance04564.smt2; sat, 0: "" 
+instance04568.smt2; sat, 0: "" 
+instance04594.smt2; sat, 0: "" 
+instance04600.smt2; sat, 0: "" 
+instance04602.smt2; unsat 
+instance04605.smt2; sat, 0: "" 
+instance04614.smt2; unsat 
+instance04628.smt2; unsat 
+instance04648.smt2; unsat 
+instance04650.smt2; sat, 0: "" 
+instance04659.smt2; unsat 
+instance04660.smt2; sat, 0: "" 
+instance04662.smt2; sat, 0: "" 
+instance04678.smt2; sat, 0: "" 
+instance04681.smt2; sat, 0: "" 
+instance04683.smt2; unsat 
+instance04687.smt2; sat, 0: "" 
+instance04692.smt2; unsat 
+instance04700.smt2; unsat 
+instance04705.smt2; sat, 0: "" 
+instance04709.smt2; unsat 
+instance04712.smt2; sat, 0: "" 
+instance04715.smt2; unsat 
+instance04732.smt2; unsat 
+instance04742.smt2; sat, 0: "" 
+instance04743.smt2; sat, 0: "" 
+instance04744.smt2; unsat 
+instance04747.smt2; unsat 
+instance04750.smt2; unsat 
+instance04762.smt2; sat, 0: "" 
+instance04768.smt2; sat, 0: "" 
+instance04788.smt2; sat, 0: "" 
+instance04794.smt2; sat, 0: "" 
+instance04795.smt2; sat, 0: "" 
+instance04797.smt2; unsat 
+instance04810.smt2; sat, 0: "" 
+instance04811.smt2; sat, 0: "" 
+instance04813.smt2; sat, 0: "" 
+instance04825.smt2; sat, 0: "" 
+instance04829.smt2; unsat 
+instance04836.smt2; sat, 0: "" 
+instance04842.smt2; unsat 
+instance04857.smt2; unsat 
+instance04863.smt2; sat, 0: "" 
+instance04875.smt2; unsat 
+instance04893.smt2; unsat 
+instance04895.smt2; unsat 
+instance04902.smt2; unsat 
+instance04914.smt2; unsat 
+instance04924.smt2; sat, 0: "" 
+instance04925.smt2; sat, 0: "" 
+instance04926.smt2; sat, 0: "" 
+instance04933.smt2; sat, 0: "" 
+instance04936.smt2; sat, 0: "" 
+instance04944.smt2; unsat 
+instance04967.smt2; unsat 
+instance04971.smt2; unsat 
+instance04973.smt2; unsat 
+instance04975.smt2; unsat 
+instance04977.smt2; sat, 0: "" 
+instance04985.smt2; unsat 
+instance04989.smt2; sat, 0: "" 
+instance04991.smt2; sat, 0: "" 
+instance05004.smt2; unsat 
+instance05008.smt2; unsat 
+instance05022.smt2; unsat 
+instance05047.smt2; sat, 0: "" 
+instance05050.smt2; unsat 
+instance05066.smt2; sat, 0: "" 
+instance05073.smt2; sat, 0: "" 
+instance05079.smt2; sat, 0: "" 
+instance05081.smt2; unsat 
+instance05117.smt2; sat, 0: "" 
+instance05123.smt2; sat, 0: "" 
+instance05124.smt2; unsat 
+instance05131.smt2; sat, 0: "" 
+instance05148.smt2; unsat 
+instance05152.smt2; sat, 0: "" 
+instance05161.smt2; sat, 0: "" 
+instance05163.smt2; sat, 0: "" 
+instance05169.smt2; unsat 
+instance05177.smt2; sat, 0: "" 
+instance05179.smt2; sat, 0: "" 
+instance05194.smt2; sat, 0: "" 
+instance05206.smt2; unsat 
+instance05210.smt2; unsat 
+instance05211.smt2; sat, 0: "/=_/P_" 
+instance05228.smt2; unsat 
+instance05229.smt2; unsat 
+instance05230.smt2; sat, 0: "" 
+instance05236.smt2; unsat 
+instance05253.smt2; unsat 
+instance05259.smt2; unsat 
+instance05266.smt2; unsat 
+instance05273.smt2; unsat 
+instance05275.smt2; sat, 0: "" 
+instance05280.smt2; unsat 
+instance05291.smt2; unsat 
+instance05304.smt2; sat, 0: "" 
+instance05305.smt2; sat, 0: "" 
+instance05311.smt2; unsat 
+instance05312.smt2; unsat 
+instance05316.smt2; sat, 0: "" 
+instance05318.smt2; unsat 
+instance05339.smt2; unsat 
+instance05345.smt2; sat, 0: "" 
+instance05348.smt2; sat, 0: "" 
+instance05365.smt2; sat, 0: "" 
+instance05378.smt2; unsat 
+instance05380.smt2; sat, 0: "" 
+instance05388.smt2; sat, 0: "" 
+instance05396.smt2; unsat 
+instance05411.smt2; sat, 0: "" 
+instance05412.smt2; unsat 
+instance05424.smt2; unsat 
+instance05426.smt2; sat, 0: "" 
+instance05428.smt2; sat, 0: "" 
+instance05447.smt2; unsat 
+instance05448.smt2; unsat 
+instance05449.smt2; unsat 
+instance05450.smt2; unsat 
+instance05454.smt2; unsat 
+instance05462.smt2; unsat 
+instance05465.smt2; sat, 0: "" 
+instance05470.smt2; unsat 
+instance05472.smt2; unsat 
+instance05474.smt2; sat, 0: "" 
+instance05476.smt2; unsat 
+instance05477.smt2; sat, 0: "" 
+instance05481.smt2; sat, 0: "" 
+instance05486.smt2; sat, 0: "" 
+instance05487.smt2; sat, 0: "" 
+instance05493.smt2; unsat 
+instance05494.smt2; unsat 
+instance05507.smt2; sat, 0: "" 
+instance05512.smt2; sat, 0: "" 
+instance05515.smt2; sat, 0: "" 
+instance05522.smt2; unsat 
+instance05547.smt2; sat, 0: "//ib2//U_" 
+instance05567.smt2; sat, 0: "" 
+instance05572.smt2; unsat 
+instance05592.smt2; sat, 0: "" 
+instance05600.smt2; unsat 
+instance05615.smt2; unsat 
+instance05619.smt2; unsat 
+instance05632.smt2; sat, 0: "" 
+instance05635.smt2; unsat 
+instance05641.smt2; sat, 0: "" 
+instance05655.smt2; unsat 
+instance05672.smt2; unsat 
+instance05673.smt2; sat, 0: "" 
+instance05675.smt2; unsat 
+instance05680.smt2; sat, 0: "" 
+instance05684.smt2; sat, 0: "" 
+instance05698.smt2; sat, 0: "" 
+instance05710.smt2; sat, 0: "" 
+instance05728.smt2; sat, 0: "" 
+instance05742.smt2; unsat 
+instance05746.smt2; sat, 0: "" 
+instance05753.smt2; sat, 0: "" 
+instance05764.smt2; sat, 0: "" 
+instance05776.smt2; sat, 0: "" 
+instance05785.smt2; sat, 0: "" 
+instance05787.smt2; sat, 0: "" 
+instance05799.smt2; unsat 
+instance05806.smt2; unsat 
+instance05812.smt2; unsat 
+instance05820.smt2; unsat 
+instance05823.smt2; sat, 0: "" 
+instance05826.smt2; sat, 0: "" 
+instance05844.smt2; unsat 
+instance05845.smt2; sat, 0: "" 
+instance05848.smt2; sat, 0: "" 
+instance05850.smt2; unsat 
+instance05851.smt2; sat, 0: "" 
+instance05856.smt2; unsat 
+instance05867.smt2; unsat 
+instance05871.smt2; sat, 0: "" 
+instance05888.smt2; sat, 0: "" 
+instance05896.smt2; unsat 
+instance05902.smt2; sat, 0: "" 
+instance05937.smt2; sat, 0: "" 
+instance05941.smt2; sat, 0: "" 
+instance05978.smt2; sat, 0: "///U_" 
+instance05980.smt2; sat, 0: "//bin.exe/U_" 
+instance05982.smt2; unsat 
+instance05984.smt2; unsat 
+instance05989.smt2; sat, 0: "" 
+instance05991.smt2; sat, 0: "" 
+instance06349.smt2; unsat 
+instance06506.smt2; unsat 
+instance06609.smt2; unsat 
+instance06641.smt2; unsat 
+instance07107.smt2; unsat 
+instance07209.smt2; sat, 0: "" 
+instance07321.smt2; unsat 
+instance07331.smt2; unsat 
+instance07492.smt2; unsat 
+instance07675.smt2; unsat 
+instance07975.smt2; sat, 0: "" 
+instance08020.smt2; unsat 
+instance08272.smt2; unsat 
+instance08348.smt2; sat, 0: "" 
+instance08980.smt2; sat, 0: "" 
+instance08996.smt2; unsat 
+instance09054.smt2; unsat 
+instance09282.smt2; unsat 
+instance09330.smt2; unsat 
+instance09734.smt2; unsat 
+instance10004.smt2; sat, 0: "//stat_svc//U_" 
+instance10147.smt2; sat, 0: "" 
+instance10397.smt2; sat, 0: "" 
+instance10465.smt2; unsat 
+instance10512.smt2; unsat 
+instance11018.smt2; unsat 
+instance11156.smt2; unsat 
+instance11211.smt2; unsat 
+instance11215.smt2; unsat 
+instance11372.smt2; sat, 0: "" 
+instance11440.smt2; unsat 
+instance11703.smt2; unsat 
+instance11709.smt2; unsat 
+instance11769.smt2; unsat 
+instance11788.smt2; unsat 
+instance12046.smt2; unsat 
+instance12162.smt2; unsat 
+instance12416.smt2; unsat 
+instance12474.smt2; sat, 0: "" 
+instance12823.smt2; unsat 
+instance12961.smt2; sat, 0: "" 
+instance13052.smt2; unsat 
+instance13060.smt2; sat, 0: "" 
+instance13068.smt2; sat, 0: "" 
+instance13358.smt2; unsat 
+instance13532.smt2; unsat 
+instance13726.smt2; unsat 
+instance14028.smt2; unsat 
+instance14503.smt2; unsat 
+instance14633.smt2; unsat 
+instance14862.smt2; unsat 
+instance15368.smt2; unsat 
+instance15577.smt2; unsat 
+instance15594.smt2; unsat 
+instance15649.smt2; unsat 

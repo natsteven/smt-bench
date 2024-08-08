@@ -1,0 +1,6 @@
+cloud-service-query-1.smt2: sat ,( (define-fun V31 () String "") (define-fun V32 () String "://AAAG:") (define-fun V16 () String "") (define-fun V29 () String "@://AAAG") (define-fun V30 () String "") (define-fun V17 () String "") (define-fun k8 () String "@://AAA") (define-fun k7 () String ":") (define-fun k3 () String "") (define-fun V33 () String "mongodb:") (define-fun V34 () String "/@://AAAG:") (define-fun V35 () String "@://AAAG:") (define-fun V3 () String "") (define-fun V36 () String "mongodb://@") (define-fun V37 () String "AAAG:") (define-fun V1 () String "mongodb://") ) 
+lyndon-schuetzenberg-1.smt2: ,
+lyndon-schuetzenberg-3.smt2: ,
+noodles-unsat-5.smt2: ,
+noodles-unsat-7.smt2: ,
+parikh.smt2: unsat ,(error "Cannot get model unless after a SAT or UNKNOWN response.") 
