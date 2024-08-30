@@ -13,10 +13,15 @@
 (define-fun str.del ((x String) (a Int) (b Int)) String
   (str.++ (str.substr x 0 a) (str.substr x b (str.len x))))
 (declare-fun sym9 () String)
+(assert (<= (str.len sym9) 3))
 (declare-fun sym7 () String)
+(assert (<= (str.len sym7) 3))
 (declare-fun sym8 () String)
+(assert (<= (str.len sym8) 3))
 (declare-fun sym11 () String)
+(assert (<= (str.len sym11) 3))
 (declare-fun sym10 () String)
+(assert (<= (str.len sym10) 3))
 (define-fun Alphabet () RegLan 
 	(re.* (re.union (str.to_re "A") (str.to_re "B") (str.to_re "C") (str.to_re "a") (str.to_re "b") (str.to_re "c") ))
 )

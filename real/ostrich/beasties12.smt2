@@ -12,9 +12,13 @@
            (toLower (str.tail x) (str.tail y))))
 )
 (declare-fun sym300 () String)
+(assert (<= (str.len sym300) 1))
 (declare-fun sym205 () String)
+(assert (<= (str.len sym205) 1))
 (declare-fun sym328 () String)
+(assert (<= (str.len sym328) 1))
 (declare-fun sym161 () String)
+(assert (<= (str.len sym161) 1))
 (declare-fun L1  () String)
 (declare-fun L0  () String)
 (define-fun Alphabet () RegLan 
