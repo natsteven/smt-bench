@@ -1,0 +1,13 @@
+mas, concat_isEmpty_equals_contains_l2_d2_bench.json, 1.993
+mas, toLowerCase_concat_isEmpty_equals_contains_l3_d3_bench.json, 1200.131
+mas, toLowerCase_isEmpty_equals_contains_l2_d2_bench.json, .853
+mas, toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench.json, 1200.140
+mas, delete_concat_isEmpty_equals_contains_l3_d3_bench.json, 1200.075
+mas, delete_isEmpty_equals_contains_l2_d2_bench.json, .893
+mas, replace_concat_isEmpty_equals_contains_l3_d3_bench.json, 1200.186
+mas, replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.json, 4.244
+mas, replace_isEmpty_equals_contains_l2_d2_bench.json, .912
+mas, replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench.json, 1200.089
+mas, substring12_concat_isEmpty_equals_contains_l3_d2_bench.json, 30.454
+mas, substring12_concat_isEmpty_equals_contains_l3_d3_bench.json, 1200.073
+mas, substring12_isEmpty_equals_contains_l2_d2_bench.json, .888

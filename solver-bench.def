@@ -3,13 +3,13 @@ From: alpine
 
 %post
 	apk update
-	apk add openjdk11
+	apk add openjdk21
 
 # MAS
 %appfiles mas
 	bin/string-constraint-solvers-1.0-SNAPSHOT-jar-with-dependencies.jar mas.jar
 %apprun mas
-    exec java -cp ${SCIF_APPROOT}/mas.jar edu.boisestate.cs.SolveMain $1 -s Inverse -v 2 -l $2
+    exec java -cp ${SCIF_APPROOT}/mas.jar edu.boisestate.cs.SolveMain $1 -s Inverse -v 2 -l $2 $3
 
 # Z3
 %appinstall z3
