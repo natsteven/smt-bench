@@ -26,7 +26,9 @@
 (assert (str.in_re sym161 Alphabet))
 (assert (str.in_re sym328 Alphabet))
 (assert (str.in_re sym205 Alphabet))
-(assert (str.in_re sym300 Alphabet))
+(assert (str.in_re sym300 Alphabet))(assert (<= 1 (str.len sym205 )))
+(assert (<= 1 (str.len sym328 )))
+
 (assert (not (= "" L0 )))
 (assert (not (= "" sym328 )))
 (assert (not (= "y" "n" )))

@@ -19,7 +19,9 @@
 
 (assert (str.in_re sym161 Alphabet))
 (assert (str.in_re sym209 Alphabet))
-(assert (str.in_re sym551 Alphabet))
+(assert (str.in_re sym551 Alphabet))(assert (<= 1 (str.len sym551 )))
+(assert (<= 1 (str.len sym209 )))
+
 (assert (not (= "" "q" )))
 (assert (not (= "" sym551 )))
 (assert (not (= (str.toLower (str.substr sym551  0 1))"h" )))

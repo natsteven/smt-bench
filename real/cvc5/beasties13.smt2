@@ -17,7 +17,8 @@
 )
 
 (assert (str.in_re sym161 Alphabet))
-(assert (str.in_re sym209 Alphabet))
+(assert (str.in_re sym209 Alphabet))(assert (<= 1 (str.len sym209 )))
+
 (assert (= "y" "y" ))
 (assert (not (= "" "y" )))
 (assert (not (= "" (str.toLower (str.substr sym209  0 1)))))

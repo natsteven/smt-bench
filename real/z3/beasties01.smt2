@@ -1,4 +1,5 @@
 (set-logic ALL)
+(set-option :smt.string_solver z3str3)
 (set-option :produce-models true)
 (define-fun-rec str.toLower ((x String)) String
   (ite (= x "")
@@ -33,7 +34,16 @@
 (assert (str.in_re sym1896 Alphabet))
 (assert (str.in_re sym1028 Alphabet))
 (assert (str.in_re sym1985 Alphabet))
-(assert (str.in_re sym1669 Alphabet))
+(assert (str.in_re sym1669 Alphabet))(assert (<= 1 (str.len sym812 )))
+(assert (<= 1 (str.len sym205 )))
+(assert (<= 1 (str.len sym1453 )))
+(assert (<= 1 (str.len sym1244 )))
+(assert (<= 1 (str.len sym1028 )))
+(assert (<= 1 (str.len sym1669 )))
+(assert (<= 1 (str.len sym1896 )))
+(assert (<= 1 (str.len sym1985 )))
+(assert (<= 1 (str.len sym547 )))
+
 (assert (not (= (str.toLower (str.substr sym1453  0 1))"q" )))
 (assert (not (= (str.toLower (str.substr sym1985  0 1))"y" )))
 (assert (not (= (str.toLower (str.substr sym1453  0 1))"k" )))

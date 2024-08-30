@@ -28,7 +28,10 @@
 (assert (str.in_re sym161 Alphabet))
 (assert (str.in_re sym547 Alphabet))
 (assert (str.in_re sym205 Alphabet))
-(assert (str.in_re sym753 Alphabet))
+(assert (str.in_re sym753 Alphabet))(assert (<= 1 (str.len sym205 )))
+(assert (<= 1 (str.len sym753 )))
+(assert (<= 1 (str.len sym547 )))
+
 (assert (= L0 "h" ))
 (assert (not (= "" "q" )))
 (assert (not (= "" L1 )))
