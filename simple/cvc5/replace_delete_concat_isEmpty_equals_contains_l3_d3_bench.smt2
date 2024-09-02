@@ -1,4 +1,4 @@
-(set-logic QF_S)
+(set-logic ALL)
 (set-option :produce-models true)
 (define-fun str.del ((x String) (a Int) (b Int)) String
   (str.++ (str.substr x 0 a) (str.substr x b (str.len x))))
