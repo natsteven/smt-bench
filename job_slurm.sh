@@ -18,7 +18,7 @@ lengths="util/$benches$subdir-lengths.txt"
 module load apptainer/1.2.5
 
 declare -A extensions=( ["mas"]="json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
-solvers=( "ostrich" "z3" )
+solvers=( "mas" "cvc5" "ostrich" "z3" )
 #benches=( "woorpje" "slog" "sygus" )
 #files=()
 #for bench in "${benches[@]}"; do
@@ -26,7 +26,7 @@ solvers=( "ostrich" "z3" )
 #	files+=("${tfiles[@]}")
 #done
 readarray -t files < $filenames
-#readarray -t lens < $lengths
+readarray -t lens < $lengths
 mkdir -p logs
 
 solver_index=$((SLURM_ARRAY_TASK_ID / ${#files[@]}))
@@ -35,18 +35,15 @@ file_index=$((SLURM_ARRAY_TASK_ID % ${#files[@]}))
 solver=${solvers[$solver_index]}
 file_extension=${extensions[$solver]}
 file=${files[$file_index]}
-#len=${lens[$file_index]}
+len=${lens[$file_index]}
 #bench=${benches[$((file_index / $]}
 
-#if [ "$len" == "" ]; then
-#	len=15
-#fi
-#if [ "$len" -gt 15 ]; then
-#	len=15
-#fi
-#if [ "$len" -lt 2 ]; then
-#	len=2
-#fi
+if [ "$len" == "" ]; then
+	len=15
+fi
+if [ "$len" -gt 15 ]; then
+	len=15
+fi
 
 mkdir -p logs/"$solver"
 
