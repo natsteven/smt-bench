@@ -1,13 +1,13 @@
-concat_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "B") (define-fun sym8 () String "A") (define-fun sym5 () String "") (define-fun sym6 () String "") (define-fun sym4 () String "CB") ) 
-delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,( (define-fun sym7 () String "AB") (define-fun sym8 () String "B") (define-fun sym5 () String "AA") (define-fun sym6 () String "AA") (define-fun sym4 () String "BC") ) 
-delete_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "B") (define-fun sym8 () String "A") (define-fun sym5 () String "") (define-fun sym6 () String "C") (define-fun sym4 () String "AA") ) 
-replace_concat_isEmpty_equals_contains_l3_d3_bench.smt2: ,
-replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: ,
-replace_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "A") (define-fun sym8 () String "") (define-fun sym5 () String "") (define-fun sym6 () String "A") (define-fun sym4 () String "A") ) 
+concat_isEmpty_equals_contains_l2_d2_bench.smt2: (error "Parse Error: simple/cvc5/concat_isEmpty_equals_contains_l2_d2_bench.smt2:4.29: Symbol '<=' not declared as a variable") ,
+delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Parse Error: simple/cvc5/delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2:6.29: Symbol '<=' not declared as a variable") ,
+delete_isEmpty_equals_contains_l2_d2_bench.smt2: (error "Parse Error: simple/cvc5/delete_isEmpty_equals_contains_l2_d2_bench.smt2:6.29: Symbol '<=' not declared as a variable") ,
+replace_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Parse Error: simple/cvc5/replace_concat_isEmpty_equals_contains_l3_d3_bench.smt2:4.29: Symbol '<=' not declared as a variable") ,
+replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Parse Error: simple/cvc5/replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2:6.29: Symbol '<=' not declared as a variable") ,
+replace_isEmpty_equals_contains_l2_d2_bench.smt2: (error "Parse Error: simple/cvc5/replace_isEmpty_equals_contains_l2_d2_bench.smt2:4.29: Symbol '<=' not declared as a variable") ,
 replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2: ,
-substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2: sat ,( (define-fun sym7 () String "AAA") (define-fun sym8 () String "AA") (define-fun sym5 () String "") (define-fun sym6 () String "CC") (define-fun sym4 () String "AAA") ) 
-substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,( (define-fun sym7 () String "BCA") (define-fun sym8 () String "AA") (define-fun sym5 () String "A") (define-fun sym6 () String "AA") (define-fun sym4 () String "AAAB") ) 
-substring12_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "AA") (define-fun sym8 () String "A") (define-fun sym5 () String "") (define-fun sym6 () String "A") (define-fun sym4 () String "") ) 
+substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2: (error "Parse Error: simple/cvc5/substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2:4.29: Symbol '<=' not declared as a variable") ,
+substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Parse Error: simple/cvc5/substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2:4.29: Symbol '<=' not declared as a variable") ,
+substring12_isEmpty_equals_contains_l2_d2_bench.smt2: (error "Parse Error: simple/cvc5/substring12_isEmpty_equals_contains_l2_d2_bench.smt2:4.29: Symbol '<=' not declared as a variable") ,
 toLowerCase_concat_isEmpty_equals_contains_l3_d3_bench.smt2: ,
 toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2: ,
 toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2: ,

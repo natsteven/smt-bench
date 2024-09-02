@@ -24,9 +24,18 @@ for file in "${filenames[@]}"; do
 		ext=${extensions[$solver]}
   		f="logs/$solver/$file.$ext.time"
 
-  		# Use tail to get the last two lines, then awk to correctly parse and format the times
-  		times=$(tail -n 3 "$f" | awk '/real/ {split($2, a, "m"); split(a[2], b, "s"); real_time=(a[1] * 60) + b[1]} /user/ {split($2, a, "m"); split(a[2], b, "s"); user_time=(a[1] * 60) + b[1]} /sys/ {split($2, a, "m"); split(a[2], b, "s"); sys_time=(a[1] * 60) + b[1]} END {printf "%.3f,%.3f,%.3f,", real_time, user_time, sys_time}')
-
+  		    # Use tail to get the last two lines, then awk to correctly parse and format the times
+            times=$(tail -n 3 "$f" | awk '
+              /real/ {split($2, a, "m"); split(a[2], b, "s"); real_time=(a[1] * 60) + b[1]}
+              /user/ {split($2, a, "m"); split(a[2], b, "s"); user_time=(a[1] * 60) + b[1]}
+              /sys/ {split($2, a, "m"); split(a[2], b, "s"); sys_time=(a[1] * 60) + b[1]}
+              END {
+                if (real_time == 0 || user_time == 0 || sys_time == 0) {
+                  printf ",,,"
+                } else {
+                  printf "%.3f,%.3f,%.3f,", real_time, user_time, sys_time
+                }
+              }')
   		# Output filename, user time, and system time
   		echo -n "$times" >> "$out"
   	done
