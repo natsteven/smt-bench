@@ -1,16 +1,16 @@
 equalsSymbolic_00; sat, 7: "" 8: "A" 
 equalsSymbolic_01; sat, 7: "" 8: "" 
-equalsSymbolic_02; unsat 
+equalsSymbolic_02; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
 equalsSymbolic_03; sat, 7: "aB" 8: "aB" 
 equalsSymbolic_04; sat, 7: "Ba" 8: "Ab" 
 equalsSymbolic_05; sat, 7: "" 8: "" 
 equalsSymbolic_06; sat, 7: "" 8: "" 
-equalsSymbolic_07; sat, 7: "B" 8: "A" 
-equalsSymbolic_08; sat, 7: "" 8: "" 
-equalsSymbolic_09; unsat 
-equalsSymbolic_10; sat, 7: "ca" 
-equalsSymbolic_11; unsat 
-equalsSymbolic_12; unsat 
+equalsSymbolic_07; sat, 7: "" 8: "A" 
+equalsSymbolic_08; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+equalsSymbolic_09; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+equalsSymbolic_10; sat, 7: "A" 
+equalsSymbolic_11; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+equalsSymbolic_12; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
 equalsSymbolic_13; sat, 7: "a" 8: "b" 9: "" 
 equalsSymbolic_14; sat, 7: "a" 8: "b" 9: "A" 
-equalsSymbolic_15; unsat 
+equalsSymbolic_15; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
