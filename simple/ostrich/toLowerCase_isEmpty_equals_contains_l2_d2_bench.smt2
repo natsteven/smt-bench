@@ -1,4 +1,4 @@
-(set-logic QF_S)
+(set-logic ALL)
 (set-option :parse-transducers true)
 (set-option :produce-models true)
 (define-fun-rec toLower ((x String) (y String)) Bool

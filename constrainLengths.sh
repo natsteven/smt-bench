@@ -35,7 +35,7 @@ for i in "${!files[@]}"; do
   constraint="${constraints[$i]}"
 
   # Use sed to add the length assertion after each declare-fun line
-  sed -i '' -E "s/\(declare-fun (sym[0-9]+) \(\) String\)/&\n(assert (<= (str.len \1) $constraint))/" "$file"
+  sed -i -E "s/\(declare-fun (sym[0-9]+) \(\) String\)/&\n(assert (<= (str.len \1) $constraint))/" "$file"
 done
 
 echo "Assertions added successfully."
