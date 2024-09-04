@@ -1,6 +1,6 @@
 concat_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,(model   (define-fun sym4 () String "CB")   (define-fun sym6 () String "")   (define-fun sym5 () String "CB")   (define-fun sym8 () String "BA")   (define-fun sym7 () String "BA") ) 
-delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,(model   (define-fun sym4 () String "BCA")   (define-fun sym6 () String "AAA")   (define-fun sym5 () String "CAA")   (define-fun sym8 () String "ABA")   (define-fun sym7 () String "AAA") ) 
-delete_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,(model   (define-fun sym4 () String "BA")   (define-fun sym6 () String "AC")   (define-fun sym5 () String "AA")   (define-fun sym8 () String "AA")   (define-fun sym7 () String "BA") ) 
+delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: unsat ,(error "no model available") 
+delete_isEmpty_equals_contains_l2_d2_bench.smt2: unsat ,(error "no model available") 
 replace_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,(model   (define-fun sym4 () String "CAA")   (define-fun sym6 () String "CBC")   (define-fun sym5 () String "BCA")   (define-fun sym8 () String "CBB")   (define-fun sym7 () String "CCC") ) 
 replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: unsat ,(error "no model available") 
 replace_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,(model   (define-fun sym4 () String "BA")   (define-fun sym6 () String "AA")   (define-fun sym5 () String "CC")   (define-fun sym8 () String "BA")   (define-fun sym7 () String "AA") ) 

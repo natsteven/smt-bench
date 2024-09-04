@@ -1,8 +1,10 @@
-(set-logic QF_S)
-(set-option :smt.string_solver z3str3)
+(set-logic ALL)
 (set-option :produce-models true)
+(set-option :smt.string_solver z3str3)
 (declare-fun sym7 () String)
+(assert (<= (str.len sym7) 2))
 (declare-fun sym8 () String)
+(assert (<= (str.len sym8) 2))
 (define-fun Alphabet () RegLan 
 	(re.* (re.union (str.to_re "A") (str.to_re "B") (str.to_re "C") (str.to_re "a") (str.to_re "b") (str.to_re "c") ))
 )

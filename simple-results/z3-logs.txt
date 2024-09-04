@@ -1,6 +1,6 @@
 concat_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,(   (define-fun Alphabet () RegLan     (re.* (re.union (re.union (str.to_re "A") (str.to_re "B")) (str.to_re "C"))))   (define-fun sym6 () String     "BC")   (define-fun sym7 () String     "B")   (define-fun sym8 () String     "")   (define-fun sym5 () String     "B")   (define-fun sym4 () String     "BA") ) 
-delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: ,
-delete_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,(   (define-fun Alphabet () RegLan     (re.* (re.union (re.union (str.to_re "A") (str.to_re "B")) (str.to_re "C"))))   (define-fun sym6 () String     "CA")   (define-fun sym7 () String     "BC")   (define-fun sym8 () String     "A")   (define-fun sym5 () String     "C")   (define-fun sym4 () String     "AB") ) 
+delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: unsat ,(error "line 112 column 10: model is not available") 
+delete_isEmpty_equals_contains_l2_d2_bench.smt2: unsat ,(error "line 60 column 10: model is not available") 
 replace_concat_isEmpty_equals_contains_l3_d3_bench.smt2: unknown ,(error "line 89 column 10: model is not available") 
 replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: unknown ,(error "line 142 column 10: model is not available") 
 replace_isEmpty_equals_contains_l2_d2_bench.smt2: unknown ,(error "line 49 column 10: model is not available") 

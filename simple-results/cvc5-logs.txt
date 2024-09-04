@@ -1,9 +1,9 @@
 concat_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "B") (define-fun sym8 () String "A") (define-fun sym5 () String "") (define-fun sym6 () String "") (define-fun sym4 () String "CB") ) 
-delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,( (define-fun sym7 () String "BCA") (define-fun sym8 () String "AAB") (define-fun sym5 () String "AAA") (define-fun sym6 () String "AAA") (define-fun sym4 () String "ABC") ) 
-delete_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "BA") (define-fun sym8 () String "A") (define-fun sym5 () String "A") (define-fun sym6 () String "CA") (define-fun sym4 () String "AA") ) 
+delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: unsat ,(error "Cannot get model unless after a SAT or UNKNOWN response.") 
+delete_isEmpty_equals_contains_l2_d2_bench.smt2: unsat ,(error "Cannot get model unless after a SAT or UNKNOWN response.") 
 replace_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,( (define-fun sym7 () String "CC") (define-fun sym8 () String "C") (define-fun sym5 () String "CB") (define-fun sym6 () String "BC") (define-fun sym4 () String "C") ) 
-replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,( (define-fun sym7 () String "CAC") (define-fun sym8 () String "AAC") (define-fun sym5 () String "CAC") (define-fun sym6 () String "BAA") (define-fun sym4 () String "BBB") ) 
-replace_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "A") (define-fun sym8 () String "") (define-fun sym5 () String "") (define-fun sym6 () String "A") (define-fun sym4 () String "A") ) 
+replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,( (define-fun sym7 () String "CAC") (define-fun sym8 () String "AAA") (define-fun sym5 () String "CAC") (define-fun sym6 () String "AAA") (define-fun sym4 () String "BBB") ) 
+replace_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "A") (define-fun sym9 () String "") (define-fun sym5 () String "") (define-fun sym6 () String "A") (define-fun sym4 () String "A") )
 replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2: ,
 substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2: sat ,( (define-fun sym7 () String "AAA") (define-fun sym8 () String "AAA") (define-fun sym5 () String "") (define-fun sym6 () String "ACC") (define-fun sym4 () String "AAA") ) 
 substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2: sat ,( (define-fun sym7 () String "BCA") (define-fun sym8 () String "AAA") (define-fun sym5 () String "AAA") (define-fun sym6 () String "AAA") (define-fun sym4 () String "ABB") ) 
