@@ -5,12 +5,12 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH -t 12:00:00
-#SBATCH --array=0-7899
+#SBATCH --array=0-76
 #SBATCH --output=logs/slurm-%A_%a.out
 
 
-benches="smt-comp"
-subdir="/slog" #include leading slash
+benches="real"
+subdir="" #include leading slash
 
 filenames="util/$benches$subdir-filenames.txt"
 #lengths="util/$benches$subdir-lengths.txt"
@@ -18,7 +18,7 @@ filenames="util/$benches$subdir-filenames.txt"
 module load apptainer/1.2.5
 
 declare -A extensions=( ["mas"]="smt2.json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
-solvers=( "mas" "cvc5" "ostrich" "z3" )
+solvers=( "z3" )
 #benches=( "woorpje" "slog" "sygus" )
 #files=()
 #for bench in "${benches[@]}"; do
