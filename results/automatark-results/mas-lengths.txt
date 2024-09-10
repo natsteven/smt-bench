@@ -1,0 +1,820 @@
+instance00022.smt2; sat, 0: 0, 0, 0.00
+instance00049.smt2; sat, 0: 0, 0, 0.00
+instance00052.smt2; sat, 0: 0, 0, 0.00
+instance00055.smt2; sat, 0: 0, 0, 0.00
+instance00064.smt2; TO: 
+instance00073.smt2; TO: 
+instance00075.smt2; sat, 0: 0, 0, 0.00
+instance00076.smt2; sat, 0: 0, 0, 0.00
+instance00079.smt2; TO: 
+instance00086.smt2; TO: 
+instance00089.smt2; sat, 0: 0, 0, 0.00
+instance00097.smt2; sat, 0: 0, 0, 0.00
+instance00106.smt2; TO: 
+instance00115.smt2; sat, 0: 0, 0, 0.00
+instance00141.smt2; TO: 
+instance00154.smt2; TO: 
+instance00159.smt2; sat, 0: 14, 14, 14.00
+instance00180.smt2; TO: 
+instance00185.smt2; TO: 
+instance00186.smt2; TO: 
+instance00209.smt2; TO: 
+instance00214.smt2; TO: 
+instance00217.smt2; TO: 
+instance00219.smt2; sat, 0: 0, 0, 0.00
+instance00228.smt2; TO: 
+instance00248.smt2; TO: 
+instance00259.smt2; sat, 0: 0, 0, 0.00
+instance00285.smt2; sat, 0: 0, 0, 0.00
+instance00294.smt2; sat, 0: 0, 0, 0.00
+instance00302.smt2; TO: 
+instance00316.smt2; TO: 
+instance00323.smt2; sat, 0: 0, 0, 0.00
+instance00328.smt2; sat, 0: 0, 0, 0.00
+instance00332.smt2; sat, 0: 0, 0, 0.00
+instance00339.smt2; sat, 0: 0, 0, 0.00
+instance00349.smt2; TO: 
+instance00355.smt2; TO: 
+instance00363.smt2; sat, 0: 0, 0, 0.00
+instance00375.smt2; sat, 0: 0, 0, 0.00
+instance00380.smt2; TO: 
+instance00394.smt2; TO: 
+instance00398.smt2; sat, 0: 0, 0, 0.00
+instance00400.smt2; TO: 
+instance00404.smt2; sat, 0: 0, 0, 0.00
+instance00406.smt2; TO: 
+instance00418.smt2; sat, 0: 0, 0, 0.00
+instance00430.smt2; sat, 0: 9, 9, 9.00
+instance00435.smt2; sat, 0: 0, 0, 0.00
+instance00463.smt2; sat, 0: 0, 0, 0.00
+instance00470.smt2; sat, 0: 0, 0, 0.00
+instance00476.smt2; TO: 
+instance00480.smt2; sat, 0: 0, 0, 0.00
+instance00481.smt2; TO: 
+instance00492.smt2; TO: 
+instance00495.smt2; TO: 
+instance00496.smt2; TO: 
+instance00497.smt2; sat, 0: 0, 0, 0.00
+instance00501.smt2; sat, 0: 0, 0, 0.00
+instance00519.smt2; sat, 0: 8, 8, 8.00
+instance00525.smt2; sat, 0: 0, 0, 0.00
+instance00530.smt2; TO: 
+instance00538.smt2; sat, 0: 0, 0, 0.00
+instance00586.smt2; TO: 
+instance00588.smt2; sat, 0: 0, 0, 0.00
+instance00609.smt2; TO: 
+instance00611.smt2; sat, 0: 15, 15, 15.00
+instance00617.smt2; TO: 
+instance00630.smt2; sat, 0: 0, 0, 0.00
+instance00640.smt2; TO: 
+instance00642.smt2; TO: 
+instance00647.smt2; TO: 
+instance00660.smt2; sat, 0: 0, 0, 0.00
+instance00661.smt2; TO: 
+instance00676.smt2; sat, 0: 0, 0, 0.00
+instance00677.smt2; sat, 0: 0, 0, 0.00
+instance00679.smt2; sat, 0: 0, 0, 0.00
+instance00686.smt2; TO: 
+instance00689.smt2; sat, 0: 0, 0, 0.00
+instance00713.smt2; sat, 0: 0, 0, 0.00
+instance00714.smt2; sat, 0: 0, 0, 0.00
+instance00715.smt2; sat, 0: 0, 0, 0.00
+instance00722.smt2; TO: 
+instance00730.smt2; sat, 0: 0, 0, 0.00
+instance00731.smt2; sat, 0: 0, 0, 0.00
+instance00740.smt2; TO: 
+instance00742.smt2; TO: 
+instance00765.smt2; sat, 0: 0, 0, 0.00
+instance00774.smt2; TO: 
+instance00776.smt2; sat, 0: 0, 0, 0.00
+instance00777.smt2; sat, 0: 0, 0, 0.00
+instance00782.smt2; sat, 0: 0, 0, 0.00
+instance00784.smt2; TO: 
+instance00793.smt2; sat, 0: 0, 0, 0.00
+instance00801.smt2; sat, 0: 0, 0, 0.00
+instance00804.smt2; sat, 0: 0, 0, 0.00
+instance00820.smt2; sat, 0: 0, 0, 0.00
+instance00827.smt2; TO: 
+instance00845.smt2; sat, 0: 0, 0, 0.00
+instance00847.smt2; TO: 
+instance00859.smt2; sat, 0: 0, 0, 0.00
+instance00860.smt2; sat, 0: 0, 0, 0.00
+instance00861.smt2; sat, 0: 0, 0, 0.00
+instance00862.smt2; sat, 0: 9, 9, 9.00
+instance00865.smt2; sat, 0: 0, 0, 0.00
+instance00883.smt2; sat, 0: 0, 0, 0.00
+instance00901.smt2; sat, 0: 0, 0, 0.00
+instance00905.smt2; TO: 
+instance00907.smt2; sat, 0: 0, 0, 0.00
+instance00918.smt2; TO: 
+instance00923.smt2; sat, 0: 0, 0, 0.00
+instance00935.smt2; TO: 
+instance00938.smt2; sat, 0: 0, 0, 0.00
+instance00948.smt2; sat, 0: 0, 0, 0.00
+instance00952.smt2; TO: 
+instance00956.smt2; sat, 0: 0, 0, 0.00
+instance00957.smt2; sat, 0: 0, 0, 0.00
+instance00961.smt2; TO: 
+instance00970.smt2; TO: 
+instance00977.smt2; sat, 0: 0, 0, 0.00
+instance00985.smt2; sat, 0: 0, 0, 0.00
+instance00986.smt2; sat, 0: 0, 0, 0.00
+instance00993.smt2; sat, 0: 0, 0, 0.00
+instance01014.smt2; TO: 
+instance01023.smt2; TO: 
+instance01028.smt2; TO: 
+instance01030.smt2; sat, 0: 0, 0, 0.00
+instance01040.smt2; TO: 
+instance01048.smt2; TO: 
+instance01053.smt2; sat, 0: 0, 0, 0.00
+instance01054.smt2; sat, 0: 0, 0, 0.00
+instance01056.smt2; TO: 
+instance01057.smt2; TO: 
+instance01067.smt2; TO: 
+instance01088.smt2; sat, 0: 0, 0, 0.00
+instance01089.smt2; sat, 0: 0, 0, 0.00
+instance01101.smt2; TO: 
+instance01107.smt2; TO: 
+instance01121.smt2; sat, 0: 0, 0, 0.00
+instance01135.smt2; sat, 0: 0, 0, 0.00
+instance01146.smt2; sat, 0: 0, 0, 0.00
+instance01168.smt2; sat, 0: 0, 0, 0.00
+instance01189.smt2; sat, 0: 0, 0, 0.00
+instance01197.smt2; sat, 0: 0, 0, 0.00
+instance01235.smt2; TO: 
+instance01242.smt2; sat, 0: 0, 0, 0.00
+instance01256.smt2; sat, 0: 0, 0, 0.00
+instance01258.smt2; sat, 0: 0, 0, 0.00
+instance01271.smt2; sat, 0: 0, 0, 0.00
+instance01273.smt2; TO: 
+instance01274.smt2; TO: 
+instance01275.smt2; sat, 0: 0, 0, 0.00
+instance01277.smt2; TO: 
+instance01287.smt2; sat, 0: 0, 0, 0.00
+instance01297.smt2; TO: 
+instance01298.smt2; TO: 
+instance01325.smt2; TO: 
+instance01335.smt2; TO: 
+instance01338.smt2; TO: 
+instance01353.smt2; sat, 0: 0, 0, 0.00
+instance01355.smt2; sat, 0: 0, 0, 0.00
+instance01359.smt2; sat, 0: 0, 0, 0.00
+instance01360.smt2; sat, 0: 0, 0, 0.00
+instance01361.smt2; sat, 0: 0, 0, 0.00
+instance01367.smt2; sat, 0: 0, 0, 0.00
+instance01368.smt2; TO: 
+instance01369.smt2; sat, 0: 0, 0, 0.00
+instance01376.smt2; TO: 
+instance01401.smt2; sat, 0: 0, 0, 0.00
+instance01402.smt2; sat, 0: 0, 0, 0.00
+instance01408.smt2; sat, 0: 0, 0, 0.00
+instance01410.smt2; sat, 0: 0, 0, 0.00
+instance01412.smt2; TO: 
+instance01414.smt2; sat, 0: 0, 0, 0.00
+instance01425.smt2; TO: 
+instance01427.smt2; TO: 
+instance01428.smt2; sat, 0: 0, 0, 0.00
+instance01447.smt2; TO: 
+instance01458.smt2; sat, 0: 0, 0, 0.00
+instance01468.smt2; sat, 0: 0, 0, 0.00
+instance01474.smt2; sat, 0: 0, 0, 0.00
+instance01476.smt2; sat, 0: 0, 0, 0.00
+instance01478.smt2; TO: 
+instance01484.smt2; TO: 
+instance01491.smt2; TO: 
+instance01492.smt2; TO: 
+instance01495.smt2; sat, 0: 0, 0, 0.00
+instance01523.smt2; sat, 0: 0, 0, 0.00
+instance01526.smt2; TO: 
+instance01527.smt2; sat, 0: 0, 0, 0.00
+instance01544.smt2; TO: 
+instance01558.smt2; TO: 
+instance01567.smt2; sat, 0: 0, 0, 0.00
+instance01568.smt2; sat, 0: 0, 0, 0.00
+instance01576.smt2; TO: 
+instance01592.smt2; sat, 0: 2, 2, 2.00
+instance01593.smt2; sat, 0: 13, 13, 13.00
+instance01610.smt2; TO: 
+instance01612.smt2; TO: 
+instance01614.smt2; TO: 
+instance01617.smt2; TO: 
+instance01633.smt2; sat, 0: 0, 0, 0.00
+instance01653.smt2; TO: 
+instance01657.smt2; sat, 0: 0, 0, 0.00
+instance01658.smt2; sat, 0: 0, 0, 0.00
+instance01660.smt2; sat, 0: 0, 0, 0.00
+instance01666.smt2; TO: 
+instance01669.smt2; sat, 0: 0, 0, 0.00
+instance01688.smt2; sat, 0: 0, 0, 0.00
+instance01690.smt2; sat, 0: 0, 0, 0.00
+instance01695.smt2; TO: 
+instance01697.smt2; sat, 0: 0, 0, 0.00
+instance01701.smt2; sat, 0: 0, 0, 0.00
+instance01711.smt2; TO: 
+instance01716.smt2; sat, 0: 0, 0, 0.00
+instance01718.smt2; TO: 
+instance01725.smt2; TO: 
+instance01732.smt2; TO: 
+instance01733.smt2; TO: 
+instance01745.smt2; TO: 
+instance01746.smt2; TO: 
+instance01749.smt2; TO: 
+instance01758.smt2; TO: 
+instance01768.smt2; sat, 0: 0, 0, 0.00
+instance01779.smt2; TO: 
+instance01785.smt2; sat, 0: 0, 0, 0.00
+instance01795.smt2; sat, 0: 0, 0, 0.00
+instance01805.smt2; sat, 0: 0, 0, 0.00
+instance01808.smt2; sat, 0: 0, 0, 0.00
+instance01814.smt2; TO: 
+instance01819.smt2; sat, 0: 0, 0, 0.00
+instance01828.smt2; sat, 0: 8, 8, 8.00
+instance01831.smt2; sat, 0: 0, 0, 0.00
+instance01834.smt2; sat, 0: 0, 0, 0.00
+instance01837.smt2; sat, 0: 0, 0, 0.00
+instance01844.smt2; TO: 
+instance01853.smt2; TO: 
+instance01855.smt2; sat, 0: 0, 0, 0.00
+instance01857.smt2; sat, 0: 0, 0, 0.00
+instance01859.smt2; TO: 
+instance01875.smt2; sat, 0: 0, 0, 0.00
+instance01884.smt2; sat, 0: 11, 11, 11.00
+instance01894.smt2; sat, 0: 0, 0, 0.00
+instance01902.smt2; TO: 
+instance01904.smt2; TO: 
+instance01917.smt2; TO: 
+instance01918.smt2; TO: 
+instance01922.smt2; sat, 0: 0, 0, 0.00
+instance01924.smt2; sat, 0: 0, 0, 0.00
+instance01945.smt2; TO: 
+instance01951.smt2; sat, 0: 0, 0, 0.00
+instance01959.smt2; sat, 0: 0, 0, 0.00
+instance01960.smt2; TO: 
+instance01964.smt2; TO: 
+instance01976.smt2; sat, 0: 12, 12, 12.00
+instance01985.smt2; TO: 
+instance01989.smt2; TO: 
+instance01991.smt2; sat, 0: 0, 0, 0.00
+instance02002.smt2; TO: 
+instance02006.smt2; TO: 
+instance02013.smt2; sat, 0: 0, 0, 0.00
+instance02022.smt2; sat, 0: 0, 0, 0.00
+instance02030.smt2; TO: 
+instance02038.smt2; TO: 
+instance02043.smt2; sat, 0: 0, 0, 0.00
+instance02047.smt2; sat, 0: 0, 0, 0.00
+instance02060.smt2; sat, 0: 0, 0, 0.00
+instance02063.smt2; sat, 0: 0, 0, 0.00
+instance02064.smt2; TO: 
+instance02066.smt2; sat, 0: 0, 0, 0.00
+instance02074.smt2; TO: 
+instance02086.smt2; sat, 0: 0, 0, 0.00
+instance02091.smt2; TO: 
+instance02093.smt2; sat, 0: 0, 0, 0.00
+instance02098.smt2; sat, 0: 0, 0, 0.00
+instance02120.smt2; sat, 0: 0, 0, 0.00
+instance02130.smt2; sat, 0: 0, 0, 0.00
+instance02140.smt2; TO: 
+instance02146.smt2; TO: 
+instance02153.smt2; TO: 
+instance02169.smt2; TO: 
+instance02170.smt2; TO: 
+instance02172.smt2; sat, 0: 0, 0, 0.00
+instance02176.smt2; sat, 0: 0, 0, 0.00
+instance02177.smt2; TO: 
+instance02179.smt2; TO: 
+instance02184.smt2; sat, 0: 14, 14, 14.00
+instance02187.smt2; sat, 0: 0, 0, 0.00
+instance02188.smt2; sat, 0: 0, 0, 0.00
+instance02192.smt2; sat, 0: 7, 7, 7.00
+instance02197.smt2; TO: 
+instance02212.smt2; TO: 
+instance02216.smt2; sat, 0: 0, 0, 0.00
+instance02219.smt2; TO: 
+instance02231.smt2; TO: 
+instance02265.smt2; sat, 0: 0, 0, 0.00
+instance02270.smt2; sat, 0: 0, 0, 0.00
+instance02273.smt2; TO: 
+instance02274.smt2; sat, 0: 0, 0, 0.00
+instance02279.smt2; TO: 
+instance02299.smt2; sat, 0: 0, 0, 0.00
+instance02304.smt2; sat, 0: 0, 0, 0.00
+instance02306.smt2; TO: 
+instance02314.smt2; sat, 0: 0, 0, 0.00
+instance02320.smt2; TO: 
+instance02324.smt2; sat, 0: 0, 0, 0.00
+instance02327.smt2; sat, 0: 0, 0, 0.00
+instance02332.smt2; sat, 0: 0, 0, 0.00
+instance02345.smt2; sat, 0: 0, 0, 0.00
+instance02354.smt2; sat, 0: 0, 0, 0.00
+instance02357.smt2; sat, 0: 0, 0, 0.00
+instance02358.smt2; sat, 0: 0, 0, 0.00
+instance02365.smt2; TO: 
+instance02366.smt2; sat, 0: 0, 0, 0.00
+instance02380.smt2; sat, 0: 0, 0, 0.00
+instance02383.smt2; TO: 
+instance02390.smt2; sat, 0: 0, 0, 0.00
+instance02395.smt2; sat, 0: 0, 0, 0.00
+instance02398.smt2; TO: 
+instance02399.smt2; TO: 
+instance02403.smt2; TO: 
+instance02413.smt2; sat, 0: 0, 0, 0.00
+instance02416.smt2; sat, 0: 0, 0, 0.00
+instance02427.smt2; TO: 
+instance02429.smt2; TO: 
+instance02439.smt2; TO: 
+instance02451.smt2; sat, 0: 0, 0, 0.00
+instance02458.smt2; sat, 0: 0, 0, 0.00
+instance02459.smt2; TO: 
+instance02468.smt2; TO: 
+instance02478.smt2; TO: 
+instance02481.smt2; TO: 
+instance02482.smt2; sat, 0: 0, 0, 0.00
+instance02489.smt2; sat, 0: 0, 0, 0.00
+instance02507.smt2; sat, 0: 14, 14, 14.00
+instance02514.smt2; sat, 0: 0, 0, 0.00
+instance02518.smt2; TO: 
+instance02520.smt2; TO: 
+instance02542.smt2; sat, 0: 2, 2, 2.00
+instance02573.smt2; TO: 
+instance02586.smt2; TO: 
+instance02591.smt2; sat, 0: 0, 0, 0.00
+instance02596.smt2; sat, 0: 0, 0, 0.00
+instance02601.smt2; TO: 
+instance02622.smt2; sat, 0: 0, 0, 0.00
+instance02678.smt2; sat, 0: 0, 0, 0.00
+instance02686.smt2; TO: 
+instance02697.smt2; TO: 
+instance02701.smt2; sat, 0: 0, 0, 0.00
+instance02715.smt2; TO: 
+instance02732.smt2; TO: 
+instance02733.smt2; sat, 0: 0, 0, 0.00
+instance02743.smt2; sat, 0: 0, 0, 0.00
+instance02744.smt2; TO: 
+instance02745.smt2; sat, 0: 0, 0, 0.00
+instance02753.smt2; sat, 0: 0, 0, 0.00
+instance02758.smt2; sat, 0: 0, 0, 0.00
+instance02759.smt2; sat, 0: 0, 0, 0.00
+instance02770.smt2; sat, 0: 0, 0, 0.00
+instance02771.smt2; TO: 
+instance02777.smt2; TO: 
+instance02800.smt2; TO: 
+instance02808.smt2; TO: 
+instance02812.smt2; TO: 
+instance02813.smt2; TO: 
+instance02814.smt2; sat, 0: 0, 0, 0.00
+instance02816.smt2; TO: 
+instance02824.smt2; TO: 
+instance02825.smt2; sat, 0: 0, 0, 0.00
+instance02826.smt2; sat, 0: 0, 0, 0.00
+instance02844.smt2; TO: 
+instance02845.smt2; sat, 0: 0, 0, 0.00
+instance02859.smt2; sat, 0: 0, 0, 0.00
+instance02868.smt2; sat, 0: 0, 0, 0.00
+instance02869.smt2; sat, 0: 0, 0, 0.00
+instance02873.smt2; sat, 0: 0, 0, 0.00
+instance02876.smt2; sat, 0: 0, 0, 0.00
+instance02888.smt2; TO: 
+instance02890.smt2; sat, 0: 0, 0, 0.00
+instance02891.smt2; sat, 0: 0, 0, 0.00
+instance02892.smt2; TO: 
+instance02899.smt2; TO: 
+instance02912.smt2; sat, 0: 0, 0, 0.00
+instance02918.smt2; TO: 
+instance02920.smt2; TO: 
+instance02929.smt2; sat, 0: 0, 0, 0.00
+instance02934.smt2; TO: 
+instance02943.smt2; sat, 0: 0, 0, 0.00
+instance02954.smt2; sat, 0: 0, 0, 0.00
+instance02955.smt2; TO: 
+instance02957.smt2; sat, 0: 0, 0, 0.00
+instance02971.smt2; TO: 
+instance02978.smt2; TO: 
+instance02987.smt2; sat, 0: 0, 0, 0.00
+instance02997.smt2; sat, 0: 5, 5, 5.00
+instance03001.smt2; TO: 
+instance03007.smt2; sat, 0: 0, 0, 0.00
+instance03043.smt2; sat, 0: 0, 0, 0.00
+instance03062.smt2; TO: 
+instance03094.smt2; sat, 0: 0, 0, 0.00
+instance03097.smt2; TO: 
+instance03098.smt2; TO: 
+instance03108.smt2; sat, 0: 0, 0, 0.00
+instance03116.smt2; sat, 0: 0, 0, 0.00
+instance03127.smt2; sat, 0: 0, 0, 0.00
+instance03133.smt2; TO: 
+instance03136.smt2; sat, 0: 0, 0, 0.00
+instance03142.smt2; sat, 0: 0, 0, 0.00
+instance03148.smt2; TO: 
+instance03153.smt2; sat, 0: 0, 0, 0.00
+instance03161.smt2; sat, 0: 0, 0, 0.00
+instance03163.smt2; TO: 
+instance03197.smt2; sat, 0: 0, 0, 0.00
+instance03200.smt2; sat, 0: 0, 0, 0.00
+instance03203.smt2; sat, 0: 0, 0, 0.00
+instance03216.smt2; sat, 0: 0, 0, 0.00
+instance03227.smt2; TO: 
+instance03232.smt2; TO: 
+instance03234.smt2; TO: 
+instance03235.smt2; sat, 0: 0, 0, 0.00
+instance03246.smt2; TO: 
+instance03264.smt2; TO: 
+instance03270.smt2; TO: 
+instance03276.smt2; sat, 0: 0, 0, 0.00
+instance03294.smt2; sat, 0: 0, 0, 0.00
+instance03304.smt2; TO: 
+instance03309.smt2; sat, 0: 0, 0, 0.00
+instance03316.smt2; TO: 
+instance03317.smt2; sat, 0: 0, 0, 0.00
+instance03329.smt2; TO: 
+instance03331.smt2; TO: 
+instance03338.smt2; TO: 
+instance03342.smt2; TO: 
+instance03347.smt2; TO: 
+instance03366.smt2; sat, 0: 0, 0, 0.00
+instance03370.smt2; TO: 
+instance03372.smt2; sat, 0: 14, 14, 14.00
+instance03374.smt2; sat, 0: 0, 0, 0.00
+instance03382.smt2; TO: 
+instance03399.smt2; TO: 
+instance03405.smt2; sat, 0: 0, 0, 0.00
+instance03413.smt2; TO: 
+instance03416.smt2; TO: 
+instance03431.smt2; sat, 0: 0, 0, 0.00
+instance03433.smt2; TO: 
+instance03435.smt2; TO: 
+instance03441.smt2; sat, 0: 0, 0, 0.00
+instance03444.smt2; sat, 0: 0, 0, 0.00
+instance03459.smt2; sat, 0: 0, 0, 0.00
+instance03465.smt2; TO: 
+instance03473.smt2; TO: 
+instance03495.smt2; sat, 0: 0, 0, 0.00
+instance03522.smt2; TO: 
+instance03542.smt2; TO: 
+instance03545.smt2; sat, 0: 0, 0, 0.00
+instance03547.smt2; TO: 
+instance03552.smt2; sat, 0: 0, 0, 0.00
+instance03554.smt2; TO: 
+instance03556.smt2; TO: 
+instance03557.smt2; TO: 
+instance03559.smt2; TO: 
+instance03561.smt2; TO: 
+instance03565.smt2; sat, 0: 0, 0, 0.00
+instance03575.smt2; sat, 0: 0, 0, 0.00
+instance03576.smt2; sat, 0: 0, 0, 0.00
+instance03578.smt2; TO: 
+instance03594.smt2; TO: 
+instance03598.smt2; sat, 0: 0, 0, 0.00
+instance03614.smt2; TO: 
+instance03623.smt2; sat, 0: 0, 0, 0.00
+instance03653.smt2; sat, 0: 0, 0, 0.00
+instance03661.smt2; sat, 0: 0, 0, 0.00
+instance03670.smt2; sat, 0: 8, 8, 8.00
+instance03671.smt2; sat, 0: 0, 0, 0.00
+instance03673.smt2; TO: 
+instance03677.smt2; TO: 
+instance03683.smt2; TO: 
+instance03692.smt2; sat, 0: 0, 0, 0.00
+instance03715.smt2; TO: 
+instance03717.smt2; TO: 
+instance03726.smt2; TO: 
+instance03730.smt2; sat, 0: 0, 0, 0.00
+instance03763.smt2; TO: 
+instance03766.smt2; sat, 0: 0, 0, 0.00
+instance03772.smt2; sat, 0: 0, 0, 0.00
+instance03781.smt2; TO: 
+instance03791.smt2; TO: 
+instance03800.smt2; TO: 
+instance03808.smt2; sat, 0: 0, 0, 0.00
+instance03844.smt2; TO: 
+instance03846.smt2; TO: 
+instance03859.smt2; sat, 0: 0, 0, 0.00
+instance03880.smt2; TO: 
+instance03886.smt2; TO: 
+instance03905.smt2; sat, 0: 0, 0, 0.00
+instance03906.smt2; sat, 0: 0, 0, 0.00
+instance03912.smt2; TO: 
+instance03913.smt2; TO: 
+instance03914.smt2; TO: 
+instance03917.smt2; TO: 
+instance03922.smt2; TO: 
+instance03930.smt2; TO: 
+instance03937.smt2; sat, 0: 0, 0, 0.00
+instance03956.smt2; TO: 
+instance03961.smt2; sat, 0: 6, 6, 6.00
+instance03965.smt2; sat, 0: 0, 0, 0.00
+instance03977.smt2; sat, 0: 0, 0, 0.00
+instance03982.smt2; TO: 
+instance03994.smt2; TO: 
+instance04017.smt2; sat, 0: 0, 0, 0.00
+instance04030.smt2; TO: 
+instance04032.smt2; TO: 
+instance04052.smt2; TO: 
+instance04059.smt2; sat, 0: 0, 0, 0.00
+instance04063.smt2; TO: 
+instance04073.smt2; TO: 
+instance04077.smt2; TO: 
+instance04080.smt2; TO: 
+instance04086.smt2; TO: 
+instance04090.smt2; TO: 
+instance04101.smt2; TO: 
+instance04105.smt2; TO: 
+instance04110.smt2; TO: 
+instance04112.smt2; TO: 
+instance04116.smt2; sat, 0: 0, 0, 0.00
+instance04129.smt2; sat, 0: 0, 0, 0.00
+instance04149.smt2; sat, 0: 0, 0, 0.00
+instance04156.smt2; TO: 
+instance04159.smt2; TO: 
+instance04182.smt2; sat, 0: 0, 0, 0.00
+instance04194.smt2; TO: 
+instance04213.smt2; TO: 
+instance04222.smt2; sat, 0: 0, 0, 0.00
+instance04224.smt2; sat, 0: 0, 0, 0.00
+instance04225.smt2; sat, 0: 0, 0, 0.00
+instance04233.smt2; sat, 0: 0, 0, 0.00
+instance04244.smt2; sat, 0: 0, 0, 0.00
+instance04246.smt2; sat, 0: 0, 0, 0.00
+instance04247.smt2; TO: 
+instance04249.smt2; TO: 
+instance04254.smt2; TO: 
+instance04261.smt2; TO: 
+instance04264.smt2; sat, 0: 0, 0, 0.00
+instance04266.smt2; sat, 0: 14, 14, 14.00
+instance04272.smt2; TO: 
+instance04303.smt2; sat, 0: 0, 0, 0.00
+instance04329.smt2; sat, 0: 0, 0, 0.00
+instance04338.smt2; sat, 0: 0, 0, 0.00
+instance04346.smt2; TO: 
+instance04364.smt2; sat, 0: 0, 0, 0.00
+instance04370.smt2; TO: 
+instance04372.smt2; TO: 
+instance04375.smt2; sat, 0: 0, 0, 0.00
+instance04388.smt2; sat, 0: 0, 0, 0.00
+instance04420.smt2; TO: 
+instance04424.smt2; sat, 0: 0, 0, 0.00
+instance04427.smt2; TO: 
+instance04435.smt2; TO: 
+instance04439.smt2; sat, 0: 0, 0, 0.00
+instance04447.smt2; sat, 0: 0, 0, 0.00
+instance04466.smt2; TO: 
+instance04478.smt2; TO: 
+instance04479.smt2; sat, 0: 0, 0, 0.00
+instance04498.smt2; TO: 
+instance04503.smt2; TO: 
+instance04506.smt2; sat, 0: 0, 0, 0.00
+instance04507.smt2; sat, 0: 0, 0, 0.00
+instance04516.smt2; TO: 
+instance04517.smt2; TO: 
+instance04524.smt2; TO: 
+instance04525.smt2; TO: 
+instance04527.smt2; sat, 0: 0, 0, 0.00
+instance04538.smt2; sat, 0: 0, 0, 0.00
+instance04542.smt2; sat, 0: 0, 0, 0.00
+instance04543.smt2; TO: 
+instance04545.smt2; TO: 
+instance04559.smt2; sat, 0: 12, 12, 12.00
+instance04564.smt2; sat, 0: 0, 0, 0.00
+instance04568.smt2; sat, 0: 0, 0, 0.00
+instance04594.smt2; sat, 0: 0, 0, 0.00
+instance04600.smt2; sat, 0: 0, 0, 0.00
+instance04602.smt2; TO: 
+instance04605.smt2; sat, 0: 0, 0, 0.00
+instance04614.smt2; TO: 
+instance04628.smt2; TO: 
+instance04648.smt2; TO: 
+instance04650.smt2; sat, 0: 0, 0, 0.00
+instance04659.smt2; TO: 
+instance04660.smt2; sat, 0: 0, 0, 0.00
+instance04662.smt2; sat, 0: 0, 0, 0.00
+instance04678.smt2; sat, 0: 0, 0, 0.00
+instance04681.smt2; sat, 0: 0, 0, 0.00
+instance04683.smt2; TO: 
+instance04687.smt2; sat, 0: 0, 0, 0.00
+instance04692.smt2; TO: 
+instance04700.smt2; TO: 
+instance04705.smt2; sat, 0: 0, 0, 0.00
+instance04709.smt2; TO: 
+instance04712.smt2; sat, 0: 0, 0, 0.00
+instance04715.smt2; TO: 
+instance04732.smt2; TO: 
+instance04742.smt2; sat, 0: 0, 0, 0.00
+instance04743.smt2; sat, 0: 0, 0, 0.00
+instance04744.smt2; TO: 
+instance04747.smt2; TO: 
+instance04750.smt2; TO: 
+instance04762.smt2; sat, 0: 0, 0, 0.00
+instance04768.smt2; sat, 0: 0, 0, 0.00
+instance04788.smt2; sat, 0: 0, 0, 0.00
+instance04794.smt2; sat, 0: 0, 0, 0.00
+instance04795.smt2; sat, 0: 0, 0, 0.00
+instance04797.smt2; TO: 
+instance04810.smt2; sat, 0: 0, 0, 0.00
+instance04811.smt2; sat, 0: 0, 0, 0.00
+instance04813.smt2; sat, 0: 0, 0, 0.00
+instance04825.smt2; sat, 0: 0, 0, 0.00
+instance04829.smt2; TO: 
+instance04836.smt2; sat, 0: 0, 0, 0.00
+instance04842.smt2; TO: 
+instance04857.smt2; TO: 
+instance04863.smt2; sat, 0: 0, 0, 0.00
+instance04875.smt2; TO: 
+instance04893.smt2; TO: 
+instance04895.smt2; TO: 
+instance04902.smt2; TO: 
+instance04914.smt2; TO: 
+instance04924.smt2; sat, 0: 0, 0, 0.00
+instance04925.smt2; sat, 0: 0, 0, 0.00
+instance04926.smt2; sat, 0: 0, 0, 0.00
+instance04933.smt2; sat, 0: 0, 0, 0.00
+instance04936.smt2; sat, 0: 0, 0, 0.00
+instance04944.smt2; TO: 
+instance04967.smt2; TO: 
+instance04971.smt2; TO: 
+instance04973.smt2; TO: 
+instance04975.smt2; TO: 
+instance04977.smt2; sat, 0: 0, 0, 0.00
+instance04985.smt2; TO: 
+instance04989.smt2; sat, 0: 0, 0, 0.00
+instance04991.smt2; sat, 0: 0, 0, 0.00
+instance05004.smt2; TO: 
+instance05008.smt2; TO: 
+instance05022.smt2; TO: 
+instance05047.smt2; sat, 0: 0, 0, 0.00
+instance05050.smt2; TO: 
+instance05066.smt2; sat, 0: 0, 0, 0.00
+instance05073.smt2; sat, 0: 0, 0, 0.00
+instance05079.smt2; sat, 0: 0, 0, 0.00
+instance05081.smt2; TO: 
+instance05117.smt2; sat, 0: 0, 0, 0.00
+instance05123.smt2; sat, 0: 0, 0, 0.00
+instance05124.smt2; TO: 
+instance05131.smt2; sat, 0: 0, 0, 0.00
+instance05148.smt2; TO: 
+instance05152.smt2; sat, 0: 0, 0, 0.00
+instance05161.smt2; sat, 0: 0, 0, 0.00
+instance05163.smt2; sat, 0: 0, 0, 0.00
+instance05169.smt2; TO: 
+instance05177.smt2; sat, 0: 0, 0, 0.00
+instance05179.smt2; sat, 0: 0, 0, 0.00
+instance05194.smt2; sat, 0: 0, 0, 0.00
+instance05206.smt2; TO: 
+instance05210.smt2; TO: 
+instance05211.smt2; sat, 0: 6, 6, 6.00
+instance05228.smt2; TO: 
+instance05229.smt2; TO: 
+instance05230.smt2; sat, 0: 0, 0, 0.00
+instance05236.smt2; TO: 
+instance05253.smt2; TO: 
+instance05259.smt2; TO: 
+instance05266.smt2; TO: 
+instance05273.smt2; TO: 
+instance05275.smt2; sat, 0: 0, 0, 0.00
+instance05280.smt2; TO: 
+instance05291.smt2; TO: 
+instance05304.smt2; sat, 0: 0, 0, 0.00
+instance05305.smt2; sat, 0: 0, 0, 0.00
+instance05311.smt2; TO: 
+instance05312.smt2; TO: 
+instance05316.smt2; sat, 0: 0, 0, 0.00
+instance05318.smt2; TO: 
+instance05339.smt2; TO: 
+instance05345.smt2; sat, 0: 0, 0, 0.00
+instance05348.smt2; sat, 0: 0, 0, 0.00
+instance05365.smt2; sat, 0: 0, 0, 0.00
+instance05378.smt2; TO: 
+instance05380.smt2; sat, 0: 0, 0, 0.00
+instance05388.smt2; sat, 0: 0, 0, 0.00
+instance05396.smt2; TO: 
+instance05411.smt2; sat, 0: 0, 0, 0.00
+instance05412.smt2; TO: 
+instance05424.smt2; TO: 
+instance05426.smt2; sat, 0: 0, 0, 0.00
+instance05428.smt2; sat, 0: 0, 0, 0.00
+instance05447.smt2; TO: 
+instance05448.smt2; TO: 
+instance05449.smt2; TO: 
+instance05450.smt2; TO: 
+instance05454.smt2; TO: 
+instance05462.smt2; TO: 
+instance05465.smt2; sat, 0: 0, 0, 0.00
+instance05470.smt2; TO: 
+instance05472.smt2; TO: 
+instance05474.smt2; sat, 0: 0, 0, 0.00
+instance05476.smt2; TO: 
+instance05477.smt2; sat, 0: 0, 0, 0.00
+instance05481.smt2; sat, 0: 0, 0, 0.00
+instance05486.smt2; sat, 0: 0, 0, 0.00
+instance05487.smt2; sat, 0: 0, 0, 0.00
+instance05493.smt2; TO: 
+instance05494.smt2; TO: 
+instance05507.smt2; sat, 0: 0, 0, 0.00
+instance05512.smt2; sat, 0: 0, 0, 0.00
+instance05515.smt2; sat, 0: 0, 0, 0.00
+instance05522.smt2; TO: 
+instance05547.smt2; sat, 0: 9, 9, 9.00
+instance05567.smt2; sat, 0: 0, 0, 0.00
+instance05572.smt2; TO: 
+instance05592.smt2; sat, 0: 0, 0, 0.00
+instance05600.smt2; TO: 
+instance05615.smt2; TO: 
+instance05619.smt2; TO: 
+instance05632.smt2; sat, 0: 0, 0, 0.00
+instance05635.smt2; TO: 
+instance05641.smt2; sat, 0: 0, 0, 0.00
+instance05655.smt2; TO: 
+instance05672.smt2; TO: 
+instance05673.smt2; sat, 0: 0, 0, 0.00
+instance05675.smt2; TO: 
+instance05680.smt2; sat, 0: 0, 0, 0.00
+instance05684.smt2; sat, 0: 0, 0, 0.00
+instance05698.smt2; sat, 0: 0, 0, 0.00
+instance05710.smt2; sat, 0: 0, 0, 0.00
+instance05728.smt2; sat, 0: 0, 0, 0.00
+instance05742.smt2; TO: 
+instance05746.smt2; sat, 0: 0, 0, 0.00
+instance05753.smt2; sat, 0: 0, 0, 0.00
+instance05764.smt2; sat, 0: 0, 0, 0.00
+instance05776.smt2; sat, 0: 0, 0, 0.00
+instance05785.smt2; sat, 0: 0, 0, 0.00
+instance05787.smt2; sat, 0: 0, 0, 0.00
+instance05799.smt2; TO: 
+instance05806.smt2; TO: 
+instance05812.smt2; TO: 
+instance05820.smt2; TO: 
+instance05823.smt2; sat, 0: 0, 0, 0.00
+instance05826.smt2; sat, 0: 0, 0, 0.00
+instance05844.smt2; TO: 
+instance05845.smt2; sat, 0: 0, 0, 0.00
+instance05848.smt2; sat, 0: 0, 0, 0.00
+instance05850.smt2; TO: 
+instance05851.smt2; sat, 0: 0, 0, 0.00
+instance05856.smt2; TO: 
+instance05867.smt2; TO: 
+instance05871.smt2; sat, 0: 0, 0, 0.00
+instance05888.smt2; sat, 0: 0, 0, 0.00
+instance05896.smt2; TO: 
+instance05902.smt2; sat, 0: 0, 0, 0.00
+instance05937.smt2; sat, 0: 0, 0, 0.00
+instance05941.smt2; sat, 0: 0, 0, 0.00
+instance05978.smt2; sat, 0: 5, 5, 5.00
+instance05980.smt2; sat, 0: 12, 12, 12.00
+instance05982.smt2; TO: 
+instance05984.smt2; TO: 
+instance05989.smt2; sat, 0: 0, 0, 0.00
+instance05991.smt2; sat, 0: 0, 0, 0.00
+instance06349.smt2; TO: 
+instance06506.smt2; TO: 
+instance06609.smt2; TO: 
+instance06641.smt2; TO: 
+instance07107.smt2; TO: 
+instance07209.smt2; sat, 0: 0, 0, 0.00
+instance07321.smt2; TO: 
+instance07331.smt2; TO: 
+instance07492.smt2; TO: 
+instance07675.smt2; TO: 
+instance07975.smt2; sat, 0: 0, 0, 0.00
+instance08020.smt2; TO: 
+instance08272.smt2; TO: 
+instance08348.smt2; sat, 0: 0, 0, 0.00
+instance08980.smt2; sat, 0: 0, 0, 0.00
+instance08996.smt2; TO: 
+instance09054.smt2; TO: 
+instance09282.smt2; TO: 
+instance09330.smt2; TO: 
+instance09734.smt2; TO: 
+instance10004.smt2; sat, 0: 14, 14, 14.00
+instance10147.smt2; sat, 0: 0, 0, 0.00
+instance10397.smt2; sat, 0: 0, 0, 0.00
+instance10465.smt2; TO: 
+instance10512.smt2; TO: 
+instance11018.smt2; TO: 
+instance11156.smt2; TO: 
+instance11211.smt2; TO: 
+instance11215.smt2; TO: 
+instance11372.smt2; sat, 0: 0, 0, 0.00
+instance11440.smt2; TO: 
+instance11703.smt2; TO: 
+instance11709.smt2; TO: 
+instance11769.smt2; TO: 
+instance11788.smt2; TO: 
+instance12046.smt2; TO: 
+instance12162.smt2; TO: 
+instance12416.smt2; TO: 
+instance12474.smt2; sat, 0: 0, 0, 0.00
+instance12823.smt2; TO: 
+instance12961.smt2; sat, 0: 0, 0, 0.00
+instance13052.smt2; TO: 
+instance13060.smt2; sat, 0: 0, 0, 0.00
+instance13068.smt2; sat, 0: 0, 0, 0.00
+instance13358.smt2; TO: 
+instance13532.smt2; TO: 
+instance13726.smt2; TO: 
+instance14028.smt2; TO: 
+instance14503.smt2; TO: 
+instance14633.smt2; TO: 
+instance14862.smt2; TO: 
+instance15368.smt2; TO: 
+instance15577.smt2; TO: 
+instance15594.smt2; TO: 
+instance15649.smt2; TO: 

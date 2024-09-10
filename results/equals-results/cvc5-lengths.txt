@@ -1,0 +1,16 @@
+equalsSymbolic_00.smt2: 1, 0, 0.50
+equalsSymbolic_01.smt2: 0, 0, 0.00
+equalsSymbolic_02.smt2: 
+equalsSymbolic_03.smt2: 2, 2, 2.00
+equalsSymbolic_04.smt2: 2, 2, 2.00
+equalsSymbolic_05.smt2: 0, 0, 0.00
+equalsSymbolic_06.smt2: 0, 0, 0.00
+equalsSymbolic_07.smt2: 1, 1, 1.00
+equalsSymbolic_08.smt2: 
+equalsSymbolic_09.smt2: 
+equalsSymbolic_10.smt2: 1, 1, 1.00
+equalsSymbolic_11.smt2: 
+equalsSymbolic_12.smt2: 
+equalsSymbolic_13.smt2: 1, 0, 0.67
+equalsSymbolic_14.smt2: 1, 1, 1.00
+equalsSymbolic_15.smt2: 

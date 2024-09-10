@@ -1,0 +1,77 @@
+beasties01.smt2: 1, 1, 1.00
+beasties02.smt2: 1, 1, 1.00
+beasties03.smt2: 1, 1, 1.00
+beasties04.smt2: 1, 1, 1.00
+beasties05.smt2: 1, 1, 1.00
+beasties06.smt2: 1, 1, 1.00
+beasties07.smt2: 1, 1, 1.00
+beasties08.smt2: 1, 1, 1.00
+beasties09.smt2: 1, 1, 1.00
+beasties10.smt2: 1, 1, 1.00
+beasties11.smt2: 1, 1, 1.00
+beasties12.smt2: 1, 1, 1.00
+beasties13.smt2: 1, 0, 0.67
+beasties14.smt2: 1, 0, 0.80
+beasties15.smt2: 1, 0, 0.99
+beasties16.smt2: 1, 0, 0.97
+beasties17.smt2: 1, 0, 0.97
+beasties18.smt2: 1, 1, 1.00
+beasties19.smt2: 1, 0, 0.97
+beasties20.smt2: 1, 1, 1.00
+beasties21.smt2: 1, 0, 0.96
+beasties22.smt2: 1, 0, 0.97
+beasties23.smt2: 1, 0, 0.96
+beasties24.smt2: 1, 0, 0.99
+beasties25.smt2: 1, 0, 0.98
+beasties26.smt2: 1, 0, 0.95
+beasties27.smt2: 1, 0, 0.98
+beasties28.smt2: 1, 0, 0.96
+beasties29.smt2: 1, 0, 0.98
+beasties30.smt2: 1, 0, 0.97
+jxml2sql04.smt2: 11, 4, 9.20
+jxml2sql07.smt2: 11, 4, 9.11
+jxml2sql09.smt2: 11, 4, 9.23
+jxml2sql14.smt2: 11, 4, 8.50
+jxml2sql15.smt2: 11, 4, 9.20
+jxml2sql16.smt2: 11, 4, 9.03
+jxml2sql18.smt2: 11, 4, 9.20
+jxml2sql19.smt2: 11, 4, 9.20
+jxml2sql20.smt2: 11, 4, 9.03
+jxml2sql21.smt2: 11, 4, 9.18
+jxml2sql22.smt2: 11, 4, 8.90
+jxml2sql23.smt2: 11, 4, 9.29
+jxml2sql24.smt2: 11, 4, 8.94
+jxml2sql25.smt2: 11, 4, 9.16
+jxml2sql26.smt2: 11, 4, 9.07
+jxml2sql27.smt2: 11, 4, 9.23
+jxml2sql28.smt2: 11, 4, 9.15
+jxml2sql29.smt2: 11, 4, 9.39
+jxml2sql30.smt2: 11, 4, 9.11
+jxml2sql31.smt2: 11, 4, 9.11
+jxml2sql32.smt2: 11, 4, 9.11
+jxml2sql33.smt2: 11, 4, 9.11
+jxml2sql34.smt2: 11, 4, 9.11
+mathQuizGame01.smt2: 
+mathQuizGame02.smt2: 11, 8, 10.50
+mathQuizGame03.smt2: 11, 5, 8.00
+mathQuizGame04.smt2: 11, 6, 9.33
+mathQuizGame09.smt2: 13, 5, 9.00
+mathQuizGame10.smt2: 13, 13, 13.00
+mathQuizGame12.smt2: 
+mathQuizGame13.smt2: 10, 0, 3.50
+mathQuizGame14.smt2: 
+mathQuizGame15.smt2: 10, 0, 2.63
+mathQuizGame16.smt2: 
+mathQuizGame17.smt2: 10, 0, 4.00
+mathQuizGame19.smt2: 
+mathQuizGame20.smt2: 
+mathQuizGame21.smt2: 
+mathQuizGame22.smt2: 13, 5, 11.86
+mathQuizGame23.smt2: 
+mathQuizGame24.smt2: 13, 5, 11.86
+mathQuizGame26.smt2: 
+mathQuizGame27.smt2: 
+mathQuizGame28.smt2: 
+mathQuizGame29.smt2: 11, 5, 10.14
+mathQuizGame30.smt2: 
+mathQuizGame31.smt2: 11, 5, 10.25
