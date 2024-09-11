@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 for dir in results/*; do
     for file in "$dir"/*-logs.txt; do
