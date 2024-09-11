@@ -55,7 +55,7 @@ public class FindMax {
                 }
 //                    String[] vals = line.split("\""); // note this will not work for weird things like slog
 //                    String[] start = vals[0].split(":");
-                String filename = line.split(":")[0];
+                String filename = mas? line.split(";")[0] : line.split(":")[0];
 //                    if (start[1].contains("unsat") || !start[1].contains("sat")) {
 //                        System.out.println(filename + ": unsat");
 //                        continue;
