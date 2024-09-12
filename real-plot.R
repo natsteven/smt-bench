@@ -37,6 +37,9 @@ ggplot(combined_data, aes(x = mas, y = ostrich, shape = factor(subset))) +
   scale_y_log10() +
   scale_shape_manual(values = c(1, 0, 4), guide="none")  # Specify shapes
 
+
+
+
 ggplot(real_ostrich, aes(x=mas, y=ostrich, shape=get_shape(rownames(real_ostrich)))) +
   geom_point() +
   geom_abline(intercept=0, slope=1, color="red", linetype="dashed") +
@@ -94,4 +97,34 @@ mathQuizBox <- ggplot(data.frame(species = c(rep("mas", nrow(mathquiz)), rep("os
 
 ggsave("mathquiz-box.png", plot=beastiesBox, device ="png")
 
+smt <- read.table("smt-results.txt", header=TRUE, sep="")
 
+smt$cs_mas <- cumsum(smt$mas)
+smt$cs_cvc5 <- cumsum(smt$cvc5)
+smt$cs_ostrich <- cumsum(smt$ostrich)
+smt$cs_z3 <- cumsum(smt$z3)
+
+# Create the plot
+ggplot(smt, aes(x = 1:nrow(smt))) +
+  geom_line(aes(y = cs_mas, color = "MAS")) +
+  geom_line(aes(y = cs_cvc5, color = "CVC5")) +
+  geom_line(aes(y = cs_ostrich, color = "Ostrich")) +
+  geom_line(aes(y = cs_z3, color = "Z3")) +
+  labs(x = "Benchmarks Completed", y = "Cumulative Sum (s)", color = "Solver") +
+  ggtitle("Solver SAT times for SMT-COMP")
+
+smt_len <- read.table("smt-lengths.txt", header=TRUE, sep="")
+
+smt_len$cs_mas_l <- cumsum(smt_len$mas)
+smt_len$cs_cvc5_l <- cumsum(smt_len$cvc5)
+smt_len$cs_ostrich_l <- cumsum(smt_len$ostrich)
+smt_len$cs_z3_l <- cumsum(smt_len$z3)
+
+# Create the plot
+ggplot(smt_len, aes(x = 1:nrow(smt_len))) +
+  geom_line(aes(y = cs_mas_l, color = "MAS")) +
+  geom_line(aes(y = cs_cvc5_l, color = "CVC5")) +
+  geom_line(aes(y = cs_ostrich_l, color = "Ostrich")) +
+  geom_line(aes(y = cs_z3_l, color = "Z3")) +
+  labs(x = "Benchmarks Completed", y = "Cumulative Sum (s)", color = "Solver") +
+  ggtitle("Solver SAT Mean lengths for SMT-COMP")
