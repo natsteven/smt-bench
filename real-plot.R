@@ -2,7 +2,42 @@ library(ggplot2)
 
 real_ostrich <- read.delim("real-ostrich-results.txt")
 
-plot_ostrich <- ggplot(real_ostrich, aes(x=mas, y=ostrich)) +
+#get_shape <- function(row_number) {
+#  if (row_number <= 30) {
+#    return(16)  # Circle
+#  } else if (row_number <= 53) {
+#    return(15)  # Square
+#  } else {
+#    return(4)   # X
+#  }
+#}
+
+library(dplyr)
+
+# Split the data
+subset1 <- real_ostrich[1:30, ]
+subset2 <- real_ostrich[31:53, ]
+subset3 <- real_ostrich[54:77, ]
+
+# Combine subsets
+combined_data <- bind_rows(
+  mutate(subset1, subset = 1),
+  mutate(subset2, subset = 2),
+  mutate(subset3, subset = 3)
+)
+
+# Create the plot
+ggplot(combined_data, aes(x = mas, y = ostrich, shape = factor(subset))) +
+  geom_point() +
+  geom_abline(intercept = 0, slope = 1, color = "red", linetype = "dashed") +
+  #ggtitle("Real Java Application Results") +
+  xlab("MAS") +
+  ylab("Ostrich") +
+  scale_x_log10() +
+  scale_y_log10() +
+  scale_shape_manual(values = c(1, 0, 4), guide="none")  # Specify shapes
+
+ggplot(real_ostrich, aes(x=mas, y=ostrich, shape=get_shape(rownames(real_ostrich)))) +
   geom_point() +
   geom_abline(intercept=0, slope=1, color="red", linetype="dashed") +
   #ggtitle("Real Java Application Results") +
@@ -58,4 +93,5 @@ mathQuizBox <- ggplot(data.frame(species = c(rep("mas", nrow(mathquiz)), rep("os
 #facet_wrap(~ species)
 
 ggsave("mathquiz-box.png", plot=beastiesBox, device ="png")
+
 
