@@ -53,7 +53,7 @@ plot_ostrich <- ggplot(combined_data, aes(x = mas, y = ostrich, shape = factor(s
 #   scale_y_log10() +
 #   coord_cartesian(ylim=c(1, 1000))
 show(plot_ostrich)
-ggsave("plots/real-ostrich-plot.png", plot=plot_ostrich, device="png")
+ggsave("plots/real-ostrich-plot.png", plot=plot_ostrich, device="png", width=12, height = 8)
 
 real_z3 <- read.delim("data/real-z3-results.txt")
 
@@ -71,7 +71,7 @@ plot_z3 <- ggplot(combined_data_z3, aes(x = mas, y = z3, shape = factor(subset))
   geom_point() +
   geom_abline(intercept = 0, slope = 1,color="red", linetype = "dashed") +
   xlab("MAS") +
-  ylab("Ostrich") +
+  ylab("Z3") +
   scale_x_log10() +
   scale_y_log10() +
   scale_shape_manual(values = c(16, 15, 4), guide="none")  +
@@ -81,10 +81,39 @@ plot_z3 <- ggplot(combined_data_z3, aes(x = mas, y = z3, shape = factor(subset))
   ) +
   geom_point(size = 5)
 
-ggsave("plots/real-z3-plot.png", plot=plot_z3, device="png")
+ggsave("plots/real-z3-plot.png", plot=plot_z3, device="png", width=12, height = 8)
+
+real_cvc5 <- read.delim("data/real-cvc5-results.txt")
+
+sub1 <- real_cvc5[1:30,]
+sub2 <- real_cvc5[31:53,]
+sub3 <- real_cvc5[54:77,]
+
+combined_data_cvc5 <- bind_rows(
+	mutate(sub1, subset = 1),
+	mutate(sub2, subset = 2),
+	mutate(sub3, subset = 3)
+)
+
+plot_cvc5 <- ggplot(combined_data_cvc5, aes(x = mas, y = cvc5, shape = factor(subset))) +
+	geom_point() +
+	geom_abline(intercept = 0, slope = 1,color="red", linetype = "dashed") +
+	xlab("MAS") +
+	ylab("CVC5") +
+	scale_x_log10() +
+	scale_y_log10() +
+	scale_shape_manual(values = c(16, 15, 4), guide="none")  +
+	theme(
+		axis.title = element_text(size = 16),
+		axis.text = element_text(size = 14)
+	) +
+	geom_point(size = 5)
+
+ggsave("plots/real-cvc5-plot.png", plot=plot_cvc5, device="png", width=12, height = 8)
 
 show(plot_z3)
 show(plot_ostrich)
+show(plot_cvc5)
 
 # beasties <- real_ostrich[1:30,]
 # jxml2sql <- real_ostrich[31:53,]
@@ -143,7 +172,7 @@ real_length_plot <- ggplot(comb_lengths, aes(x = mas, y = ostrich, shape = facto
   ) +
   geom_point(size = 5)
 
-ggsave("plots/real-length-plot.png", plot=real_length_plot, device="png")
+ggsave("plots/real-length-plot.png", plot=real_length_plot, device="png", width=12, height = 8)
 
 real_lengths_z3 <- read.table("data/real-lengths-z3.txt", sep="", fill=TRUE, header=TRUE)
 
@@ -169,7 +198,7 @@ real_length_plot_z3 <- ggplot(comb_lengths_z3, aes(x = mas, y = z3, shape = fact
   ) +
   geom_point(size = 5)
 
-ggsave("plots/real-length-plot-z3.png", plot=real_length_plot_z3, device="png")
+ggsave("plots/real-length-plot-z3.png", plot=real_length_plot_z3, device="png", width=12, height = 8)
 
 smt <- read.table("data/smt-results.txt", header=TRUE, sep="")
 
@@ -193,6 +222,23 @@ smt_plot <- ggplot(smt, aes(x = 1:nrow(smt))) +
   )
 
 ggsave("plots/smt-plot.png", plot=smt_plot, device="png", width=12, height = 8)
+
+
+png("plots/smt-plot-2.png", width=12, height=8, units="in", res=300)
+x <- 1:nrow(smt)
+smt_plot_2 <- plot(x, smt$cs_mas, type="l", col="red", lty=1, xlim=c(0,530), xlab="Benchmarks Completed", ylab="Time (s)", main="SMT Solver Performance")
+lines(x, smt$cs_cvc5, col="blue", lty=2)
+lines(x, smt$cs_ostrich, col="green", lty=3)
+lines(x, smt$cs_z3, col="purple", lty=4)
+
+text(x[length(x)], smt$cs_mas[length(smt$cs_mas)], "MAS", pos=2, col="red")
+text(x[length(x)], smt$cs_cvc5[length(smt$cs_cvc5)], "CVC5", pos=2, col="blue")
+text(x[length(x)], smt$cs_ostrich[length(smt$cs_ostrich)], "Ostrich", pos=1, col="green")
+text(x[length(x)], smt$cs_z3[length(smt$cs_z3)], "Z3", pos=3, col="purple")
+
+legend("topleft", legend=c("MAS", "CVC5", "Ostrich", "Z3"), col=c("red", "blue", "green", "purple"), lty=1:4)
+dev.off()
+
 
 smt_len <- read.table("data/smt-lengths.txt", header=TRUE, sep="")
 

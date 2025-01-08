@@ -18,7 +18,7 @@ filenames="util/$benches$subdir-filenames.txt"
 module load apptainer/1.2.5
 
 declare -A extensions=( ["mas"]="smt2.json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
-solvers=( "z3" )
+solvers=( "z3" "ostrich" "cvc5" "mas" )
 #benches=( "woorpje" "slog" "sygus" )
 #files=()
 #for bench in "${benches[@]}"; do
