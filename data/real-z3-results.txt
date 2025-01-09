@@ -1,78 +1,78 @@
 filenames	mas	z3
-beasties01	1.437	2.744
-beasties02	1.686	1.308
-beasties03	2.504	3.372
-beasties04	3.108	8.245
-beasties05	2.336	3.707
-beasties06	1.642	1.014
-beasties07	1.713	2.727
-beasties08	1.325	0.498
-beasties09	2.459	6.56
-beasties10	1.28	0.424
-beasties11	1.319	0.459
-beasties12	1.246	0.817
-beasties13	1.152	0.299
-beasties14	1.247	0.543
-beasties15	2.069	18.28
-beasties16	1.484	4.418
-beasties17	1.469	4.217
-beasties18	1.59	9.759
-beasties19	1.489	5.022
-beasties20	1.619	4.67
-beasties21	1.442	2.86
-beasties22	1.51	5.144
-beasties23	1.401	2.932
-beasties24	1.825	13.463
-beasties25	1.633	7.298
-beasties26	1.404	2.402
-beasties27	1.649	7.379
-beasties28	1.461	2.668
-beasties29	1.609	5.497
-beasties30	1.511	4.623
-jxml2sql04	3.442
-jxml2sql07	3.363
-jxml2sql09	3.28
-jxml2sql14	1.462	1077.445
-jxml2sql15	3.374
-jxml2sql16	3.311
-jxml2sql18	3.342
-jxml2sql19	3.291
-jxml2sql20	3.247
-jxml2sql21	3.298
-jxml2sql22	1.888
-jxml2sql23	3.125
-jxml2sql24	3.332
-jxml2sql25	3.119
-jxml2sql26	3.585
-jxml2sql27	3.328
-jxml2sql28	3.46
-jxml2sql29	3.657
-jxml2sql30	3.303
-jxml2sql31	3.24
-jxml2sql32	3.421
-jxml2sql33	3.37
-jxml2sql34	3.291
-mathQuizGame01	3.433	1122.516
-mathQuizGame02	2.937
-mathQuizGame03	1.217	25.147
-mathQuizGame04	2	87.586
-mathQuizGame09	1.262	42.421
-mathQuizGame10	1.344	296.85
-mathQuizGame12	2.17
-mathQuizGame13	4.233	425.275
-mathQuizGame14	2.112
-mathQuizGame15	4.332	789.014
-mathQuizGame16	2.062
-mathQuizGame17	3.357	245.915
-mathQuizGame19	2.422
-mathQuizGame20	7.364
-mathQuizGame21	2.498
-mathQuizGame22	4.729
-mathQuizGame23	2.457
-mathQuizGame24	4.381
-mathQuizGame26	2.622	1142.194
-mathQuizGame27	6.015
-mathQuizGame28	2.441
-mathQuizGame29	4.065	285.38
-mathQuizGame30	2.338
-mathQuizGame31	4.265	558.416
+beasties01	0.871	2.759
+beasties02	1.005	1.359
+beasties03	0.969	3.384
+beasties04	1.189	8.345
+beasties05	0.997	3.702
+beasties06	0.903	1.052
+beasties07	0.923	2.781
+beasties08	0.854	0.525
+beasties09	1.126	6.696
+beasties10	0.846	0.446
+beasties11	0.826	0.487
+beasties12	0.828	0.852
+beasties13	0.831	0.33
+beasties14	0.822	0.578
+beasties15	1.16	18.45
+beasties16	0.923	4.461
+beasties17	0.887	4.291
+beasties18	0.966	9.673
+beasties19	0.904	5.115
+beasties20	0.922	4.807
+beasties21	0.928	2.895
+beasties22	0.925	5.206
+beasties23	0.911	2.979
+beasties24	1.156	13.481
+beasties25	0.95	7.51
+beasties26	0.913	2.428
+beasties27	0.925	7.419
+beasties28	0.891	2.696
+beasties29	0.935	5.522
+beasties30	0.912	4.674
+jxml2sql04	1.146
+jxml2sql07	1.185
+jxml2sql09	1.13
+jxml2sql14	0.85	1081.092
+jxml2sql15	1.142
+jxml2sql16	1.092
+jxml2sql18	1.401
+jxml2sql19	1.063
+jxml2sql20	1.088
+jxml2sql21	1.18
+jxml2sql22	0.893
+jxml2sql23	1.166
+jxml2sql24	1.098
+jxml2sql25	1.053
+jxml2sql26	1.142
+jxml2sql27	1.152
+jxml2sql28	1.116
+jxml2sql29	1.198
+jxml2sql30	1.109
+jxml2sql31	1.101
+jxml2sql32	1.045
+jxml2sql33	1.119
+jxml2sql34	1.064
+mathQuizGame01	1.157	1123.27
+mathQuizGame02	1.056
+mathQuizGame03	0.824	25.905
+mathQuizGame04	1.015	87.525
+mathQuizGame09	0.832	42.55
+mathQuizGame10	0.832	300.47
+mathQuizGame12	0.968
+mathQuizGame13	1.219	426.128
+mathQuizGame14	0.962
+mathQuizGame15	1.222	789.988
+mathQuizGame16	0.943
+mathQuizGame17	1.21	249.131
+mathQuizGame19	0.98
+mathQuizGame20	1.663
+mathQuizGame21	1.012
+mathQuizGame22	1.412
+mathQuizGame23	0.975
+mathQuizGame24	1.279
+mathQuizGame26	1.009	1123.337
+mathQuizGame27	1.431
+mathQuizGame28	0.99
+mathQuizGame29	1.281	292.012
+mathQuizGame30	0.952
+mathQuizGame31	1.274	572.975

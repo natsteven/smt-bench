@@ -31,8 +31,8 @@ combined_data <- bind_rows(
 plot_ostrich <- ggplot(combined_data, aes(x = mas, y = ostrich, shape = factor(subset))) +
   geom_point() +
   geom_abline(intercept = 0, slope = 1,color="red", linetype = "dashed") +
-  xlab("MAS") +
-  ylab("Ostrich") +
+  xlab("MAS Solve Time (s)") +
+  ylab("Ostrich Solve Time (s)") +
   scale_x_log10() +
   scale_y_log10() +
   scale_shape_manual(values = c(16, 15, 4), guide="none")  +
@@ -43,6 +43,24 @@ plot_ostrich <- ggplot(combined_data, aes(x = mas, y = ostrich, shape = factor(s
   ) +
   geom_point(size = 5)
 
+# Combine subsets
+#combined_data <- rbind(
+#	cbind(subset1, subset = 1),
+#	cbind(subset2, subset = 2),
+#	cbind(subset3, subset = 3)
+#)
+#
+#png("plots/real-ostrich-plot.png", width=12, height=8, units="in", res=300)
+## Create the plot
+#plot(combined_data$mas, combined_data$ostrich, log = "xy", pch = 16, xlab = "MAS", ylab = "Ostrich", ylim = c(1, 1000))
+#
+## Add points with different shapes
+#points(combined_data$mas[combined_data$subset == 2], combined_data$ostrich[combined_data$subset == 2], pch = 15)
+#points(combined_data$mas[combined_data$subset == 3], combined_data$ostrich[combined_data$subset == 3], pch = 4)
+#
+## Add a red dashed line with slope 1
+#abline(a = 0, b = 1, col = "red", lty = 2)
+#dev.off()
 # ggplot(real_ostrich, aes(x=mas, y=ostrich, shape=get_shape(rownames(real_ostrich)))) +
 #   geom_point() +
 #   geom_abline(intercept=0, slope=1, color="red", linetype="dashed") +
@@ -70,15 +88,16 @@ combined_data_z3 <- bind_rows(
 plot_z3 <- ggplot(combined_data_z3, aes(x = mas, y = z3, shape = factor(subset))) +
   geom_point() +
   geom_abline(intercept = 0, slope = 1,color="red", linetype = "dashed") +
-  xlab("MAS") +
-  ylab("Z3") +
+  xlab("MAS Solve Time (s)") +
+  ylab("Z3 Solve Time (s)") +
   scale_x_log10() +
   scale_y_log10() +
-  scale_shape_manual(values = c(16, 15, 4), guide="none")  +
+  scale_shape_manual(values = c(16, 15, 4), label = c("beasties", "jxml2sql", "mathQuizGame"))  +
   theme(
 	axis.title = element_text(size = 16),
 	axis.text = element_text(size = 14)
   ) +
+	labs(shape = "Subset") +
   geom_point(size = 5)
 
 ggsave("plots/real-z3-plot.png", plot=plot_z3, device="png", width=12, height = 8)
@@ -98,8 +117,8 @@ combined_data_cvc5 <- bind_rows(
 plot_cvc5 <- ggplot(combined_data_cvc5, aes(x = mas, y = cvc5, shape = factor(subset))) +
 	geom_point() +
 	geom_abline(intercept = 0, slope = 1,color="red", linetype = "dashed") +
-	xlab("MAS") +
-	ylab("CVC5") +
+	xlab("MAS Solve Time (s)") +
+	ylab("CVC5 Solve Time (s)") +
 	scale_x_log10() +
 	scale_y_log10() +
 	scale_shape_manual(values = c(16, 15, 4), guide="none")  +
@@ -148,19 +167,19 @@ show(plot_cvc5)
 #
 # ggsave("plots/mathquiz-box.png", plot=mathQuizBox, device ="png")
 
-real_lengths <- read.table("data/real-lengths.txt", sep="", fill=TRUE, header=TRUE)
+real_lengths_ostrich <- read.table("data/real-lengths.txt", sep="", fill=TRUE, header=TRUE)
 
-s1 <- real_lengths[1:30,]
-s2 <- real_lengths[31:53,]
-s3 <- real_lengths[54:77,]
+s1 <- real_lengths_ostrich[1:30,]
+s2 <- real_lengths_ostrich[31:53,]
+s3 <- real_lengths_ostrich[54:77,]
 
-comb_lengths <- bind_rows(
+comb_lengths_ostrich <- bind_rows(
   mutate(s1, subset = 1),
   mutate(s2, subset = 2),
   mutate(s3, subset = 3)
 )
 
-real_length_plot <- ggplot(comb_lengths, aes(x = mas, y = ostrich, shape = factor(subset))) +
+real_length_plot_ostrich <- ggplot(comb_lengths_ostrich, aes(x = mas, y = ostrich, shape = factor(subset))) +
   geom_point() +
   geom_abline(intercept = 0, slope = 1,color="red", linetype = "dashed") +
   xlab("MAS") +
@@ -172,7 +191,7 @@ real_length_plot <- ggplot(comb_lengths, aes(x = mas, y = ostrich, shape = facto
   ) +
   geom_point(size = 5)
 
-ggsave("plots/real-length-plot.png", plot=real_length_plot, device="png", width=12, height = 8)
+ggsave("plots/real-length-plot-ostrich.png", plot=real_length_plot, device="png", width=12, height = 8)
 
 real_lengths_z3 <- read.table("data/real-lengths-z3.txt", sep="", fill=TRUE, header=TRUE)
 
@@ -200,33 +219,59 @@ real_length_plot_z3 <- ggplot(comb_lengths_z3, aes(x = mas, y = z3, shape = fact
 
 ggsave("plots/real-length-plot-z3.png", plot=real_length_plot_z3, device="png", width=12, height = 8)
 
+real_lengths_cvc5 <- read.table("data/real-lengths-cvc5.txt", sep="", fill=TRUE, header=TRUE)
+
+s1_cvc5 <- real_lengths_cvc5[1:30,]
+s2_cvc5 <- real_lengths_cvc5[31:53,]
+s3_cvc5 <- real_lengths_cvc5[54:77,]
+
+comb_lengths_cvc5 <- bind_rows(
+	mutate(s1_cvc5, subset = 1),
+	mutate(s2_cvc5, subset = 2),
+	mutate(s3_cvc5, subset = 3)
+)
+
+real_length_plot_cvc5 <- ggplot(comb_lengths_cvc5, aes(x = mas, y = cvc5, shape = factor(subset))) +
+	geom_point() +
+	geom_abline(intercept = 0, slope = 1,color="red", linetype = "dashed") +
+	xlab("MAS") +
+	ylab("Ostrich") +
+	scale_shape_manual(values = c(16, 15, 4), guide="none")  +
+	theme(
+		axis.title = element_text(size = 16),
+		axis.text = element_text(size = 14)
+	) +
+	geom_point(size = 5)
+
+ggsave("plots/real-length-plot-cvc5.png", plot=real_length_plot_cvc5, device="png", width=12, height = 8)
+
 smt <- read.table("data/smt-results.txt", header=TRUE, sep="")
 
 smt$cs_mas <- cumsum(smt$mas)
 smt$cs_cvc5 <- cumsum(smt$cvc5)
 smt$cs_ostrich <- cumsum(smt$ostrich)
 smt$cs_z3 <- cumsum(smt$z3)
+#
+## Create the plot
+#smt_plot <- ggplot(smt, aes(x = 1:nrow(smt))) +
+#  geom_line(aes(y = cs_mas, color = "MAS")) +
+#  geom_line(aes(y = cs_cvc5, color = "CVC5")) +
+#  geom_line(aes(y = cs_ostrich, color = "Ostrich")) +
+#  geom_line(aes(y = cs_z3, color = "Z3")) +
+#  labs(x = "Benchmarks Completed", y = "Time (s)", color = "Solver") +
+#  theme(
+#	axis.title = element_text(size = 16),
+#	axis.text = element_text(size = 14),
+#	legend.title = element_text(size = 16),
+#	legend.text = element_text(size = 14)
+#  )
+#
+#ggsave("plots/smt-plot.png", plot=smt_plot, device="png", width=12, height = 8)
 
-# Create the plot
-smt_plot <- ggplot(smt, aes(x = 1:nrow(smt))) +
-  geom_line(aes(y = cs_mas, color = "MAS")) +
-  geom_line(aes(y = cs_cvc5, color = "CVC5")) +
-  geom_line(aes(y = cs_ostrich, color = "Ostrich")) +
-  geom_line(aes(y = cs_z3, color = "Z3")) +
-  labs(x = "Benchmarks Completed", y = "Time (s)", color = "Solver") +
-  theme(
-	axis.title = element_text(size = 16),
-	axis.text = element_text(size = 14),
-	legend.title = element_text(size = 16),
-	legend.text = element_text(size = 14)
-  )
 
-ggsave("plots/smt-plot.png", plot=smt_plot, device="png", width=12, height = 8)
-
-
-png("plots/smt-plot-2.png", width=12, height=8, units="in", res=300)
+png("plots/smt-plot.png", width=12, height=8, units="in", res=300)
 x <- 1:nrow(smt)
-smt_plot_2 <- plot(x, smt$cs_mas, type="l", col="red", lty=1, xlim=c(0,530), xlab="Benchmarks Completed", ylab="Time (s)", main="SMT Solver Performance")
+plot(x, smt$cs_mas, type="l", col="red", lty=1, xlim=c(0,530), xlab="Benchmarks Completed", ylab="Time (s)", main="SMT Solver Performance")
 lines(x, smt$cs_cvc5, col="blue", lty=2)
 lines(x, smt$cs_ostrich, col="green", lty=3)
 lines(x, smt$cs_z3, col="purple", lty=4)
@@ -248,17 +293,32 @@ smt_len$cs_ostrich_l <- cumsum(smt_len$ostrich)
 smt_len$cs_z3_l <- cumsum(smt_len$z3)
 
 # Create the plot
-smt_len_plot <- ggplot(smt_len, aes(x = 1:nrow(smt_len))) +
-  geom_line(aes(y = cs_mas_l, color = "MAS")) +
-  geom_line(aes(y = cs_cvc5_l, color = "CVC5")) +
-  geom_line(aes(y = cs_ostrich_l, color = "Ostrich")) +
-  geom_line(aes(y = cs_z3_l, color = "Z3")) +
-  labs(x = "Benchmarks Completed", y = "Cumulative Mean Input Length", color = "Solver") +
-  theme(
-	axis.title = element_text(size = 16),
-	axis.text = element_text(size = 14),
-	legend.title = element_text(size = 16),
-	legend.text = element_text(size = 14)
-  )
-show(smt_len_plot)
-ggsave("plots/smt-len-plot.png", plot=smt_len_plot, device="png", width=12, height = 8)
+#smt_len_plot <- ggplot(smt_len, aes(x = 1:nrow(smt_len))) +
+#  geom_line(aes(y = cs_mas_l, color = "MAS")) +
+#  geom_line(aes(y = cs_cvc5_l, color = "CVC5")) +
+#  geom_line(aes(y = cs_ostrich_l, color = "Ostrich")) +
+#  geom_line(aes(y = cs_z3_l, color = "Z3")) +
+#  labs(x = "Benchmarks Completed", y = "Cumulative Mean Input Length", color = "Solver") +
+#  theme(
+#	axis.title = element_text(size = 16),
+#	axis.text = element_text(size = 14),
+#	legend.title = element_text(size = 16),
+#	legend.text = element_text(size = 14)
+#  )
+#show(smt_len_plot)
+#ggsave("plots/smt-len-plot.png", plot=smt_len_plot, device="png", width=12, height = 8)
+x=1:nrow(smt_len)
+png("plots/smt-len-plot.png", width=12, height=8, units="in", res=300)
+plot(x, smt_len$cs_mas_l, type="l", col="red", lty=1, xlab="Benchmarks Completed", ylab="Mean Solution Length", main="SMT Solution Quality")
+lines(x, smt_len$cs_cvc5_l, col="blue", lty=2)
+lines(x, smt_len$cs_ostrich_l, col="green", lty=3)
+lines(x, smt_len$cs_z3_l, col="purple", lty=4)
+
+text(x[length(x)], smt_len$cs_mas_l[length(smt_len$cs_mas_l)], "MAS", pos=2, col="red")
+text(x[length(x)], smt_len$cs_cvc5_l[length(smt_len$cs_cvc5_l)], "CVC5", pos=2, col="blue")
+text(x[length(x)], smt_len$cs_ostrich_l[length(smt_len$cs_ostrich_l)], "Ostrich", pos=1, col="green")
+text(x[length(x)], smt_len$cs_z3_l[length(smt_len$cs_z3_l)], "Z3", pos=3, col="purple")
+
+legend("topleft", legend=c("MAS", "CVC5", "Ostrich", "Z3"), col=c("red", "blue", "green", "purple"), lty=1:4)
+dev.off()
+

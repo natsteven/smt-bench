@@ -62,7 +62,7 @@ mathQuizGame13.smt2: 10, 0, 3.50
 mathQuizGame14.smt2: 
 mathQuizGame15.smt2: 10, 0, 2.63
 mathQuizGame16.smt2: 
-mathQuizGame17.smt2: 10, 0, 4.00
+mathQuizGame17.smt2: 10, 0, 3.00
 mathQuizGame19.smt2: 
 mathQuizGame20.smt2: 
 mathQuizGame21.smt2: 
