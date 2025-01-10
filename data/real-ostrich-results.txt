@@ -52,27 +52,27 @@ jxml2sql31	1.101	27.295
 jxml2sql32	1.045	25.659
 jxml2sql33	1.119	25.294
 jxml2sql34	1.064	28.224
-mathQuizGame01	1.157	369.722
+mathQuizGame01	1.157
 mathQuizGame02	1.056	179.535
 mathQuizGame03	0.824	2.032
 mathQuizGame04	1.015	35.497
 mathQuizGame09	0.832	2.031
 mathQuizGame10	0.832	57.506
-mathQuizGame12	0.968	192.325
+mathQuizGame12	0.968
 mathQuizGame13	1.219	1031.652
-mathQuizGame14	0.962	187.122
+mathQuizGame14	0.962
 mathQuizGame15	1.222	795.641
-mathQuizGame16	0.943	188.081
+mathQuizGame16	0.943
 mathQuizGame17	1.21	599.244
-mathQuizGame19	0.98	187.646
+mathQuizGame19	0.98
 mathQuizGame20	1.663	282.275
-mathQuizGame21	1.012	189.616
+mathQuizGame21	1.012
 mathQuizGame22	1.412	437.297
-mathQuizGame23	0.975	189.614
+mathQuizGame23	0.975
 mathQuizGame24	1.279	442.993
-mathQuizGame26	1.009	184.374
+mathQuizGame26	1.009
 mathQuizGame27	1.431
-mathQuizGame28	0.99	192.676
+mathQuizGame28	0.99
 mathQuizGame29	1.281	439.972
-mathQuizGame30	0.952	187.758
+mathQuizGame30	0.952
 mathQuizGame31	1.274	617.311
