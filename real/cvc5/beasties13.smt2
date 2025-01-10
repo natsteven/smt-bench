@@ -1,15 +1,5 @@
 (set-logic ALL)
 (set-option :produce-models true)
-(define-fun-rec str.toLower ((x String)) String
-  (ite (= x "")
-      ""
-      (let ((Head (str.at x 0)))
-        (str.++ 
-          (ite (and (<= 65 (str.to_code Head)) 
-                     (<= (str.to_code Head) 90))
-               (str.from_code (+ (str.to_code Head) 32))
-               Head)
-          (str.toLower (str.substr x 1 (- (str.len x) 1)))))))
 (declare-fun sym209 () String)
 (assert (<= (str.len sym209) 1))
 (declare-fun sym161 () String)
@@ -23,13 +13,13 @@
 
 (assert (= "y" "y" ))
 (assert (not (= "" "y" )))
-(assert (not (= "" (str.toLower (str.substr sym209  0 1)))))
+(assert (not (= "" (str.to_lower (str.substr sym209  0 1)))))
 (assert (not (= "" "y" )))
 (assert (= "" "" ))
 (assert (not (= "" "q" )))
 (assert (= "" sym161 ))
 (assert (not (= "y" "n" )))
-(assert (= (str.toLower (str.substr sym209  0 1))"y" ))
+(assert (= (str.to_lower (str.substr sym209  0 1))"y" ))
 (assert (not (= "" sym209 )))
 (check-sat)
 (get-model)
