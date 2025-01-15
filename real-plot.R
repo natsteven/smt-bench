@@ -39,7 +39,8 @@ plot_ostrich <- ggplot(combined_data, aes(x = mas, y = ostrich, shape = factor(s
   coord_cartesian(ylim=c(1, 1000)) +
   theme(
 	axis.title = element_text(size = 16),
-	axis.text = element_text(size = 14)
+	axis.text = element_text(size = 14),
+	legend.text = element_text(size = 14)
   ) +
 	labs(shape = "Subset") +
   geom_point(size = 5)
@@ -96,7 +97,8 @@ plot_z3 <- ggplot(combined_data_z3, aes(x = mas, y = z3, shape = factor(subset))
   scale_shape_manual(values = c(16, 15, 4), label = c("beasties", "jxml2sql", "mathQuizGame"))  +
   theme(
 	axis.title = element_text(size = 16),
-	axis.text = element_text(size = 14)
+	axis.text = element_text(size = 14),
+	legend.text = element_text(size = 14)
   ) +
 	labs(shape = "Subset") +
   geom_point(size = 5)
@@ -125,7 +127,8 @@ plot_cvc5 <- ggplot(combined_data_cvc5, aes(x = mas, y = cvc5, shape = factor(su
 	scale_shape_manual(values = c(16, 15, 4), label = c("beasties", "jxml2sql", "mathQuizGame"))  +
 	theme(
 		axis.title = element_text(size = 16),
-		axis.text = element_text(size = 14)
+		axis.text = element_text(size = 14),
+		legend.text = element_text(size = 14)
 	) +
 	labs(shape = "Subset") +
 	geom_point(size = 5)
