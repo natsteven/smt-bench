@@ -1,5 +1,6 @@
 (set-logic ALL)
 (set-option :produce-models true)
+(declare-fun sym1453 () String)
 (assert (<= (str.len sym1453) 1))
 (declare-fun sym1244 () String)
 (assert (<= (str.len sym1244) 1))
