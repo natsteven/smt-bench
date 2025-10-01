@@ -1,0 +1,609 @@
+01_track_100.smt2: 13, 1, 7.00
+01_track_101.smt2: 7, 0, 3.75
+01_track_102.smt2: 3, 1, 1.67
+01_track_103.smt2: 26, 0, 8.67
+01_track_104.smt2: 6, 5, 5.50
+01_track_105.smt2: 2, 0, 0.67
+01_track_106.smt2: 39, 1, 20.00
+01_track_107.smt2: 15, 0, 5.00
+01_track_108.smt2: 30, 30, 30.00
+01_track_109.smt2: 36, 1, 19.00
+01_track_10.smt2: 28, 0, 4.83
+01_track_110.smt2: 24, 0, 9.75
+01_track_111.smt2: 42, 1, 17.67
+01_track_112.smt2: 1, 0, 0.50
+01_track_113.smt2: 14, 1, 8.00
+01_track_114.smt2: 15, 0, 5.00
+01_track_115.smt2: 12, 0, 4.50
+01_track_116.smt2: 19, 2, 10.50
+01_track_117.smt2: 21, 0, 10.33
+01_track_118.smt2: 45, 0, 15.00
+01_track_119.smt2: 0, 0, 0.00
+01_track_11.smt2: 26, 15, 20.50
+01_track_120.smt2: 49, 5, 29.67
+01_track_121.smt2: 24, 24, 24.00
+01_track_122.smt2: 28, 0, 7.25
+01_track_123.smt2: 33, 1, 17.00
+01_track_124.smt2: 52, 0, 26.00
+01_track_125.smt2: 49, 7, 28.00
+01_track_126.smt2: 7, 0, 4.33
+01_track_127.smt2: 13, 0, 4.33
+01_track_128.smt2: 0, 0, 0.00
+01_track_129.smt2: 0, 0, 0.00
+01_track_12.smt2: 29, 0, 7.25
+01_track_130.smt2: 4, 4, 4.00
+01_track_131.smt2: 68, 14, 33.67
+01_track_132.smt2: 18, 0, 11.33
+01_track_133.smt2: 128, 57, 88.00
+01_track_134.smt2: 72, 0, 36.00
+01_track_135.smt2: 8, 1, 3.33
+01_track_136.smt2: 6, 0, 3.00
+01_track_137.smt2: 26, 0, 7.00
+01_track_138.smt2: 11, 8, 9.50
+01_track_139.smt2: 21, 7, 14.67
+01_track_13.smt2: 12, 0, 6.00
+01_track_140.smt2: 6, 0, 2.33
+01_track_141.smt2: 15, 0, 6.75
+01_track_142.smt2: 15, 0, 7.50
+01_track_143.smt2: 31, 0, 18.00
+01_track_144.smt2: 13, 0, 4.33
+01_track_145.smt2: 1, 0, 0.75
+01_track_146.smt2: 3, 3, 3.00
+01_track_147.smt2: 18, 0, 7.67
+01_track_148.smt2: 21, 0, 7.33
+01_track_149.smt2: 3, 0, 1.00
+01_track_14.smt2: 4, 0, 2.67
+01_track_150.smt2: 2, 0, 0.75
+01_track_151.smt2: 22, 13, 17.50
+01_track_152.smt2: 60, 60, 60.00
+01_track_153.smt2: 17, 8, 12.50
+01_track_154.smt2: 4, 0, 1.75
+01_track_155.smt2: 10, 0, 5.00
+01_track_156.smt2: 35, 30, 32.50
+01_track_157.smt2: 30, 0, 7.50
+01_track_158.smt2: 2, 2, 2.00
+01_track_159.smt2: 12, 0, 4.33
+01_track_15.smt2: 6, 0, 3.33
+01_track_160.smt2: 14, 14, 14.00
+01_track_161.smt2: 30, 0, 13.33
+01_track_162.smt2: 17, 1, 9.00
+01_track_163.smt2: 8, 0, 2.00
+01_track_164.smt2: 2, 0, 1.00
+01_track_165.smt2: 41, 8, 24.50
+01_track_166.smt2: 57, 0, 20.33
+01_track_167.smt2: 19, 1, 10.00
+01_track_168.smt2: 5, 0, 1.67
+01_track_169.smt2: 2, 1, 1.75
+01_track_16.smt2: 23, 3, 13.00
+01_track_170.smt2: 12, 12, 12.00
+01_track_171.smt2: 28, 0, 14.00
+01_track_172.smt2: 8, 0, 4.00
+01_track_173.smt2: 57, 6, 31.50
+01_track_174.smt2: 25, 1, 12.75
+01_track_175.smt2: 79, 79, 79.00
+01_track_176.smt2: 2, 0, 1.00
+01_track_177.smt2: 27, 1, 12.50
+01_track_178.smt2: 54, 0, 16.00
+01_track_179.smt2: 8, 0, 2.67
+01_track_17.smt2: 31, 2, 12.00
+01_track_180.smt2: 46, 46, 46.00
+01_track_181.smt2: 13, 0, 6.50
+01_track_182.smt2: 2, 0, 1.00
+01_track_183.smt2: 19, 0, 6.33
+01_track_184.smt2: 16, 3, 9.33
+01_track_185.smt2: 19, 19, 19.00
+01_track_186.smt2: 8, 0, 3.00
+01_track_187.smt2: 10, 1, 4.00
+01_track_188.smt2: 44, 0, 11.25
+01_track_189.smt2: 2, 1, 1.33
+01_track_18.smt2: 47, 0, 15.67
+01_track_190.smt2: 5, 0, 1.25
+01_track_191.smt2: 14, 1, 7.50
+01_track_192.smt2: 5, 0, 2.50
+01_track_193.smt2: 0, 0, 0.00
+01_track_194.smt2: 2, 0, 1.00
+01_track_195.smt2: 5, 2, 3.50
+01_track_196.smt2: 16, 0, 8.00
+01_track_197.smt2: 24, 0, 12.00
+01_track_198.smt2: 26, 0, 5.60
+01_track_199.smt2: 12, 0, 3.25
+01_track_19.smt2: 15, 0, 7.50
+01_track_1.smt2: 0, 0, 0.00
+01_track_200.smt2: 0, 0, 0.00
+01_track_20.smt2: 2, 2, 2.00
+01_track_21.smt2: 15, 0, 7.50
+01_track_22.smt2: 4, 0, 1.25
+01_track_23.smt2: 2, 0, 0.60
+01_track_24.smt2: 23, 21, 22.00
+01_track_25.smt2: 40, 1, 20.50
+01_track_26.smt2: 3, 0, 1.25
+01_track_27.smt2: 4, 0, 2.00
+01_track_28.smt2: 32, 0, 11.00
+01_track_29.smt2: 35, 12, 23.50
+01_track_2.smt2: 2, 0, 1.00
+01_track_30.smt2: 2, 0, 1.00
+01_track_31.smt2: 11, 0, 5.50
+01_track_32.smt2: 10, 2, 6.00
+01_track_33.smt2: 19, 0, 8.75
+01_track_34.smt2: 8, 1, 4.50
+01_track_35.smt2: 33, 0, 8.50
+01_track_36.smt2: 16, 0, 7.50
+01_track_37.smt2: 53, 0, 26.50
+01_track_38.smt2: 33, 5, 21.33
+01_track_39.smt2: 14, 0, 6.67
+01_track_3.smt2: 38, 1, 19.50
+01_track_40.smt2: 4, 1, 3.00
+01_track_41.smt2: 16, 0, 8.00
+01_track_42.smt2: 8, 1, 2.75
+01_track_43.smt2: 27, 1, 7.60
+01_track_44.smt2: 0, 0, 0.00
+01_track_45.smt2: 39, 0, 19.50
+01_track_46.smt2: 20, 0, 3.83
+01_track_47.smt2: 11, 0, 4.33
+01_track_48.smt2: 1, 0, 0.50
+01_track_49.smt2: 13, 13, 13.00
+01_track_4.smt2: 1, 0, 0.50
+01_track_50.smt2: 8, 1, 3.20
+01_track_51.smt2: 53, 0, 26.50
+01_track_52.smt2: 21, 21, 21.00
+01_track_53.smt2: 21, 1, 8.33
+01_track_54.smt2: 43, 0, 15.67
+01_track_55.smt2: 58, 2, 30.00
+01_track_56.smt2: 9, 8, 8.50
+01_track_57.smt2: 17, 0, 5.67
+01_track_58.smt2: 37, 20, 28.50
+01_track_59.smt2: 27, 0, 9.33
+01_track_5.smt2: 15, 0, 7.50
+01_track_60.smt2: 13, 1, 7.00
+01_track_61.smt2: 5, 0, 2.50
+01_track_62.smt2: 35, 35, 35.00
+01_track_63.smt2: 65, 12, 38.50
+01_track_64.smt2: 6, 0, 1.80
+01_track_65.smt2: 14, 11, 12.50
+01_track_66.smt2: 3, 1, 2.00
+01_track_67.smt2: 20, 1, 11.00
+01_track_68.smt2: 44, 0, 22.00
+01_track_69.smt2: 32, 3, 17.50
+01_track_6.smt2: 27, 1, 14.00
+01_track_70.smt2: 6, 0, 3.67
+01_track_71.smt2: 7, 0, 2.25
+01_track_72.smt2: 12, 0, 6.00
+01_track_73.smt2: 39, 0, 19.50
+01_track_74.smt2: 63, 24, 43.50
+01_track_75.smt2: 13, 0, 6.50
+01_track_76.smt2: 4, 0, 1.33
+01_track_77.smt2: 62, 3, 32.50
+01_track_78.smt2: 27, 27, 27.00
+01_track_79.smt2: 42, 0, 14.00
+01_track_7.smt2: 55, 37, 46.00
+01_track_80.smt2: 6, 0, 2.00
+01_track_81.smt2: 21, 0, 6.75
+01_track_82.smt2: 23, 1, 9.00
+01_track_83.smt2: 2, 2, 2.00
+01_track_84.smt2: 11, 7, 9.00
+01_track_85.smt2: 8, 0, 4.00
+01_track_86.smt2: 9, 0, 4.50
+01_track_87.smt2: 16, 6, 12.00
+01_track_88.smt2: 10, 1, 5.33
+01_track_89.smt2: 10, 10, 10.00
+01_track_8.smt2: 10, 0, 3.33
+01_track_90.smt2: 60, 0, 30.00
+01_track_91.smt2: 7, 0, 3.50
+01_track_92.smt2: 2, 0, 1.00
+01_track_93.smt2: 3, 0, 1.00
+01_track_94.smt2: 23, 23, 23.00
+01_track_95.smt2: 3, 0, 1.50
+01_track_96.smt2: 31, 4, 17.50
+01_track_97.smt2: 15, 0, 6.00
+01_track_98.smt2: 49, 0, 24.50
+01_track_99.smt2: 21, 0, 10.50
+01_track_9.smt2: 31, 11, 21.00
+02_track_1.smt2: 16, 2, 7.50
+02_track_2.smt2: 
+02_track_3.smt2: 
+02_track_4.smt2: 
+02_track_5.smt2: 8, 2, 4.67
+02_track_6.smt2: 32, 2, 12.40
+02_track_7.smt2: 
+02_track_8.smt2: 4, 2, 3.00
+02_track_9.smt2: 
+03_track_100.smt2: 5, 0, 1.50
+03_track_101.smt2: 2, 0, 1.00
+03_track_102.smt2: 2, 0, 0.40
+03_track_103.smt2: 2, 2, 2.00
+03_track_104.smt2: 1, 0, 0.50
+03_track_105.smt2: 1, 0, 0.50
+03_track_106.smt2: 1, 0, 0.50
+03_track_107.smt2: 2, 0, 1.00
+03_track_108.smt2: 5, 0, 1.75
+03_track_109.smt2: 8, 0, 2.33
+03_track_10.smt2: 
+03_track_110.smt2: 2, 1, 1.33
+03_track_111.smt2: 3, 1, 2.25
+03_track_112.smt2: 2, 0, 0.80
+03_track_113.smt2: 2, 0, 0.50
+03_track_114.smt2: 2, 2, 2.00
+03_track_115.smt2: 2, 0, 0.50
+03_track_116.smt2: 3, 0, 1.57
+03_track_117.smt2: 3, 1, 2.00
+03_track_118.smt2: 2, 0, 1.00
+03_track_119.smt2: 2, 0, 0.38
+03_track_11.smt2: 
+03_track_120.smt2: 2, 1, 1.25
+03_track_121.smt2: 2, 1, 1.20
+03_track_122.smt2: 2, 0, 0.86
+03_track_123.smt2: 2, 0, 0.67
+03_track_124.smt2: 9, 0, 2.75
+03_track_125.smt2: 2, 0, 0.44
+03_track_126.smt2: 1, 0, 0.50
+03_track_127.smt2: 1, 0, 0.50
+03_track_128.smt2: 2, 0, 1.25
+03_track_129.smt2: 
+03_track_12.smt2: 
+03_track_130.smt2: 3, 0, 0.86
+03_track_131.smt2: 2, 0, 1.17
+03_track_132.smt2: 4, 0, 1.60
+03_track_133.smt2: 2, 1, 1.67
+03_track_134.smt2: 8, 0, 1.57
+03_track_135.smt2: 2, 0, 1.17
+03_track_136.smt2: 7, 1, 4.14
+03_track_137.smt2: 2, 0, 0.88
+03_track_138.smt2: 
+03_track_139.smt2: 25, 0, 3.36
+03_track_13.smt2: 
+03_track_140.smt2: 2, 0, 1.10
+03_track_141.smt2: 6, 0, 2.00
+03_track_142.smt2: 13, 0, 1.82
+03_track_143.smt2: 2, 0, 0.90
+03_track_144.smt2: 1, 0, 0.50
+03_track_145.smt2: 6, 1, 3.00
+03_track_146.smt2: 
+03_track_147.smt2: 2, 0, 0.40
+03_track_148.smt2: 2, 0, 1.00
+03_track_149.smt2: 6, 0, 1.14
+03_track_14.smt2: 
+03_track_150.smt2: 3, 0, 1.30
+03_track_151.smt2: 
+03_track_152.smt2: 14, 0, 2.67
+03_track_153.smt2: 3, 0, 1.00
+03_track_154.smt2: 9, 0, 1.22
+03_track_155.smt2: 3, 0, 1.40
+03_track_156.smt2: 35, 0, 3.75
+03_track_157.smt2: 3, 0, 1.00
+03_track_158.smt2: 2, 0, 1.00
+03_track_159.smt2: 2, 0, 1.17
+03_track_15.smt2: 
+03_track_160.smt2: 3, 0, 1.33
+03_track_161.smt2: 2, 0, 1.00
+03_track_162.smt2: 2, 2, 2.00
+03_track_163.smt2: 19, 0, 3.29
+03_track_164.smt2: 2, 0, 0.43
+03_track_165.smt2: 9, 0, 3.63
+03_track_166.smt2: 3, 0, 0.80
+03_track_167.smt2: 2, 0, 0.64
+03_track_168.smt2: 7, 0, 1.22
+03_track_169.smt2: 4, 0, 1.22
+03_track_16.smt2: 
+03_track_170.smt2: 3, 0, 0.90
+03_track_171.smt2: 3, 0, 0.73
+03_track_172.smt2: 7, 0, 2.00
+03_track_173.smt2: 3, 0, 1.50
+03_track_174.smt2: 2, 0, 0.83
+03_track_175.smt2: 2, 0, 1.33
+03_track_176.smt2: 2, 0, 0.40
+03_track_177.smt2: 4, 0, 1.90
+03_track_178.smt2: 2, 0, 1.33
+03_track_179.smt2: 11, 0, 1.70
+03_track_17.smt2: 
+03_track_180.smt2: 2, 0, 1.17
+03_track_181.smt2: 2, 0, 0.33
+03_track_182.smt2: 
+03_track_183.smt2: 4, 1, 1.57
+03_track_184.smt2: 8, 1, 3.20
+03_track_185.smt2: 2, 0, 0.80
+03_track_186.smt2: 11, 0, 1.70
+03_track_187.smt2: 7, 0, 1.50
+03_track_188.smt2: 3, 2, 2.75
+03_track_189.smt2: 3, 0, 2.00
+03_track_18.smt2: 
+03_track_190.smt2: 18, 0, 3.38
+03_track_191.smt2: 5, 0, 1.56
+03_track_192.smt2: 5, 0, 1.22
+03_track_193.smt2: 2, 0, 0.67
+03_track_194.smt2: 6, 0, 1.75
+03_track_195.smt2: 6, 0, 1.73
+03_track_196.smt2: 2, 0, 0.46
+03_track_197.smt2: 2, 2, 2.00
+03_track_198.smt2: 2, 0, 0.80
+03_track_199.smt2: 6, 0, 1.93
+03_track_19.smt2: 
+03_track_1.smt2: 
+03_track_200.smt2: 15, 0, 3.54
+03_track_20.smt2: 
+03_track_21.smt2: 
+03_track_22.smt2: 
+03_track_23.smt2: 
+03_track_24.smt2: 
+03_track_25.smt2: 
+03_track_26.smt2: 
+03_track_27.smt2: 
+03_track_28.smt2: 
+03_track_29.smt2: 
+03_track_2.smt2: 
+03_track_30.smt2: 
+03_track_31.smt2: 
+03_track_32.smt2: 
+03_track_33.smt2: 
+03_track_34.smt2: 
+03_track_35.smt2: 
+03_track_36.smt2: 
+03_track_37.smt2: 
+03_track_38.smt2: 
+03_track_39.smt2: 
+03_track_3.smt2: 
+03_track_40.smt2: 
+03_track_41.smt2: 
+03_track_42.smt2: 
+03_track_43.smt2: 
+03_track_44.smt2: 
+03_track_45.smt2: 
+03_track_46.smt2: 
+03_track_47.smt2: 4, 1, 2.50
+03_track_48.smt2: 12, 0, 4.80
+03_track_49.smt2: 2, 0, 1.00
+03_track_4.smt2: 
+03_track_50.smt2: 
+03_track_51.smt2: 4, 0, 1.83
+03_track_52.smt2: 2, 0, 0.80
+03_track_53.smt2: 4, 0, 1.00
+03_track_54.smt2: 
+03_track_55.smt2: 2, 0, 0.75
+03_track_56.smt2: 3, 0, 1.14
+03_track_57.smt2: 2, 0, 1.00
+03_track_58.smt2: 
+03_track_59.smt2: 5, 1, 2.00
+03_track_5.smt2: 
+03_track_60.smt2: 
+03_track_61.smt2: 
+03_track_62.smt2: 3, 0, 1.60
+03_track_63.smt2: 5, 0, 2.14
+03_track_64.smt2: 2, 0, 1.00
+03_track_65.smt2: 
+03_track_66.smt2: 
+03_track_67.smt2: 7, 0, 3.29
+03_track_68.smt2: 7, 2, 3.40
+03_track_69.smt2: 6, 0, 2.15
+03_track_6.smt2: 
+03_track_70.smt2: 4, 1, 2.71
+03_track_71.smt2: 2, 0, 0.83
+03_track_72.smt2: 2, 0, 1.29
+03_track_73.smt2: 4, 0, 2.00
+03_track_74.smt2: 3, 0, 1.38
+03_track_75.smt2: 
+03_track_76.smt2: 3, 0, 1.15
+03_track_77.smt2: 19, 0, 3.38
+03_track_78.smt2: 
+03_track_79.smt2: 20, 0, 4.38
+03_track_7.smt2: 
+03_track_80.smt2: 0, 0, 0.00
+03_track_81.smt2: 2, 0, 1.50
+03_track_82.smt2: 3, 0, 1.50
+03_track_83.smt2: 3, 0, 1.33
+03_track_84.smt2: 3, 0, 0.57
+03_track_85.smt2: 3, 0, 1.14
+03_track_86.smt2: 2, 0, 0.80
+03_track_87.smt2: 3, 1, 2.00
+03_track_88.smt2: 2, 1, 1.63
+03_track_89.smt2: 2, 0, 1.00
+03_track_8.smt2: 
+03_track_90.smt2: 2, 1, 1.67
+03_track_91.smt2: 1, 0, 0.50
+03_track_92.smt2: 2, 1, 1.33
+03_track_93.smt2: 2, 0, 0.67
+03_track_94.smt2: 1, 0, 0.50
+03_track_95.smt2: 1, 0, 0.50
+03_track_96.smt2: 2, 0, 0.80
+03_track_97.smt2: 2, 1, 1.67
+03_track_98.smt2: 2, 0, 0.50
+03_track_99.smt2: 2, 1, 1.33
+03_track_9.smt2: 
+04_track_100.smt2: 66, 24, 40.40
+04_track_101.smt2: 
+04_track_102.smt2: 
+04_track_103.smt2: 
+04_track_104.smt2: 
+04_track_105.smt2: 
+04_track_106.smt2: 57, 0, 13.40
+04_track_107.smt2: 10, 4, 7.25
+04_track_108.smt2: 
+04_track_109.smt2: 
+04_track_10.smt2: 
+04_track_110.smt2: 5, 1, 2.67
+04_track_111.smt2: 30, 2, 11.25
+04_track_112.smt2: 15, 1, 7.83
+04_track_113.smt2: 
+04_track_114.smt2: 16, 0, 5.25
+04_track_115.smt2: 37, 1, 10.25
+04_track_116.smt2: 
+04_track_117.smt2: 1, 0, 0.50
+04_track_118.smt2: 4, 0, 1.67
+04_track_119.smt2: 74, 21, 40.57
+04_track_11.smt2: 
+04_track_120.smt2: 
+04_track_121.smt2: 
+04_track_122.smt2: 1, 1, 1.00
+04_track_123.smt2: 
+04_track_124.smt2: 7, 1, 3.75
+04_track_125.smt2: 46, 0, 23.00
+04_track_126.smt2: 
+04_track_127.smt2: 3, 1, 2.33
+04_track_128.smt2: 
+04_track_129.smt2: 
+04_track_12.smt2: 51, 1, 15.25
+04_track_130.smt2: 8, 1, 4.00
+04_track_131.smt2: 
+04_track_132.smt2: 5, 0, 2.00
+04_track_133.smt2: 7, 5, 6.00
+04_track_134.smt2: 44, 1, 20.33
+04_track_135.smt2: 6, 0, 2.33
+04_track_136.smt2: 53, 8, 29.83
+04_track_137.smt2: 47, 0, 16.00
+04_track_138.smt2: 
+04_track_139.smt2: 
+04_track_13.smt2: 17, 1, 9.00
+04_track_140.smt2: 
+04_track_141.smt2: 33, 4, 11.25
+04_track_142.smt2: 15, 2, 8.50
+04_track_143.smt2: 77, 31, 44.25
+04_track_144.smt2: 
+04_track_145.smt2: 2, 1, 1.50
+04_track_146.smt2: 
+04_track_147.smt2: 
+04_track_148.smt2: 1, 0, 0.50
+04_track_149.smt2: 7, 1, 4.00
+04_track_14.smt2: 
+04_track_150.smt2: 
+04_track_151.smt2: 1, 1, 1.00
+04_track_152.smt2: 
+04_track_153.smt2: 6, 3, 4.00
+04_track_154.smt2: 
+04_track_155.smt2: 18, 1, 9.50
+04_track_156.smt2: 3, 1, 2.00
+04_track_157.smt2: 
+04_track_158.smt2: 34, 0, 9.00
+04_track_159.smt2: 
+04_track_15.smt2: 38, 3, 14.83
+04_track_160.smt2: 
+04_track_161.smt2: 
+04_track_162.smt2: 31, 3, 16.50
+04_track_163.smt2: 15, 0, 5.33
+04_track_164.smt2: 5, 1, 3.33
+04_track_165.smt2: 29, 6, 13.75
+04_track_166.smt2: 
+04_track_167.smt2: 
+04_track_168.smt2: 13, 1, 6.00
+04_track_169.smt2: 33, 1, 18.00
+04_track_16.smt2: 
+04_track_170.smt2: 
+04_track_171.smt2: 7, 0, 3.00
+04_track_172.smt2: 3, 3, 3.00
+04_track_173.smt2: 
+04_track_174.smt2: 36, 8, 18.57
+04_track_175.smt2: 11, 1, 3.75
+04_track_176.smt2: 
+04_track_177.smt2: 19, 1, 10.00
+04_track_178.smt2: 
+04_track_179.smt2: 18, 1, 9.17
+04_track_17.smt2: 
+04_track_180.smt2: 
+04_track_181.smt2: 
+04_track_182.smt2: 18, 1, 7.67
+04_track_183.smt2: 
+04_track_184.smt2: 3, 1, 1.86
+04_track_185.smt2: 28, 1, 11.33
+04_track_186.smt2: 14, 1, 7.00
+04_track_187.smt2: 
+04_track_188.smt2: 
+04_track_189.smt2: 23, 0, 8.00
+04_track_18.smt2: 3, 2, 2.50
+04_track_190.smt2: 
+04_track_191.smt2: 
+04_track_192.smt2: 69, 4, 37.75
+04_track_193.smt2: 21, 2, 9.13
+04_track_194.smt2: 
+04_track_195.smt2: 0, 0, 0.00
+04_track_196.smt2: 4, 0, 1.25
+04_track_197.smt2: 3, 1, 1.71
+04_track_198.smt2: 69, 10, 38.11
+04_track_199.smt2: 11, 1, 5.75
+04_track_19.smt2: 
+04_track_1.smt2: 0, 0, 0.00
+04_track_200.smt2: 26, 3, 11.44
+04_track_20.smt2: 5, 2, 3.67
+04_track_21.smt2: 
+04_track_22.smt2: 
+04_track_23.smt2: 
+04_track_24.smt2: 
+04_track_25.smt2: 
+04_track_26.smt2: 36, 1, 21.80
+04_track_27.smt2: 
+04_track_28.smt2: 12, 1, 5.20
+04_track_29.smt2: 10, 8, 9.00
+04_track_2.smt2: 4, 3, 3.50
+04_track_30.smt2: 2, 1, 1.75
+04_track_31.smt2: 
+04_track_32.smt2: 26, 0, 8.80
+04_track_33.smt2: 
+04_track_34.smt2: 9, 1, 4.50
+04_track_35.smt2: 11, 8, 9.50
+04_track_36.smt2: 1, 1, 1.00
+04_track_37.smt2: 
+04_track_38.smt2: 17, 1, 8.20
+04_track_39.smt2: 2, 1, 1.50
+04_track_3.smt2: 1, 1, 1.00
+04_track_40.smt2: 22, 2, 11.29
+04_track_41.smt2: 21, 1, 11.00
+04_track_42.smt2: 7, 1, 3.50
+04_track_43.smt2: 5, 0, 2.33
+04_track_44.smt2: 
+04_track_45.smt2: 
+04_track_46.smt2: 
+04_track_47.smt2: 
+04_track_48.smt2: 12, 1, 6.50
+04_track_49.smt2: 40, 0, 10.25
+04_track_4.smt2: 
+04_track_50.smt2: 
+04_track_51.smt2: 
+04_track_52.smt2: 
+04_track_53.smt2: 
+04_track_54.smt2: 1, 1, 1.00
+04_track_55.smt2: 54, 4, 33.63
+04_track_56.smt2: 
+04_track_57.smt2: 
+04_track_58.smt2: 4, 1, 2.60
+04_track_59.smt2: 
+04_track_5.smt2: 34, 34, 34.00
+04_track_60.smt2: 
+04_track_61.smt2: 
+04_track_62.smt2: 8, 1, 3.86
+04_track_63.smt2: 50, 1, 22.80
+04_track_64.smt2: 
+04_track_65.smt2: 2, 1, 1.33
+04_track_66.smt2: 13, 3, 8.33
+04_track_67.smt2: 36, 7, 21.00
+04_track_68.smt2: 
+04_track_69.smt2: 
+04_track_6.smt2: 14, 6, 9.67
+04_track_70.smt2: 
+04_track_71.smt2: 
+04_track_72.smt2: 
+04_track_73.smt2: 21, 7, 12.00
+04_track_74.smt2: 
+04_track_75.smt2: 7, 1, 2.67
+04_track_76.smt2: 
+04_track_77.smt2: 
+04_track_78.smt2: 
+04_track_79.smt2: 
+04_track_7.smt2: 78, 78, 78.00
+04_track_80.smt2: 
+04_track_81.smt2: 
+04_track_82.smt2: 
+04_track_83.smt2: 
+04_track_84.smt2: 
+04_track_85.smt2: 
+04_track_86.smt2: 
+04_track_87.smt2: 26, 5, 15.50
+04_track_88.smt2: 
+04_track_89.smt2: 
+04_track_8.smt2: 0, 0, 0.00
+04_track_90.smt2: 
+04_track_91.smt2: 
+04_track_92.smt2: 
+04_track_93.smt2: 2, 2, 2.00
+04_track_94.smt2: 16, 0, 8.00
+04_track_95.smt2: 
+04_track_96.smt2: 
+04_track_97.smt2: 3, 1, 2.25
+04_track_98.smt2: 
+04_track_99.smt2: 56, 0, 19.00
+04_track_9.smt2: 9, 1, 6.00

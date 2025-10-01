@@ -1,0 +1,78 @@
+filenames	mas	ostrich
+beasties01	0.871	3.181
+beasties02	1.005	2.327
+beasties03	0.969	2.703
+beasties04	1.189	2.929
+beasties05	0.997	2.53
+beasties06	0.903	2.329
+beasties07	0.923	2.407
+beasties08	0.854	2.117
+beasties09	1.126	2.6
+beasties10	0.846	2.177
+beasties11	0.826	2.219
+beasties12	0.828	2.117
+beasties13	0.831	2.148
+beasties14	0.822	2.34
+beasties15	1.16	3.026
+beasties16	0.923	2.549
+beasties17	0.887	2.534
+beasties18	0.966	2.687
+beasties19	0.904	2.576
+beasties20	0.922	2.552
+beasties21	0.928	2.415
+beasties22	0.925	2.506
+beasties23	0.911	2.438
+beasties24	1.156	2.899
+beasties25	0.95	2.618
+beasties26	0.913	2.357
+beasties27	0.925	2.59
+beasties28	0.891	2.424
+beasties29	0.935	2.671
+beasties30	0.912	2.545
+jxml2sql04	1.146	26.846
+jxml2sql07	1.185	26.86
+jxml2sql09	1.13	30.117
+jxml2sql14	0.85	3.258
+jxml2sql15	1.142	25.455
+jxml2sql16	1.092	26.792
+jxml2sql18	1.401	30.634
+jxml2sql19	1.063	25.38
+jxml2sql20	1.088	25.184
+jxml2sql21	1.18	27.733
+jxml2sql22	0.893	5.241
+jxml2sql23	1.166	24.192
+jxml2sql24	1.098	24.625
+jxml2sql25	1.053	19.771
+jxml2sql26	1.142	29.915
+jxml2sql27	1.152	30.257
+jxml2sql28	1.116	30.246
+jxml2sql29	1.198	39.527
+jxml2sql30	1.109	25.168
+jxml2sql31	1.101	27.295
+jxml2sql32	1.045	25.659
+jxml2sql33	1.119	25.294
+jxml2sql34	1.064	28.224
+mathQuizGame01	1.157
+mathQuizGame02	1.056	179.535
+mathQuizGame03	0.824	2.032
+mathQuizGame04	1.015	35.497
+mathQuizGame09	0.832	2.031
+mathQuizGame10	0.832	57.506
+mathQuizGame12	0.968
+mathQuizGame13	1.219	1031.652
+mathQuizGame14	0.962
+mathQuizGame15	1.222	795.641
+mathQuizGame16	0.943
+mathQuizGame17	1.21	599.244
+mathQuizGame19	0.98
+mathQuizGame20	1.663	282.275
+mathQuizGame21	1.012
+mathQuizGame22	1.412	437.297
+mathQuizGame23	0.975
+mathQuizGame24	1.279	442.993
+mathQuizGame26	1.009
+mathQuizGame27	1.431
+mathQuizGame28	0.99
+mathQuizGame29	1.281	439.972
+mathQuizGame30	0.952
+mathQuizGame31	1.274	617.311

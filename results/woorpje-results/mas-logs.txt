@@ -4,178 +4,178 @@
 01_track_103.smt2; TO
 01_track_104.smt2; sat, 1: "bicdj" 4: "gdcabf" 
 01_track_105.smt2; TO
-01_track_106.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_106.smt2; unsat 
 01_track_107.smt2; sat, 1: "" 2: "" 5: "ccdbbcbeddebcee" 
-01_track_108.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_108.smt2; unsat 
 01_track_109.smt2; TO
 01_track_10.smt2; TO
-01_track_110.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_110.smt2; unsat 
 01_track_111.smt2; TO
 01_track_112.smt2; sat, 1: "a" 3: "" 
 01_track_113.smt2; TO
 01_track_114.smt2; TO
 01_track_115.smt2; sat, 1: "" 3: "" 6: "" 7: "fhcfeb" 
-01_track_116.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_117.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_118.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_119.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 2: "" 5: "" 
-01_track_11.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_120.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_121.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_116.smt2; unsat 
+01_track_117.smt2; unsat 
+01_track_118.smt2; unsat 
+01_track_119.smt2; sat, 0: "" 2: "" 5: "" 
+01_track_11.smt2; unsat 
+01_track_120.smt2; unsat 
+01_track_121.smt2; unsat 
 01_track_122.smt2; TO
 01_track_123.smt2; TO
-01_track_124.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_125.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_124.smt2; unsat 
+01_track_125.smt2; unsat 
 01_track_126.smt2; sat, 1: "" 4: "chbfad" 6: "abgdecd" 
 01_track_127.smt2; sat, 1: "" 3: "baeaabbecabcb" 7: "" 
-01_track_128.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 2: "" 
-01_track_129.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 2: "" 
-01_track_12.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_128.smt2; sat, 0: "" 2: "" 
+01_track_129.smt2; sat, 0: "" 2: "" 
+01_track_12.smt2; unsat 
 01_track_130.smt2; sat, 2: "feeb" 
-01_track_131.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_132.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_133.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_131.smt2; unsat 
+01_track_132.smt2; unsat 
+01_track_133.smt2; unsat 
 01_track_134.smt2; TO
 01_track_135.smt2; TO
 01_track_136.smt2; sat, 1: "" 3: "aaieig" 
-01_track_137.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_137.smt2; unsat 
 01_track_138.smt2; sat, 1: "dbggbfea" 4: "gdfggaffadc" 
-01_track_139.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_139.smt2; unsat 
 01_track_13.smt2; sat, 1: "" 4: "jaediebbjgja" 
 01_track_140.smt2; TO
 01_track_141.smt2; TO
 01_track_142.smt2; sat, 1: "" 4: "ddcbdffbedffcfd" 
-01_track_143.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_143.smt2; unsat 
 01_track_144.smt2; sat, 1: "aebcecfdddacf" 4: "" 6: "" 
 01_track_145.smt2; TO
 01_track_146.smt2; sat, 2: "haj" 
-01_track_147.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_148.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_147.smt2; unsat 
+01_track_148.smt2; unsat 
 01_track_149.smt2; sat, 1: "f" 3: "" 6: "" 7: "jch" 
 01_track_14.smt2; sat, 0: "" 1: "" 3: "aaaa" 
 01_track_150.smt2; sat, 0: "" 2: "" 4: "aa" 7: "" 
-01_track_151.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_152.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_153.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_151.smt2; unsat 
+01_track_152.smt2; unsat 
+01_track_153.smt2; unsat 
 01_track_154.smt2; sat, 1: "" 2: "" 3: "" 4: "f" 
 01_track_155.smt2; sat, 1: "" 3: "ghehahcaaa" 
-01_track_156.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_156.smt2; unsat 
 01_track_157.smt2; TO
-01_track_158.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_158.smt2; unsat 
 01_track_159.smt2; TO
 01_track_15.smt2; sat, 1: "" 3: "abb" 7: "eeeee" 
 01_track_160.smt2; sat, 1: "gefiaidbgcafig" 
-01_track_161.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_161.smt2; unsat 
 01_track_162.smt2; TO
 01_track_163.smt2; sat, 1: "" 2: "" 3: "ccddgcgh" 5: "" 
 01_track_164.smt2; sat, 1: "" 4: "ga" 
-01_track_165.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_166.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_167.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_165.smt2; unsat 
+01_track_166.smt2; unsat 
+01_track_167.smt2; unsat 
 01_track_168.smt2; sat, 1: "" 3: "" 6: "agdhf" 
 01_track_169.smt2; sat, 1: "hg" 3: "eg" 5: "h" 8: "" 
 01_track_16.smt2; TO
 01_track_170.smt2; sat, 1: "dccffccddcff" 
-01_track_171.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_171.smt2; unsat 
 01_track_172.smt2; sat, 1: "dde" 3: "" 6: "gdbdccb" 
-01_track_173.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_173.smt2; unsat 
 01_track_174.smt2; TO
-01_track_175.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_175.smt2; unsat 
 01_track_176.smt2; sat, 1: "" 2: "gj" 
-01_track_177.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_178.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_177.smt2; unsat 
+01_track_178.smt2; unsat 
 01_track_179.smt2; sat, 1: "" 2: "dggebdeh" 6: "" 
-01_track_17.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_180.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_17.smt2; unsat 
+01_track_180.smt2; unsat 
 01_track_181.smt2; sat, 1: "acidagihgdcaf" 4: "" 
 01_track_182.smt2; sat, 1: "j" 3: "" 5: "c" 8: "gj" 
-01_track_183.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_183.smt2; unsat 
 01_track_184.smt2; sat, 1: "gfhechbf" 4: "idcficcdhgaiega" 6: "eeb" 
-01_track_185.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_185.smt2; unsat 
 01_track_186.smt2; sat, 1: "bi" 3: "ifibehed" 5: "gd" 7: "" 
 01_track_187.smt2; sat, 1: "i" 3: "fcdcififbc" 6: "f" 
 01_track_188.smt2; TO
-01_track_189.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_18.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_189.smt2; unsat 
+01_track_18.smt2; unsat 
 01_track_190.smt2; sat, 1: "" 2: "" 3: "" 7: "gfbbh" 
-01_track_191.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_191.smt2; unsat 
 01_track_192.smt2; sat, 0: "gbhff" 1: "" 
-01_track_193.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 2: "" 
+01_track_193.smt2; sat, 0: "" 2: "" 
 01_track_194.smt2; TO
 01_track_195.smt2; sat, 1: "ieecg" 4: "cj" 
-01_track_196.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_197.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_196.smt2; unsat 
+01_track_197.smt2; unsat 
 01_track_198.smt2; TO
 01_track_199.smt2; TO
 01_track_19.smt2; sat, 1: "abcacbbbaaaacbb" 4: "" 
-01_track_1.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 2: "" 
-01_track_200.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 2: "" 3: "" 
+01_track_1.smt2; sat, 0: "" 2: "" 
+01_track_200.smt2; sat, 0: "" 2: "" 3: "" 
 01_track_20.smt2; sat, 1: "ab" 
 01_track_21.smt2; sat, 1: "" 4: "accdcdaaaccddbc" 
 01_track_22.smt2; sat, 1: "" 2: "heec" 5: "" 6: "e" 
 01_track_23.smt2; sat, 1: "" 3: "d" 5: "" 7: "" 11: "bb" 
-01_track_24.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_24.smt2; unsat 
 01_track_25.smt2; TO
 01_track_26.smt2; TO
 01_track_27.smt2; sat, 1: "jccj" 4: "" 
-01_track_28.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_29.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_28.smt2; unsat 
+01_track_29.smt2; unsat 
 01_track_2.smt2; TO
 01_track_30.smt2; TO
 01_track_31.smt2; sat, 0: "" 4: "ijjahaafgie" 
 01_track_32.smt2; sat, 1: "ggebcgdcbb" 4: "ba" 
 01_track_33.smt2; TO
 01_track_34.smt2; sat, 1: "c" 4: "edddcfae" 
-01_track_35.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_36.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_37.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_38.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_35.smt2; unsat 
+01_track_36.smt2; unsat 
+01_track_37.smt2; unsat 
+01_track_38.smt2; unsat 
 01_track_39.smt2; sat, 1: "" 3: "bcdecbadcdbeaa" 6: "dbaeae" 
-01_track_3.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_3.smt2; unsat 
 01_track_40.smt2; sat, 1: "b" 2: "ihfe" 5: "jfbj" 
-01_track_41.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_41.smt2; unsat 
 01_track_42.smt2; TO
 01_track_43.smt2; TO
-01_track_44.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 2: "" 
-01_track_45.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_44.smt2; sat, 0: "" 2: "" 
+01_track_45.smt2; unsat 
 01_track_46.smt2; TO
 01_track_47.smt2; TO
 01_track_48.smt2; sat, 1: "" 4: "c" 
 01_track_49.smt2; sat, 1: "adddcaabaccac" 
 01_track_4.smt2; sat, 1: "" 3: "a" 
 01_track_50.smt2; TO
-01_track_51.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_52.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_51.smt2; unsat 
+01_track_52.smt2; unsat 
 01_track_53.smt2; TO
-01_track_54.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_55.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_54.smt2; unsat 
+01_track_55.smt2; unsat 
 01_track_56.smt2; sat, 1: "aabaabba" 4: "bbabbaaba" 
 01_track_57.smt2; TO
-01_track_58.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_58.smt2; unsat 
 01_track_59.smt2; TO
 01_track_5.smt2; sat, 1: "" 4: "babaaccccaabbac" 
 01_track_60.smt2; TO
 01_track_61.smt2; sat, 1: "" 4: "bbcbc" 
-01_track_62.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_63.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_62.smt2; unsat 
+01_track_63.smt2; unsat 
 01_track_64.smt2; TO
 01_track_65.smt2; sat, 1: "acacbbaccabab" 4: "cacbbcbbac" 
 01_track_66.smt2; sat, 1: "b" 4: "ccb" 
-01_track_67.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_68.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_67.smt2; unsat 
+01_track_68.smt2; unsat 
 01_track_69.smt2; TO
 01_track_6.smt2; TO
 01_track_70.smt2; sat, 1: "abdacd" 3: "" 6: "bcbda" 
 01_track_71.smt2; TO
 01_track_72.smt2; TO
-01_track_73.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_74.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_73.smt2; unsat 
+01_track_74.smt2; unsat 
 01_track_75.smt2; sat, 1: "agbjiigfgecfd" 3: "" 
 01_track_76.smt2; sat, 1: "" 3: "" 6: "bdfd" 
 01_track_77.smt2; TO
-01_track_78.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_79.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_7.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_78.smt2; unsat 
+01_track_79.smt2; unsat 
+01_track_7.smt2; unsat 
 01_track_80.smt2; sat, 0: "" 1: "" 3: "" 5: "aaaa" 
 01_track_81.smt2; sat, 1: "" 3: "" 6: "" 7: "acccaaccbcbacab" 
 01_track_82.smt2; TO
@@ -183,21 +183,21 @@
 01_track_84.smt2; sat, 1: "abacbbc" 4: "abbbcbcabab" 
 01_track_85.smt2; sat, 1: "" 7: "abbababb" 
 01_track_86.smt2; sat, 1: "accccbbba" 4: "" 
-01_track_87.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_87.smt2; unsat 
 01_track_88.smt2; sat, 1: "eeecbcbbce" 3: "bbbee" 6: "c" 
 01_track_89.smt2; sat, 1: "cbbbcbbcab" 
 01_track_8.smt2; sat, 1: "" 4: "fegebbbche" 10: "" 
-01_track_90.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_90.smt2; unsat 
 01_track_91.smt2; sat, 1: "" 3: "cbfbdef" 
 01_track_92.smt2; sat, 1: "" 4: "ca" 
 01_track_93.smt2; sat, 1: "fac" 3: "" 5: "" 
-01_track_94.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_94.smt2; unsat 
 01_track_95.smt2; sat, 1: "cbd" 2: "" 
-01_track_96.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_96.smt2; unsat 
 01_track_97.smt2; sat, 1: "" 2: "eifececifibi" 5: "" 
-01_track_98.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_99.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-01_track_9.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+01_track_98.smt2; unsat 
+01_track_99.smt2; unsat 
+01_track_9.smt2; unsat 
 02_track_1.smt2; TO
 02_track_2.smt2; TO
 02_track_3.smt2; TO
@@ -385,7 +385,7 @@
 03_track_78.smt2; TO
 03_track_79.smt2; TO
 03_track_7.smt2; TO
-03_track_80.smt2; [IGEN] Using initial bound default ...3 sat, 2: "" 
+03_track_80.smt2; sat, 2: "" 
 03_track_81.smt2; TO
 03_track_82.smt2; TO
 03_track_83.smt2; TO
@@ -409,41 +409,41 @@
 03_track_9.smt2; TO
 04_track_100.smt2; TO
 04_track_101.smt2; TO
-04_track_102.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_102.smt2; unsat 
 04_track_103.smt2; TO
 04_track_104.smt2; TO
 04_track_105.smt2; TO
 04_track_106.smt2; TO
 04_track_107.smt2; TO
-04_track_108.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_109.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_108.smt2; unsat 
+04_track_109.smt2; unsat 
 04_track_10.smt2; TO
 04_track_110.smt2; TO
 04_track_111.smt2; TO
 04_track_112.smt2; TO
-04_track_113.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_114.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_113.smt2; unsat 
+04_track_114.smt2; unsat 
 04_track_115.smt2; TO
-04_track_116.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_117.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_116.smt2; unsat 
+04_track_117.smt2; unsat 
 04_track_118.smt2; TO
 04_track_119.smt2; TO
 04_track_11.smt2; TO
 04_track_120.smt2; TO
 04_track_121.smt2; TO
 04_track_122.smt2; TO
-04_track_123.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_123.smt2; unsat 
 04_track_124.smt2; TO
-04_track_125.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_125.smt2; unsat 
 04_track_126.smt2; TO
 04_track_127.smt2; TO
 04_track_128.smt2; TO
-04_track_129.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_129.smt2; unsat 
 04_track_12.smt2; TO
 04_track_130.smt2; TO
-04_track_131.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_131.smt2; unsat 
 04_track_132.smt2; TO
-04_track_133.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_133.smt2; unsat 
 04_track_134.smt2; TO
 04_track_135.smt2; TO
 04_track_136.smt2; TO
@@ -451,29 +451,29 @@
 04_track_138.smt2; TO
 04_track_139.smt2; TO
 04_track_13.smt2; TO
-04_track_140.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_141.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_140.smt2; unsat 
+04_track_141.smt2; unsat 
 04_track_142.smt2; TO
 04_track_143.smt2; TO
-04_track_144.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_144.smt2; unsat 
 04_track_145.smt2; TO
 04_track_146.smt2; TO
-04_track_147.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_148.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_149.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_147.smt2; unsat 
+04_track_148.smt2; unsat 
+04_track_149.smt2; unsat 
 04_track_14.smt2; TO
 04_track_150.smt2; TO
 04_track_151.smt2; TO
 04_track_152.smt2; TO
-04_track_153.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_154.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_153.smt2; unsat 
+04_track_154.smt2; unsat 
 04_track_155.smt2; TO
-04_track_156.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_157.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_156.smt2; unsat 
+04_track_157.smt2; unsat 
 04_track_158.smt2; TO
 04_track_159.smt2; TO
 04_track_15.smt2; TO
-04_track_160.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_160.smt2; unsat 
 04_track_161.smt2; TO
 04_track_162.smt2; TO
 04_track_163.smt2; TO
@@ -485,14 +485,14 @@
 04_track_169.smt2; TO
 04_track_16.smt2; TO
 04_track_170.smt2; TO
-04_track_171.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_172.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_171.smt2; unsat 
+04_track_172.smt2; unsat 
 04_track_173.smt2; TO
 04_track_174.smt2; TO
 04_track_175.smt2; TO
 04_track_176.smt2; TO
 04_track_177.smt2; TO
-04_track_178.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_178.smt2; unsat 
 04_track_179.smt2; TO
 04_track_17.smt2; TO
 04_track_180.smt2; TO
@@ -503,39 +503,39 @@
 04_track_185.smt2; TO
 04_track_186.smt2; TO
 04_track_187.smt2; TO
-04_track_188.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_188.smt2; unsat 
 04_track_189.smt2; TO
 04_track_18.smt2; TO
 04_track_190.smt2; TO
-04_track_191.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_191.smt2; unsat 
 04_track_192.smt2; TO
 04_track_193.smt2; TO
 04_track_194.smt2; TO
-04_track_195.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 2: "" 5: "" 11: "" 13: "" 19: "" 
+04_track_195.smt2; sat, 0: "" 2: "" 5: "" 11: "" 13: "" 19: "" 
 04_track_196.smt2; sat, 0: "" 4: "" 6: "a" 7: "aaaa" 
 04_track_197.smt2; TO
 04_track_198.smt2; TO
 04_track_199.smt2; TO
-04_track_19.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_1.smt2; [IGEN] Using initial bound default ...3 sat, 0: "" 
+04_track_19.smt2; unsat 
+04_track_1.smt2; sat, 0: "" 
 04_track_200.smt2; TO
 04_track_20.smt2; TO
-04_track_21.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_21.smt2; unsat 
 04_track_22.smt2; TO
-04_track_23.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_23.smt2; unsat 
 04_track_24.smt2; TO
 04_track_25.smt2; TO
 04_track_26.smt2; TO
-04_track_27.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_27.smt2; unsat 
 04_track_28.smt2; TO
 04_track_29.smt2; TO
-04_track_2.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_2.smt2; unsat 
 04_track_30.smt2; TO
 04_track_31.smt2; TO
-04_track_32.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_33.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_32.smt2; unsat 
+04_track_33.smt2; unsat 
 04_track_34.smt2; TO
-04_track_35.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_35.smt2; unsat 
 04_track_36.smt2; TO
 04_track_37.smt2; TO
 04_track_38.smt2; TO
@@ -544,8 +544,8 @@
 04_track_40.smt2; TO
 04_track_41.smt2; TO
 04_track_42.smt2; TO
-04_track_43.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_44.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_43.smt2; unsat 
+04_track_44.smt2; unsat 
 04_track_45.smt2; TO
 04_track_46.smt2; TO
 04_track_47.smt2; TO
@@ -553,54 +553,54 @@
 04_track_49.smt2; TO
 04_track_4.smt2; TO
 04_track_50.smt2; TO
-04_track_51.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_52.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_51.smt2; unsat 
+04_track_52.smt2; unsat 
 04_track_53.smt2; TO
 04_track_54.smt2; TO
 04_track_55.smt2; TO
-04_track_56.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_56.smt2; unsat 
 04_track_57.smt2; TO
 04_track_58.smt2; TO
-04_track_59.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_59.smt2; unsat 
 04_track_5.smt2; TO
-04_track_60.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_60.smt2; unsat 
 04_track_61.smt2; TO
 04_track_62.smt2; TO
 04_track_63.smt2; TO
-04_track_64.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_64.smt2; unsat 
 04_track_65.smt2; TO
 04_track_66.smt2; TO
 04_track_67.smt2; TO
 04_track_68.smt2; TO
 04_track_69.smt2; TO
 04_track_6.smt2; TO
-04_track_70.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_70.smt2; unsat 
 04_track_71.smt2; TO
 04_track_72.smt2; TO
-04_track_73.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_73.smt2; unsat 
 04_track_74.smt2; TO
 04_track_75.smt2; TO
 04_track_76.smt2; TO
 04_track_77.smt2; TO
-04_track_78.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_78.smt2; unsat 
 04_track_79.smt2; TO
-04_track_7.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_80.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
-04_track_81.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_7.smt2; unsat 
+04_track_80.smt2; unsat 
+04_track_81.smt2; unsat 
 04_track_82.smt2; TO
-04_track_83.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_83.smt2; unsat 
 04_track_84.smt2; TO
 04_track_85.smt2; TO
 04_track_86.smt2; TO
-04_track_87.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_87.smt2; unsat 
 04_track_88.smt2; TO
 04_track_89.smt2; TO
-04_track_8.smt2; [IGEN] Using initial bound default ...3 sat, 1: "" 
+04_track_8.smt2; sat, 1: "" 
 04_track_90.smt2; TO
 04_track_91.smt2; TO
-04_track_92.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_92.smt2; unsat 
 04_track_93.smt2; TO
-04_track_94.smt2; unsat  FAILURE: Failed to get example to one or more inputs...  SOLUTION TIME ms: 0 
+04_track_94.smt2; unsat 
 04_track_95.smt2; TO
 04_track_96.smt2; TO
 04_track_97.smt2; TO

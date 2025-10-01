@@ -1,0 +1,13 @@
+concat_isEmpty_equals_contains_l2_d2_bench: 2, 0, 1.20
+delete_concat_isEmpty_equals_contains_l3_d3_bench: 
+delete_isEmpty_equals_contains_l2_d2_bench: 2, 0, 1.40
+replace_concat_isEmpty_equals_contains_l3_d3_bench: 3, 3, 3.00
+replace_delete_concat_isEmpty_equals_contains_l3_d3_bench: 3, 3, 3.00
+replace_isEmpty_equals_contains_l2_d2_bench: 1, 0, 0.60
+replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench: 
+substring12_concat_isEmpty_equals_contains_l3_d2_bench: 3, 3, 3.00
+substring12_concat_isEmpty_equals_contains_l3_d3_bench: 
+substring12_isEmpty_equals_contains_l2_d2_bench: 2, 1, 1.60
+toLowerCase_concat_isEmpty_equals_contains_l3_d3_bench: 
+toLowerCase_isEmpty_equals_contains_l2_d2_bench: 1, 1, 1.00
+toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench: 
