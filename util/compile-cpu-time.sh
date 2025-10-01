@@ -12,7 +12,7 @@ out="$HOME/smt-bench/cpu-times.txt"
 rm "$out" 2>/dev/null
 
 readarray -t filenames < "util/$benches-filenames.txt"
-declare -A extensions=( ["mas"]="smt2.json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
+declare -A extensions=( ["mas"]="json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
 #cd "logs/$solver" || exit
 
 echo ",mas,,,cvc5,,,ostrich,,,z3" > "$out"
