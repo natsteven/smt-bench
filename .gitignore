@@ -1,7 +1,9 @@
 *.sif
+*.tar
 .idea
 logs
 .~lock.borah-results.ods#
 cpu-times-real.ods
 .~lock.cpu-times-real.ods#
 ~$borah-results.ods
+/fmcad25-artifact

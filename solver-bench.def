@@ -1,38 +1,84 @@
-BootStrap: docker
-From: alpine
+Bootstrap: docker
+From: debian:bookworm-slim
+
+%environment
+    export LC_ALL=C
+    export LANG=C
+    export PATH=/usr/local/bin:$PATH
 
 %post
-	apk update
-	apk add openjdk21
+    set -e
+    apt-get update
+    apt-get install -y --no-install-recommends \
+        python3 python3-pip python3-setuptools python3-wheel \
+        git wget curl ca-certificates gnupg unzip bc dos2unix \
+        build-essential cmake libgmp-dev default-jdk sbt scala z3 \
+        libffi-dev libxml2 libxslt1.1 libxslt1-dev \
+        && rm -rf /var/lib/apt/lists/*
 
-# MAS
-%appfiles mas
-	bin/string-constraint-solvers-1.0-SNAPSHOT-jar-with-dependencies.jar mas.jar
-%apprun mas
-    exec java -cp ${SCIF_APPROOT}/mas.jar edu.boisestate.cs.SolveMain $1 -s Inverse -v 2 -l $2 $3
+    # BenchExec (system install)
+    pip3 install --no-cache-dir benchexec
 
-# Z3
-%appinstall z3
-	apk add z3
-#%appfiles z3
-	#bin/z3 z3
-%apprun z3
-    exec z3 $1
+    # cvc5 static
+    wget -O /tmp/cvc5.zip https://github.com/cvc5/cvc5/releases/download/cvc5-1.2.1/cvc5-Linux-x86_64-static.zip
+    unzip /tmp/cvc5.zip -d /tmp/
+    install -m 0755 /tmp/cvc5-*/bin/cvc5 /usr/local/bin/cvc5
+    rm -rf /tmp/cvc5*
 
-# CVC5
-%appinstall cvc5
-	apk add build-base
-%appfiles cvc5
-	bin/cvc5 cvc5
-%apprun cvc5
-    exec ${SCIF_APPROOT}/cvc5 $1 --produce-models
+    # mata
+    git clone https://github.com/VeriFIT/mata.git /tmp/mata
+    (cd /tmp/mata && make release && make install)
+    rm -rf /tmp/mata
 
-# Ostrich
-%appfiles ostrich
-	bin/ostrich-assembly-1.3.jar ostrich.jar
-%apprun ostrich
-    exec java -jar ${SCIF_APPROOT}/ostrich.jar $1 +incremental
+    # z3-noodler
+    wget -O /tmp/z3-noodler.tar.gz https://github.com/VeriFIT/z3-noodler/archive/refs/tags/v1.4.0.tar.gz
+    mkdir -p /tmp/z3-noodler
+    tar -xzf /tmp/z3-noodler.tar.gz -C /tmp/z3-noodler --strip-components=1
+    (cd /tmp/z3-noodler && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && make -j"$(nproc)")
+    install -d /usr/local/bin/z3-noodler
+    install -m 0755 /tmp/z3-noodler/build/z3 /usr/local/bin/z3-noodler/z3-noodler
+    rm -rf /tmp/z3-noodler*
 
+    # (Copy in Ostrich sources later via %files; build after copy)
+
+%files
+    /fmcad25-artifact/ostrich /ostrich
+    /bin/mas.jar /usr/local/bin/mas.jar
+
+%post
+    # Build Ostrich
+    cd /ostrich
+    sbt "set test in assembly := {}" assembly
+    cp target/scala-*/ostrich-assembly-*.jar /usr/local/bin/ostrich.jar
+    printf '#!/bin/bash\nexec java -jar /usr/local/bin/ostrich.jar "$@"\n' >/usr/local/bin/ostrich
+    chmod +x /usr/local/bin/ostrich
+
+    # Simple wrapper for z3-noodler
+    printf '#!/bin/bash\nexec /usr/local/bin/z3-noodler/z3-noodler "$@"\n' >/usr/local/bin/z3-noodler
+    chmod +x /usr/local/bin/z3-noodler
+
+    # MAS
+    printf '#!/bin/bash\nexec java -jar /usr/local/bin/mas.jar edu.boisestate.cs.SolveMain "$@"\n' >/usr/local/bin/mas || true
+    chmod +x /usr/local/bin/mas || true
+
+    # Entry script for non-interactive BenchExec use
+    cat >/entrypoint.sh <<'EOF'
+
+#!/bin/bash
+# If first arg is benchexec, run it; else exec whatever is given.
+/usr/bin/env
+if [ "$1" = "benchexec" ]; then
+    shift
+    exec benchexec "$@"
+else
+    exec "$@"
+fi
+EOF
+    chmod +x /entrypoint.sh
+
+%runscript
+    exec /entrypoint.sh "$@"
 
 %labels
-   Author Nat Steven
+    Author="Nat Steven"
+    Tooling="BenchExec+Solvers"

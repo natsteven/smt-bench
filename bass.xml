@@ -1,0 +1,39 @@
+<benchmark tool="mas" timelimit="5 min" memlimit="15 GB" cpuCores="4">
+
+    <rundefinition name="mas">
+        <executable>/usr/local/bin/mas</executable>
+        <option>--produce-models</option>
+        <arg>{inputfile}</arg>
+    </rundefinition>
+
+    <tasks name="woorpje">
+        <include>smt-comp/mas/woorpje/*.json</include>
+    </tasks>
+    <tasks name="slog">
+        <include>smt-comp/mas/slog/*.json</include>
+    </tasks>
+    <tasks name="sygus">
+        <include>smt-comp/mas/sygus/*.json</include>
+    </tasks>
+    <tasks name="omark">
+        <include>smt-comp/mas/omark/*.json</include>
+    </tasks>
+    <tasks name="automatark">
+        <include>smt-comp/mas/automatark/*.json</include>
+    </tasks>
+    <tasks name="matching">
+        <include>new-smt-comp/mas/matching/*.json</include>
+    </tasks>
+    <tasks name="rna-sat">
+        <include>new-smt-comp/mas/rna-sat/*.json</include>
+    </tasks>
+    <tasks name="rna-unsat">
+        <include>new-smt-comp/mas/rna-unsat/*.json</include>
+    </tasks>
+    <tasks name="real">
+        <include>real/mas/*.json</include>
+    </tasks>
+    <tasks name="simple">
+        <include>simple/mas/*.json</include>
+    </tasks>
+</benchmark>
