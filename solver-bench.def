@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: debian:bookworm-slim
+From: debian:testing-slim
 
 %environment
     export LC_ALL=C
@@ -7,19 +7,18 @@ From: debian:bookworm-slim
     export PATH=/usr/local/bin:$PATH
 
 %post
-    set -e
+    set -euo pipefail
+
     apt-get update
     apt-get install -y --no-install-recommends \
-        python3 python3-pip python3-setuptools python3-wheel \
-        git wget curl ca-certificates gnupg unzip bc dos2unix \
-        build-essential cmake libgmp-dev default-jdk sbt scala z3 \
-        libffi-dev libxml2 libxslt1.1 libxslt1-dev \
-        && rm -rf /var/lib/apt/lists/*
+        ca-certificates wget unzip git \
+        python3 python3-pip \
+        openjdk-8-jre-headless \
+        build-essential cmake libgmp-dev z3
 
-    # BenchExec (system install)
     pip3 install --no-cache-dir benchexec
 
-    # cvc5 static
+    # cvc5
     wget -O /tmp/cvc5.zip https://github.com/cvc5/cvc5/releases/download/cvc5-1.2.1/cvc5-Linux-x86_64-static.zip
     unzip /tmp/cvc5.zip -d /tmp/
     install -m 0755 /tmp/cvc5-*/bin/cvc5 /usr/local/bin/cvc5
@@ -39,42 +38,33 @@ From: debian:bookworm-slim
     install -m 0755 /tmp/z3-noodler/build/z3 /usr/local/bin/z3-noodler/z3-noodler
     rm -rf /tmp/z3-noodler*
 
-    # (Copy in Ostrich sources later via %files; build after copy)
-
-%files
-    /fmcad25-artifact/ostrich /ostrich
-    /bin/mas.jar /usr/local/bin/mas.jar
-
-%post
-    # Build Ostrich
-    cd /ostrich
-    sbt "set test in assembly := {}" assembly
-    cp target/scala-*/ostrich-assembly-*.jar /usr/local/bin/ostrich.jar
+    # Ostrich wrapper
     printf '#!/bin/bash\nexec java -jar /usr/local/bin/ostrich.jar "$@"\n' >/usr/local/bin/ostrich
     chmod +x /usr/local/bin/ostrich
 
-    # Simple wrapper for z3-noodler
+    # Z3-Noodler wrapper
     printf '#!/bin/bash\nexec /usr/local/bin/z3-noodler/z3-noodler "$@"\n' >/usr/local/bin/z3-noodler
     chmod +x /usr/local/bin/z3-noodler
 
-    # MAS
-    printf '#!/bin/bash\nexec java -jar /usr/local/bin/mas.jar edu.boisestate.cs.SolveMain "$@"\n' >/usr/local/bin/mas || true
-    chmod +x /usr/local/bin/mas || true
+    # Bass wrapper
+    printf '#!/bin/bash\nexec java -jar /usr/local/bin/mas.jar edu.boisestate.cs.SolveMain "$@"\n' >/usr/local/bin/mas
+    chmod +x /usr/local/bin/mas
 
-    # Entry script for non-interactive BenchExec use
+    # Entry script
     cat >/entrypoint.sh <<'EOF'
-
 #!/bin/bash
-# If first arg is benchexec, run it; else exec whatever is given.
-/usr/bin/env
 if [ "$1" = "benchexec" ]; then
-    shift
-    exec benchexec "$@"
+  shift
+  exec benchexec "$@"
 else
-    exec "$@"
+  exec "$@"
 fi
 EOF
     chmod +x /entrypoint.sh
+
+%files
+    bin/mas.jar /usr/local/bin/mas.jar
+    bin/ostrich.jar /usr/local/bin/ostrich.jar
 
 %runscript
     exec /entrypoint.sh "$@"
