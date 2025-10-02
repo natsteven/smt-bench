@@ -8,66 +8,26 @@ From: debian:testing-slim
 
 %post
     set -euo pipefail
-
     apt-get update
     apt-get install -y --no-install-recommends \
-        ca-certificates wget unzip git \
-        python3 python3-pip \
-        openjdk-8-jre-headless \
-        build-essential cmake libgmp-dev z3
+        python3 python3-pip default-jre-headless libgmp10 ca-certificates \
+        && rm -rf /var/lib/apt/lists/*
 
-    pip3 install --no-cache-dir benchexec
+    # benchexec
+    pip3 install --no-cache-dir --break-system-packages benchexec
 
-    # cvc5
-    wget -O /tmp/cvc5.zip https://github.com/cvc5/cvc5/releases/download/cvc5-1.2.1/cvc5-Linux-x86_64-static.zip
-    unzip /tmp/cvc5.zip -d /tmp/
-    install -m 0755 /tmp/cvc5-*/bin/cvc5 /usr/local/bin/cvc5
-    rm -rf /tmp/cvc5*
-
-    # mata
-    git clone https://github.com/VeriFIT/mata.git /tmp/mata
-    (cd /tmp/mata && make release && make install)
-    rm -rf /tmp/mata
-
-    # z3-noodler
-    wget -O /tmp/z3-noodler.tar.gz https://github.com/VeriFIT/z3-noodler/archive/refs/tags/v1.4.0.tar.gz
-    mkdir -p /tmp/z3-noodler
-    tar -xzf /tmp/z3-noodler.tar.gz -C /tmp/z3-noodler --strip-components=1
-    (cd /tmp/z3-noodler && mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release .. && make -j"$(nproc)")
-    install -d /usr/local/bin/z3-noodler
-    install -m 0755 /tmp/z3-noodler/build/z3 /usr/local/bin/z3-noodler/z3-noodler
-    rm -rf /tmp/z3-noodler*
-
-    # Ostrich wrapper
+    chmod 0755 /usr/local/bin/cvc5 /usr/local/bin/z3-noodler
+    chmod 0644 /usr/local/bin/ostrich.jar /usr/local/bin/mas.jar
     printf '#!/bin/bash\nexec java -jar /usr/local/bin/ostrich.jar "$@"\n' >/usr/local/bin/ostrich
     chmod +x /usr/local/bin/ostrich
-
-    # Z3-Noodler wrapper
-    printf '#!/bin/bash\nexec /usr/local/bin/z3-noodler/z3-noodler "$@"\n' >/usr/local/bin/z3-noodler
-    chmod +x /usr/local/bin/z3-noodler
-
-    # Bass wrapper
     printf '#!/bin/bash\nexec java -jar /usr/local/bin/mas.jar edu.boisestate.cs.SolveMain "$@"\n' >/usr/local/bin/mas
     chmod +x /usr/local/bin/mas
 
-    # Entry script
-    cat >/entrypoint.sh <<'EOF'
-#!/bin/bash
-if [ "$1" = "benchexec" ]; then
-  shift
-  exec benchexec "$@"
-else
-  exec "$@"
-fi
-EOF
-    chmod +x /entrypoint.sh
-
 %files
-    bin/mas.jar /usr/local/bin/mas.jar
+    bin/cvc5 /usr/local/bin/cvc5
+    bin/z3-noodler /usr/local/bin/z3-noodler
     bin/ostrich.jar /usr/local/bin/ostrich.jar
-
-%runscript
-    exec /entrypoint.sh "$@"
+    bin/mas.jar /usr/local/bin/mas.jar
 
 %labels
     Author="Nat Steven"

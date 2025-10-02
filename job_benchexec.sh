@@ -9,6 +9,8 @@
 
 set -euo pipefail
 module load apptainer/1.2.5
+SIF="solver-bench.sif"
+[[ -f "$SIF" ]] || { echo "Missing Apptainer image: $SIF" >&2; exit 1; }
 
 : "${SOLVERS:?SOLVERS env var missing (export via submit script)}"
 : "${BENCHSETS:?BENCHSETS env var missing (export via submit script)}"
@@ -20,28 +22,18 @@ IFS=',' read -r -a benchsets <<< "${BENCHSETS}"
 num_solvers=${#solvers[@]}
 num_benchsets=${#benchsets[@]}
 total=$(( num_solvers * num_benchsets ))
-
-if (( SLURM_ARRAY_TASK_ID < 0 || SLURM_ARRAY_TASK_ID >= total )); then
-  echo "Array index ${SLURM_ARRAY_TASK_ID} out of range 0..$((total-1))" >&2
-  exit 1
-fi
+(( SLURM_ARRAY_TASK_ID >= 0 && SLURM_ARRAY_TASK_ID < total )) || { echo "Array index ${SLURM_ARRAY_TASK_ID} out of range"; exit 1; }
 
 solver_index=$(( SLURM_ARRAY_TASK_ID / num_benchsets ))
 bench_index=$(( SLURM_ARRAY_TASK_ID % num_benchsets ))
-
 solver=${solvers[$solver_index]}
 benchset=${benchsets[$bench_index]}
 
-# Dynamic rename (best effort; ignore failure)
 elem_id="${SLURM_JOB_ID}_${SLURM_ARRAY_TASK_ID}"
-new_name="B_${solver}_${benchset}"
-scontrol update JobId="${elem_id}" Name="${new_name}" 2>/dev/null || true
+scontrol update JobId="${elem_id}" Name="B_${solver}_${benchset}" 2>/dev/null || true
 
 xml="${solver}.xml"
-if [[ ! -f "$xml" ]]; then
-  echo "Missing XML file: $xml" >&2
-  exit 1
-fi
+[[ -f "$xml" ]] || { echo "Missing XML file: $xml" >&2; exit 1; }
 
 outdir="results/${solver}_${benchset}_${SLURM_JOB_ID}_${SLURM_ARRAY_TASK_ID}"
 mkdir -p "$outdir"
@@ -50,10 +42,14 @@ threads=${SLURM_CPUS_PER_TASK:-1}
 echo "==> Starting solver=${solver} benchset=${benchset} (array id=${SLURM_ARRAY_TASK_ID})"
 echo "Using XML: $xml  Threads: $threads  Output: $outdir"
 
-benchexec --no-container\
-          --outputpath "$outdir"\
-          --numOfThreads "$threads"\
-          --tasks "$benchset"\
-          "$xml"
+apptainer exec \
+  --bind "$PWD":"$PWD" \
+  --pwd "$PWD" \
+  "$SIF" \
+  benchexec --no-container \
+            --outputpath "$outdir" \
+            --numOfThreads "$threads" \
+            --tasks "$benchset" \
+            "$xml"
 
 echo "==> Done solver=${solver} benchset=${benchset} (array id=${SLURM_ARRAY_TASK_ID})"
