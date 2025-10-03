@@ -12,7 +12,7 @@ class Tool(benchexec.tools.template.BaseTool2):
         if run.exit_code.value != 0:
             return result.RESULT_ERROR
 
-        output = run.output
+        output = str(run.output)
         if 'sat' in output.lower():
             return result.RESULT_TRUE_PROP
         elif 'unsat' in output.lower():

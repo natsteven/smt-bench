@@ -20,7 +20,7 @@ From: debian:testing-slim
     chmod 0644 /usr/local/bin/ostrich.jar /usr/local/bin/bass.jar
     printf '#!/bin/bash\nexec java -jar /usr/local/bin/ostrich.jar -portfolio=strings +quiet "$@"\n' >/usr/local/bin/ostrich
     chmod +x /usr/local/bin/ostrich
-    printf '#!/bin/bash\nexec java -jar /usr/local/bin/bass.jar edu.boisestate.cs.SolveMain -v 2 -s inverse "$@"\n' >/usr/local/bin/bass
+    printf '#!/bin/bash\nexec java -cp /usr/local/bin/bass.jar edu.boisestate.cs.SolveMain "$@" -v 2 -s inverse -l 2\n' >/usr/local/bin/bass
     chmod +x /usr/local/bin/bass
 
 %files
