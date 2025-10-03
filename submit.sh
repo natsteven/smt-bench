@@ -25,10 +25,10 @@ done
 IFS=',' read -r -a solver_arr <<< "$solvers"
 IFS=',' read -r -a bench_arr <<< "$benchsets"
 
-if [[ ${#solver_arr[@]} -eq 0 || ${#bench_arr[@]} -eq 0 ]; then
+if [[ ${#solver_arr[@]} -eq 0 || ${#bench_arr[@]} -eq 0 ]]; then
   echo "At least one solver and one benchset must be specified."
   exit 1
-fi]
+fi
 
 if [[ ${#solver_arr[@]} -eq 1 && ${solver_arr[0]} == "all" ]]; then
   solver_arr=("bass" "cvc5" "ostrich" "z3-noodler")
@@ -36,7 +36,6 @@ if [[ ${#solver_arr[@]} -eq 1 && ${solver_arr[0]} == "all" ]]; then
 fi
 
 num_solvers=${#solver_arr[@]}
-num_benchsets=${#bench_arr[@]}
 bench_num_arr=()
 num_benches=0
 
