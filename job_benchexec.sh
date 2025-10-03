@@ -19,10 +19,13 @@ SIF="solver-bench.sif"
 IFS=',' read -r -a solvers <<< "${SOLVERS}"
 IFS=',' read -r -a benchsets <<< "${BENCHSETS}"
 
+echo "Solvers: ${solvers[*]}"
+echo "Benchsets: ${benchsets[*]}"
+
 num_solvers=${#solvers[@]}
 num_benchsets=${#benchsets[@]}
 total=$(( num_solvers * num_benchsets ))
-(( SLURM_ARRAY_TASK_ID >= 0 && SLURM_ARRAY_TASK_ID < total )) || { echo "Array index ${SLURM_ARRAY_TASK_ID} out of range"; exit 1; }
+(( SLURM_ARRAY_TASK_ID >= 0 && SLURM_ARRAY_TASK_ID < total )) || { echo "Array index ${SLURM_ARRAY_TASK_ID} out of range ${total}"; exit 1; }
 
 solver_index=$(( SLURM_ARRAY_TASK_ID / num_benchsets ))
 bench_index=$(( SLURM_ARRAY_TASK_ID % num_benchsets ))
@@ -40,13 +43,11 @@ mkdir -p "$outdir"
 threads=${SLURM_CPUS_PER_TASK:-1}
 
 echo "==> Starting solver=${solver} benchset=${benchset} (array id=${SLURM_ARRAY_TASK_ID})"
-echo "Using XML: $xml  Threads: $threads  Output: $outdir"
+echo "Using XML: $xml Threads: $threads Output: $outdir"
 
-apptainer exec \
-  --bind "$PWD":"$PWD" \
-  --pwd "$PWD" \
-  "$SIF" \
+apptainer exec --fakeroot "$SIF" \
   benchexec --no-container \
+            --no-compress-results \
             --outputpath "$outdir" \
             --numOfThreads "$threads" \
             --tasks "$benchset" \
