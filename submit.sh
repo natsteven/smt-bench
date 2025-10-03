@@ -25,6 +25,10 @@ done
 IFS=',' read -r -a solver_arr <<< "$solvers"
 IFS=',' read -r -a bench_arr <<< "$benchsets"
 
+if [[ ${#solver_arr[@]} -eq 1 && ${solver_arr}[0]=="all" ]]; then
+  solver_arr=("bass" "cvc5" "ostrich" "z3-noodler")
+fi
+
 num_solvers=${#solver_arr[@]}
 num_benchsets=${#bench_arr[@]}
 total=$((num_solvers * num_benchsets))
