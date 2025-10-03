@@ -1,9 +1,6 @@
 <benchmark tool="ostrich" timelimit="5 min" memlimit="15 GB" cpuCores="4">
 
     <rundefinition name="ostrich">
-        <executable>/usr/local/bin/ostrich</executable>
-        <option>-portfolio=strings</option>
-        <option>+quiet</option>
         <arg>{inputfile}</arg>
     </rundefinition>
 

@@ -1,7 +1,6 @@
 <benchmark tool="z3-noodler" timelimit="5 min" memlimit="15 GB" cpuCores="4">
 
     <rundefinition name="z3-noodler">
-        <executable>/usr/local/bin/z3-noodler</executable>
         <option>model=true</option>
         <arg>{inputfile}</arg>
     </rundefinition>

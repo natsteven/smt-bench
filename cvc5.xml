@@ -1,7 +1,6 @@
 <benchmark tool="cvc5" timelimit="5 min" memlimit="15 GB" cpuCores="4">
 
     <rundefinition name="cvc5">
-        <executable>/usr/local/bin/cvc5</executable>
         <option>--produce-models</option>
         <arg>{inputfile}</arg>
     </rundefinition>

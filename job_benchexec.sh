@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=48
 #SBATCH -t 12:00:00
-#SBATCH --output=logs/slurm-%A_%x.out
+#SBATCH --output=logs/slurm-%A_%x_%j.out
 
 set -euo pipefail
 module load apptainer/1.2.5

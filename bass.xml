@@ -1,8 +1,6 @@
-<benchmark tool="mas" timelimit="5 min" memlimit="15 GB" cpuCores="4">
+<benchmark tool="bass" timelimit="5 min" memlimit="15 GB" cpuCores="4">
 
-    <rundefinition name="mas">
-        <executable>/usr/local/bin/mas</executable>
-        <option>--produce-models</option>
+    <rundefinition name="bass">
         <arg>{inputfile}</arg>
     </rundefinition>
 
