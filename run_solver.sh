@@ -19,7 +19,9 @@ rc=0
   timeout 2m ./bin/"$solver" "$file"> "$log" 2>&1 || rc=$?
 
 if [ $rc -eq 124 ]; then
-	echo "Timeout: Solver $solver exceeded 2 minutes on file $(basename "$file")" > "$performance_log"
+	echo "timeout" > "$performance_log"
+elif [ $rc -eq 137 ]; then
+  echo "memout" > "$performance_log"
 fi
 
 end=$(date +%s.%3N)

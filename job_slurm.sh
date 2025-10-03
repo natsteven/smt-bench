@@ -1,10 +1,12 @@
 #!/bin/bash
 #SBATCH -J SMT_BENCH		#job name
 #SBATCH -p bsudfq		    #queue
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=48
-#SBATCH -t 12:00:00
+#SBATCH -N 1            #nodes
+#SBATCH -n 1            #tasks
+#SBATCH -c 1            #cpus per task
+#SBATCH --mem=1G       #memory per node
+#SBATCH --cpu-bind=cores
+#SBATCH -t 00:03:00
 #SBATCH --output=logs/slurm-%A_%a.out
 
 set -euo pipefail
