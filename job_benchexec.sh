@@ -15,7 +15,7 @@ SIF="solver-bench.sif"
 : "${SOLVERS:?SOLVERS env var missing (export via submit script)}"
 : "${BENCHSETS:?BENCHSETS env var missing (export via submit script)}"
 : "${SLURM_ARRAY_TASK_ID:?SLURM_ARRAY_TASK_ID unset}"
-
+echo "$SOLVERS"
 IFS=',' read -r -a solvers <<< "${SOLVERS}"
 IFS=',' read -r -a benchsets <<< "${BENCHSETS}"
 
@@ -46,7 +46,6 @@ echo "==> Starting solver=${solver} benchset=${benchset} (array id=${SLURM_ARRAY
 echo "Using XML: $xml Threads: $threads Output: $outdir"
 
 apptainer exec \
-#  --fakeroot \
   "$SIF" \
   benchexec --no-container \
             --no-cgroups \
