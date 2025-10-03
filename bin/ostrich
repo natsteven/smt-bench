@@ -1,2 +1,2 @@
 #!/bin/bash
-exec java -jar bin/ostrich.jar -portfolio=strings +quiet "$1"
+exec java -jar bin/ostrich.jar -portfolio=strings +quiet +model "$1"

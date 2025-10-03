@@ -58,7 +58,7 @@ if [[ $solver == "bass" ]]; then
   fi
 else # other solvers
   if [[ $benchset == "real" || $benchset == "simple" ]]; then
-    path="${path}/non_smt/${solver}/${benchset}/${file}.smt2"
+    path="${path}/not_smt/${solver}/${benchset}/${file}.smt2"
   else
     path="${path}/smt/${benchset}/${file}.smt2"
   fi
