@@ -4,8 +4,7 @@
 #SBATCH -N 1            #nodes
 #SBATCH -n 1            #tasks
 #SBATCH -c 1            #cpus per task
-#SBATCH --mem=1G       #memory per node
-#SBATCH --cpu-bind=cores
+#SBATCH --mem=1G        #memory per node
 #SBATCH -t 00:03:00
 #SBATCH --output=logs/slurm-%A_%a.out
 
@@ -65,4 +64,4 @@ else # other solvers
   fi
 fi
 
-./run_solver.sh "$solver" "$path"
+srun --cpu-bind=cores ./run_solver.sh "$solver" "$path"
