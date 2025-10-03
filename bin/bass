@@ -1,2 +1,2 @@
 #!/bin/bash
-exec java -cp bass.jar edu.boisestate.cs.SolveMain "$1" -v 2 -s inverse -l 2
+exec java -cp bin/bass.jar edu.boisestate.cs.SolveMain "$1" -v 2 -s inverse -l 2
