@@ -1,4 +1,4 @@
-<benchmark tool="cvc5" timelimit="5 min" memlimit="15 GB" cpuCores="4">
+<benchmark tool="cvc5">
 
     <rundefinition name="cvc5">
         <option>--produce-models</option>
@@ -6,33 +6,33 @@
     </rundefinition>
 
     <tasks name="woorpje">
-        <include>smt-comp/cvc5/woorpje/*.smt2</include>
+        <include>../../smt-comp/cvc5/woorpje/*.smt2</include>
     </tasks>
     <tasks name="slog">
-        <include>smt-comp/cvc5/slog/*.smt2</include>
+        <include>../../smt-comp/cvc5/slog/*.smt2</include>
     </tasks>
     <tasks name="sygus">
-        <include>smt-comp/cvc5/sygus/*.smt2</include>
+        <include>../../smt-comp/cvc5/sygus/*.smt2</include>
     </tasks>
     <tasks name="omark">
-        <include>smt-comp/cvc5/omark/*.smt2</include>
+        <include>../../smt-comp/cvc5/omark/*.smt2</include>
     </tasks>
     <tasks name="automatark">
-        <include>smt-comp/cvc5/automatark/*.smt2</include>
+        <include>../../smt-comp/cvc5/automatark/*.smt2</include>
     </tasks>
     <tasks name="matching">
-        <include>new-smt-comp/cvc5/matching/*.smt2</include>
+        <include>../../new-smt-comp/cvc5/matching/*.smt2</include>
     </tasks>
     <tasks name="rna-sat">
-        <include>new-smt-comp/cvc5/rna-sat/*.smt2</include>
+        <include>../../new-smt-comp/cvc5/rna-sat/*.smt2</include>
     </tasks>
     <tasks name="rna-unsat">
-        <include>new-smt-comp/cvc5/rna-unsat/*.smt2</include>
+        <include>../../new-smt-comp/cvc5/rna-unsat/*.smt2</include>
     </tasks>
     <tasks name="real">
-        <include>real/cvc5/*.smt2</include>
+        <include>../../real/cvc5/*.smt2</include>
     </tasks>
     <tasks name="simple">
-        <include>simple/cvc5/*.smt2</include>
+        <include>../../simple/cvc5/*.smt2</include>
     </tasks>
 </benchmark>
