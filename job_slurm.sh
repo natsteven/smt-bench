@@ -44,34 +44,23 @@ filenames="util/${benchset}-filenames.txt"
 readarray -t files < "$filenames"
 (( file_index < ${#files[@]} )) || { echo "File index out of range for $benchset"; exit 1; }
 
-file="${files[file_index]}.smt2"
+file="${files[file_index]}"
+path="benchmarks"
 
-#special setup for bass
+#path set up as various solver/ebnch combinations use different sets
 if [[ $solver == "bass" ]]; then
-  if [[ $benchset == "real" ]]; then
-    file="${file/.smt2//}"
+  path="${path}/bass/${benchset}/${file}"
+  if [[ $benchset == "real" || $benchset == "simple" ]]; then
+    path="${path}.json"
+  else
+    path="${path}.smt2.json"
   fi
-  file="${file}.json"
+else # other solvers
+  if [[ $benchset == "real" || $benchset == "simple" ]]; then
+    path="${path}non_smt/${solver}/${benchset}/${file}.smt2"
+  else
+    path="${path}smt/${benchset}/${file}.smt2"
+  fi
 fi
 
-echo "Solver=$solver Benchset=$benchset FileIndex=$file_index File=$file"
-
-mkdir -p logs logs/"$solver"
-
-log="logs/$solver/$(basename "$file").log"
-performance_log="logs/$solver/$(basename "$file").time"
-
-echo -n "$solver, $(basename "$file"), "
-
-start=$(date +%s.%3N)
-
-/usr/bin/time -f 'real=%e\nuser=%U\nsys=%S\nmax_rs_kb=%M' \
-  -o "$performance_log" \
-  timeout 2m ./bin/"$solver" "$file"> "$log" 2>&1 || rc=$?
-
-if [ $? -eq 124 ]; then
-	echo "Timeout: Solver $solver exceeded 2 minutes on file $(basename "$file")" > "$performance_log"
-fi
-
-end=$(date +%s.%3N)
-echo "($end - $start)" | bc
+./run_solver.sh "$solver" "$path"
