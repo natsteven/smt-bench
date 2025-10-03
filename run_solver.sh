@@ -1,6 +1,10 @@
 #!/bin/bash
 
-echo "Solver=$solver Benchset=$benchset FileIndex=$file_index File=$file"
+set -euo pipefail
+solver="$1"
+file="$2"
+
+echo "Solver=$solver File=$file"
 
 mkdir -p logs logs/"$solver"
 

@@ -3,7 +3,7 @@
 set -euo pipefail
 
 if [[ $# -ne 4 ]]; then
-  echo "Usage: $0 --solvers s1,s2... --benchsets b1,b2..."
+  echo "Usage: $0 --s s1,s2... --b b1,b2..."
   exit 1
 fi
 
@@ -12,8 +12,8 @@ benchsets=""
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    --solvers) solvers="$2"; shift 2 ;;
-    --benchsets) benchsets="$2"; shift 2 ;;
+    --s) solvers="$2"; shift 2 ;;
+    --b) benchsets="$2"; shift 2 ;;
     -h|--help)
       echo "Args: --solvers s1,s2 --benchsets b1,b2"
       exit 0
