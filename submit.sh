@@ -31,9 +31,19 @@ fi
 
 num_solvers=${#solver_arr[@]}
 num_benchsets=${#bench_arr[@]}
-total=$((num_solvers * num_benchsets))
+num_benches=""
+
+for bench in "${bench_arr[@]}"; do
+  num_benches="${num_benches}str($(wc -l) < "util/$bench-filenames.txt"),"
+done
+
+
+total=$((num_solvers * num_benches))
 
 echo "Submitting ${total} jobs for solvers: ${solvers} and benchsets: ${benchsets}"
 
-sbatch --export=ALL,SOLVERS="${solvers}",BENCHSETS="${benchsets}" \
-       --array=0-$((total-1)) job_benchexec.sh
+export SOLVERS="${solvers}"
+export BENCHSETS="${benchsets}"
+export BENCH_NUMS="${num_benches}"
+
+sbatch --export=ALL --array=0-$((total-1)) job_slurm.sh

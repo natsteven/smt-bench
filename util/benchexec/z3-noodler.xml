@@ -6,33 +6,33 @@
     </rundefinition>
 
     <tasks name="woorpje">
-        <include>../../smt-comp/z3-noodler/woorpje/*.smt2</include>
+        <include>../../smt-comp/z3/woorpje/*.smt2</include>
     </tasks>
     <tasks name="slog">
-        <include>../../smt-comp/z3-noodler/slog/*.smt2</include>
+        <include>../../smt-comp/z3/slog/*.smt2</include>
     </tasks>
     <tasks name="sygus">
-        <include>../../smt-comp/z3-noodler/sygus/*.smt2</include>
+        <include>../../smt-comp/z3/sygus/*.smt2</include>
     </tasks>
     <tasks name="omark">
-        <include>../../smt-comp/z3-noodler/omark/*.smt2</include>
+        <include>../../smt-comp/z3/omark/*.smt2</include>
     </tasks>
     <tasks name="automatark">
-        <include>../../smt-comp/z3-noodler/automatark/*.smt2</include>
+        <include>../../smt-comp/z3/automatark/*.smt2</include>
     </tasks>
     <tasks name="matching">
-        <include>../../new-smt-comp/z3-noodler/matching/*.smt2</include>
+        <include>../../new-smt-comp/z3/matching/*.smt2</include>
     </tasks>
     <tasks name="rna-sat">
-        <include>../../new-smt-comp/z3-noodler/rna-sat/*.smt2</include>
+        <include>../../new-smt-comp/z3/rna-sat/*.smt2</include>
     </tasks>
     <tasks name="rna-unsat">
-        <include>../../new-smt-comp/z3-noodler/rna-unsat/*.smt2</include>
+        <include>../../new-smt-comp/z3/rna-unsat/*.smt2</include>
     </tasks>
     <tasks name="real">
-        <include>../../real/z3-noodler/*.smt2</include>
+        <include>../../real/z3/*.smt2</include>
     </tasks>
     <tasks name="simple">
-        <include>../../simple/z3-noodler/*.smt2</include>
+        <include>../../simple/z3/*.smt2</include>
     </tasks>
 </benchmark>
