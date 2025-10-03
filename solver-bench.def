@@ -20,7 +20,7 @@ From: debian:testing-slim
     chmod 0644 /usr/local/bin/ostrich.jar /usr/local/bin/bass.jar
     printf '#!/bin/bash\nexec java -jar /usr/local/bin/ostrich.jar -portfolio=strings +quiet "$@"\n' >/usr/local/bin/ostrich
     chmod +x /usr/local/bin/ostrich
-    printf '#!/bin/bash\nexec java -jar /usr/local/bin/bass.jar edu.boisestate.cs.SolveMain -v 2 -s inverse"$@"\n' >/usr/local/bin/bass
+    printf '#!/bin/bash\nexec java -jar /usr/local/bin/bass.jar edu.boisestate.cs.SolveMain -v 2 -s inverse "$@"\n' >/usr/local/bin/bass
     chmod +x /usr/local/bin/bass
 
 %files
@@ -28,13 +28,13 @@ From: debian:testing-slim
     bin/cvc5 /usr/local/bin/cvc5
     bin/z3-noodler /usr/local/bin/z3-noodler
     bin/ostrich.jar /usr/local/bin/ostrich.jar
-    bin/mas.jar /usr/local/bin/bass.jar
+    bin/bass.jar /usr/local/bin/bass.jar
 
     #tool scripts for benchexec
-    bass.py /usr/local/lib/python3.11/site-packages/benchexec/tools/bass.py
-    cvc5.py /usr/local/lib/python3.11/site-packages/benchexec/tools/cvc5.py
-    z3-noodler.py /usr/local/lib/python3.11/site-packages/benchexec/tools/z3-noodler.py
-    ostrich.py /usr/local/lib/python3.11/site-packages/benchexec/tools/ostrich.py
+    util/benchexec/bass.py /usr/local/lib/python3.13/dist-packages/benchexec/tools/bass.py
+    util/benchexec/cvc5.py /usr/local/lib/python3.13/dist-packages/benchexec/tools/cvc5.py
+    util/benchexec/z3-noodler.py /usr/local/lib/python3.13/dist-packages/benchexec/tools/z3-noodler.py
+    util/benchexec/ostrich.py /usr/local/lib/python3.13/dist-packages/benchexec/tools/ostrich.py
 
 %labels
     Author="Nat Steven"

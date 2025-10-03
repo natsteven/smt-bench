@@ -32,7 +32,7 @@ benchset=${benchsets[$bench_index]}
 elem_id="${SLURM_JOB_ID}_${SLURM_ARRAY_TASK_ID}"
 scontrol update JobId="${elem_id}" Name="B_${solver}_${benchset}" 2>/dev/null || true
 
-xml="${solver}.xml"
+xml="util/benchexec/${solver}.xml"
 [[ -f "$xml" ]] || { echo "Missing XML file: $xml" >&2; exit 1; }
 
 outdir="results/${solver}_${benchset}_${SLURM_JOB_ID}_${SLURM_ARRAY_TASK_ID}"
