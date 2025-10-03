@@ -4,5 +4,5 @@ rm logs/*.out
 rm logs/bass/*
 rm logs/cvc5/*
 rm logs/ostrich/*
-rm logs/z3/*
+rm logs/z3-noodler/*
 
