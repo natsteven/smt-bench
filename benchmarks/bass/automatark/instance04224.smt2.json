@@ -1,0 +1,43 @@
+{
+	"alphabet" : {
+		"size" : 95,
+		"declaration" : " -~"
+	},
+	"vertices" : [
+		{
+			"num" : 0,
+			"actualValue" : "X",
+			"incomingEdges" :[
+			],
+			"sourceConstraints" : [ ],
+			"timeStamp" : 1722968589851,
+			"type" : 0,
+			"id" : 0,
+			"value" : "r0!:!getStringValue!!"
+		},{
+			"num" : 0,
+			"actualValue" : "source%3Dultrasearch136%26campaign%3DsnapuplogWinInet3Azopabora.info_",
+			"incomingEdges" :[
+			],
+			"sourceConstraints" : [ ],
+			"timeStamp" : 1722968589851,
+			"type" : 0,
+			"id" : 1,
+			"value" : "\"source%3Dultrasearch136%26campaign%3DsnapuplogWinInet3Azopabora.info_\"!:!<init>"
+		},{
+			"num" : 0,
+			"actualValue" : "false",
+			"incomingEdges" :[
+				 {
+					"source" : 0,
+					"type" : "t"
+				}, {
+					"source" : 1,
+					"type" : "s1"
+				}],
+			"sourceConstraints" : [ ],
+			"timeStamp" : 1722968589851,
+			"type" : 0,
+			"id" : 2,
+			"value" : "equals!!Ljava/lang/Object;!:!0"
+		} ] }

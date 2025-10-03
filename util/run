@@ -1,3 +1,0 @@
-#!/bin/bash
-
-apptainer run --app "$1" solver-bench.sif "$2"

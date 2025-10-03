@@ -1,54 +1,67 @@
 #!/bin/bash
 #SBATCH -J SMT_BENCH		#job name
 #SBATCH -p bsudfq		    #queue
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=48
-#SBATCH -t 12:00:00
-#SBATCH --array=0-1974
+#SBATCH -N 1            #nodes
+#SBATCH -n 1            #tasks
+#SBATCH -c 1            #cpus per task
+#SBATCH --mem=1G        #memory per node
+#SBATCH -t 00:03:00
 #SBATCH --output=logs/slurm-%A_%a.out
 
-#`sbatch job_slurm.sh`
+set -euo pipefail
 
-benches="smt-comp"
-subdir="/woorpje" #include leading slash
+IFS=',' read -r -a solvers <<< "${SOLVERS}"
+IFS=',' read -r -a benchsets <<< "${BENCHSETS}"
+IFS=',' read -r -a benchnums <<< "${BENCH_NUMS}"
 
-filenames="util/$benches$subdir-filenames.txt"
-lengths="util/$benches$subdir-lengths.txt"
+# Total benches (sum of BENCH_NUMS)
+total_benches=0
+for n in "${benchnums[@]}"; do
+  total_benches=$(( total_benches + n ))
+done
+(( total_benches > 0 )) || { echo "No benches defined"; exit 1; }
 
-module load apptainer/1.2.5
 
-declare -A extensions=( ["mas"]="smt2.json" ["z3"]="smt2" ["ostrich"]="smt2" ["cvc5"]="smt2" )
-solvers=( "z3" "ostrich" "cvc5" "mas" )
-#benches=( "woorpje" "slog" "sygus" )
-#files=()
-#for bench in "${benches[@]}"; do
-#	readarray -t tfiles < util/"$b"-filenames.txt
-#	files+=("${tfiles[@]}")
-#done
-readarray -t files < $filenames
-readarray -t lens < $lengths
-mkdir -p logs
+solver_index=$(( SLURM_ARRAY_TASK_ID / total_benches ))
+bench_pos=$(( SLURM_ARRAY_TASK_ID % total_benches ))   # 0-based position among all benches for that solver
+solver="${solvers[solver_index]}"
 
-solver_index=$((SLURM_ARRAY_TASK_ID / ${#files[@]}))
-file_index=$((SLURM_ARRAY_TASK_ID % ${#files[@]}))
+# Find benchset and local file index
+cum=0
+benchset=""
+file_index=-1
+for i in "${!benchnums[@]}"; do
+  next=$(( cum + benchnums[i] ))
+  if (( bench_pos < next )); then
+    benchset="${benchsets[i]}"
+    file_index=$(( bench_pos - cum ))   # index inside this benchset
+    break
+  fi
+  cum=$next
+done
+[[ -n "$benchset" && $file_index -ge 0 ]] || { echo "Benchset resolution failed"; exit 1; }
 
-solver=${solvers[$solver_index]}
-file_extension=${extensions[$solver]}
-file=${files[$file_index]}
-len=${lens[$file_index]}
-#bench=${benches[$((file_index / $]}
+filenames="util/${benchset}-filenames.txt"
+readarray -t files < "$filenames"
+(( file_index < ${#files[@]} )) || { echo "File index out of range for $benchset"; exit 1; }
 
-if [ "$len" == "" ]; then
-	len=15
+file="${files[file_index]}"
+path="benchmarks"
+
+#path set up as various solver/ebnch combinations use different sets
+if [[ $solver == "bass" ]]; then
+  path="${path}/bass/${benchset}/${file}"
+  if [[ $benchset == "real" || $benchset == "simple" ]]; then
+    path="${path}.json"
+  else
+    path="${path}.smt2.json"
+  fi
+else # other solvers
+  if [[ $benchset == "real" || $benchset == "simple" ]]; then
+    path="${path}/not_smt/${solver}/${benchset}/${file}.smt2"
+  else
+    path="${path}/smt/${benchset}/${file}.smt2"
+  fi
 fi
-if [ "$len" -gt 15 ]; then
-	len=15
-fi
-if [ "$len" -lt 1 ]; then
-	len=1
-fi
 
-mkdir -p logs/"$solver"
-
-srun ./solver_run.sh "$solver" "$benches/$solver$subdir/$file.$file_extension" "$len"
+srun --cpu-bind=cores ./run_solver.sh "$solver" "$path" "$benchset"

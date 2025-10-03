@@ -1,0 +1,69 @@
+{
+	"alphabet" : {
+		"size" : 95,
+		"declaration" : " -~"
+	},
+	"vertices" : [
+		{
+			"num" : 0,
+			"actualValue" : "X",
+			"incomingEdges" :[
+			],
+			"sourceConstraints" : [ ],
+			"timeStamp" : 1722968589843,
+			"type" : 0,
+			"id" : 0,
+			"value" : "r0!:!getStringValue!!"
+		},{
+			"num" : 0,
+			"actualValue" : "seqepagqfphv/sfdX-Mailer:__",
+			"incomingEdges" :[
+			],
+			"sourceConstraints" : [ ],
+			"timeStamp" : 1722968589843,
+			"type" : 0,
+			"id" : 1,
+			"value" : "\"seqepagqfphv/sfdX-Mailer:__\"!:!<init>"
+		},{
+			"num" : 0,
+			"actualValue" : "true",
+			"incomingEdges" :[
+				 {
+					"source" : 0,
+					"type" : "t"
+				}, {
+					"source" : 1,
+					"type" : "s1"
+				}],
+			"sourceConstraints" : [ ],
+			"timeStamp" : 1722968589843,
+			"type" : 0,
+			"id" : 3,
+			"value" : "equals!!Ljava/lang/Object;!:!0"
+		},{
+			"num" : 0,
+			"actualValue" : "wv=update.cgidrivesDaysform-data;_name=_pid__",
+			"incomingEdges" :[
+			],
+			"sourceConstraints" : [ ],
+			"timeStamp" : 1722968589843,
+			"type" : 0,
+			"id" : 2,
+			"value" : "\"wv=update.cgidrivesDaysform-data;_name=_pid__\"!:!<init>"
+		},{
+			"num" : 0,
+			"actualValue" : "false",
+			"incomingEdges" :[
+				 {
+					"source" : 0,
+					"type" : "t"
+				}, {
+					"source" : 2,
+					"type" : "s1"
+				}],
+			"sourceConstraints" : [ ],
+			"timeStamp" : 1722968589843,
+			"type" : 0,
+			"id" : 4,
+			"value" : "equals!!Ljava/lang/Object;!:!0"
+		} ] }
