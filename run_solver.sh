@@ -23,6 +23,7 @@ if [ $rc -eq 124 ]; then
   echo "timeout" >> "$log"
 	echo "timeout" > "$performance_log"
 elif [ $rc -eq 137 ]; then
+  echo "memout" >> "$log"
   echo "memout" > "$performance_log"
 fi
 
