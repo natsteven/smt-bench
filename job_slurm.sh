@@ -64,4 +64,4 @@ else # other solvers
   fi
 fi
 
-srun --cpu-bind=cores ./run_solver.sh "$solver" "$path"
+srun --cpu-bind=cores ./run_solver.sh "$solver" "$path" "$benchset"

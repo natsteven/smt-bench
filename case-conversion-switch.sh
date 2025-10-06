@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for file in benchmarks/not_smt/z3-noodler/real/mathQuiz*.smt2; do
+for file in benchmarks/not_smt/z3-noodler/real/beasties*.smt2; do
     echo "Processing $file"
     sed -i '/(define-fun-rec toLower /,/^)$/c\
 (define-fun-rec toLower ((x String) (y String)) Bool\

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 rm logs/*.out
-rm logs/bass/*
-rm logs/cvc5/*
-rm logs/ostrich/*
-rm logs/z3-noodler/*
+rm -rf logs/bass/*
+rm -rf logs/cvc5/*
+rm -rf logs/ostrich/*
+rm -rf logs/z3-noodler/*
 

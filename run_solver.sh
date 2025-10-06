@@ -3,11 +3,12 @@
 set -euo pipefail
 solver="$1"
 file="$2"
+benchset="$3"
 
-mkdir -p logs logs/"$solver"
+mkdir -p logs logs/"$solver" logs/"$solver"/"$benchset"
 
-log="logs/$solver/$(basename "$file").log"
-performance_log="logs/$solver/$(basename "$file").time"
+log="logs/$solver/$benchset/$(basename "$file").log"
+performance_log="logs/$solver/$benchset/$(basename "$file").time"
 
 echo -n "$solver, $(basename "$file"), "
 
@@ -19,6 +20,7 @@ rc=0
   timeout 2m ./bin/"$solver" "$file"> "$log" 2>&1 || rc=$?
 
 if [ $rc -eq 124 ]; then
+  echo "timeout" >> "$log"
 	echo "timeout" > "$performance_log"
 elif [ $rc -eq 137 ]; then
   echo "memout" > "$performance_log"
