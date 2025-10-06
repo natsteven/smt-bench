@@ -1,0 +1,77 @@
+beasties01.smt2; sat, 3: "A" 6: "Q" 9: "G" 12: "G" 15: "G" 18: "G" 21: "G" 24: "G" 27: "Y" 90: "A" 
+beasties02.smt2; sat, 3: "H" 6: "H" 9: "H" 12: "H" 15: "H" 18: "G" 21: "H" 24: "G" 27: "Y" 104: "A" 
+beasties03.smt2; sat, 3: "G" 6: "G" 9: "G" 12: "G" 15: "G" 18: "G" 21: "G" 24: "G" 27: "G" 30: "L" 33: "G" 36: "G" 39: "G" 42: "G" 45: "G" 48: "H" 51: "G" 54: "L" 57: "G" 60: "G" 63: "G" 66: "G" 69: "G" 72: "G" 75: "Y" 237: "A" 
+beasties04.smt2; sat, 3: "K" 6: "K" 9: "K" 12: "K" 15: "K" 18: "K" 21: "H" 24: "K" 27: "K" 30: "K" 33: "K" 36: "K" 39: "K" 42: "H" 45: "K" 48: "K" 51: "K" 54: "R" 57: "K" 60: "K" 63: "K" 66: "K" 69: "H" 72: "R" 75: "K" 78: "K" 81: "K" 84: "H" 87: "K" 90: "K" 93: "K" 96: "K" 99: "K" 102: "K" 105: "K" 108: "K" 111: "Y" 322: "A" 
+beasties05.smt2; sat, 3: "R" 6: "R" 9: "R" 12: "K" 15: "K" 18: "K" 21: "H" 24: "K" 27: "R" 30: "K" 33: "K" 36: "K" 39: "R" 42: "K" 45: "K" 48: "H" 51: "K" 54: "K" 57: "K" 60: "K" 63: "K" 66: "Y" 200: "A" 
+beasties06.smt2; sat, 3: "G" 6: "G" 9: "G" 12: "G" 15: "G" 18: "G" 21: "G" 24: "G" 27: "Y" 86: "A" 
+beasties07.smt2; sat, 3: "K" 6: "K" 9: "K" 12: "K" 15: "H" 18: "K" 21: "K" 24: "K" 27: "K" 30: "K" 33: "K" 36: "Y" 106: "A" 
+beasties08.smt2; sat, 3: "L" 6: "L" 9: "Y" 36: "A" 
+beasties09.smt2; sat, 3: "L" 6: "L" 9: "G" 12: "G" 15: "G" 18: "H" 21: "G" 24: "G" 27: "G" 30: "L" 33: "G" 36: "G" 39: "G" 42: "H" 45: "G" 48: "G" 51: "G" 54: "L" 57: "G" 60: "G" 63: "G" 66: "G" 69: "G" 72: "G" 75: "Y" 244: "A" 
+beasties10.smt2; sat, 3: "R" 6: "R" 9: "Y" 34: "A" 
+beasties11.smt2; sat, 3: "H" 6: "H" 9: "Y" 38: "A" 
+beasties12.smt2; sat, 3: "Y" 6: "A" 18: "A" 24: "A" 
+beasties13.smt2; sat, 3: "Y" 14: "" 
+beasties14.smt2; sat, 3: "A" 6: "Y" 26: "" 
+beasties15.smt2; sat, 3: "A" 6: "K" 9: "K" 12: "K" 15: "K" 18: "H" 21: "K" 24: "R" 27: "K" 30: "K" 33: "K" 36: "K" 39: "K" 42: "P" 45: "G" 48: "G" 51: "G" 54: "H" 57: "G" 60: "G" 63: "G" 66: "L" 69: "G" 72: "G" 75: "G" 78: "G" 81: "G" 84: "H" 87: "G" 90: "L" 93: "G" 96: "G" 99: "G" 102: "G" 105: "G" 108: "G" 111: "Y" 339: "" 
+beasties16.smt2; sat, 3: "A" 6: "G" 9: "G" 12: "K" 15: "P" 18: "P" 21: "P" 24: "P" 27: "P" 30: "P" 33: "P" 36: "H" 39: "G" 42: "K" 45: "P" 48: "Y" 133: "" 
+beasties17.smt2; sat, 3: "A" 6: "P" 9: "G" 12: "K" 15: "P" 18: "G" 21: "K" 24: "P" 27: "G" 30: "K" 33: "P" 36: "G" 39: "K" 42: "P" 45: "Y" 125: "" 
+beasties18.smt2; sat, 3: "A" 6: "P" 9: "K" 12: "P" 15: "K" 18: "P" 21: "K" 24: "P" 27: "K" 30: "P" 33: "H" 36: "K" 39: "P" 42: "H" 45: "K" 48: "P" 51: "H" 54: "K" 57: "P" 60: "H" 63: "K" 66: "P" 69: "Y" 197: "A" 
+beasties19.smt2; sat, 3: "A" 6: "P" 9: "K" 12: "P" 15: "K" 18: "P" 21: "K" 24: "P" 27: "K" 30: "P" 33: "K" 36: "P" 39: "K" 42: "P" 45: "K" 48: "P" 51: "Y" 134: "" 
+beasties20.smt2; sat, 3: "A" 6: "P" 9: "L" 12: "G" 15: "P" 18: "G" 21: "P" 24: "H" 27: "G" 30: "P" 33: "H" 36: "G" 39: "P" 42: "H" 45: "G" 48: "P" 51: "H" 54: "G" 57: "P" 60: "Y" 184: "A" 
+beasties21.smt2; sat, 3: "A" 6: "G" 9: "P" 12: "G" 15: "P" 18: "G" 21: "P" 24: "G" 27: "P" 30: "G" 33: "P" 36: "Y" 102: "" 
+beasties22.smt2; sat, 3: "A" 6: "P" 9: "P" 12: "P" 15: "P" 18: "P" 21: "P" 24: "P" 27: "H" 30: "P" 33: "H" 36: "P" 39: "H" 42: "P" 45: "H" 48: "P" 51: "Y" 147: "" 
+beasties23.smt2; sat, 3: "A" 6: "P" 9: "P" 12: "P" 15: "P" 18: "P" 21: "P" 24: "P" 27: "P" 30: "P" 33: "P" 36: "Y" 92: "" 
+beasties24.smt2; sat, 3: "A" 6: "K" 9: "K" 12: "K" 15: "K" 18: "K" 21: "K" 24: "H" 27: "G" 30: "G" 33: "G" 36: "G" 39: "G" 42: "G" 45: "H" 48: "L" 51: "G" 54: "G" 57: "G" 60: "G" 63: "G" 66: "G" 69: "L" 72: "K" 75: "H" 78: "G" 81: "G" 84: "G" 87: "G" 90: "G" 93: "G" 96: "K" 99: "Y" 306: "" 
+beasties25.smt2; sat, 3: "A" 6: "K" 9: "G" 12: "K" 15: "L" 18: "G" 21: "G" 24: "K" 27: "K" 30: "H" 33: "G" 36: "K" 39: "H" 42: "G" 45: "K" 48: "H" 51: "G" 54: "K" 57: "H" 60: "G" 63: "K" 66: "Y" 208: "" 
+beasties26.smt2; sat, 3: "A" 6: "G" 9: "K" 12: "G" 15: "K" 18: "G" 21: "K" 24: "G" 27: "K" 30: "Y" 90: "" 
+beasties27.smt2; sat, 3: "A" 6: "K" 9: "K" 12: "K" 15: "K" 18: "R" 21: "K" 24: "K" 27: "K" 30: "K" 33: "K" 36: "H" 39: "K" 42: "H" 45: "K" 48: "H" 51: "K" 54: "H" 57: "K" 60: "G" 63: "K" 66: "Y" 201: "" 
+beasties28.smt2; sat, 3: "A" 6: "K" 9: "K" 12: "K" 15: "K" 18: "K" 21: "K" 24: "K" 27: "K" 30: "K" 33: "K" 36: "Y" 102: "" 
+beasties29.smt2; sat, 3: "A" 6: "G" 9: "G" 12: "G" 15: "L" 18: "G" 21: "G" 24: "G" 27: "G" 30: "G" 33: "G" 36: "L" 39: "G" 42: "H" 45: "G" 48: "G" 51: "G" 54: "G" 57: "G" 60: "Y" 191: "" 
+beasties30.smt2; sat, 3: "A" 6: "G" 9: "G" 12: "G" 15: "G" 18: "G" 21: "G" 24: "L" 27: "G" 30: "G" 33: "G" 36: "G" 39: "G" 42: "G" 45: "Y" 141: "" 
+jxml2sql04.smt2; unsat 
+jxml2sql07.smt2; unsat 
+jxml2sql09.smt2; unsat 
+jxml2sql14.smt2; unsat 
+jxml2sql15.smt2; unsat 
+jxml2sql16.smt2; unsat 
+jxml2sql18.smt2; unsat 
+jxml2sql19.smt2; unsat 
+jxml2sql20.smt2; unsat 
+jxml2sql21.smt2; unsat 
+jxml2sql22.smt2; unsat 
+jxml2sql23.smt2; unsat 
+jxml2sql24.smt2; unsat 
+jxml2sql25.smt2; unsat 
+jxml2sql26.smt2; unsat 
+jxml2sql27.smt2; unsat 
+jxml2sql28.smt2; unsat 
+jxml2sql29.smt2; unsat 
+jxml2sql30.smt2; unsat 
+jxml2sql31.smt2; unsat 
+jxml2sql32.smt2; unsat 
+jxml2sql33.smt2; unsat 
+jxml2sql34.smt2; unsat 
+mathQuizGame01.smt2; unsat 
+mathQuizGame02.smt2; unsat 
+mathQuizGame03.smt2; unsat 
+mathQuizGame04.smt2; unsat 
+mathQuizGame09.smt2; unsat 
+mathQuizGame10.smt2; unsat 
+mathQuizGame12.smt2; unsat 
+mathQuizGame13.smt2; unsat 
+mathQuizGame14.smt2; unsat 
+mathQuizGame15.smt2; unsat 
+mathQuizGame16.smt2; unsat 
+mathQuizGame17.smt2; unsat 
+mathQuizGame19.smt2; unsat 
+mathQuizGame20.smt2; unsat 
+mathQuizGame21.smt2; unsat 
+mathQuizGame22.smt2; unsat 
+mathQuizGame23.smt2; unsat 
+mathQuizGame24.smt2; unsat 
+mathQuizGame26.smt2; unsat 
+mathQuizGame27.smt2; unsat 
+mathQuizGame28.smt2; unsat 
+mathQuizGame29.smt2; unsat 
+mathQuizGame30.smt2; unsat 
+mathQuizGame31.smt2; unsat 
