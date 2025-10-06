@@ -50,11 +50,7 @@ path="benchmarks"
 
 #path set up as various solver/ebnch combinations use different sets
 if [[ $solver == "bass" ]]; then
-  path="${path}/bass/${benchset}/${file}"
-  if [[ $benchset == "real" || $benchset == "simple" ]]; then
-    path="${path}.json"
-  else
-    path="${path}.smt2.json"
+  path="${path}/bass/${benchset}/${file}.smt2.json"
   fi
 else # other solvers
   if [[ $benchset == "real" || $benchset == "simple" ]]; then

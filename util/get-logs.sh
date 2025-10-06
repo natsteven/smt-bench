@@ -1,27 +1,24 @@
 #!/bin/bash
 
-if [ -z "$1" ]; then
-	echo "Usage: $0 <solver>" >&2
+if [ $# -ne 3 ]; then
+	echo "Usage: $0 <solver> <benchset>"  >&2
 	exit 1
 fi
 
 solver=$1
+benchset=$2
 
-cd "logs/$solver" || exit
-out="$HOME/smt-bench/$solver-logs.txt"
+cd "logs/$solver/$benchset" || exit
+out="$HOME/smt-bench/$solver-$benchset-logs.txt"
 rm "$out" 2>/dev/null
 
-if [ "$solver" == "mas" ]; then
+if [ "$solver" == "bass" ]; then
     for file in *.log; do
         {
         filename="$(basename "$file" .json.log)"
-        if [ ! -s "$file" ]; then
-            echo "$filename; TO";
-        else
-            echo -n "$filename; ";
-            tr '\n' ' ' < "$file";
-            echo "";
-    fi
+        echo -n "$filename; ";
+        tr '\n' ' ' < "$file";
+        echo "";
 } >> "$out"
     done
     exit 0
