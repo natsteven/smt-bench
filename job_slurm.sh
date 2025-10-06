@@ -51,7 +51,6 @@ path="benchmarks"
 #path set up as various solver/ebnch combinations use different sets
 if [[ $solver == "bass" ]]; then
   path="${path}/bass/${benchset}/${file}.smt2.json"
-  fi
 else # other solvers
   if [[ $benchset == "real" || $benchset == "simple" ]]; then
     path="${path}/not_smt/${solver}/${benchset}/${file}.smt2"
@@ -59,5 +58,8 @@ else # other solvers
     path="${path}/smt/${benchset}/${file}.smt2"
   fi
 fi
+
+job_name="${solver:0:3}_${benchset}_${file}"
+scontrol update JobName="$job_name" JobId="$SLURM_JOB_ID"
 
 srun --cpu-bind=cores ./run_solver.sh "$solver" "$path" "$benchset"
