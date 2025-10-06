@@ -5,20 +5,20 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-benches=$1
+benchset=$1
 
-out="$HOME/smt-bench/$benches-times.txt"
+out="$HOME/smt-bench/$benchset-times.txt"
 
 rm "$out" 2>/dev/null
 
-readarray -t filenames < "util/$benches-filenames.txt"
+readarray -t filenames < "util/$benchset-filenames.txt"
 
 echo ",bass,,,,cvc5,,,,ostrich,,,,z3-noodler" > "$out"
 echo "filename,real,user,sys,mem,real,user,sys,mem,real,user,sys,mem,real,user,sys,mem" >> "$out"
 
 for file in "${filenames[@]}"; do
 	echo -n "$file," >> "$out"
-  	for solver in bass cvc5 ostrich z3; do
+  	for solver in bass cvc5 ostrich z3-noodler; do
   		f="logs/$solver/$benchset/$file.smt2"
   		if [ $solver == "bass" ]; then
   		  f="${f}.json"
