@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_S)
 
 (set-option :produce-models true)
    (define-fun-rec toLower ((x String) (y String)) Bool
