@@ -7,7 +7,7 @@ for bench in automatark matching real rna-sat rna-unsat simple woorpje; do
   echo "  getting logs"
   ./util/get-all-logs.sh "$bench"
   echo "  getting times"
-  ./util/compile-cpu-times.sh "$bench"
+  ./util/compile-cpu-time.sh "$bench"
   mv "$bench"-times.txt results/
 done
 
