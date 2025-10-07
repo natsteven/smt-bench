@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# get all logs and times for all benches
+
+for bench in automatark matching real rna-sat rna-unsat simple woorpje; do
+  echo "Processing $bench"
+  echo "  getting logs"
+  ./util/get-all-logs.sh "$bench"
+  echo "  getting times"
+  ./util/compile-cpu-times.sh "$bench"
+  mv "$bench"-times.txt results/
+done
+
+for solver in bass cvc5 ostrich z3-noodler; do
+  mv "$solver"-*-logs.txt results/"$solver"
+done
