@@ -28,6 +28,8 @@ beasties27
 beasties28
 beasties29
 beasties30
+htmlCleaner01
+iText02
 jxml2sql04
 jxml2sql07
 jxml2sql09
@@ -51,6 +53,7 @@ jxml2sql31
 jxml2sql32
 jxml2sql33
 jxml2sql34
+mathParser01
 mathQuizGame01
 mathQuizGame02
 mathQuizGame03
@@ -75,3 +78,4 @@ mathQuizGame28
 mathQuizGame29
 mathQuizGame30
 mathQuizGame31
+naturalCLI01
