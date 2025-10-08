@@ -28,50 +28,50 @@ beasties27.smt2; sat, 3: "A" 6: "K" 9: "K" 12: "K" 15: "K" 18: "R" 21: "K" 24: "
 beasties28.smt2; sat, 3: "A" 6: "K" 9: "K" 12: "K" 15: "K" 18: "K" 21: "K" 24: "K" 27: "K" 30: "K" 33: "K" 36: "Y" 102: "" 
 beasties29.smt2; sat, 3: "A" 6: "G" 9: "G" 12: "G" 15: "L" 18: "G" 21: "G" 24: "G" 27: "G" 30: "G" 33: "G" 36: "L" 39: "G" 42: "H" 45: "G" 48: "G" 51: "G" 54: "G" 57: "G" 60: "Y" 191: "" 
 beasties30.smt2; sat, 3: "A" 6: "G" 9: "G" 12: "G" 15: "G" 18: "G" 21: "G" 24: "L" 27: "G" 30: "G" 33: "G" 36: "G" 39: "G" 42: "G" 45: "Y" 141: "" 
-jxml2sql04.smt2; unsat 
-jxml2sql07.smt2; unsat 
-jxml2sql09.smt2; unsat 
-jxml2sql14.smt2; unsat 
-jxml2sql15.smt2; unsat 
-jxml2sql16.smt2; unsat 
-jxml2sql18.smt2; unsat 
-jxml2sql19.smt2; unsat 
-jxml2sql20.smt2; unsat 
-jxml2sql21.smt2; unsat 
-jxml2sql22.smt2; unsat 
-jxml2sql23.smt2; unsat 
-jxml2sql24.smt2; unsat 
-jxml2sql25.smt2; unsat 
-jxml2sql26.smt2; unsat 
-jxml2sql27.smt2; unsat 
-jxml2sql28.smt2; unsat 
-jxml2sql29.smt2; unsat 
-jxml2sql30.smt2; unsat 
-jxml2sql31.smt2; unsat 
-jxml2sql32.smt2; unsat 
-jxml2sql33.smt2; unsat 
-jxml2sql34.smt2; unsat 
-mathQuizGame01.smt2; unsat 
-mathQuizGame02.smt2; unsat 
-mathQuizGame03.smt2; unsat 
-mathQuizGame04.smt2; unsat 
-mathQuizGame09.smt2; unsat 
-mathQuizGame10.smt2; unsat 
-mathQuizGame12.smt2; unsat 
-mathQuizGame13.smt2; unsat 
-mathQuizGame14.smt2; unsat 
-mathQuizGame15.smt2; unsat 
-mathQuizGame16.smt2; unsat 
-mathQuizGame17.smt2; unsat 
-mathQuizGame19.smt2; unsat 
-mathQuizGame20.smt2; unsat 
-mathQuizGame21.smt2; unsat 
-mathQuizGame22.smt2; unsat 
-mathQuizGame23.smt2; unsat 
-mathQuizGame24.smt2; unsat 
-mathQuizGame26.smt2; unsat 
-mathQuizGame27.smt2; unsat 
-mathQuizGame28.smt2; unsat 
-mathQuizGame29.smt2; unsat 
-mathQuizGame30.smt2; unsat 
+jxml2sql04.smt2; sat, 2: "" 4: "" 6: "" 8: "OPTION" 10: "" 12: "" 14: "" 16: "" 18: "LENGTH" 20: "" 22: "" 24: "" 26: "TYPE" 28: "" 30: "" 32: "DESCRIPTION" 34: "" 36: "NAME" 38: "FIELD" 40: "" 42: "" 44: "OPTION" 46: "" 48: "" 50: "" 52: "" 54: "OPTION" 56: "" 58: "" 60: "" 62: "" 64: "TYPE" 66: "" 68: "" 70: "DESCRIPTION" 72: "" 74: "NAME" 76: "FIELD" 78: "" 80: "" 82: "DESCRIPTION" 84: "" 86: "NAME" 88: "TABLE" 90: "" 92: "" 94: "" 96: "" 98: "" 100: "DESCRIPTION" 102: "" 104: "NAME" 106: "DATABASE" 
+jxml2sql07.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "DESCRIPTION" 103: "" 105: "NAME" 107: "DATABASE" 
+jxml2sql09.smt2; sat, 1: "" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "DESCRIPTION" 103: "" 105: "NAME" 107: "DATABASE" 
+jxml2sql14.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "DESCRIPTION" 11: "" 13: "NAME" 15: "DATABASE" 
+jxml2sql15.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "DESCRIPTION" 103: "" 105: "DATABASE" 
+jxml2sql16.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "NAME" 91: "TABLE" 93: "" 95: "" 97: "" 99: "" 101: "" 103: "DESCRIPTION" 105: "" 107: "NAME" 109: "DATABASE" 
+jxml2sql18.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "" 103: "" 105: "" 107: "DESCRIPTION" 109: "" 111: "NAME" 113: "DATABASE" 
+jxml2sql19.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "TABLE" 89: "" 91: "" 93: "" 95: "" 97: "" 99: "DESCRIPTION" 101: "" 103: "NAME" 105: "DATABASE" 
+jxml2sql20.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "NAME" 91: "TABLE" 93: "" 95: "" 97: "" 99: "" 101: "" 103: "DESCRIPTION" 105: "" 107: "NAME" 109: "DATABASE" 
+jxml2sql21.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "DESCRIPTION" 89: "" 91: "NAME" 93: "TABLE" 95: "" 97: "" 99: "" 101: "" 103: "" 105: "DESCRIPTION" 107: "" 109: "NAME" 111: "DATABASE" 
+jxml2sql22.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "DESCRIPTION" 11: "" 13: "NAME" 15: "TABLE" 17: "" 19: "" 21: "" 23: "" 25: "" 27: "DESCRIPTION" 29: "" 31: "NAME" 33: "DATABASE" 
+jxml2sql23.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "FIELD" 39: "" 41: "" 43: "OPTION" 45: "" 47: "" 49: "" 51: "" 53: "OPTION" 55: "" 57: "" 59: "" 61: "" 63: "TYPE" 65: "" 67: "" 69: "DESCRIPTION" 71: "" 73: "FIELD" 75: "" 77: "" 79: "DESCRIPTION" 81: "" 83: "NAME" 85: "TABLE" 87: "" 89: "" 91: "" 93: "" 95: "" 97: "DESCRIPTION" 99: "" 101: "NAME" 103: "DATABASE" 
+jxml2sql24.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "NAME" 41: "FIELD" 43: "" 45: "" 47: "OPTION" 49: "" 51: "" 53: "" 55: "" 57: "OPTION" 59: "" 61: "" 63: "" 65: "" 67: "TYPE" 69: "" 71: "" 73: "DESCRIPTION" 75: "" 77: "NAME" 79: "NAME" 81: "FIELD" 83: "" 85: "" 87: "DESCRIPTION" 89: "" 91: "NAME" 93: "TABLE" 95: "" 97: "" 99: "" 101: "" 103: "" 105: "DESCRIPTION" 107: "" 109: "NAME" 111: "DATABASE" 
+jxml2sql25.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "DESCRIPTION" 29: "" 31: "NAME" 33: "FIELD" 35: "" 37: "" 39: "OPTION" 41: "" 43: "" 45: "" 47: "" 49: "OPTION" 51: "" 53: "" 55: "" 57: "" 59: "DESCRIPTION" 61: "" 63: "NAME" 65: "FIELD" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "TABLE" 79: "" 81: "" 83: "" 85: "" 87: "" 89: "DESCRIPTION" 91: "" 93: "NAME" 95: "DATABASE" 
+jxml2sql26.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "TYPE" 35: "" 37: "" 39: "DESCRIPTION" 41: "" 43: "NAME" 45: "FIELD" 47: "" 49: "" 51: "OPTION" 53: "" 55: "" 57: "" 59: "" 61: "OPTION" 63: "" 65: "" 67: "" 69: "" 71: "TYPE" 73: "" 75: "" 77: "TYPE" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "FIELD" 91: "" 93: "" 95: "DESCRIPTION" 97: "" 99: "NAME" 101: "TABLE" 103: "" 105: "" 107: "" 109: "" 111: "" 113: "DESCRIPTION" 115: "" 117: "NAME" 119: "DATABASE" 
+jxml2sql27.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "DESCRIPTION" 39: "" 41: "NAME" 43: "FIELD" 45: "" 47: "" 49: "OPTION" 51: "" 53: "" 55: "" 57: "" 59: "OPTION" 61: "" 63: "" 65: "" 67: "" 69: "TYPE" 71: "" 73: "" 75: "DESCRIPTION" 77: "" 79: "DESCRIPTION" 81: "" 83: "NAME" 85: "FIELD" 87: "" 89: "" 91: "DESCRIPTION" 93: "" 95: "NAME" 97: "TABLE" 99: "" 101: "" 103: "" 105: "" 107: "" 109: "DESCRIPTION" 111: "" 113: "NAME" 115: "DATABASE" 
+jxml2sql28.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "LENGTH" 29: "" 31: "" 33: "" 35: "TYPE" 37: "" 39: "" 41: "DESCRIPTION" 43: "" 45: "NAME" 47: "FIELD" 49: "" 51: "" 53: "OPTION" 55: "" 57: "" 59: "" 61: "" 63: "OPTION" 65: "" 67: "" 69: "" 71: "" 73: "TYPE" 75: "" 77: "" 79: "DESCRIPTION" 81: "" 83: "NAME" 85: "FIELD" 87: "" 89: "" 91: "DESCRIPTION" 93: "" 95: "NAME" 97: "TABLE" 99: "" 101: "" 103: "" 105: "" 107: "" 109: "DESCRIPTION" 111: "" 113: "NAME" 115: "DATABASE" 
+jxml2sql29.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "" 47: "" 49: "" 51: "" 53: "" 55: "" 57: "" 59: "" 61: "" 63: "" 65: "OPTION" 67: "" 69: "" 71: "" 73: "" 75: "OPTION" 77: "" 79: "" 81: "" 83: "" 85: "TYPE" 87: "" 89: "" 91: "DESCRIPTION" 93: "" 95: "NAME" 97: "FIELD" 99: "" 101: "" 103: "DESCRIPTION" 105: "" 107: "NAME" 109: "TABLE" 111: "" 113: "" 115: "" 117: "" 119: "" 121: "DESCRIPTION" 123: "" 125: "NAME" 127: "DATABASE" 
+jxml2sql30.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "DESCRIPTION" 103: "" 105: "NAME" 107: "DATABASE" 
+jxml2sql31.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "DESCRIPTION" 103: "" 105: "NAME" 107: "DATABASE" 
+jxml2sql32.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "DESCRIPTION" 103: "" 105: "NAME" 107: "DATABASE" 
+jxml2sql33.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "DESCRIPTION" 103: "" 105: "NAME" 107: "DATABASE" 
+jxml2sql34.smt2; sat, 1: "HTML" 3: "" 5: "" 7: "" 9: "OPTION" 11: "" 13: "" 15: "" 17: "" 19: "LENGTH" 21: "" 23: "" 25: "" 27: "TYPE" 29: "" 31: "" 33: "DESCRIPTION" 35: "" 37: "NAME" 39: "FIELD" 41: "" 43: "" 45: "OPTION" 47: "" 49: "" 51: "" 53: "" 55: "OPTION" 57: "" 59: "" 61: "" 63: "" 65: "TYPE" 67: "" 69: "" 71: "DESCRIPTION" 73: "" 75: "NAME" 77: "FIELD" 79: "" 81: "" 83: "DESCRIPTION" 85: "" 87: "NAME" 89: "TABLE" 91: "" 93: "" 95: "" 97: "" 99: "" 101: "DESCRIPTION" 103: "" 105: "NAME" 107: "DATABASE" 
+mathQuizGame01.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "HIGH SCHOOL" 13: "Y" 14: "" 15: "" 16: "" 17: "" 18: "" 19: "" 20: "" 21: "" 22: "" 23: "" 24: "ELEMENTARY" 
+mathQuizGame02.smt2; sat, 1: "" 2: "" 3: "" 4: "HIGH SCHOOL" 5: "/RESTART" 6: "HIGH SCHOOL" 
+mathQuizGame03.smt2; sat, 1: "/QUIT" 2: "HIGH SCHOOL" 
+mathQuizGame04.smt2; sat, 1: "" 2: "/CLEAR" 3: "HIGH SCHOOL" 
+mathQuizGame09.smt2; sat, 1: "/HELP" 2: "MIDDLE SCHOOL" 
+mathQuizGame10.smt2; sat, 1: "" 2: "" 3: "MIDDLE SCHOOL" 
+mathQuizGame12.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "ELEMENTARY" 
+mathQuizGame13.smt2; sat, 1: "/QUIT" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "ELEMENTARY" 
+mathQuizGame14.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "ELEMENTARY" 
+mathQuizGame15.smt2; sat, 1: "/QUIT" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "ELEMENTARY" 
+mathQuizGame16.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "ELEMENTARY" 
+mathQuizGame17.smt2; sat, 1: "/QUIT" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "ELEMENTARY" 
+mathQuizGame19.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "MIDDLE SCHOOL" 
+mathQuizGame20.smt2; sat, 1: "/QUIT" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "MIDDLE SCHOOL" 
+mathQuizGame21.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "MIDDLE SCHOOL" 
+mathQuizGame22.smt2; sat, 1: "/QUIT" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "MIDDLE SCHOOL" 
+mathQuizGame23.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "MIDDLE SCHOOL" 
+mathQuizGame24.smt2; sat, 1: "/QUIT" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "MIDDLE SCHOOL" 
+mathQuizGame26.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "HIGH SCHOOL" 
+mathQuizGame27.smt2; sat, 1: "/QUIT" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "HIGH SCHOOL" 
+mathQuizGame28.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "HIGH SCHOOL" 
+mathQuizGame29.smt2; sat, 1: "/QUIT" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "HIGH SCHOOL" 
+mathQuizGame30.smt2; sat, 1: "N" 2: "" 3: "" 4: "" 5: "" 6: "" 7: "" 8: "" 9: "" 10: "" 11: "" 12: "HIGH SCHOOL" 
 mathQuizGame31.smt2; unsat 
