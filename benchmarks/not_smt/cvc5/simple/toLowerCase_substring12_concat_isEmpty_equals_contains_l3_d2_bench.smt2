@@ -1,25 +1,10 @@
 (set-logic ALL)
 (set-option :produce-models true)
-(define-fun-rec str.toLower ((x String)) String
-  (ite (= x "")
-      ""
-      (let ((Head (str.at x 0)))
-        (str.++ 
-          (ite (and (<= 65 (str.to_code Head)) 
-                     (<= (str.to_code Head) 90))
-               (str.from_code (+ (str.to_code Head) 32))
-               Head)
-          (str.toLower (str.substr x 1 (- (str.len x) 1)))))))
 (declare-fun sym9 () String)
-(assert (<= (str.len sym9) 3))
 (declare-fun sym7 () String)
-(assert (<= (str.len sym7) 3))
 (declare-fun sym8 () String)
-(assert (<= (str.len sym8) 3))
 (declare-fun sym11 () String)
-(assert (<= (str.len sym11) 3))
 (declare-fun sym10 () String)
-(assert (<= (str.len sym10) 3))
 (define-fun Alphabet () RegLan 
 	(re.* (re.union (str.to_re "A") (str.to_re "B") (str.to_re "C") (str.to_re "a") (str.to_re "b") (str.to_re "c") ))
 )
@@ -41,6 +26,11 @@
 (assert (<= 2 (str.len (str.toLower sym11 ))))
 (assert (<= 6 (str.len (str.++ sym7 sym9 ))))
 
+(assert sym7 )
+(assert sym8 )
+(assert sym9 )
+(assert sym10 )
+(assert sym11 )
 (assert (not (str.contains (str.substr sym10  2 0)"A" )))
 (assert (= "" (str.substr (str.substr sym8  0 1) 0 0)))
 (assert (not (= (str.substr (str.++ sym7 sym9 ) 4 2)"B" )))

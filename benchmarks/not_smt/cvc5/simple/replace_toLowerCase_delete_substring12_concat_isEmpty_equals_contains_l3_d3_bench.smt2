@@ -1,27 +1,12 @@
 (set-logic ALL)
 (set-option :produce-models true)
-(define-fun-rec str.toLower ((x String)) String
-  (ite (= x "")
-      ""
-      (let ((Head (str.at x 0)))
-        (str.++ 
-          (ite (and (<= 65 (str.to_code Head)) 
-                     (<= (str.to_code Head) 90))
-               (str.from_code (+ (str.to_code Head) 32))
-               Head)
-          (str.toLower (str.substr x 1 (- (str.len x) 1)))))))
 (define-fun str.del ((x String) (a Int) (b Int)) String
   (str.++ (str.substr x 0 a) (str.substr x b (str.len x))))
 (declare-fun sym9 () String)
-(assert (<= (str.len sym9) 3))
 (declare-fun sym7 () String)
-(assert (<= (str.len sym7) 3))
 (declare-fun sym8 () String)
-(assert (<= (str.len sym8) 3))
 (declare-fun sym11 () String)
-(assert (<= (str.len sym11) 3))
 (declare-fun sym10 () String)
-(assert (<= (str.len sym10) 3))
 (define-fun Alphabet () RegLan 
 	(re.* (re.union (str.to_re "A") (str.to_re "B") (str.to_re "C") (str.to_re "a") (str.to_re "b") (str.to_re "c") ))
 )
@@ -67,6 +52,11 @@
 (assert (<= 3 (str.len (str.toLower sym10 ))))
 (assert (<= 3 (str.len sym11 )))
 
+(assert sym7 )
+(assert sym8 )
+(assert sym9 )
+(assert sym10 )
+(assert sym11 )
 (assert (not (= "" (str.toLower (str.++ (str.toLower sym10 )"c" )))))
 (assert (not (str.contains (str.replace_all sym7  "A"  "B" )"bB" )))
 (assert (= "" (str.del sym10  0 3)))
