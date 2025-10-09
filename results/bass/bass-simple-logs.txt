@@ -1,0 +1,13 @@
+concat_isEmpty_equals_contains_l2_d2_bench.smt2; sat, 1: "CB" 2: "A" 3: "BB" 4: "AB" 5: "A" 
+delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2; Warning, Solver.contains(): base model is empty 
+delete_isEmpty_equals_contains_l2_d2_bench.smt2; sat, 3: "AA" 4: "AC" 5: "BA" 16: "A" 46: "A" 
+replace_concat_isEmpty_equals_contains_l3_d3_bench.smt2; unsat 
+replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2; unsat 
+replace_isEmpty_equals_contains_l2_d2_bench.smt2; sat, 3: "A" 4: "A" 5: "" 6: "A" 43: "" 
+replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2; unsat 
+substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2; unsat 
+substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2; Warning, Solver.contains(): base model is empty 
+substring12_isEmpty_equals_contains_l2_d2_bench.smt2; sat, 3: "AA" 4: "AA" 5: "AA" 16: "A" 46: "A" 
+toLowerCase_concat_isEmpty_equals_contains_l3_d3_bench.smt2; unsat 
+toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2; sat, 1: "A" 2: "A" 3: "A" 4: "A" 40: "A" 
+toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2; Warning, Solver.contains(): base model is empty 
