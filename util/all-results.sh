@@ -14,3 +14,5 @@ done
 for solver in bass cvc5 ostrich z3-noodler; do
   mv "$solver"-*-logs.txt results/"$solver"
 done
+
+./util/make-log-tables.sh
