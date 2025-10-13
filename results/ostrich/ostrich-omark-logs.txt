@@ -1,0 +1,6 @@
+cloud-service-query-1.smt2: timeout ,
+lyndon-schuetzenberg-1.smt2: timeout ,
+lyndon-schuetzenberg-3.smt2: timeout ,
+noodles-unsat-5.smt2: timeout ,
+noodles-unsat-7.smt2: timeout ,
+parikh.smt2: timeout ,

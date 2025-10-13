@@ -1,8 +1,0 @@
-,bass,,,,cvc5,,,,ostrich,,,,z3-noodler
-filename,real,user,sys,mem,real,user,sys,mem,real,user,sys,mem,real,user,sys,mem
-cloud-service-query-1,,,,,1.75,1.18,0.03,17860,,,,,0.99,0.13,0.04,36040,
-lyndon-schuetzenberg-1,0.48,0.41,0.03,62168,,,,,,,,,,,,,
-lyndon-schuetzenberg-3,0.46,0.41,0.03,62240,,,,,,,,,,,,,
-noodles-unsat-5,0.50,0.42,0.03,64032,,,,,,,,,,,,,
-noodles-unsat-7,0.48,0.42,0.03,63732,,,,,,,,,,,,,
-parikh,0.49,0.43,0.03,63676,0.59,0.03,0.01,7988,,,,,1.00,0.03,0.03,26484,

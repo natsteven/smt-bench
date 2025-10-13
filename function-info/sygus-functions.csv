@@ -1,322 +1,322 @@
-query4399: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3386: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3252: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3367: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3445: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7487: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3167: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4933: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3458: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query9747: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3296: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3102: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3465: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query6917: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3487: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3555: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3225: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query4860: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3133: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3712: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query9050: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4114: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3332: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3506: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5700: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3489: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3239: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3358: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3694: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10684: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query8867: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3591: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query6203: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3873: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query8045: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6620: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3979: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5289: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3516: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10584: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7820: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query9063: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3137: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5041: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query4443: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3541: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7723: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3143: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3359: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5519: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6637: str.in_re, str.to_re, re.all, str.++, re.++, re.allchar, 
-query6136: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3113: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6780: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3574: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7561: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7958: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3549: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10041: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query9416: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3177: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8926: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3444: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3570: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query9066: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3549: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3269: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4249: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3314: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7704: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3556: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8582: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3149: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8094: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5852: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3189: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3520: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3316: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3321: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3454: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10629: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3238: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7657: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query6221: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6754: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3864: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3310: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4443: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3462: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8348: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3335: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10634: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query4858: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5905: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3465: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4932: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3234: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5819: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3336: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3096: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3229: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3361: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4267: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6380: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3723: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10675: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3336: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3424: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6481: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3473: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3558: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6569: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query9064: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3449: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8955: str.in_re, str.to_re, re.all, str.++, re.++, re.allchar, 
-query3423: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6345: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3188: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4319: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3450: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5742: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3231: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query2885: str.in_re, str.to_re, re.all, str.++, re.++, re.allchar, 
-query8303: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10608: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3182: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5582: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3164: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query9049: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3111: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3767: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5511: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10611: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5400: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8512: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5935: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3214: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10112: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6966: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3495: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7051: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10642: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query4673: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3368: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3574: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3429: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3476: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query6223: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7116: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query7455: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3111: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3330: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3160: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3427: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3250: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10680: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3943: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3304: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3155: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3350: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6109: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3318: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5997: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3577: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8523: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3196: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3466: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8343: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4111: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query8468: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5436: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3156: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6387: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10650: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3568: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3392: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3459: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3463: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5216: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3323: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8486: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query4255: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10295: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3591: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3151: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8149: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8589: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4107: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3470: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3236: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8966: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3356: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8288: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5491: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3532: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8824: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3331: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3179: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7481: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3519: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4092: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5380: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5433: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3950: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4617: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3444: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3469: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6823: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5423: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3124: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5202: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3577: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3671: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3475: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3450: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3218: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5315: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3664: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3494: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3201: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3534: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5100: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3423: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10657: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5848: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3478: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3203: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query9132: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8867: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query6796: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3720: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query9276: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3205: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3224: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query8917: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5599: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3434: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7985: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query6842: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3401: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3523: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3253: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8855: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10682: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3547: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7990: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4299: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3543: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3546: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8856: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3435: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8000: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3165: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6979: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query8654: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8962: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3969: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query8962: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3474: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3456: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3428: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4583: str.in_re, str.to_re, re.all, str.++, re.++, re.allchar, 
-query9070: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5196: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8957: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3255: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6842: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3767: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4293: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3241: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3168: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3487: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10681: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5013: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7493: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3563: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3194: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3208: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6914: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3479: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3471: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5197: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4936: str.in_re, str.to_re, re.all, str.++, re.++, re.allchar, 
-query3369: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3146: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3438: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8333: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5690: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3308: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7665: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10669: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8952: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4446: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4858: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3455: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query4673: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3468: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6462: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7313: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3793: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5098: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3569: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3324: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3864: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query10663: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3185: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3325: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query8865: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query3214: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3186: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query7904: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query5108: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5753: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query9155: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-noree-query4871: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3246: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query7698: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6932: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query3191: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query6008: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5763: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
-query5222: str.in_re, re.all, str.to_re, str.++, re.++, re.allchar, 
+noree-query10041.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query10112.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query10295.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query10584.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10608.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10611.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query10629.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10634.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10642.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10650.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query10657.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10663.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10669.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10675.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10680.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query10681.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query10682.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query10684.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+noree-query3111.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3189.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3214.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3231.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3252.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3316.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3323.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3332.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3336.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3356.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3423.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3424.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3444.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3449.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3450.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3465.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3487.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3494.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3516.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3549.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3574.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3577.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3591.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3712.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3723.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3767.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3864.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3943.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query3950.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query4255.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query4443.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query4673.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query4858.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query4860.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query4871.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5100.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5108.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5196.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5197.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5315.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5423.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5519.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5582.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5700.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query5852.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query6203.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query6221.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query6223.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query6796.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query6842.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query6917.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query7455.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query7904.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query8045.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query8468.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query8654.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query8867.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query8917.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query8962.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query9050.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query9155.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query9276.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query9416.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+noree-query9747.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query2885.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3096.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3102.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3111.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3113.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3124.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3133.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3137.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3143.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3146.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3149.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3151.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3155.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3156.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3160.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3164.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3165.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3167.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3168.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3177.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3179.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3182.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3185.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3186.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3188.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3191.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3194.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3196.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3201.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3203.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3205.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3208.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3214.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3218.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3224.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3225.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3229.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3234.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3236.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3238.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3239.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3241.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3246.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3250.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3253.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3255.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3269.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3296.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3304.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3308.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3310.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3314.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3318.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3321.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3324.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3325.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3330.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3331.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3335.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3336.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3350.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3358.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3359.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3361.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3367.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3368.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3369.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3386.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3392.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3401.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3423.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3427.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3428.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3429.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3434.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3435.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3438.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3444.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3445.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3450.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3454.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3455.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3456.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3458.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3459.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3462.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3463.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3465.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3466.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3468.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3469.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3470.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3471.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3473.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3474.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3475.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3476.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3478.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3479.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3487.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3489.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3495.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3506.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3519.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3520.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3523.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3532.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3534.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3541.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3543.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3546.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3547.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3549.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3555.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3556.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3558.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3563.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3568.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3569.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3570.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,=
+query3574.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3577.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3591.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3664.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3671.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3694.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3720.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3767.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3793.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3864.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3873.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3969.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query3979.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4092.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4107.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4111.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4114.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4249.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4267.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4293.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4299.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4319.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4399.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4443.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4446.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4583.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4617.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4673.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4858.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4932.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4933.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query4936.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5013.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5041.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5098.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5202.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5216.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5222.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5289.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5380.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5400.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5433.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5436.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5491.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5511.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5599.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5690.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5742.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5753.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5763.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5819.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5848.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5905.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5935.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query5997.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6008.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6109.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6136.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6345.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6380.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6387.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6462.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6481.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6569.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6620.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6637.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6754.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6780.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6823.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6842.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6914.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6932.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6966.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query6979.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7051.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7116.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7313.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7481.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7487.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7493.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7561.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7657.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7665.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7698.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7704.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7723.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7820.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7958.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7985.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query7990.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8000.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8094.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8149.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8288.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8303.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8333.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8343.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8348.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8486.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8512.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8523.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8582.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8589.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8824.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8855.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8856.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8865.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8867.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8926.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8952.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8955.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8957.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8962.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query8966.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query9049.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query9063.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query9064.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query9066.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query9070.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=
+query9132.smt2, str.to_re,str.in_re,str.++,re.allchar,re.++,re.*,not,and,=

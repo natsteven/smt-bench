@@ -2,7 +2,7 @@
 
 # get all logs and times for all benches
 
-for bench in automatark matching omark real rna-sat rna-unsat simple woorpje; do
+for bench in automatark matching omark rna-sat rna-unsat woorpje; do
   echo "Processing $bench"
   echo "  getting logs"
   ./util/get-all-logs.sh "$bench"

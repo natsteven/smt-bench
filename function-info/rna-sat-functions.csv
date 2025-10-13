@@ -1,500 +1,500 @@
-benchmark_0249: str.contains, str.replace_all, 
-benchmark_0450: str.contains, str.replace_all, 
-benchmark_0040: str.contains, str.replace_all, 
-benchmark_0203: str.contains, str.replace_all, 
-benchmark_0363: str.contains, str.replace_all, 
-benchmark_0101: str.contains, str.replace_all, 
-benchmark_0422: str.contains, str.replace_all, 
-benchmark_0299: str.contains, str.replace_all, 
-benchmark_0044: str.contains, str.replace_all, 
-benchmark_0482: str.contains, str.replace_all, 
-benchmark_0306: str.contains, str.replace_all, 
-benchmark_0050: str.contains, str.replace_all, 
-benchmark_0091: str.contains, str.replace_all, 
-benchmark_0257: str.contains, str.replace_all, 
-benchmark_0042: str.contains, str.replace_all, 
-benchmark_0089: str.contains, str.replace_all, 
-benchmark_0066: str.contains, str.replace_all, 
-benchmark_0230: str.contains, str.replace_all, 
-benchmark_0103: str.contains, str.replace_all, 
-benchmark_0176: str.contains, str.replace_all, 
-benchmark_0401: str.contains, str.replace_all, 
-benchmark_0172: str.contains, str.replace_all, 
-benchmark_0341: str.contains, str.replace_all, 
-benchmark_0392: str.contains, str.replace_all, 
-benchmark_0030: str.contains, str.replace_all, 
-benchmark_0359: str.contains, str.replace_all, 
-benchmark_0175: str.contains, str.replace_all, 
-benchmark_0415: str.contains, str.replace_all, 
-benchmark_0491: str.contains, str.replace_all, 
-benchmark_0227: str.contains, str.replace_all, 
-benchmark_0282: str.contains, str.replace_all, 
-benchmark_0319: str.contains, str.replace_all, 
-benchmark_0164: str.contains, str.replace_all, 
-benchmark_0445: str.contains, str.replace_all, 
-benchmark_0167: str.contains, str.replace_all, 
-benchmark_0343: str.contains, str.replace_all, 
-benchmark_0457: str.contains, str.replace_all, 
-benchmark_0179: str.contains, str.replace_all, 
-benchmark_0467: str.contains, str.replace_all, 
-benchmark_0454: str.contains, str.replace_all, 
-benchmark_0161: str.contains, str.replace_all, 
-benchmark_0106: str.contains, str.replace_all, 
-benchmark_0021: str.contains, str.replace_all, 
-benchmark_0156: str.contains, str.replace_all, 
-benchmark_0399: str.contains, str.replace_all, 
-benchmark_0307: str.contains, str.replace_all, 
-benchmark_0317: str.contains, str.replace_all, 
-benchmark_0155: str.contains, str.replace_all, 
-benchmark_0423: str.contains, str.replace_all, 
-benchmark_0364: str.contains, str.replace_all, 
-benchmark_0334: str.contains, str.replace_all, 
-benchmark_0497: str.contains, str.replace_all, 
-benchmark_0192: str.contains, str.replace_all, 
-benchmark_0417: str.contains, str.replace_all, 
-benchmark_0391: str.contains, str.replace_all, 
-benchmark_0006: str.contains, str.replace_all, 
-benchmark_0406: str.contains, str.replace_all, 
-benchmark_0349: str.contains, str.replace_all, 
-benchmark_0486: str.contains, str.replace_all, 
-benchmark_0123: str.contains, str.replace_all, 
-benchmark_0431: str.contains, str.replace_all, 
-benchmark_0024: str.contains, str.replace_all, 
-benchmark_0138: str.contains, str.replace_all, 
-benchmark_0027: str.contains, str.replace_all, 
-benchmark_0247: str.contains, str.replace_all, 
-benchmark_0046: str.contains, str.replace_all, 
-benchmark_0120: str.contains, str.replace_all, 
-benchmark_0193: str.contains, str.replace_all, 
-benchmark_0174: str.contains, str.replace_all, 
-benchmark_0198: str.contains, str.replace_all, 
-benchmark_0036: str.contains, str.replace_all, 
-benchmark_0153: str.contains, str.replace_all, 
-benchmark_0274: str.contains, str.replace_all, 
-benchmark_0093: str.contains, str.replace_all, 
-benchmark_0189: str.contains, str.replace_all, 
-benchmark_0068: str.contains, str.replace_all, 
-benchmark_0012: str.contains, str.replace_all, 
-benchmark_0246: str.contains, str.replace_all, 
-benchmark_0358: str.contains, str.replace_all, 
-benchmark_0039: str.contains, str.replace_all, 
-benchmark_0296: str.contains, str.replace_all, 
-benchmark_0250: str.contains, str.replace_all, 
-benchmark_0074: str.contains, str.replace_all, 
-benchmark_0322: str.contains, str.replace_all, 
-benchmark_0206: str.contains, str.replace_all, 
-benchmark_0328: str.contains, str.replace_all, 
-benchmark_0184: str.contains, str.replace_all, 
-benchmark_0142: str.contains, str.replace_all, 
-benchmark_0049: str.contains, str.replace_all, 
-benchmark_0372: str.contains, str.replace_all, 
-benchmark_0128: str.contains, str.replace_all, 
-benchmark_0347: str.contains, str.replace_all, 
-benchmark_0095: str.contains, str.replace_all, 
-benchmark_0463: str.contains, str.replace_all, 
-benchmark_0010: str.contains, str.replace_all, 
-benchmark_0386: str.contains, str.replace_all, 
-benchmark_0134: str.contains, str.replace_all, 
-benchmark_0025: str.contains, str.replace_all, 
-benchmark_0488: str.contains, str.replace_all, 
-benchmark_0229: str.contains, str.replace_all, 
-benchmark_0033: str.contains, str.replace_all, 
-benchmark_0350: str.contains, str.replace_all, 
-benchmark_0004: str.contains, str.replace_all, 
-benchmark_0304: str.contains, str.replace_all, 
-benchmark_0447: str.contains, str.replace_all, 
-benchmark_0294: str.contains, str.replace_all, 
-benchmark_0345: str.contains, str.replace_all, 
-benchmark_0125: str.contains, str.replace_all, 
-benchmark_0133: str.contains, str.replace_all, 
-benchmark_0171: str.contains, str.replace_all, 
-benchmark_0361: str.contains, str.replace_all, 
-benchmark_0115: str.contains, str.replace_all, 
-benchmark_0311: str.contains, str.replace_all, 
-benchmark_0208: str.contains, str.replace_all, 
-benchmark_0205: str.contains, str.replace_all, 
-benchmark_0102: str.contains, str.replace_all, 
-benchmark_0058: str.contains, str.replace_all, 
-benchmark_0360: str.contains, str.replace_all, 
-benchmark_0370: str.contains, str.replace_all, 
-benchmark_0455: str.contains, str.replace_all, 
-benchmark_0051: str.contains, str.replace_all, 
-benchmark_0122: str.contains, str.replace_all, 
-benchmark_0239: str.contains, str.replace_all, 
-benchmark_0297: str.contains, str.replace_all, 
-benchmark_0270: str.contains, str.replace_all, 
-benchmark_0055: str.contains, str.replace_all, 
-benchmark_0374: str.contains, str.replace_all, 
-benchmark_0088: str.contains, str.replace_all, 
-benchmark_0252: str.contains, str.replace_all, 
-benchmark_0365: str.contains, str.replace_all, 
-benchmark_0377: str.contains, str.replace_all, 
-benchmark_0494: str.contains, str.replace_all, 
-benchmark_0145: str.contains, str.replace_all, 
-benchmark_0188: str.contains, str.replace_all, 
-benchmark_0262: str.contains, str.replace_all, 
-benchmark_0160: str.contains, str.replace_all, 
-benchmark_0204: str.contains, str.replace_all, 
-benchmark_0124: str.contains, str.replace_all, 
-benchmark_0022: str.contains, str.replace_all, 
-benchmark_0407: str.contains, str.replace_all, 
-benchmark_0071: str.contains, str.replace_all, 
-benchmark_0079: str.contains, str.replace_all, 
-benchmark_0087: str.contains, str.replace_all, 
-benchmark_0396: str.contains, str.replace_all, 
-benchmark_0260: str.contains, str.replace_all, 
-benchmark_0371: str.contains, str.replace_all, 
-benchmark_0416: str.contains, str.replace_all, 
-benchmark_0220: str.contains, str.replace_all, 
-benchmark_0435: str.contains, str.replace_all, 
-benchmark_0330: str.contains, str.replace_all, 
-benchmark_0404: str.contains, str.replace_all, 
-benchmark_0421: str.contains, str.replace_all, 
-benchmark_0403: str.contains, str.replace_all, 
-benchmark_0448: str.contains, str.replace_all, 
-benchmark_0150: str.contains, str.replace_all, 
-benchmark_0154: str.contains, str.replace_all, 
-benchmark_0290: str.contains, str.replace_all, 
-benchmark_0086: str.contains, str.replace_all, 
-benchmark_0419: str.contains, str.replace_all, 
-benchmark_0005: str.contains, str.replace_all, 
-benchmark_0368: str.contains, str.replace_all, 
-benchmark_0331: str.contains, str.replace_all, 
-benchmark_0332: str.contains, str.replace_all, 
-benchmark_0214: str.contains, str.replace_all, 
-benchmark_0325: str.contains, str.replace_all, 
-benchmark_0011: str.contains, str.replace_all, 
-benchmark_0498: str.contains, str.replace_all, 
-benchmark_0057: str.contains, str.replace_all, 
-benchmark_0014: str.contains, str.replace_all, 
-benchmark_0413: str.contains, str.replace_all, 
-benchmark_0383: str.contains, str.replace_all, 
-benchmark_0327: str.contains, str.replace_all, 
-benchmark_0314: str.contains, str.replace_all, 
-benchmark_0477: str.contains, str.replace_all, 
-benchmark_0196: str.contains, str.replace_all, 
-benchmark_0085: str.contains, str.replace_all, 
-benchmark_0400: str.contains, str.replace_all, 
-benchmark_0344: str.contains, str.replace_all, 
-benchmark_0114: str.contains, str.replace_all, 
-benchmark_0195: str.contains, str.replace_all, 
-benchmark_0500: str.contains, str.replace_all, 
-benchmark_0180: str.contains, str.replace_all, 
-benchmark_0283: str.contains, str.replace_all, 
-benchmark_0468: str.contains, str.replace_all, 
-benchmark_0305: str.contains, str.replace_all, 
-benchmark_0320: str.contains, str.replace_all, 
-benchmark_0474: str.contains, str.replace_all, 
-benchmark_0141: str.contains, str.replace_all, 
-benchmark_0254: str.contains, str.replace_all, 
-benchmark_0272: str.contains, str.replace_all, 
-benchmark_0080: str.contains, str.replace_all, 
-benchmark_0031: str.contains, str.replace_all, 
-benchmark_0168: str.contains, str.replace_all, 
-benchmark_0072: str.contains, str.replace_all, 
-benchmark_0440: str.contains, str.replace_all, 
-benchmark_0163: str.contains, str.replace_all, 
-benchmark_0070: str.contains, str.replace_all, 
-benchmark_0398: str.contains, str.replace_all, 
-benchmark_0213: str.contains, str.replace_all, 
-benchmark_0493: str.contains, str.replace_all, 
-benchmark_0393: str.contains, str.replace_all, 
-benchmark_0013: str.contains, str.replace_all, 
-benchmark_0464: str.contains, str.replace_all, 
-benchmark_0003: str.contains, str.replace_all, 
-benchmark_0275: str.contains, str.replace_all, 
-benchmark_0129: str.contains, str.replace_all, 
-benchmark_0309: str.contains, str.replace_all, 
-benchmark_0436: str.contains, str.replace_all, 
-benchmark_0248: str.contains, str.replace_all, 
-benchmark_0388: str.contains, str.replace_all, 
-benchmark_0201: str.contains, str.replace_all, 
-benchmark_0235: str.contains, str.replace_all, 
-benchmark_0499: str.contains, str.replace_all, 
-benchmark_0451: str.contains, str.replace_all, 
-benchmark_0378: str.contains, str.replace_all, 
-benchmark_0342: str.contains, str.replace_all, 
-benchmark_0182: str.contains, str.replace_all, 
-benchmark_0083: str.contains, str.replace_all, 
-benchmark_0065: str.contains, str.replace_all, 
-benchmark_0061: str.contains, str.replace_all, 
-benchmark_0225: str.contains, str.replace_all, 
-benchmark_0209: str.contains, str.replace_all, 
-benchmark_0340: str.contains, str.replace_all, 
-benchmark_0312: str.contains, str.replace_all, 
-benchmark_0444: str.contains, str.replace_all, 
-benchmark_0376: str.contains, str.replace_all, 
-benchmark_0140: str.contains, str.replace_all, 
-benchmark_0041: str.contains, str.replace_all, 
-benchmark_0242: str.contains, str.replace_all, 
-benchmark_0221: str.contains, str.replace_all, 
-benchmark_0379: str.contains, str.replace_all, 
-benchmark_0356: str.contains, str.replace_all, 
-benchmark_0434: str.contains, str.replace_all, 
-benchmark_0411: str.contains, str.replace_all, 
-benchmark_0110: str.contains, str.replace_all, 
-benchmark_0277: str.contains, str.replace_all, 
-benchmark_0301: str.contains, str.replace_all, 
-benchmark_0291: str.contains, str.replace_all, 
-benchmark_0446: str.contains, str.replace_all, 
-benchmark_0281: str.contains, str.replace_all, 
-benchmark_0425: str.contains, str.replace_all, 
-benchmark_0443: str.contains, str.replace_all, 
-benchmark_0481: str.contains, str.replace_all, 
-benchmark_0269: str.contains, str.replace_all, 
-benchmark_0132: str.contains, str.replace_all, 
-benchmark_0478: str.contains, str.replace_all, 
-benchmark_0173: str.contains, str.replace_all, 
-benchmark_0023: str.contains, str.replace_all, 
-benchmark_0147: str.contains, str.replace_all, 
-benchmark_0237: str.contains, str.replace_all, 
-benchmark_0414: str.contains, str.replace_all, 
-benchmark_0405: str.contains, str.replace_all, 
-benchmark_0279: str.contains, str.replace_all, 
-benchmark_0338: str.contains, str.replace_all, 
-benchmark_0231: str.contains, str.replace_all, 
-benchmark_0418: str.contains, str.replace_all, 
-benchmark_0127: str.contains, str.replace_all, 
-benchmark_0144: str.contains, str.replace_all, 
-benchmark_0324: str.contains, str.replace_all, 
-benchmark_0078: str.contains, str.replace_all, 
-benchmark_0357: str.contains, str.replace_all, 
-benchmark_0045: str.contains, str.replace_all, 
-benchmark_0105: str.contains, str.replace_all, 
-benchmark_0234: str.contains, str.replace_all, 
-benchmark_0329: str.contains, str.replace_all, 
-benchmark_0100: str.contains, str.replace_all, 
-benchmark_0007: str.contains, str.replace_all, 
-benchmark_0348: str.contains, str.replace_all, 
-benchmark_0427: str.contains, str.replace_all, 
-benchmark_0202: str.contains, str.replace_all, 
-benchmark_0148: str.contains, str.replace_all, 
-benchmark_0394: str.contains, str.replace_all, 
-benchmark_0303: str.contains, str.replace_all, 
-benchmark_0458: str.contains, str.replace_all, 
-benchmark_0276: str.contains, str.replace_all, 
-benchmark_0308: str.contains, str.replace_all, 
-benchmark_0295: str.contains, str.replace_all, 
-benchmark_0352: str.contains, str.replace_all, 
-benchmark_0119: str.contains, str.replace_all, 
-benchmark_0211: str.contains, str.replace_all, 
-benchmark_0438: str.contains, str.replace_all, 
-benchmark_0026: str.contains, str.replace_all, 
-benchmark_0210: str.contains, str.replace_all, 
-benchmark_0266: str.contains, str.replace_all, 
-benchmark_0339: str.contains, str.replace_all, 
-benchmark_0077: str.contains, str.replace_all, 
-benchmark_0476: str.contains, str.replace_all, 
-benchmark_0130: str.contains, str.replace_all, 
-benchmark_0433: str.contains, str.replace_all, 
-benchmark_0241: str.contains, str.replace_all, 
-benchmark_0395: str.contains, str.replace_all, 
-benchmark_0410: str.contains, str.replace_all, 
-benchmark_0420: str.contains, str.replace_all, 
-benchmark_0223: str.contains, str.replace_all, 
-benchmark_0107: str.contains, str.replace_all, 
-benchmark_0484: str.contains, str.replace_all, 
-benchmark_0409: str.contains, str.replace_all, 
-benchmark_0278: str.contains, str.replace_all, 
-benchmark_0067: str.contains, str.replace_all, 
-benchmark_0097: str.contains, str.replace_all, 
-benchmark_0461: str.contains, str.replace_all, 
-benchmark_0244: str.contains, str.replace_all, 
-benchmark_0212: str.contains, str.replace_all, 
-benchmark_0259: str.contains, str.replace_all, 
-benchmark_0116: str.contains, str.replace_all, 
-benchmark_0165: str.contains, str.replace_all, 
-benchmark_0047: str.contains, str.replace_all, 
-benchmark_0181: str.contains, str.replace_all, 
-benchmark_0480: str.contains, str.replace_all, 
-benchmark_0268: str.contains, str.replace_all, 
-benchmark_0265: str.contains, str.replace_all, 
-benchmark_0199: str.contains, str.replace_all, 
-benchmark_0487: str.contains, str.replace_all, 
-benchmark_0200: str.contains, str.replace_all, 
-benchmark_0430: str.contains, str.replace_all, 
-benchmark_0354: str.contains, str.replace_all, 
-benchmark_0449: str.contains, str.replace_all, 
-benchmark_0149: str.contains, str.replace_all, 
-benchmark_0397: str.contains, str.replace_all, 
-benchmark_0017: str.contains, str.replace_all, 
-benchmark_0485: str.contains, str.replace_all, 
-benchmark_0048: str.contains, str.replace_all, 
-benchmark_0104: str.contains, str.replace_all, 
-benchmark_0002: str.contains, str.replace_all, 
-benchmark_0194: str.contains, str.replace_all, 
-benchmark_0495: str.contains, str.replace_all, 
-benchmark_0126: str.contains, str.replace_all, 
-benchmark_0288: str.contains, str.replace_all, 
-benchmark_0240: str.contains, str.replace_all, 
-benchmark_0424: str.contains, str.replace_all, 
-benchmark_0032: str.contains, str.replace_all, 
-benchmark_0313: str.contains, str.replace_all, 
-benchmark_0151: str.contains, str.replace_all, 
-benchmark_0197: str.contains, str.replace_all, 
-benchmark_0292: str.contains, str.replace_all, 
-benchmark_0109: str.contains, str.replace_all, 
-benchmark_0169: str.contains, str.replace_all, 
-benchmark_0018: str.contains, str.replace_all, 
-benchmark_0389: str.contains, str.replace_all, 
-benchmark_0300: str.contains, str.replace_all, 
-benchmark_0326: str.contains, str.replace_all, 
-benchmark_0232: str.contains, str.replace_all, 
-benchmark_0082: str.contains, str.replace_all, 
-benchmark_0217: str.contains, str.replace_all, 
-benchmark_0267: str.contains, str.replace_all, 
-benchmark_0233: str.contains, str.replace_all, 
-benchmark_0369: str.contains, str.replace_all, 
-benchmark_0271: str.contains, str.replace_all, 
-benchmark_0137: str.contains, str.replace_all, 
-benchmark_0001: str.contains, str.replace_all, 
-benchmark_0335: str.contains, str.replace_all, 
-benchmark_0158: str.contains, str.replace_all, 
-benchmark_0336: str.contains, str.replace_all, 
-benchmark_0387: str.contains, str.replace_all, 
-benchmark_0310: str.contains, str.replace_all, 
-benchmark_0355: str.contains, str.replace_all, 
-benchmark_0462: str.contains, str.replace_all, 
-benchmark_0069: str.contains, str.replace_all, 
-benchmark_0459: str.contains, str.replace_all, 
-benchmark_0183: str.contains, str.replace_all, 
-benchmark_0472: str.contains, str.replace_all, 
-benchmark_0062: str.contains, str.replace_all, 
-benchmark_0261: str.contains, str.replace_all, 
-benchmark_0187: str.contains, str.replace_all, 
-benchmark_0426: str.contains, str.replace_all, 
-benchmark_0092: str.contains, str.replace_all, 
-benchmark_0337: str.contains, str.replace_all, 
-benchmark_0253: str.contains, str.replace_all, 
-benchmark_0034: str.contains, str.replace_all, 
-benchmark_0136: str.contains, str.replace_all, 
-benchmark_0098: str.contains, str.replace_all, 
-benchmark_0020: str.contains, str.replace_all, 
-benchmark_0471: str.contains, str.replace_all, 
-benchmark_0216: str.contains, str.replace_all, 
-benchmark_0099: str.contains, str.replace_all, 
-benchmark_0043: str.contains, str.replace_all, 
-benchmark_0429: str.contains, str.replace_all, 
-benchmark_0469: str.contains, str.replace_all, 
-benchmark_0191: str.contains, str.replace_all, 
-benchmark_0382: str.contains, str.replace_all, 
-benchmark_0075: str.contains, str.replace_all, 
-benchmark_0284: str.contains, str.replace_all, 
-benchmark_0059: str.contains, str.replace_all, 
-benchmark_0289: str.contains, str.replace_all, 
-benchmark_0035: str.contains, str.replace_all, 
-benchmark_0286: str.contains, str.replace_all, 
-benchmark_0108: str.contains, str.replace_all, 
-benchmark_0470: str.contains, str.replace_all, 
-benchmark_0118: str.contains, str.replace_all, 
-benchmark_0016: str.contains, str.replace_all, 
-benchmark_0375: str.contains, str.replace_all, 
-benchmark_0113: str.contains, str.replace_all, 
-benchmark_0152: str.contains, str.replace_all, 
-benchmark_0385: str.contains, str.replace_all, 
-benchmark_0186: str.contains, str.replace_all, 
-benchmark_0380: str.contains, str.replace_all, 
-benchmark_0190: str.contains, str.replace_all, 
-benchmark_0084: str.contains, str.replace_all, 
-benchmark_0008: str.contains, str.replace_all, 
-benchmark_0053: str.contains, str.replace_all, 
-benchmark_0367: str.contains, str.replace_all, 
-benchmark_0441: str.contains, str.replace_all, 
-benchmark_0466: str.contains, str.replace_all, 
-benchmark_0038: str.contains, str.replace_all, 
-benchmark_0490: str.contains, str.replace_all, 
-benchmark_0112: str.contains, str.replace_all, 
-benchmark_0015: str.contains, str.replace_all, 
-benchmark_0162: str.contains, str.replace_all, 
-benchmark_0073: str.contains, str.replace_all, 
-benchmark_0293: str.contains, str.replace_all, 
-benchmark_0428: str.contains, str.replace_all, 
-benchmark_0170: str.contains, str.replace_all, 
-benchmark_0456: str.contains, str.replace_all, 
-benchmark_0159: str.contains, str.replace_all, 
-benchmark_0316: str.contains, str.replace_all, 
-benchmark_0273: str.contains, str.replace_all, 
-benchmark_0096: str.contains, str.replace_all, 
-benchmark_0064: str.contains, str.replace_all, 
-benchmark_0157: str.contains, str.replace_all, 
-benchmark_0453: str.contains, str.replace_all, 
-benchmark_0146: str.contains, str.replace_all, 
-benchmark_0028: str.contains, str.replace_all, 
-benchmark_0166: str.contains, str.replace_all, 
-benchmark_0219: str.contains, str.replace_all, 
-benchmark_0056: str.contains, str.replace_all, 
-benchmark_0243: str.contains, str.replace_all, 
-benchmark_0060: str.contains, str.replace_all, 
-benchmark_0390: str.contains, str.replace_all, 
-benchmark_0222: str.contains, str.replace_all, 
-benchmark_0131: str.contains, str.replace_all, 
-benchmark_0029: str.contains, str.replace_all, 
-benchmark_0009: str.contains, str.replace_all, 
-benchmark_0076: str.contains, str.replace_all, 
-benchmark_0323: str.contains, str.replace_all, 
-benchmark_0019: str.contains, str.replace_all, 
-benchmark_0321: str.contains, str.replace_all, 
-benchmark_0333: str.contains, str.replace_all, 
-benchmark_0412: str.contains, str.replace_all, 
-benchmark_0121: str.contains, str.replace_all, 
-benchmark_0346: str.contains, str.replace_all, 
-benchmark_0384: str.contains, str.replace_all, 
-benchmark_0318: str.contains, str.replace_all, 
-benchmark_0185: str.contains, str.replace_all, 
-benchmark_0285: str.contains, str.replace_all, 
-benchmark_0302: str.contains, str.replace_all, 
-benchmark_0460: str.contains, str.replace_all, 
-benchmark_0139: str.contains, str.replace_all, 
-benchmark_0117: str.contains, str.replace_all, 
-benchmark_0362: str.contains, str.replace_all, 
-benchmark_0442: str.contains, str.replace_all, 
-benchmark_0218: str.contains, str.replace_all, 
-benchmark_0215: str.contains, str.replace_all, 
-benchmark_0496: str.contains, str.replace_all, 
-benchmark_0063: str.contains, str.replace_all, 
-benchmark_0439: str.contains, str.replace_all, 
-benchmark_0228: str.contains, str.replace_all, 
-benchmark_0351: str.contains, str.replace_all, 
-benchmark_0251: str.contains, str.replace_all, 
-benchmark_0479: str.contains, str.replace_all, 
-benchmark_0177: str.contains, str.replace_all, 
-benchmark_0437: str.contains, str.replace_all, 
-benchmark_0245: str.contains, str.replace_all, 
-benchmark_0475: str.contains, str.replace_all, 
-benchmark_0408: str.contains, str.replace_all, 
-benchmark_0492: str.contains, str.replace_all, 
-benchmark_0052: str.contains, str.replace_all, 
-benchmark_0081: str.contains, str.replace_all, 
-benchmark_0255: str.contains, str.replace_all, 
-benchmark_0432: str.contains, str.replace_all, 
-benchmark_0366: str.contains, str.replace_all, 
-benchmark_0315: str.contains, str.replace_all, 
-benchmark_0236: str.contains, str.replace_all, 
-benchmark_0452: str.contains, str.replace_all, 
-benchmark_0402: str.contains, str.replace_all, 
-benchmark_0287: str.contains, str.replace_all, 
-benchmark_0373: str.contains, str.replace_all, 
-benchmark_0263: str.contains, str.replace_all, 
-benchmark_0353: str.contains, str.replace_all, 
-benchmark_0111: str.contains, str.replace_all, 
-benchmark_0256: str.contains, str.replace_all, 
-benchmark_0489: str.contains, str.replace_all, 
-benchmark_0280: str.contains, str.replace_all, 
-benchmark_0226: str.contains, str.replace_all, 
-benchmark_0483: str.contains, str.replace_all, 
-benchmark_0258: str.contains, str.replace_all, 
-benchmark_0037: str.contains, str.replace_all, 
-benchmark_0178: str.contains, str.replace_all, 
-benchmark_0473: str.contains, str.replace_all, 
-benchmark_0090: str.contains, str.replace_all, 
-benchmark_0264: str.contains, str.replace_all, 
-benchmark_0054: str.contains, str.replace_all, 
-benchmark_0135: str.contains, str.replace_all, 
-benchmark_0238: str.contains, str.replace_all, 
-benchmark_0381: str.contains, str.replace_all, 
-benchmark_0224: str.contains, str.replace_all, 
-benchmark_0094: str.contains, str.replace_all, 
-benchmark_0143: str.contains, str.replace_all, 
-benchmark_0207: str.contains, str.replace_all, 
-benchmark_0465: str.contains, str.replace_all, 
-benchmark_0298: str.contains, str.replace_all, 
+benchmark_0001.smt2, str.replace_all,str.contains,=
+benchmark_0002.smt2, str.replace_all,str.contains,=
+benchmark_0003.smt2, str.replace_all,str.contains,=
+benchmark_0004.smt2, str.replace_all,str.contains,=
+benchmark_0005.smt2, str.replace_all,str.contains,=
+benchmark_0006.smt2, str.replace_all,str.contains,=
+benchmark_0007.smt2, str.replace_all,str.contains,=
+benchmark_0008.smt2, str.replace_all,str.contains,=
+benchmark_0009.smt2, str.replace_all,str.contains,=
+benchmark_0010.smt2, str.replace_all,str.contains,=
+benchmark_0011.smt2, str.replace_all,str.contains,=
+benchmark_0012.smt2, str.replace_all,str.contains,=
+benchmark_0013.smt2, str.replace_all,str.contains,=
+benchmark_0014.smt2, str.replace_all,str.contains,=
+benchmark_0015.smt2, str.replace_all,str.contains,=
+benchmark_0016.smt2, str.replace_all,str.contains,=
+benchmark_0017.smt2, str.replace_all,str.contains,=
+benchmark_0018.smt2, str.replace_all,str.contains,=
+benchmark_0019.smt2, str.replace_all,str.contains,=
+benchmark_0020.smt2, str.replace_all,str.contains,=
+benchmark_0021.smt2, str.replace_all,str.contains,=
+benchmark_0022.smt2, str.replace_all,str.contains,=
+benchmark_0023.smt2, str.replace_all,str.contains,=
+benchmark_0024.smt2, str.replace_all,str.contains,=
+benchmark_0025.smt2, str.replace_all,str.contains,=
+benchmark_0026.smt2, str.replace_all,str.contains,=
+benchmark_0027.smt2, str.replace_all,str.contains,=
+benchmark_0028.smt2, str.replace_all,str.contains,=
+benchmark_0029.smt2, str.replace_all,str.contains,=
+benchmark_0030.smt2, str.replace_all,str.contains,=
+benchmark_0031.smt2, str.replace_all,str.contains,=
+benchmark_0032.smt2, str.replace_all,str.contains,=
+benchmark_0033.smt2, str.replace_all,str.contains,=
+benchmark_0034.smt2, str.replace_all,str.contains,=
+benchmark_0035.smt2, str.replace_all,str.contains,=
+benchmark_0036.smt2, str.replace_all,str.contains,=
+benchmark_0037.smt2, str.replace_all,str.contains,=
+benchmark_0038.smt2, str.replace_all,str.contains,=
+benchmark_0039.smt2, str.replace_all,str.contains,=
+benchmark_0040.smt2, str.replace_all,str.contains,=
+benchmark_0041.smt2, str.replace_all,str.contains,=
+benchmark_0042.smt2, str.replace_all,str.contains,=
+benchmark_0043.smt2, str.replace_all,str.contains,=
+benchmark_0044.smt2, str.replace_all,str.contains,=
+benchmark_0045.smt2, str.replace_all,str.contains,=
+benchmark_0046.smt2, str.replace_all,str.contains,=
+benchmark_0047.smt2, str.replace_all,str.contains,=
+benchmark_0048.smt2, str.replace_all,str.contains,=
+benchmark_0049.smt2, str.replace_all,str.contains,=
+benchmark_0050.smt2, str.replace_all,str.contains,=
+benchmark_0051.smt2, str.replace_all,str.contains,=
+benchmark_0052.smt2, str.replace_all,str.contains,=
+benchmark_0053.smt2, str.replace_all,str.contains,=
+benchmark_0054.smt2, str.replace_all,str.contains,=
+benchmark_0055.smt2, str.replace_all,str.contains,=
+benchmark_0056.smt2, str.replace_all,str.contains,=
+benchmark_0057.smt2, str.replace_all,str.contains,=
+benchmark_0058.smt2, str.replace_all,str.contains,=
+benchmark_0059.smt2, str.replace_all,str.contains,=
+benchmark_0060.smt2, str.replace_all,str.contains,=
+benchmark_0061.smt2, str.replace_all,str.contains,=
+benchmark_0062.smt2, str.replace_all,str.contains,=
+benchmark_0063.smt2, str.replace_all,str.contains,=
+benchmark_0064.smt2, str.replace_all,str.contains,=
+benchmark_0065.smt2, str.replace_all,str.contains,=
+benchmark_0066.smt2, str.replace_all,str.contains,=
+benchmark_0067.smt2, str.replace_all,str.contains,=
+benchmark_0068.smt2, str.replace_all,str.contains,=
+benchmark_0069.smt2, str.replace_all,str.contains,=
+benchmark_0070.smt2, str.replace_all,str.contains,=
+benchmark_0071.smt2, str.replace_all,str.contains,=
+benchmark_0072.smt2, str.replace_all,str.contains,=
+benchmark_0073.smt2, str.replace_all,str.contains,=
+benchmark_0074.smt2, str.replace_all,str.contains,=
+benchmark_0075.smt2, str.replace_all,str.contains,=
+benchmark_0076.smt2, str.replace_all,str.contains,=
+benchmark_0077.smt2, str.replace_all,str.contains,=
+benchmark_0078.smt2, str.replace_all,str.contains,=
+benchmark_0079.smt2, str.replace_all,str.contains,=
+benchmark_0080.smt2, str.replace_all,str.contains,=
+benchmark_0081.smt2, str.replace_all,str.contains,=
+benchmark_0082.smt2, str.replace_all,str.contains,=
+benchmark_0083.smt2, str.replace_all,str.contains,=
+benchmark_0084.smt2, str.replace_all,str.contains,=
+benchmark_0085.smt2, str.replace_all,str.contains,=
+benchmark_0086.smt2, str.replace_all,str.contains,=
+benchmark_0087.smt2, str.replace_all,str.contains,=
+benchmark_0088.smt2, str.replace_all,str.contains,=
+benchmark_0089.smt2, str.replace_all,str.contains,=
+benchmark_0090.smt2, str.replace_all,str.contains,=
+benchmark_0091.smt2, str.replace_all,str.contains,=
+benchmark_0092.smt2, str.replace_all,str.contains,=
+benchmark_0093.smt2, str.replace_all,str.contains,=
+benchmark_0094.smt2, str.replace_all,str.contains,=
+benchmark_0095.smt2, str.replace_all,str.contains,=
+benchmark_0096.smt2, str.replace_all,str.contains,=
+benchmark_0097.smt2, str.replace_all,str.contains,=
+benchmark_0098.smt2, str.replace_all,str.contains,=
+benchmark_0099.smt2, str.replace_all,str.contains,=
+benchmark_0100.smt2, str.replace_all,str.contains,=
+benchmark_0101.smt2, str.replace_all,str.contains,=
+benchmark_0102.smt2, str.replace_all,str.contains,=
+benchmark_0103.smt2, str.replace_all,str.contains,=
+benchmark_0104.smt2, str.replace_all,str.contains,=
+benchmark_0105.smt2, str.replace_all,str.contains,=
+benchmark_0106.smt2, str.replace_all,str.contains,=
+benchmark_0107.smt2, str.replace_all,str.contains,=
+benchmark_0108.smt2, str.replace_all,str.contains,=
+benchmark_0109.smt2, str.replace_all,str.contains,=
+benchmark_0110.smt2, str.replace_all,str.contains,=
+benchmark_0111.smt2, str.replace_all,str.contains,=
+benchmark_0112.smt2, str.replace_all,str.contains,=
+benchmark_0113.smt2, str.replace_all,str.contains,=
+benchmark_0114.smt2, str.replace_all,str.contains,=
+benchmark_0115.smt2, str.replace_all,str.contains,=
+benchmark_0116.smt2, str.replace_all,str.contains,=
+benchmark_0117.smt2, str.replace_all,str.contains,=
+benchmark_0118.smt2, str.replace_all,str.contains,=
+benchmark_0119.smt2, str.replace_all,str.contains,=
+benchmark_0120.smt2, str.replace_all,str.contains,=
+benchmark_0121.smt2, str.replace_all,str.contains,=
+benchmark_0122.smt2, str.replace_all,str.contains,=
+benchmark_0123.smt2, str.replace_all,str.contains,=
+benchmark_0124.smt2, str.replace_all,str.contains,=
+benchmark_0125.smt2, str.replace_all,str.contains,=
+benchmark_0126.smt2, str.replace_all,str.contains,=
+benchmark_0127.smt2, str.replace_all,str.contains,=
+benchmark_0128.smt2, str.replace_all,str.contains,=
+benchmark_0129.smt2, str.replace_all,str.contains,=
+benchmark_0130.smt2, str.replace_all,str.contains,=
+benchmark_0131.smt2, str.replace_all,str.contains,=
+benchmark_0132.smt2, str.replace_all,str.contains,=
+benchmark_0133.smt2, str.replace_all,str.contains,=
+benchmark_0134.smt2, str.replace_all,str.contains,=
+benchmark_0135.smt2, str.replace_all,str.contains,=
+benchmark_0136.smt2, str.replace_all,str.contains,=
+benchmark_0137.smt2, str.replace_all,str.contains,=
+benchmark_0138.smt2, str.replace_all,str.contains,=
+benchmark_0139.smt2, str.replace_all,str.contains,=
+benchmark_0140.smt2, str.replace_all,str.contains,=
+benchmark_0141.smt2, str.replace_all,str.contains,=
+benchmark_0142.smt2, str.replace_all,str.contains,=
+benchmark_0143.smt2, str.replace_all,str.contains,=
+benchmark_0144.smt2, str.replace_all,str.contains,=
+benchmark_0145.smt2, str.replace_all,str.contains,=
+benchmark_0146.smt2, str.replace_all,str.contains,=
+benchmark_0147.smt2, str.replace_all,str.contains,=
+benchmark_0148.smt2, str.replace_all,str.contains,=
+benchmark_0149.smt2, str.replace_all,str.contains,=
+benchmark_0150.smt2, str.replace_all,str.contains,=
+benchmark_0151.smt2, str.replace_all,str.contains,=
+benchmark_0152.smt2, str.replace_all,str.contains,=
+benchmark_0153.smt2, str.replace_all,str.contains,=
+benchmark_0154.smt2, str.replace_all,str.contains,=
+benchmark_0155.smt2, str.replace_all,str.contains,=
+benchmark_0156.smt2, str.replace_all,str.contains,=
+benchmark_0157.smt2, str.replace_all,str.contains,=
+benchmark_0158.smt2, str.replace_all,str.contains,=
+benchmark_0159.smt2, str.replace_all,str.contains,=
+benchmark_0160.smt2, str.replace_all,str.contains,=
+benchmark_0161.smt2, str.replace_all,str.contains,=
+benchmark_0162.smt2, str.replace_all,str.contains,=
+benchmark_0163.smt2, str.replace_all,str.contains,=
+benchmark_0164.smt2, str.replace_all,str.contains,=
+benchmark_0165.smt2, str.replace_all,str.contains,=
+benchmark_0166.smt2, str.replace_all,str.contains,=
+benchmark_0167.smt2, str.replace_all,str.contains,=
+benchmark_0168.smt2, str.replace_all,str.contains,=
+benchmark_0169.smt2, str.replace_all,str.contains,=
+benchmark_0170.smt2, str.replace_all,str.contains,=
+benchmark_0171.smt2, str.replace_all,str.contains,=
+benchmark_0172.smt2, str.replace_all,str.contains,=
+benchmark_0173.smt2, str.replace_all,str.contains,=
+benchmark_0174.smt2, str.replace_all,str.contains,=
+benchmark_0175.smt2, str.replace_all,str.contains,=
+benchmark_0176.smt2, str.replace_all,str.contains,=
+benchmark_0177.smt2, str.replace_all,str.contains,=
+benchmark_0178.smt2, str.replace_all,str.contains,=
+benchmark_0179.smt2, str.replace_all,str.contains,=
+benchmark_0180.smt2, str.replace_all,str.contains,=
+benchmark_0181.smt2, str.replace_all,str.contains,=
+benchmark_0182.smt2, str.replace_all,str.contains,=
+benchmark_0183.smt2, str.replace_all,str.contains,=
+benchmark_0184.smt2, str.replace_all,str.contains,=
+benchmark_0185.smt2, str.replace_all,str.contains,=
+benchmark_0186.smt2, str.replace_all,str.contains,=
+benchmark_0187.smt2, str.replace_all,str.contains,=
+benchmark_0188.smt2, str.replace_all,str.contains,=
+benchmark_0189.smt2, str.replace_all,str.contains,=
+benchmark_0190.smt2, str.replace_all,str.contains,=
+benchmark_0191.smt2, str.replace_all,str.contains,=
+benchmark_0192.smt2, str.replace_all,str.contains,=
+benchmark_0193.smt2, str.replace_all,str.contains,=
+benchmark_0194.smt2, str.replace_all,str.contains,=
+benchmark_0195.smt2, str.replace_all,str.contains,=
+benchmark_0196.smt2, str.replace_all,str.contains,=
+benchmark_0197.smt2, str.replace_all,str.contains,=
+benchmark_0198.smt2, str.replace_all,str.contains,=
+benchmark_0199.smt2, str.replace_all,str.contains,=
+benchmark_0200.smt2, str.replace_all,str.contains,=
+benchmark_0201.smt2, str.replace_all,str.contains,=
+benchmark_0202.smt2, str.replace_all,str.contains,=
+benchmark_0203.smt2, str.replace_all,str.contains,=
+benchmark_0204.smt2, str.replace_all,str.contains,=
+benchmark_0205.smt2, str.replace_all,str.contains,=
+benchmark_0206.smt2, str.replace_all,str.contains,=
+benchmark_0207.smt2, str.replace_all,str.contains,=
+benchmark_0208.smt2, str.replace_all,str.contains,=
+benchmark_0209.smt2, str.replace_all,str.contains,=
+benchmark_0210.smt2, str.replace_all,str.contains,=
+benchmark_0211.smt2, str.replace_all,str.contains,=
+benchmark_0212.smt2, str.replace_all,str.contains,=
+benchmark_0213.smt2, str.replace_all,str.contains,=
+benchmark_0214.smt2, str.replace_all,str.contains,=
+benchmark_0215.smt2, str.replace_all,str.contains,=
+benchmark_0216.smt2, str.replace_all,str.contains,=
+benchmark_0217.smt2, str.replace_all,str.contains,=
+benchmark_0218.smt2, str.replace_all,str.contains,=
+benchmark_0219.smt2, str.replace_all,str.contains,=
+benchmark_0220.smt2, str.replace_all,str.contains,=
+benchmark_0221.smt2, str.replace_all,str.contains,=
+benchmark_0222.smt2, str.replace_all,str.contains,=
+benchmark_0223.smt2, str.replace_all,str.contains,=
+benchmark_0224.smt2, str.replace_all,str.contains,=
+benchmark_0225.smt2, str.replace_all,str.contains,=
+benchmark_0226.smt2, str.replace_all,str.contains,=
+benchmark_0227.smt2, str.replace_all,str.contains,=
+benchmark_0228.smt2, str.replace_all,str.contains,=
+benchmark_0229.smt2, str.replace_all,str.contains,=
+benchmark_0230.smt2, str.replace_all,str.contains,=
+benchmark_0231.smt2, str.replace_all,str.contains,=
+benchmark_0232.smt2, str.replace_all,str.contains,=
+benchmark_0233.smt2, str.replace_all,str.contains,=
+benchmark_0234.smt2, str.replace_all,str.contains,=
+benchmark_0235.smt2, str.replace_all,str.contains,=
+benchmark_0236.smt2, str.replace_all,str.contains,=
+benchmark_0237.smt2, str.replace_all,str.contains,=
+benchmark_0238.smt2, str.replace_all,str.contains,=
+benchmark_0239.smt2, str.replace_all,str.contains,=
+benchmark_0240.smt2, str.replace_all,str.contains,=
+benchmark_0241.smt2, str.replace_all,str.contains,=
+benchmark_0242.smt2, str.replace_all,str.contains,=
+benchmark_0243.smt2, str.replace_all,str.contains,=
+benchmark_0244.smt2, str.replace_all,str.contains,=
+benchmark_0245.smt2, str.replace_all,str.contains,=
+benchmark_0246.smt2, str.replace_all,str.contains,=
+benchmark_0247.smt2, str.replace_all,str.contains,=
+benchmark_0248.smt2, str.replace_all,str.contains,=
+benchmark_0249.smt2, str.replace_all,str.contains,=
+benchmark_0250.smt2, str.replace_all,str.contains,=
+benchmark_0251.smt2, str.replace_all,str.contains,=
+benchmark_0252.smt2, str.replace_all,str.contains,=
+benchmark_0253.smt2, str.replace_all,str.contains,=
+benchmark_0254.smt2, str.replace_all,str.contains,=
+benchmark_0255.smt2, str.replace_all,str.contains,=
+benchmark_0256.smt2, str.replace_all,str.contains,=
+benchmark_0257.smt2, str.replace_all,str.contains,=
+benchmark_0258.smt2, str.replace_all,str.contains,=
+benchmark_0259.smt2, str.replace_all,str.contains,=
+benchmark_0260.smt2, str.replace_all,str.contains,=
+benchmark_0261.smt2, str.replace_all,str.contains,=
+benchmark_0262.smt2, str.replace_all,str.contains,=
+benchmark_0263.smt2, str.replace_all,str.contains,=
+benchmark_0264.smt2, str.replace_all,str.contains,=
+benchmark_0265.smt2, str.replace_all,str.contains,=
+benchmark_0266.smt2, str.replace_all,str.contains,=
+benchmark_0267.smt2, str.replace_all,str.contains,=
+benchmark_0268.smt2, str.replace_all,str.contains,=
+benchmark_0269.smt2, str.replace_all,str.contains,=
+benchmark_0270.smt2, str.replace_all,str.contains,=
+benchmark_0271.smt2, str.replace_all,str.contains,=
+benchmark_0272.smt2, str.replace_all,str.contains,=
+benchmark_0273.smt2, str.replace_all,str.contains,=
+benchmark_0274.smt2, str.replace_all,str.contains,=
+benchmark_0275.smt2, str.replace_all,str.contains,=
+benchmark_0276.smt2, str.replace_all,str.contains,=
+benchmark_0277.smt2, str.replace_all,str.contains,=
+benchmark_0278.smt2, str.replace_all,str.contains,=
+benchmark_0279.smt2, str.replace_all,str.contains,=
+benchmark_0280.smt2, str.replace_all,str.contains,=
+benchmark_0281.smt2, str.replace_all,str.contains,=
+benchmark_0282.smt2, str.replace_all,str.contains,=
+benchmark_0283.smt2, str.replace_all,str.contains,=
+benchmark_0284.smt2, str.replace_all,str.contains,=
+benchmark_0285.smt2, str.replace_all,str.contains,=
+benchmark_0286.smt2, str.replace_all,str.contains,=
+benchmark_0287.smt2, str.replace_all,str.contains,=
+benchmark_0288.smt2, str.replace_all,str.contains,=
+benchmark_0289.smt2, str.replace_all,str.contains,=
+benchmark_0290.smt2, str.replace_all,str.contains,=
+benchmark_0291.smt2, str.replace_all,str.contains,=
+benchmark_0292.smt2, str.replace_all,str.contains,=
+benchmark_0293.smt2, str.replace_all,str.contains,=
+benchmark_0294.smt2, str.replace_all,str.contains,=
+benchmark_0295.smt2, str.replace_all,str.contains,=
+benchmark_0296.smt2, str.replace_all,str.contains,=
+benchmark_0297.smt2, str.replace_all,str.contains,=
+benchmark_0298.smt2, str.replace_all,str.contains,=
+benchmark_0299.smt2, str.replace_all,str.contains,=
+benchmark_0300.smt2, str.replace_all,str.contains,=
+benchmark_0301.smt2, str.replace_all,str.contains,=
+benchmark_0302.smt2, str.replace_all,str.contains,=
+benchmark_0303.smt2, str.replace_all,str.contains,=
+benchmark_0304.smt2, str.replace_all,str.contains,=
+benchmark_0305.smt2, str.replace_all,str.contains,=
+benchmark_0306.smt2, str.replace_all,str.contains,=
+benchmark_0307.smt2, str.replace_all,str.contains,=
+benchmark_0308.smt2, str.replace_all,str.contains,=
+benchmark_0309.smt2, str.replace_all,str.contains,=
+benchmark_0310.smt2, str.replace_all,str.contains,=
+benchmark_0311.smt2, str.replace_all,str.contains,=
+benchmark_0312.smt2, str.replace_all,str.contains,=
+benchmark_0313.smt2, str.replace_all,str.contains,=
+benchmark_0314.smt2, str.replace_all,str.contains,=
+benchmark_0315.smt2, str.replace_all,str.contains,=
+benchmark_0316.smt2, str.replace_all,str.contains,=
+benchmark_0317.smt2, str.replace_all,str.contains,=
+benchmark_0318.smt2, str.replace_all,str.contains,=
+benchmark_0319.smt2, str.replace_all,str.contains,=
+benchmark_0320.smt2, str.replace_all,str.contains,=
+benchmark_0321.smt2, str.replace_all,str.contains,=
+benchmark_0322.smt2, str.replace_all,str.contains,=
+benchmark_0323.smt2, str.replace_all,str.contains,=
+benchmark_0324.smt2, str.replace_all,str.contains,=
+benchmark_0325.smt2, str.replace_all,str.contains,=
+benchmark_0326.smt2, str.replace_all,str.contains,=
+benchmark_0327.smt2, str.replace_all,str.contains,=
+benchmark_0328.smt2, str.replace_all,str.contains,=
+benchmark_0329.smt2, str.replace_all,str.contains,=
+benchmark_0330.smt2, str.replace_all,str.contains,=
+benchmark_0331.smt2, str.replace_all,str.contains,=
+benchmark_0332.smt2, str.replace_all,str.contains,=
+benchmark_0333.smt2, str.replace_all,str.contains,=
+benchmark_0334.smt2, str.replace_all,str.contains,=
+benchmark_0335.smt2, str.replace_all,str.contains,=
+benchmark_0336.smt2, str.replace_all,str.contains,=
+benchmark_0337.smt2, str.replace_all,str.contains,=
+benchmark_0338.smt2, str.replace_all,str.contains,=
+benchmark_0339.smt2, str.replace_all,str.contains,=
+benchmark_0340.smt2, str.replace_all,str.contains,=
+benchmark_0341.smt2, str.replace_all,str.contains,=
+benchmark_0342.smt2, str.replace_all,str.contains,=
+benchmark_0343.smt2, str.replace_all,str.contains,=
+benchmark_0344.smt2, str.replace_all,str.contains,=
+benchmark_0345.smt2, str.replace_all,str.contains,=
+benchmark_0346.smt2, str.replace_all,str.contains,=
+benchmark_0347.smt2, str.replace_all,str.contains,=
+benchmark_0348.smt2, str.replace_all,str.contains,=
+benchmark_0349.smt2, str.replace_all,str.contains,=
+benchmark_0350.smt2, str.replace_all,str.contains,=
+benchmark_0351.smt2, str.replace_all,str.contains,=
+benchmark_0352.smt2, str.replace_all,str.contains,=
+benchmark_0353.smt2, str.replace_all,str.contains,=
+benchmark_0354.smt2, str.replace_all,str.contains,=
+benchmark_0355.smt2, str.replace_all,str.contains,=
+benchmark_0356.smt2, str.replace_all,str.contains,=
+benchmark_0357.smt2, str.replace_all,str.contains,=
+benchmark_0358.smt2, str.replace_all,str.contains,=
+benchmark_0359.smt2, str.replace_all,str.contains,=
+benchmark_0360.smt2, str.replace_all,str.contains,=
+benchmark_0361.smt2, str.replace_all,str.contains,=
+benchmark_0362.smt2, str.replace_all,str.contains,=
+benchmark_0363.smt2, str.replace_all,str.contains,=
+benchmark_0364.smt2, str.replace_all,str.contains,=
+benchmark_0365.smt2, str.replace_all,str.contains,=
+benchmark_0366.smt2, str.replace_all,str.contains,=
+benchmark_0367.smt2, str.replace_all,str.contains,=
+benchmark_0368.smt2, str.replace_all,str.contains,=
+benchmark_0369.smt2, str.replace_all,str.contains,=
+benchmark_0370.smt2, str.replace_all,str.contains,=
+benchmark_0371.smt2, str.replace_all,str.contains,=
+benchmark_0372.smt2, str.replace_all,str.contains,=
+benchmark_0373.smt2, str.replace_all,str.contains,=
+benchmark_0374.smt2, str.replace_all,str.contains,=
+benchmark_0375.smt2, str.replace_all,str.contains,=
+benchmark_0376.smt2, str.replace_all,str.contains,=
+benchmark_0377.smt2, str.replace_all,str.contains,=
+benchmark_0378.smt2, str.replace_all,str.contains,=
+benchmark_0379.smt2, str.replace_all,str.contains,=
+benchmark_0380.smt2, str.replace_all,str.contains,=
+benchmark_0381.smt2, str.replace_all,str.contains,=
+benchmark_0382.smt2, str.replace_all,str.contains,=
+benchmark_0383.smt2, str.replace_all,str.contains,=
+benchmark_0384.smt2, str.replace_all,str.contains,=
+benchmark_0385.smt2, str.replace_all,str.contains,=
+benchmark_0386.smt2, str.replace_all,str.contains,=
+benchmark_0387.smt2, str.replace_all,str.contains,=
+benchmark_0388.smt2, str.replace_all,str.contains,=
+benchmark_0389.smt2, str.replace_all,str.contains,=
+benchmark_0390.smt2, str.replace_all,str.contains,=
+benchmark_0391.smt2, str.replace_all,str.contains,=
+benchmark_0392.smt2, str.replace_all,str.contains,=
+benchmark_0393.smt2, str.replace_all,str.contains,=
+benchmark_0394.smt2, str.replace_all,str.contains,=
+benchmark_0395.smt2, str.replace_all,str.contains,=
+benchmark_0396.smt2, str.replace_all,str.contains,=
+benchmark_0397.smt2, str.replace_all,str.contains,=
+benchmark_0398.smt2, str.replace_all,str.contains,=
+benchmark_0399.smt2, str.replace_all,str.contains,=
+benchmark_0400.smt2, str.replace_all,str.contains,=
+benchmark_0401.smt2, str.replace_all,str.contains,=
+benchmark_0402.smt2, str.replace_all,str.contains,=
+benchmark_0403.smt2, str.replace_all,str.contains,=
+benchmark_0404.smt2, str.replace_all,str.contains,=
+benchmark_0405.smt2, str.replace_all,str.contains,=
+benchmark_0406.smt2, str.replace_all,str.contains,=
+benchmark_0407.smt2, str.replace_all,str.contains,=
+benchmark_0408.smt2, str.replace_all,str.contains,=
+benchmark_0409.smt2, str.replace_all,str.contains,=
+benchmark_0410.smt2, str.replace_all,str.contains,=
+benchmark_0411.smt2, str.replace_all,str.contains,=
+benchmark_0412.smt2, str.replace_all,str.contains,=
+benchmark_0413.smt2, str.replace_all,str.contains,=
+benchmark_0414.smt2, str.replace_all,str.contains,=
+benchmark_0415.smt2, str.replace_all,str.contains,=
+benchmark_0416.smt2, str.replace_all,str.contains,=
+benchmark_0417.smt2, str.replace_all,str.contains,=
+benchmark_0418.smt2, str.replace_all,str.contains,=
+benchmark_0419.smt2, str.replace_all,str.contains,=
+benchmark_0420.smt2, str.replace_all,str.contains,=
+benchmark_0421.smt2, str.replace_all,str.contains,=
+benchmark_0422.smt2, str.replace_all,str.contains,=
+benchmark_0423.smt2, str.replace_all,str.contains,=
+benchmark_0424.smt2, str.replace_all,str.contains,=
+benchmark_0425.smt2, str.replace_all,str.contains,=
+benchmark_0426.smt2, str.replace_all,str.contains,=
+benchmark_0427.smt2, str.replace_all,str.contains,=
+benchmark_0428.smt2, str.replace_all,str.contains,=
+benchmark_0429.smt2, str.replace_all,str.contains,=
+benchmark_0430.smt2, str.replace_all,str.contains,=
+benchmark_0431.smt2, str.replace_all,str.contains,=
+benchmark_0432.smt2, str.replace_all,str.contains,=
+benchmark_0433.smt2, str.replace_all,str.contains,=
+benchmark_0434.smt2, str.replace_all,str.contains,=
+benchmark_0435.smt2, str.replace_all,str.contains,=
+benchmark_0436.smt2, str.replace_all,str.contains,=
+benchmark_0437.smt2, str.replace_all,str.contains,=
+benchmark_0438.smt2, str.replace_all,str.contains,=
+benchmark_0439.smt2, str.replace_all,str.contains,=
+benchmark_0440.smt2, str.replace_all,str.contains,=
+benchmark_0441.smt2, str.replace_all,str.contains,=
+benchmark_0442.smt2, str.replace_all,str.contains,=
+benchmark_0443.smt2, str.replace_all,str.contains,=
+benchmark_0444.smt2, str.replace_all,str.contains,=
+benchmark_0445.smt2, str.replace_all,str.contains,=
+benchmark_0446.smt2, str.replace_all,str.contains,=
+benchmark_0447.smt2, str.replace_all,str.contains,=
+benchmark_0448.smt2, str.replace_all,str.contains,=
+benchmark_0449.smt2, str.replace_all,str.contains,=
+benchmark_0450.smt2, str.replace_all,str.contains,=
+benchmark_0451.smt2, str.replace_all,str.contains,=
+benchmark_0452.smt2, str.replace_all,str.contains,=
+benchmark_0453.smt2, str.replace_all,str.contains,=
+benchmark_0454.smt2, str.replace_all,str.contains,=
+benchmark_0455.smt2, str.replace_all,str.contains,=
+benchmark_0456.smt2, str.replace_all,str.contains,=
+benchmark_0457.smt2, str.replace_all,str.contains,=
+benchmark_0458.smt2, str.replace_all,str.contains,=
+benchmark_0459.smt2, str.replace_all,str.contains,=
+benchmark_0460.smt2, str.replace_all,str.contains,=
+benchmark_0461.smt2, str.replace_all,str.contains,=
+benchmark_0462.smt2, str.replace_all,str.contains,=
+benchmark_0463.smt2, str.replace_all,str.contains,=
+benchmark_0464.smt2, str.replace_all,str.contains,=
+benchmark_0465.smt2, str.replace_all,str.contains,=
+benchmark_0466.smt2, str.replace_all,str.contains,=
+benchmark_0467.smt2, str.replace_all,str.contains,=
+benchmark_0468.smt2, str.replace_all,str.contains,=
+benchmark_0469.smt2, str.replace_all,str.contains,=
+benchmark_0470.smt2, str.replace_all,str.contains,=
+benchmark_0471.smt2, str.replace_all,str.contains,=
+benchmark_0472.smt2, str.replace_all,str.contains,=
+benchmark_0473.smt2, str.replace_all,str.contains,=
+benchmark_0474.smt2, str.replace_all,str.contains,=
+benchmark_0475.smt2, str.replace_all,str.contains,=
+benchmark_0476.smt2, str.replace_all,str.contains,=
+benchmark_0477.smt2, str.replace_all,str.contains,=
+benchmark_0478.smt2, str.replace_all,str.contains,=
+benchmark_0479.smt2, str.replace_all,str.contains,=
+benchmark_0480.smt2, str.replace_all,str.contains,=
+benchmark_0481.smt2, str.replace_all,str.contains,=
+benchmark_0482.smt2, str.replace_all,str.contains,=
+benchmark_0483.smt2, str.replace_all,str.contains,=
+benchmark_0484.smt2, str.replace_all,str.contains,=
+benchmark_0485.smt2, str.replace_all,str.contains,=
+benchmark_0486.smt2, str.replace_all,str.contains,=
+benchmark_0487.smt2, str.replace_all,str.contains,=
+benchmark_0488.smt2, str.replace_all,str.contains,=
+benchmark_0489.smt2, str.replace_all,str.contains,=
+benchmark_0490.smt2, str.replace_all,str.contains,=
+benchmark_0491.smt2, str.replace_all,str.contains,=
+benchmark_0492.smt2, str.replace_all,str.contains,=
+benchmark_0493.smt2, str.replace_all,str.contains,=
+benchmark_0494.smt2, str.replace_all,str.contains,=
+benchmark_0495.smt2, str.replace_all,str.contains,=
+benchmark_0496.smt2, str.replace_all,str.contains,=
+benchmark_0497.smt2, str.replace_all,str.contains,=
+benchmark_0498.smt2, str.replace_all,str.contains,=
+benchmark_0499.smt2, str.replace_all,str.contains,=
+benchmark_0500.smt2, str.replace_all,str.contains,=
