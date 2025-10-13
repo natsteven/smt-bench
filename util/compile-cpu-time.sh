@@ -11,7 +11,7 @@ out="$HOME/smt-bench/$benchset-times.csv"
 
 rm "$out" 2>/dev/null
 
-readarray -t filenames < "util/$benchset-filenames.csv"
+readarray -t filenames < "util/$benchset-filenames.txt"
 
 echo ",bass,,,,cvc5,,,,ostrich,,,,z3-noodler" > "$out"
 echo "filename,real,user,sys,mem,real,user,sys,mem,real,user,sys,mem,real,user,sys,mem" >> "$out"
