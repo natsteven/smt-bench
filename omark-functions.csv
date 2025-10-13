@@ -1,0 +1,6 @@
+cloud-service-query-1.smt2, str.++,=
+lyndon-schuetzenberg-1.smt2, str.to_re,str.in_re,str.++,re.all,re.++,and,=
+lyndon-schuetzenberg-3.smt2, str.++,and,=
+noodles-unsat-5.smt2, str.to_re,str.in_re,str.++,re.all,re.++,=,+
+noodles-unsat-7.smt2, str.to_re,str.in_re,str.++,re.all,re.++,=,+
+parikh.smt2, str.++,=

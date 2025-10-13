@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "D,E,F,G,H,I,N,O,S,T,Y,_,a,b,c,e,h,j,l,m,p,r,s,t,u,v,y,:,="
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589998,
+			"timeStamp" : 1760381798430,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589998,
+			"timeStamp" : 1760381798430,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"url=http:_GamespyjspIDENTIFYserverHOST:Subject:_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589998,
+			"timeStamp" : 1760381798430,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

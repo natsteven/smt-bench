@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "B,C,H,S,U,_,a,c,d,e,h,i,k,l,m,n,o,p,r,s,t,y,:,{,<,=,>"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589956,
+			"timeStamp" : 1760381798654,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589956,
+			"timeStamp" : 1760381798654,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"<chat>_Host:tid={_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589956,
+			"timeStamp" : 1760381798654,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589956,
+			"timeStamp" : 1760381798654,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"Handyst=ClassStopperHost:SpamBlockerUtility_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589956,
+			"timeStamp" : 1760381798654,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

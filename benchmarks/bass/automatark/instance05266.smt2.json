@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,M,U,X,_,a,b,c,d,e,f,g,i,k,l,-,m,n,.,o,r,s,t,5,w,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589929,
+			"timeStamp" : 1760381798562,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589929,
+			"timeStamp" : 1760381798562,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"findX-Mailer:_User-Agent:www.take5bingo.com_X-Mailer:____\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589929,
+			"timeStamp" : 1760381798562,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

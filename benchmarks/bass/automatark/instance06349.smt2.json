@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,H,I,K,L,S,_,a,b,c,d,e,f,g,h,i,j,k,l,m,n,.,o,/,q,r,s,t,u,v,w,y,:,z"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589863,
+			"timeStamp" : 1760381798659,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589863,
+			"timeStamp" : 1760381798659,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"Host:Informationwww.zhongsou.comLitequick.qsrch.com_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589863,
+			"timeStamp" : 1760381798659,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589863,
+			"timeStamp" : 1760381798659,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"Subject:KeyloggerSAHHost:Surveillance_notification_/download/toolbar/locatorstoolbar_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589863,
+			"timeStamp" : 1760381798659,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "G,M,N,P,S,_,a,b,c,e,g,i,l,,,m,n,o,p,0,1,r,2,t,u,z"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589887,
+			"timeStamp" : 1760381798703,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589887,
+			"timeStamp" : 1760381798703,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"Spaccio_Moncler,Piumini_Moncler,Moncler_Piumino,Moncler_Giubbotti,Moncler_Negozio,Moncler_2011_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589887,
+			"timeStamp" : 1760381798703,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

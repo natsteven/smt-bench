@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "F,G,H,Q,R,S,W,Y,_,a,b,c,d,e,j,m,o,s,3,t,4,u,6,v,:,z"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590025,
+			"timeStamp" : 1760381798556,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590025,
+			"timeStamp" : 1760381798556,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"Subject:HostYWRtaW46cGFzc3dvcmQ_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590025,
+			"timeStamp" : 1760381798556,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,H,O,P,R,T,U,_,a,c,d,e,g,i,k,m,-,n,o,/,p,r,s,t,:,=,?"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590034,
+			"timeStamp" : 1760381798446,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590034,
+			"timeStamp" : 1760381798446,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"comUser-Agent:si=PORT=/pagead/ads?Host:/desktop/_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590034,
+			"timeStamp" : 1760381798446,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

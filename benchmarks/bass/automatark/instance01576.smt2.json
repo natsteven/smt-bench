@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,E,G,H,I,K,L,O,R,U,Y,_,a,b,c,e,f,g,h,i,k,l,-,n,.,o,/,p,r,s,t,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590013,
+			"timeStamp" : 1760381798580,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590013,
+			"timeStamp" : 1760381798580,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"ReportIterenetUser-Agent:Host:KEYLOGGER/bar_pl/chk_bar.fcgi_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590013,
+			"timeStamp" : 1760381798580,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

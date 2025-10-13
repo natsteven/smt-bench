@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,D,G,H,N,P,S,T,U,Y,_,a,c,d,e,f,h,i,k,m,n,.,o,/,p,q,r,2,s,t,v,w,x,y,:,z,{,},=,?"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589933,
+			"timeStamp" : 1760381798605,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589934,
+			"timeStamp" : 1760381798605,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"HANDYHost:Host:Host:yddznydqir/eviGatornewsSoftActivity__\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589934,
+			"timeStamp" : 1760381798605,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589934,
+			"timeStamp" : 1760381798605,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"ed2k_STATUS_Server_}{Port:http://tv.seekmo.com/showme.aspx?keyword=_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589934,
+			"timeStamp" : 1760381798605,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,D,I,W,_,a,b,c,e,%,f,g,h,i,l,m,n,.,o,p,1,r,2,s,3,t,u,6,z"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589851,
+			"timeStamp" : 1760381798752,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589851,
+			"timeStamp" : 1760381798752,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"source%3Dultrasearch136%26campaign%3DsnapuplogWinInet3Azopabora.info_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589851,
+			"timeStamp" : 1760381798752,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

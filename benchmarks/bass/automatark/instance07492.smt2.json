@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,C,F,H,S,U,_,a,b,c,d,e,f,g,h,i,j,k,l,m,-,n,.,o,/,p,r,s,t,u,w,y,:,="
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589954,
+			"timeStamp" : 1760381798572,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589954,
+			"timeStamp" : 1760381798572,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"Host:Subject:ClientnamedFrom:_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589954,
+			"timeStamp" : 1760381798572,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589954,
+			"timeStamp" : 1760381798572,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"User-Agent:readyHost:Host:Subject:wininetproducts_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589954,
+			"timeStamp" : 1760381798572,
 			"type" : 0,
 			"id" : 5,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -72,7 +72,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589954,
+			"timeStamp" : 1760381798572,
 			"type" : 0,
 			"id" : 3,
 			"value" : "\"filename=_Subject:www.adoptim.comreport/bar_pl/chk.fcgi_\"!:!<init>"
@@ -88,7 +88,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589954,
+			"timeStamp" : 1760381798572,
 			"type" : 0,
 			"id" : 6,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

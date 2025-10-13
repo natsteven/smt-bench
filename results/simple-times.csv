@@ -1,0 +1,15 @@
+,bass,,,,cvc5,,,,ostrich,,,,z3-noodler
+filename,real,user,sys,mem,real,user,sys,mem,real,user,sys,mem,real,user,sys,mem
+concat_isEmpty_equals_contains_l2_d2_bench,0.89,0.80,0.06,79528,0.04,0.02,0.00,8712,9.89,9.49,0.27,721864,0.08,0.06,0.01,29040,
+delete_concat_isEmpty_equals_contains_l3_d3_bench,1.03,0.91,0.08,114316,0.04,0.03,0.00,7912,3.47,3.23,0.20,574432,0.08,0.06,0.01,30416,
+delete_isEmpty_equals_contains_l2_d2_bench,0.85,0.63,0.06,71068,0.04,0.03,0.00,7912,3.10,2.89,0.13,427904,0.06,0.04,0.01,27932,
+replace_concat_isEmpty_equals_contains_l3_d3_bench,2.82,2.48,0.18,596332,0.04,0.03,0.00,7400,3.52,3.17,0.22,572352,0.22,0.19,0.03,33672,
+replace_delete_concat_isEmpty_equals_contains_l3_d3_bench,1.22,1.02,0.06,152068,0.04,0.03,0.00,7912,3.54,3.25,0.21,577108,0.86,0.77,0.09,52164,
+replace_isEmpty_equals_contains_l2_d2_bench,1.00,0.81,0.05,115168,0.04,0.03,0.01,7396,3.08,2.84,0.15,425252,0.09,0.06,0.01,29532,
+replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench,1.19,1.07,0.07,142996,0.04,0.03,0.00,8176,4.09,3.83,0.21,607052,,,,,
+substring12_concat_isEmpty_equals_contains_l3_d2_bench,0.61,0.53,0.04,66512,0.04,0.03,0.00,7384,3.12,2.88,0.14,425436,0.14,0.11,0.02,32668,
+substring12_concat_isEmpty_equals_contains_l3_d3_bench,0.79,0.64,0.04,70184,0.04,0.03,0.00,7384,3.47,3.23,0.19,575236,0.32,0.27,0.04,42524,
+substring12_isEmpty_equals_contains_l2_d2_bench,0.94,0.71,0.06,92640,0.04,0.03,0.00,7384,2.96,2.80,0.12,425872,0.07,0.05,0.01,28916,
+toLowerCase_concat_isEmpty_equals_contains_l3_d3_bench,1.06,0.85,0.05,100144,0.04,0.03,0.00,7912,5.11,4.93,0.16,458132,,,,,
+toLowerCase_isEmpty_equals_contains_l2_d2_bench,0.80,0.62,0.04,71668,0.04,0.03,0.00,7912,5.13,4.94,0.17,479644,,,,,
+toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench,0.61,0.57,0.02,67060,0.04,0.03,0.00,7912,5.79,5.52,0.23,610312,,,,,

@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,P,S,T,U,_,a,c,d,e,h,k,m,.,o,/,p,2,r,s,t,v,w,x,y,:,{,},=,?"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589820,
+			"timeStamp" : 1760381798782,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589820,
+			"timeStamp" : 1760381798782,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"ed2k_STATUS_Server_}{Port:http://tv.seekmo.com/showme.aspx?keyword=_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589820,
+			"timeStamp" : 1760381798782,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

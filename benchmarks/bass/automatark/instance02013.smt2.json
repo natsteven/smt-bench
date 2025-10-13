@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,L,S,U,_,a,c,e,g,h,i,l,-,m,n,o,p,r,s,t,u,v,y,:,{,=,}"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589986,
+			"timeStamp" : 1760381798420,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589986,
+			"timeStamp" : 1760381798421,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"LoggerovplUser-Agent:t=searchreslt}{Sysuptime:_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589986,
+			"timeStamp" : 1760381798421,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

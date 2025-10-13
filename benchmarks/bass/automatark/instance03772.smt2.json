@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,G,L,O,R,S,U,_,a,c,e,g,h,i,k,l,-,m,.,n,p,r,s,t,u,w,:,z,="
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589710,
+			"timeStamp" : 1760381798439,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589710,
+			"timeStamp" : 1760381798439,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"www.trackhits.ccUser-Agent:iz=LOGSupremeResult_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589710,
+			"timeStamp" : 1760381798440,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

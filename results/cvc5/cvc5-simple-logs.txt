@@ -1,0 +1,13 @@
+concat_isEmpty_equals_contains_l2_d2_bench.smt2: sat ,( (define-fun sym7 () String "B") (define-fun sym8 () String "A") (define-fun sym5 () String "") (define-fun sym6 () String "") (define-fun sym4 () String "CB") ) 
+delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Parse Error: benchmarks/not_smt/cvc5/simple/delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2:18.78: Symbol '<=' not declared as a variable") ,
+delete_isEmpty_equals_contains_l2_d2_bench.smt2: (error "Parse Error: benchmarks/not_smt/cvc5/simple/delete_isEmpty_equals_contains_l2_d2_bench.smt2:18.64: Symbol '<=' not declared as a variable") ,
+replace_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Expected term with sort Bool") ,
+replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Parse Error: benchmarks/not_smt/cvc5/simple/replace_delete_concat_isEmpty_equals_contains_l3_d3_bench.smt2:18.64: Symbol '<=' not declared as a variable") ,
+replace_isEmpty_equals_contains_l2_d2_bench.smt2: (error "Expected term with sort Bool") ,
+replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Parse Error: benchmarks/not_smt/cvc5/simple/replace_toLowerCase_delete_substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2:22.59: Symbol 'str.toLower' not declared as a variable") ,
+substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2: (error "Parse Error: benchmarks/not_smt/cvc5/simple/substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2:16.64: Symbol '<=' not declared as a variable") ,
+substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Parse Error: benchmarks/not_smt/cvc5/simple/substring12_concat_isEmpty_equals_contains_l3_d3_bench.smt2:16.78: Symbol '<=' not declared as a variable") ,
+substring12_isEmpty_equals_contains_l2_d2_bench.smt2: (error "Parse Error: benchmarks/not_smt/cvc5/simple/substring12_isEmpty_equals_contains_l2_d2_bench.smt2:16.64: Symbol '<=' not declared as a variable") ,
+toLowerCase_concat_isEmpty_equals_contains_l3_d3_bench.smt2: (error "Expected term with sort Bool") ,
+toLowerCase_isEmpty_equals_contains_l2_d2_bench.smt2: (error "Expected term with sort Bool") ,
+toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2: (error "Parse Error: benchmarks/not_smt/cvc5/simple/toLowerCase_substring12_concat_isEmpty_equals_contains_l3_d2_bench.smt2:17.42: Symbol 'str.toLower' not declared as a variable") ,

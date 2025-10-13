@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,H,I,J,N,O,R,S,T,U,_,a,b,c,e,%,f,g,j,l,-,m,n,.,/,o,p,q,r,2,s,3,t,u,v,w,x,y,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590023,
+			"timeStamp" : 1760381798695,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590023,
+			"timeStamp" : 1760381798695,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"TROJAN-Owner:User-Agent:%3fTs2/_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590023,
+			"timeStamp" : 1760381798695,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590023,
+			"timeStamp" : 1760381798695,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\".myway.com_ToolbarUI2Host:Subject:toxbqyosoe/cpvm_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590023,
+			"timeStamp" : 1760381798695,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

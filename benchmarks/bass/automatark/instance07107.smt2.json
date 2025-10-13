@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "C,H,T,_,a,b,c,d,e,f,g,h,i,k,l,m,.,n,/,o,p,r,s,t,u,:,|"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589945,
+			"timeStamp" : 1760381798476,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589945,
+			"timeStamp" : 1760381798476,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"/rssupdate.cgiToolbarsearch.dropspam.com_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589945,
+			"timeStamp" : 1760381798476,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589945,
+			"timeStamp" : 1760381798476,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"name.cnnic.cn/bar_pl/chk_bar.fcgiHost:|Connected_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589945,
+			"timeStamp" : 1760381798476,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

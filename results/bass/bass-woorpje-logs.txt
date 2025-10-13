@@ -1,0 +1,609 @@
+01_track_100.smt2; timeout 
+01_track_101.smt2; timeout 
+01_track_102.smt2; sat, 1: "aaa" 2: "" 4: "" 
+01_track_103.smt2; timeout 
+01_track_104.smt2; sat, 1: "gdcabf" 3: "bicdj" 
+01_track_105.smt2; timeout 
+01_track_106.smt2; unsat 
+01_track_107.smt2; sat, 1: "" 4: "" 5: "ccdbbcbeddebcee" 
+01_track_108.smt2; timeout 
+01_track_109.smt2; timeout 
+01_track_10.smt2; timeout 
+01_track_110.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at java.util.Arrays.copyOf(Arrays.java:3181) 	at java.util.ArrayList.grow(ArrayList.java:267) 	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:241) 	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:233) 	at java.util.ArrayList.add(ArrayList.java:464) 	at dk.brics.automaton.MinimizationOperations.initialize(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_111.smt2; 
+01_track_112.smt2; sat, 1: "" 3: "a" 
+01_track_113.smt2; timeout 
+01_track_114.smt2; unsat 
+01_track_115.smt2; sat, 1: "" 5: "f" 8: "" 10: "hcfeb" 
+01_track_116.smt2; sat, 1: "hhafcdaeefdbcdaegea" 3: "bg" 
+01_track_117.smt2; timeout 
+01_track_118.smt2; timeout 
+01_track_119.smt2; sat, 3: "" 5: "" 7: "" 
+01_track_11.smt2; sat, 1: "cadcacdabddadbd" 5: "ddcaccbccaacaadbccababbacc" 
+01_track_120.smt2; sat, 1: "cdd" 6: "accfafcdgdefffacfecdfedbagacfgefgea" 7: "beddecfcgegddagccbbbeebcdegadcddbcbcfbadeeadafc" 
+01_track_121.smt2; sat, 1: "bbbdcfeaeadabfaaeeadddde" 
+01_track_122.smt2; timeout 
+01_track_123.smt2; timeout 
+01_track_124.smt2; sat, 1: "" 3: "bddcaddgfgadacdgfgbdbccffcecbaefcfegebadbfagecfbdbfa" 
+01_track_125.smt2; timeout 
+01_track_126.smt2; sat, 1: "chbfad" 6: "abgdecd" 7: "" 
+01_track_127.smt2; sat, 2: "" 9: "" 11: "baeaabbecabcb" 
+01_track_128.smt2; sat, 2: "" 4: "" 
+01_track_129.smt2; sat, 2: "" 4: "" 
+01_track_12.smt2; timeout 
+01_track_130.smt2; sat, 1: "feeb" 
+01_track_131.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_132.smt2; sat, 1: "" 6: "bbdbcdddbbdbdabacc" 8: "cabbcaccdaddbbac" 
+01_track_133.smt2; timeout 
+01_track_134.smt2; timeout 
+01_track_135.smt2; 
+01_track_136.smt2; timeout 
+01_track_137.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_138.smt2; sat, 1: "gdfggaffadc" 3: "dbggbfea" 
+01_track_139.smt2; timeout 
+01_track_13.smt2; sat, 1: "jaediebbjgja" 3: "" 
+01_track_140.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_141.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_142.smt2; timeout 
+01_track_143.smt2; timeout 
+01_track_144.smt2; unsat 
+01_track_145.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_146.smt2; sat, 1: "haj" 
+01_track_147.smt2; sat, 1: "" 4: "dedee" 5: "bfhaffcgchhdbeffga" 
+01_track_148.smt2; timeout 
+01_track_149.smt2; sat, 1: "f" 6: "" 7: "j" 12: "ch" 
+01_track_14.smt2; sat, 1: "" 2: "" 5: "aaaa" 
+01_track_150.smt2; timeout 
+01_track_151.smt2; sat, 1: "gaaecdbddcfd" 3: "ecfdecdcfaagfaeeaccba" 
+01_track_152.smt2; sat, 1: "cffbcdabhgahehfdecfaffdedafgicdacdcgebecagchdccgfacadbahgiag" 
+01_track_153.smt2; sat, 1: "ebebcad" 3: "beafceaaefdaeefe" 
+01_track_154.smt2; sat, 1: "" 4: "" 5: "f" 6: "" 
+01_track_155.smt2; 
+01_track_156.smt2; sat, 1: "cbgcdbgbfbgfeacegbcddgagbebgea" 3: "bbfbgegffgedegdfcgebgecgccadgdaefbf" 
+01_track_157.smt2; timeout 
+01_track_158.smt2; OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000005ffecb000, 8588140544, 0) failed; error='Cannot allocate memory' (errno=12) # # There is insufficient memory for the Java Runtime Environment to continue. # Native memory allocation (mmap) failed to map 8588140544 bytes for committing reserved memory. # An error report file with more information is saved as: # /bsuhome/nathanaelsteven/smt-bench/hs_err_pid72876.log 
+01_track_159.smt2; timeout 
+01_track_15.smt2; timeout 
+01_track_160.smt2; sat, 1: "gefiaidbgcafig" 
+01_track_161.smt2; timeout 
+01_track_162.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_163.smt2; sat, 2: "" 5: "" 9: "ccd" 13: "dgcgh" 
+01_track_164.smt2; sat, 1: "ga" 3: "" 
+01_track_165.smt2; sat, 1: "gcefaecb" 3: "aaacbdgcefbbgeegfdcdcdacfaddeegdegcccaedc" 
+01_track_166.smt2; unsat 
+01_track_167.smt2; sat, 2: "g" 3: "fhffhhgccgcddhegfhb" 
+01_track_168.smt2; sat, 1: "agdhf" 6: "" 14: "" 
+01_track_169.smt2; sat, 1: "hg" 6: "eg" 10: "h" 11: "" 
+01_track_16.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_170.smt2; timeout 
+01_track_171.smt2; sat, 1: "" 3: "feeaegbbdecahdfdefdcdbaahafe" 
+01_track_172.smt2; sat, 1: "gdbdccb" 3: "dde" 11: "" 
+01_track_173.smt2; sat, 1: "ajfdjb" 3: "iacbdjddcdcbibcaabejbghcegibigbceaaefghbdehhfcbbecjhfgigf" 
+01_track_174.smt2; 
+01_track_175.smt2; sat, 1: "chiacdchcghfcaafbfgaghcgedddaaghchgdhgghibegagghaiciacdgbcadhbcgfifefgcbfcagdde" 
+01_track_176.smt2; sat, 2: "gj" 3: "" 
+01_track_177.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_178.smt2; timeout 
+01_track_179.smt2; sat, 2: "" 7: "" 9: "dggebdeh" 
+01_track_17.smt2; timeout 
+01_track_180.smt2; sat, 1: "hjjfbfeijebfjabciadjchegiiedjdiihifdbfebiechbe" 
+01_track_181.smt2; sat, 1: "" 3: "acidagihgdcaf" 
+01_track_182.smt2; sat, 1: "j" 6: "" 10: "c" 11: "gj" 
+01_track_183.smt2; timeout 
+01_track_184.smt2; sat, 1: "idcficcdhgaiega" 6: "eeb" 7: "gfhechbf" 
+01_track_185.smt2; sat, 1: "chggiciiggdficiehhi" 
+01_track_186.smt2; sat, 1: "gd" 5: "bi" 8: "" 14: "ifibehed" 
+01_track_187.smt2; unsat 
+01_track_188.smt2; timeout 
+01_track_189.smt2; timeout 
+01_track_18.smt2; timeout 
+01_track_190.smt2; unsat 
+01_track_191.smt2; 
+01_track_192.smt2; sat, 2: "" 3: "gbhff" 
+01_track_193.smt2; sat, 2: "" 4: "" 
+01_track_194.smt2; timeout 
+01_track_195.smt2; sat, 1: "cj" 3: "ieecg" 
+01_track_196.smt2; sat, 1: "" 3: "gffeiddigihfjfeg" 
+01_track_197.smt2; sat, 1: "" 5: "jabjdjaigidegjjajgedciad" 
+01_track_198.smt2; timeout 
+01_track_199.smt2; timeout 
+01_track_19.smt2; sat, 1: "" 3: "abcacbbbaaaacbb" 
+01_track_1.smt2; sat, 2: "" 4: "" 
+01_track_200.smt2; sat, 1: "" 2: "" 4: "" 
+01_track_20.smt2; timeout 
+01_track_21.smt2; sat, 1: "accdcdaaaccddbc" 3: "" 
+01_track_22.smt2; sat, 1: "" 3: "" 6: "e" 8: "heec" 
+01_track_23.smt2; timeout 
+01_track_24.smt2; sat, 1: "ccbccabacbcccbabbbbaa" 3: "ccbacbbbbbcbbcccbbaacab" 
+01_track_25.smt2; timeout 
+01_track_26.smt2; timeout 
+01_track_27.smt2; sat, 1: "" 3: "jccj" 
+01_track_28.smt2; timeout 
+01_track_29.smt2; sat, 1: "hdfhcdibhihe" 3: "ehbfbddbhcfahehcfggcegabdddcgacdfge" 
+01_track_2.smt2; timeout 
+01_track_30.smt2; timeout 
+01_track_31.smt2; timeout 
+01_track_32.smt2; sat, 1: "ba" 3: "ggebcgdcbb" 
+01_track_33.smt2; timeout 
+01_track_34.smt2; sat, 1: "edddcfae" 3: "c" 
+01_track_35.smt2; timeout 
+01_track_36.smt2; timeout 
+01_track_37.smt2; unsat 
+01_track_38.smt2; sat, 1: "ddede" 6: "dbcaedadcabceffcffecfbcbfabccbedf" 7: "aebbcbbbaccfacdcdaccbfcbaa" 
+01_track_39.smt2; timeout 
+01_track_3.smt2; sat, 2: "" 4: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" 
+01_track_40.smt2; sat, 1: "" 4: "bihfe" 5: "jfbj" 
+01_track_41.smt2; timeout 
+01_track_42.smt2; timeout 
+01_track_43.smt2; timeout 
+01_track_44.smt2; sat, 2: "" 4: "" 
+01_track_45.smt2; sat, 1: "" 3: "abbbbbbabbbabbabbbaabbaaaababbabbbabbaa" 
+01_track_46.smt2; timeout 
+01_track_47.smt2; unsat 
+01_track_48.smt2; sat, 2: "" 5: "c" 
+01_track_49.smt2; sat, 1: "adddcaabaccac" 
+01_track_4.smt2; sat, 2: "a" 3: "" 
+01_track_50.smt2; timeout 
+01_track_51.smt2; sat, 1: "" 3: "babababaaabababbaaababbbabbaaababaaaabbabbbbbabbbbbaa" 
+01_track_52.smt2; sat, 1: "cdccbebdabceecacceaea" 
+01_track_53.smt2; timeout 
+01_track_54.smt2; timeout 
+01_track_55.smt2; timeout 
+01_track_56.smt2; sat, 1: "bbabbaaba" 3: "aabaabba" 
+01_track_57.smt2; sat, 2: "" 7: "" 9: "baabaaaaababbbbab" 
+01_track_58.smt2; sat, 1: "bcfhefhgehgggfdgcahb" 3: "fgecacffbbgggebcgfgcfgbaddcdbbfggdegd" 
+01_track_59.smt2; timeout 
+01_track_5.smt2; sat, 1: "babaaccccaabbac" 3: "" 
+01_track_60.smt2; timeout 
+01_track_61.smt2; sat, 1: "bbcbc" 6: "" 
+01_track_62.smt2; sat, 1: "abcefffgdeaccfcegaaacdacedafccfddef" 
+01_track_63.smt2; sat, 1: "caabbabbcbcb" 3: "cabcabcbbcacbbccccbcabaaabbabbbaacccbbaaacbaaaccacbacccabcacabcba" 
+01_track_64.smt2; timeout 
+01_track_65.smt2; sat, 1: "cacbbcbbac" 3: "acacbbaccabab" 
+01_track_66.smt2; sat, 1: "ccb" 3: "b" 
+01_track_67.smt2; timeout 
+01_track_68.smt2; timeout 
+01_track_69.smt2; timeout 
+01_track_6.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_70.smt2; timeout 
+01_track_71.smt2; timeout 
+01_track_72.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+01_track_73.smt2; timeout 
+01_track_74.smt2; sat, 1: "eaceaefefeababacedfcafdb" 3: "afbeegcfafgbfbceadaeecaegfadgebbfdcddafcaeadaafdeabgeccceagaecd" 
+01_track_75.smt2; timeout 
+01_track_76.smt2; unsat 
+01_track_77.smt2; timeout 
+01_track_78.smt2; sat, 1: "bbcacacabcbbbabababbaaabaab" 
+01_track_79.smt2; sat, 2: "" 9: "cabcababcaaaabaacccccabbbabccacabccaacbbab" 11: "" 
+01_track_7.smt2; sat, 1: "abbaabbaaaabbbabaaabbbbbabbbaabbbbabb" 3: "abbaaaabbbaabbababbaaabbaababababaabbaabababbabaaabbabb" 
+01_track_80.smt2; sat, 1: "" 2: "" 6: "" 11: "aaaa" 
+01_track_81.smt2; sat, 1: "" 5: "" 8: "" 10: "acccaaccbcbacab" 
+01_track_82.smt2; timeout 
+01_track_83.smt2; sat, 1: "ac" 
+01_track_84.smt2; sat, 1: "abbbcbcabab" 3: "abacbbc" 
+01_track_85.smt2; timeout 
+01_track_86.smt2; sat, 1: "" 3: "accccbbba" 
+01_track_87.smt2; timeout 
+01_track_88.smt2; timeout 
+01_track_89.smt2; sat, 1: "cbbbcbbcab" 
+01_track_8.smt2; sat, 2: "" 19: "" 21: "fegebbbche" 
+01_track_90.smt2; unsat 
+01_track_91.smt2; timeout 
+01_track_92.smt2; timeout 
+01_track_93.smt2; timeout 
+01_track_94.smt2; sat, 1: "cecbaedbacacdebecedcabc" 
+01_track_95.smt2; sat, 2: "" 7: "cbd" 
+01_track_96.smt2; unsat 
+01_track_97.smt2; sat, 1: "" 4: "eifececifibi" 5: "" 
+01_track_98.smt2; sat, 1: "aecefgdecbaadbaghchcfcgdbhchfbcfehbefgehgfadhdfhe" 3: "" 
+01_track_99.smt2; sat, 1: "" 3: "gahehbbdgbaebcechcdab" 
+01_track_9.smt2; sat, 1: "aaabbbcacbbcccbcbbcaabbabcacccb" 3: "aabcacccaaa" 
+02_track_1.smt2; timeout 
+02_track_2.smt2; timeout 
+02_track_3.smt2; timeout 
+02_track_4.smt2; timeout 
+02_track_5.smt2; timeout 
+02_track_6.smt2; timeout 
+02_track_7.smt2; timeout 
+02_track_8.smt2; timeout 
+02_track_9.smt2; timeout 
+03_track_100.smt2; sat, 1: "" 2: "" 7: "" 14: "aa" 
+03_track_101.smt2; timeout 
+03_track_102.smt2; sat, 1: "" 2: "" 8: "" 11: "" 16: "aa" 
+03_track_103.smt2; timeout 
+03_track_104.smt2; sat, 1: "" 4: "a" 
+03_track_105.smt2; sat, 1: "" 4: "a" 
+03_track_106.smt2; sat, 1: "" 4: "a" 
+03_track_107.smt2; sat, 2: "" 5: "" 7: "" 15: "aa" 
+03_track_108.smt2; sat, 1: "" 4: "" 6: "" 14: "aa" 
+03_track_109.smt2; timeout 
+03_track_10.smt2; unsat 
+03_track_110.smt2; timeout 
+03_track_111.smt2; timeout 
+03_track_112.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_113.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_114.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_115.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_116.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_117.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_118.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_119.smt2; sat, 1: "" 4: "" 5: "" 9: "" 11: "a" 21: "" 23: "" 31: "aa" 
+03_track_11.smt2; unsat 
+03_track_120.smt2; sat, 1: "" 2: "a" 9: "" 14: "aa" 
+03_track_121.smt2; timeout 
+03_track_122.smt2; timeout 
+03_track_123.smt2; sat, 1: "aaa" 4: "aba" 6: "" 8: "" 12: "" 21: "" 23: "" 37: "" 45: "baa" 
+03_track_124.smt2; timeout 
+03_track_125.smt2; sat, 2: "" 4: "" 8: "" 13: "" 15: "" 18: "a" 25: "a" 31: "" 39: "aa" 
+03_track_126.smt2; sat, 1: "" 4: "a" 
+03_track_127.smt2; sat, 1: "" 4: "a" 
+03_track_128.smt2; timeout 
+03_track_129.smt2; sat, 2: "" 5: "" 7: "" 16: "" 18: "" 25: "aa" 
+03_track_12.smt2; unsat 
+03_track_130.smt2; sat, 1: "" 5: "" 6: "" 10: "" 15: "a" 26: "a" 34: "aa" 
+03_track_131.smt2; sat, 2: "" 5: "a" 6: "" 17: "" 47: "" 55: "aa" 
+03_track_132.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_133.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_134.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_135.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_136.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_137.smt2; sat, 1: "" 2: "" 5: "b" 16: "" 24: "" 26: "" 34: "" 39: "baa" 
+03_track_138.smt2; timeout 
+03_track_139.smt2; timeout 
+03_track_13.smt2; unsat 
+03_track_140.smt2; timeout 
+03_track_141.smt2; timeout 
+03_track_142.smt2; timeout 
+03_track_143.smt2; timeout 
+03_track_144.smt2; sat, 1: "" 4: "a" 
+03_track_145.smt2; timeout 
+03_track_146.smt2; sat, 3: "" 6: "" 9: "" 23: "" 35: "" 37: "" 41: "" 51: "" 59: "aa" 
+03_track_147.smt2; sat, 1: "" 2: "" 8: "" 11: "" 16: "aa" 
+03_track_148.smt2; timeout 
+03_track_149.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_14.smt2; unsat 
+03_track_150.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_151.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_152.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_153.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_154.smt2; timeout 
+03_track_155.smt2; timeout 
+03_track_156.smt2; timeout 
+03_track_157.smt2; timeout 
+03_track_158.smt2; timeout 
+03_track_159.smt2; sat, 1: "" 6: "a" 9: "" 17: "a" 19: "a" 26: "aa" 
+03_track_15.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_160.smt2; timeout 
+03_track_161.smt2; sat, 2: "" 6: "" 10: "aa" 24: "" 29: "aa" 
+03_track_162.smt2; timeout 
+03_track_163.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_164.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_165.smt2; timeout 
+03_track_166.smt2; timeout 
+03_track_167.smt2; timeout 
+03_track_168.smt2; sat, 2: "" 7: "a" 9: "" 11: "" 13: "" 14: "" 24: "" 29: "" 46: "aa" 
+03_track_169.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_16.smt2; timeout 
+03_track_170.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_171.smt2; sat, 1: "aa" 4: "" 7: "" 9: "aaa" 14: "" 25: "" 29: "" 32: "" 39: "" 41: "" 49: "aa" 
+03_track_172.smt2; timeout 
+03_track_173.smt2; timeout 
+03_track_174.smt2; timeout 
+03_track_175.smt2; timeout 
+03_track_176.smt2; sat, 2: "" 7: "a" 9: "" 11: "" 17: "a" 26: "" 28: "" 41: "" 43: "" 50: "aa" 
+03_track_177.smt2; timeout 
+03_track_178.smt2; sat, 1: "aaa" 2: "" 4: "" 5: "a" 21: "" 35: "" 38: "" 48: "" 53: "aa" 
+03_track_179.smt2; sat, 1: "" 4: "b" 8: "" 9: "" 10: "" 18: "" 25: "" 32: "" 34: "" 42: "baa" 
+03_track_17.smt2; unsat 
+03_track_180.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_181.smt2; sat, 1: "" 3: "" 4: "a" 6: "" 10: "" 20: "" 22: "" 24: "" 31: "aa" 
+03_track_182.smt2; timeout 
+03_track_183.smt2; timeout 
+03_track_184.smt2; timeout 
+03_track_185.smt2; sat, 1: "" 2: "" 8: "" 11: "" 16: "aa" 
+03_track_186.smt2; sat, 1: "" 4: "" 6: "" 8: "" 19: "aa" 26: "" 28: "" 30: "" 40: "" 48: "aa" 
+03_track_187.smt2; timeout 
+03_track_188.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_189.smt2; timeout 
+03_track_18.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_190.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_191.smt2; timeout 
+03_track_192.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_193.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_194.smt2; sat, 1: "" 2: "" 6: "" 15: "aa" 
+03_track_195.smt2; timeout 
+03_track_196.smt2; timeout 
+03_track_197.smt2; timeout 
+03_track_198.smt2; sat, 1: "" 4: "" 6: "" 8: "" 16: "aa" 
+03_track_199.smt2; timeout 
+03_track_19.smt2; unsat 
+03_track_1.smt2; timeout 
+03_track_200.smt2; timeout 
+03_track_20.smt2; unsat 
+03_track_21.smt2; unsat 
+03_track_22.smt2; timeout 
+03_track_23.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_24.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_25.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_26.smt2; timeout 
+03_track_27.smt2; timeout 
+03_track_28.smt2; timeout 
+03_track_29.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_2.smt2; timeout 
+03_track_30.smt2; unsat 
+03_track_31.smt2; unsat 
+03_track_32.smt2; timeout 
+03_track_33.smt2; timeout 
+03_track_34.smt2; timeout 
+03_track_35.smt2; timeout 
+03_track_36.smt2; timeout 
+03_track_37.smt2; unsat 
+03_track_38.smt2; timeout 
+03_track_39.smt2; timeout 
+03_track_3.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_40.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_41.smt2; unsat 
+03_track_42.smt2; unsat 
+03_track_43.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_44.smt2; timeout 
+03_track_45.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_46.smt2; timeout 
+03_track_47.smt2; timeout 
+03_track_48.smt2; timeout 
+03_track_49.smt2; timeout 
+03_track_4.smt2; timeout 
+03_track_50.smt2; timeout 
+03_track_51.smt2; timeout 
+03_track_52.smt2; timeout 
+03_track_53.smt2; timeout 
+03_track_54.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_55.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_56.smt2; timeout 
+03_track_57.smt2; timeout 
+03_track_58.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_59.smt2; timeout 
+03_track_5.smt2; timeout 
+03_track_60.smt2; timeout 
+03_track_61.smt2; timeout 
+03_track_62.smt2; timeout 
+03_track_63.smt2; timeout 
+03_track_64.smt2; timeout 
+03_track_65.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_66.smt2; timeout 
+03_track_67.smt2; timeout 
+03_track_68.smt2; timeout 
+03_track_69.smt2; timeout 
+03_track_6.smt2; timeout 
+03_track_70.smt2; timeout 
+03_track_71.smt2; timeout 
+03_track_72.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_73.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_74.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_75.smt2; timeout 
+03_track_76.smt2; timeout 
+03_track_77.smt2; timeout 
+03_track_78.smt2; timeout 
+03_track_79.smt2; timeout 
+03_track_7.smt2; unsat 
+03_track_80.smt2; sat, 1: "" 
+03_track_81.smt2; timeout 
+03_track_82.smt2; timeout 
+03_track_83.smt2; timeout 
+03_track_84.smt2; timeout 
+03_track_85.smt2; timeout 
+03_track_86.smt2; timeout 
+03_track_87.smt2; timeout 
+03_track_88.smt2; timeout 
+03_track_89.smt2; sat, 2: "a" 5: "" 16: "aa" 
+03_track_8.smt2; unsat 
+03_track_90.smt2; timeout 
+03_track_91.smt2; sat, 1: "" 4: "a" 
+03_track_92.smt2; sat, 2: "a" 6: "a" 9: "aa" 
+03_track_93.smt2; sat, 2: "" 6: "" 9: "aa" 
+03_track_94.smt2; sat, 1: "" 4: "a" 
+03_track_95.smt2; sat, 1: "" 4: "a" 
+03_track_96.smt2; sat, 1: "" 4: "" 6: "" 8: "" 16: "aa" 
+03_track_97.smt2; timeout 
+03_track_98.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_99.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+03_track_9.smt2; unsat 
+04_track_100.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_101.smt2; timeout 
+04_track_102.smt2; timeout 
+04_track_103.smt2; timeout 
+04_track_104.smt2; timeout 
+04_track_105.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_106.smt2; timeout 
+04_track_107.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_108.smt2; timeout 
+04_track_109.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_10.smt2; timeout 
+04_track_110.smt2; timeout 
+04_track_111.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_112.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_113.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_114.smt2; timeout 
+04_track_115.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_116.smt2; timeout 
+04_track_117.smt2; timeout 
+04_track_118.smt2; timeout 
+04_track_119.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_11.smt2; timeout 
+04_track_120.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_121.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_122.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_123.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_124.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_125.smt2; sat, 1: "cabcccaccbccaabbacaacabacbacaccabbbbbccaccabbc" 3: "" 
+04_track_126.smt2; timeout 
+04_track_127.smt2; timeout 
+04_track_128.smt2; timeout 
+04_track_129.smt2; timeout 
+04_track_12.smt2; timeout 
+04_track_130.smt2; timeout 
+04_track_131.smt2; timeout 
+04_track_132.smt2; timeout 
+04_track_133.smt2; unsat 
+04_track_134.smt2; timeout 
+04_track_135.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_136.smt2; timeout 
+04_track_137.smt2; OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000004f79ef000, 5630418944, 0) failed; error='Cannot allocate memory' (errno=12) # # There is insufficient memory for the Java Runtime Environment to continue. # Native memory allocation (mmap) failed to map 5630418944 bytes for committing reserved memory. # An error report file with more information is saved as: # /bsuhome/nathanaelsteven/smt-bench/hs_err_pid115166.log 
+04_track_138.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_139.smt2; timeout 
+04_track_13.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_140.smt2; OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000005861c4000, 7225704448, 0) failed; error='Cannot allocate memory' (errno=12) # # There is insufficient memory for the Java Runtime Environment to continue. # Native memory allocation (mmap) failed to map 7225704448 bytes for committing reserved memory. # An error report file with more information is saved as: # /bsuhome/nathanaelsteven/smt-bench/hs_err_pid115563.log timeout 
+04_track_141.smt2; timeout 
+04_track_142.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_143.smt2; timeout 
+04_track_144.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_145.smt2; timeout 
+04_track_146.smt2; timeout 
+04_track_147.smt2; timeout 
+04_track_148.smt2; 
+04_track_149.smt2; unsat 
+04_track_14.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_150.smt2; timeout 
+04_track_151.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) timeout 
+04_track_152.smt2; timeout 
+04_track_153.smt2; unsat 
+04_track_154.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_155.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_156.smt2; unsat 
+04_track_157.smt2; timeout 
+04_track_158.smt2; timeout 
+04_track_159.smt2; timeout 
+04_track_15.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_160.smt2; timeout 
+04_track_161.smt2; timeout 
+04_track_162.smt2; timeout 
+04_track_163.smt2; timeout 
+04_track_164.smt2; OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x0000000610579000, 8315760640, 0) failed; error='Cannot allocate memory' (errno=12) # # There is insufficient memory for the Java Runtime Environment to continue. # Native memory allocation (mmap) failed to map 8315760640 bytes for committing reserved memory. # An error report file with more information is saved as: # /bsuhome/nathanaelsteven/smt-bench/hs_err_pid118453.log 
+04_track_165.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_166.smt2; timeout 
+04_track_167.smt2; timeout 
+04_track_168.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_169.smt2; timeout 
+04_track_16.smt2; timeout 
+04_track_170.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_171.smt2; timeout 
+04_track_172.smt2; unsat 
+04_track_173.smt2; timeout 
+04_track_174.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_175.smt2; timeout 
+04_track_176.smt2; timeout 
+04_track_177.smt2; 
+04_track_178.smt2; timeout 
+04_track_179.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_17.smt2; timeout 
+04_track_180.smt2; timeout 
+04_track_181.smt2; timeout 
+04_track_182.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_183.smt2; timeout 
+04_track_184.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_185.smt2; timeout 
+04_track_186.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_187.smt2; OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x000000046061c000, 3939975168, 0) failed; error='Cannot allocate memory' (errno=12) # # There is insufficient memory for the Java Runtime Environment to continue. # Native memory allocation (mmap) failed to map 3939975168 bytes for committing reserved memory. # An error report file with more information is saved as: # /bsuhome/nathanaelsteven/smt-bench/hs_err_pid121133.log 
+04_track_188.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_189.smt2; timeout 
+04_track_18.smt2; timeout 
+04_track_190.smt2; timeout 
+04_track_191.smt2; timeout 
+04_track_192.smt2; timeout 
+04_track_193.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_194.smt2; timeout 
+04_track_195.smt2; sat, 45: "" 51: "" 53: "" 59: "" 62: "" 64: "" 
+04_track_196.smt2; timeout 
+04_track_197.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_198.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_199.smt2; timeout 
+04_track_19.smt2; timeout 
+04_track_1.smt2; sat, 3: "" 
+04_track_200.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_20.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_21.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_22.smt2; timeout 
+04_track_23.smt2; timeout 
+04_track_24.smt2; timeout 
+04_track_25.smt2; OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000007206fc000, 3750772736, 0) failed; error='Cannot allocate memory' (errno=12) # # There is insufficient memory for the Java Runtime Environment to continue. # Native memory allocation (mmap) failed to map 3750772736 bytes for committing reserved memory. # An error report file with more information is saved as: # /bsuhome/nathanaelsteven/smt-bench/hs_err_pid123410.log 
+04_track_26.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_27.smt2; timeout 
+04_track_28.smt2; timeout 
+04_track_29.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_2.smt2; unsat 
+04_track_30.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_31.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_32.smt2; timeout 
+04_track_33.smt2; timeout 
+04_track_34.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_35.smt2; unsat 
+04_track_36.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) timeout 
+04_track_37.smt2; timeout 
+04_track_38.smt2; timeout 
+04_track_39.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_3.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_40.smt2; timeout 
+04_track_41.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_42.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_43.smt2; unsat 
+04_track_44.smt2; timeout 
+04_track_45.smt2; timeout 
+04_track_46.smt2; timeout 
+04_track_47.smt2; timeout 
+04_track_48.smt2; timeout 
+04_track_49.smt2; timeout 
+04_track_4.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_50.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_51.smt2; unsat 
+04_track_52.smt2; timeout 
+04_track_53.smt2; timeout 
+04_track_54.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_55.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_56.smt2; timeout 
+04_track_57.smt2; timeout 
+04_track_58.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_59.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_5.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_60.smt2; timeout 
+04_track_61.smt2; timeout 
+04_track_62.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_63.smt2; timeout 
+04_track_64.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_65.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_66.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_67.smt2; timeout 
+04_track_68.smt2; timeout 
+04_track_69.smt2; timeout 
+04_track_6.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_70.smt2; timeout 
+04_track_71.smt2; timeout 
+04_track_72.smt2; timeout 
+04_track_73.smt2; unsat 
+04_track_74.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_75.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_76.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_77.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_78.smt2; timeout 
+04_track_79.smt2; timeout 
+04_track_7.smt2; timeout 
+04_track_80.smt2; timeout 
+04_track_81.smt2; timeout 
+04_track_82.smt2; timeout 
+04_track_83.smt2; timeout 
+04_track_84.smt2; timeout 
+04_track_85.smt2; timeout 
+04_track_86.smt2; timeout 
+04_track_87.smt2; timeout 
+04_track_88.smt2; timeout 
+04_track_89.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_8.smt2; sat, 2: "" 
+04_track_90.smt2; timeout 
+04_track_91.smt2; timeout 
+04_track_92.smt2; 
+04_track_93.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_94.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_95.smt2; timeout 
+04_track_96.smt2; timeout 
+04_track_97.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_98.smt2; Exception in thread "main" java.lang.NullPointerException 	at edu.boisestate.cs.solvers.Solver.isSingleton(Solver.java:451) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:355) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
+04_track_99.smt2; timeout 
+04_track_9.smt2; Exception in thread "main" java.lang.OutOfMemoryError: Java heap space 	at java.util.Arrays.copyOf(Arrays.java:3181) 	at java.util.ArrayList.grow(ArrayList.java:267) 	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:241) 	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:233) 	at java.util.ArrayList.add(ArrayList.java:464) 	at dk.brics.automaton.MinimizationOperations.initialize(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimizeHuffman(Unknown Source) 	at dk.brics.automaton.MinimizationOperations.minimize(Unknown Source) 	at dk.brics.automaton.Automaton.minimize(Unknown Source) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:730) 	at edu.boisestate.cs.automatonModel.Model_Acyclic_Inverse.concatenate(Model_Acyclic_Inverse.java:22) 	at edu.boisestate.cs.solvers.Solver.append(Solver.java:69) 	at edu.boisestate.cs.Parser_2.processConcat(Parser_2.java:509) 	at edu.boisestate.cs.Parser_2.addOperation(Parser_2.java:157) 	at edu.boisestate.cs.reporting.A_Reporter.run(A_Reporter.java:206) 	at edu.boisestate.cs.SolveMain.run_Acyclic_Inverse_r3(SolveMain.java:623) 	at edu.boisestate.cs.SolveMain.main(SolveMain.java:85) 
