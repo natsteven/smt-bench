@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,B,C,E,M,O,R,S,T,U,X,_,a,e,f,g,i,l,m,-,n,.,o,p,r,s,t,w,y,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589918,
+			"timeStamp" : 1760381798522,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589918,
+			"timeStamp" : 1760381798522,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"SpywareinformationToolBarX-Mailer:_User-Agent:MM_RECO.EXE_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589918,
+			"timeStamp" : 1760381798522,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

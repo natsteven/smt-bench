@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "a,c,C,d,e,f,F,i,l,M,n,o,p,R,r,s,t,u,V,v,x,y,_"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589986,
+			"timeStamp" : 1760381798739,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589986,
+			"timeStamp" : 1760381798739,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"Validation_of_Mexican_RFC_for_tax_payers_individuals_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589986,
+			"timeStamp" : 1760381798739,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

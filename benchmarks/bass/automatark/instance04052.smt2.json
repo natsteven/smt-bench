@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "a,b,d,e,%,E,N,o,O,p,0,P,2,r,s,t,T,u,v,[,],_"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589886,
+			"timeStamp" : 1760381798776,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589886,
+			"timeStamp" : 1760381798776,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"updates]%20[Port_NETObserve_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589886,
+			"timeStamp" : 1760381798776,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "C,E,M,O,R,X,_,c,d,%,e,f,h,i,l,-,m,.,n,/,p,q,s,3,t,u,v,w,x,z,?"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589817,
+			"timeStamp" : 1760381798410,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589817,
+			"timeStamp" : 1760381798410,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"ixqshv/qzccsMM_RECO.EXE%3fwwwwp-includes/theme.php?_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589817,
+			"timeStamp" : 1760381798410,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

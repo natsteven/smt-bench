@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,a,c,d,e,f,g,h,i,-,n,.,o,p,q,r,s,t,U,u,:,_"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589832,
+			"timeStamp" : 1760381798771,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589832,
+			"timeStamp" : 1760381798771,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"User-Agent:upgrade.qsrch.info_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589832,
+			"timeStamp" : 1760381798771,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

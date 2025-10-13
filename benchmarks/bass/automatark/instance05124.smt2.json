@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,B,C,M,P,S,U,W,_,a,b,d,e,g,i,l,-,n,.,o,1,r,2,s,t,u,5,w,y,9,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589872,
+			"timeStamp" : 1760381798621,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589872,
+			"timeStamp" : 1760381798621,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"CodeguruBrowserMyPostStableWeb-MailUser-Agent:195.225._\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589872,
+			"timeStamp" : 1760381798621,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

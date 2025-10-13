@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "B,C,F,H,N,O,R,Z,_,d,e,f,g,i,l,,,m,-,.,o,/,r,s,t,v,x,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589896,
+			"timeStamp" : 1760381798478,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589896,
+			"timeStamp" : 1760381798478,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"Host:fromZC-Bridgev.xml/NFO,Registered_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589896,
+			"timeStamp" : 1760381798478,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

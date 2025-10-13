@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "B,C,F,H,O,P,R,S,W,Z,_,b,c,d,e,f,g,i,-,n,o,r,s,t,u,x,y,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589997,
+			"timeStamp" : 1760381798694,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589997,
+			"timeStamp" : 1760381798694,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"OSSProxyZC-BridgeHost:Referer:FunWebProducts_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589997,
+			"timeStamp" : 1760381798694,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

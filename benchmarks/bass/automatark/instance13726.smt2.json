@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,E,G,N,S,U,_,a,b,c,e,g,j,l,-,n,o,p,r,s,t,u,v,x,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589860,
+			"timeStamp" : 1760381798467,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589860,
+			"timeStamp" : 1760381798467,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"User-Agent:User-Agent:_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589860,
+			"timeStamp" : 1760381798467,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589861,
+			"timeStamp" : 1760381798467,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"Subject:reportGatorNavExcel_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589861,
+			"timeStamp" : 1760381798467,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

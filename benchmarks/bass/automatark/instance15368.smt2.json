@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "a,b,B,c,C,d,e,g,h,i,k,l,.,n,o,p,r,s,S,t,u,w,y,_"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589871,
+			"timeStamp" : 1760381798789,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589871,
+			"timeStamp" : 1760381798789,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"www.webcruiser.ccgot_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589871,
+			"timeStamp" : 1760381798789,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589871,
+			"timeStamp" : 1760381798789,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"__Current.earthlinkSpyBuddy_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589871,
+			"timeStamp" : 1760381798789,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,B,F,H,I,L,O,P,R,S,T,U,],_,a,c,d,e,f,g,h,i,k,l,m,-,n,.,o,/,p,q,r,2,s,t,v,w,y,:,z,=,?"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590044,
+			"timeStamp" : 1760381798736,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590044,
+			"timeStamp" : 1760381798736,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"comUser-Agent:si=PORT=/pagead/ads?Host:/desktop/_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590044,
+			"timeStamp" : 1760381798736,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590044,
+			"timeStamp" : 1760381798736,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"yddznydqir/eviaresflashdownloader.com_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590044,
+			"timeStamp" : 1760381798736,
 			"type" : 0,
 			"id" : 5,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -72,7 +72,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590044,
+			"timeStamp" : 1760381798736,
 			"type" : 0,
 			"id" : 3,
 			"value" : "\"LIST]SpamBlockerUtilityTry2FindBasicHost:User-Agent:AcmeprotocolSpy_\"!:!<init>"
@@ -88,7 +88,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590044,
+			"timeStamp" : 1760381798736,
 			"type" : 0,
 			"id" : 6,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

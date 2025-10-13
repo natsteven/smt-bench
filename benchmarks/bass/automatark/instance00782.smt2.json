@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,H,S,U,W,_,a,b,c,d,e,g,h,i,k,l,-,m,n,.,o,1,r,3,s,t,v,w,y,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590020,
+			"timeStamp" : 1760381798730,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590020,
+			"timeStamp" : 1760381798730,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"A-311ServerUser-Agent:scn.mystoretoolbar.com_Windowswww.trackhits.ccHost:_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590020,
+			"timeStamp" : 1760381798730,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

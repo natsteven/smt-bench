@@ -1,0 +1,6 @@
+cloud-service-query-1.smt2: sat ,(   (define-fun k8 () String     "G:")   (define-fun V34 () String     "\u{0}")   (define-fun V3 () String     "/\u{0}")   (define-fun k3 () String     "\u{0}")   (define-fun V32 () String     "\u{0}")   (define-fun V29 () String     "G")   (define-fun V1 () String     "mongodb://://")   (define-fun k7 () String     "\u{0}")   (define-fun V35 () String     "://@G:G\u{0}@\u{0}/\u{0}\u{0}")   (define-fun V30 () String     "G\u{0}")   (define-fun V16 () String     "@")   (define-fun V33 () String     "mongodb://://@G:G\u{0}@\u{0}")   (define-fun V36 () String     "mongodb://")   (define-fun V31 () String     "@G:G\u{0}")   (define-fun V37 () String     "@G:G\u{0}@\u{0}/\u{0}\u{0}")   (define-fun V17 () String     "@\u{0}") ) 
+lyndon-schuetzenberg-1.smt2: timeout ,
+lyndon-schuetzenberg-3.smt2: timeout ,
+noodles-unsat-5.smt2: timeout ,
+noodles-unsat-7.smt2: timeout ,
+parikh.smt2: unsat ,(error "line 17 column 10: model is not available, did you forget to enable model generation with ''model=true'?") 

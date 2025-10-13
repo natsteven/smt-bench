@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "B,E,G,H,I,M,O,P,S,T,Z,_,a,c,d,e,h,i,k,l,.,n,p,r,t,u,y"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590011,
+			"timeStamp" : 1760381798682,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590011,
+			"timeStamp" : 1760381798682,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"SpyBuddyZOMBIES_HTTP_GETearch.earthlink_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590011,
+			"timeStamp" : 1760381798682,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

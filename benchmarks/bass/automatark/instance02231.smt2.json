@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,C,H,M,S,U,Y,_,a,b,c,d,e,f,g,h,i,-,m,.,n,o,/,p,q,r,s,t,u,v,x,z,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589860,
+			"timeStamp" : 1760381798510,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589860,
+			"timeStamp" : 1760381798510,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"portSpediaYourtraffbest.bizUser-Agent:CSmtpMonsterixqshv/qzccsHost:_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589860,
+			"timeStamp" : 1760381798510,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

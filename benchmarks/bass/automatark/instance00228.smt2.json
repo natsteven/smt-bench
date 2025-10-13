@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,H,K,S,_,a,b,c,d,e,f,g,i,j,l,n,o,/,r,s,t,u,v,w,y,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590019,
+			"timeStamp" : 1760381798393,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590019,
+			"timeStamp" : 1760381798393,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"Subject:KeyloggerSAHHost:Surveillance_notification_/download/toolbar/locatorstoolbar_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968590019,
+			"timeStamp" : 1760381798393,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

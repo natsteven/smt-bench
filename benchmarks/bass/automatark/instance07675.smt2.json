@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,C,F,H,M,R,S,V,W,_,a,b,c,d,e,f,h,i,j,l,m,.,n,o,/,0,p,1,q,r,s,3,t,u,v,w,x,y,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589920,
+			"timeStamp" : 1760381798466,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589920,
+			"timeStamp" : 1760381798466,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"SystemSleuth_1.0versionHost:ArrowHost:3Awebsearch.drsnsrch.com_hostieiWonHost:pjpoptwql/rlnj_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589920,
+			"timeStamp" : 1760381798466,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589920,
+			"timeStamp" : 1760381798466,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"Validation_of_Mexican_RFC_for_tax_payers_individuals_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589920,
+			"timeStamp" : 1760381798466,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

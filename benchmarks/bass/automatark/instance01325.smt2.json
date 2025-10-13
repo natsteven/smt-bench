@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "A,T,U,_,a,b,c,d,e,f,g,h,i,k,l,m,-,.,n,o,p,r,2,s,t,v,w,:"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589696,
+			"timeStamp" : 1760381798684,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589696,
+			"timeStamp" : 1760381798684,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"Toolbarkl.search.need2find.comtvshowticketsToolbarUser-Agent:.compress_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589696,
+			"timeStamp" : 1760381798684,
 			"type" : 0,
 			"id" : 2,
 			"value" : "equals!!Ljava/lang/Object;!:!0"

@@ -1,7 +1,7 @@
 {
 	"alphabet" : {
 		"size" : 95,
-		"declaration" : " -~"
+		"declaration" : "a,b,c,e,f,g,h,(,),j,k,l,m,.,n,o,/,q,r,s,t,v,w,_"
 	},
 	"vertices" : [
 		{
@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589798,
+			"timeStamp" : 1760381798791,
 			"type" : 0,
 			"id" : 0,
 			"value" : "r0!:!getStringValue!!"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589798,
+			"timeStamp" : 1760381798791,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"trackwww.alfacleaner.com_\"!:!<init>"
@@ -36,7 +36,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589798,
+			"timeStamp" : 1760381798791,
 			"type" : 0,
 			"id" : 3,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
@@ -46,7 +46,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589798,
+			"timeStamp" : 1760381798791,
 			"type" : 0,
 			"id" : 2,
 			"value" : "\"vvvjkhmbgnbbw/qbn_(robert_blackcastlesoft.com)_\"!:!<init>"
@@ -62,7 +62,7 @@
 					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1722968589798,
+			"timeStamp" : 1760381798791,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
