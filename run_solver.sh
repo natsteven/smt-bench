@@ -9,7 +9,7 @@ mkdir -p logs logs/"$solver" logs/"$solver"/"$benchset"
 
 log="logs/$solver/$benchset/$(basename "$file").log"
 performance_log="logs/$solver/$benchset/$(basename "$file").time"
-
+rm -f "$log" "$performance_log"
 echo -n "$solver, $(basename "$file"), "
 
 start=$(date +%s.%3N)
