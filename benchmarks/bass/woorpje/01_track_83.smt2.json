@@ -10,7 +10,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1760381848493,
+			"timeStamp" : 1760596585852,
 			"type" : 0,
 			"id" : 0,
 			"value" : "\"cac\"!:!<init>"
@@ -20,7 +20,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1760381848493,
+			"timeStamp" : 1760596585852,
 			"type" : 0,
 			"id" : 1,
 			"value" : "\"c\"!:!<init>"
@@ -30,7 +30,7 @@
 			"incomingEdges" :[
 			],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1760381848493,
+			"timeStamp" : 1760596585852,
 			"type" : 0,
 			"id" : 2,
 			"value" : "r0!:!getStringValue!!"
@@ -39,14 +39,14 @@
 			"actualValue" : "str.++",
 			"incomingEdges" :[
 				 {
-					"source" : 2,
-					"type" : "s1"
-				}, {
 					"source" : 1,
 					"type" : "t"
+				}, {
+					"source" : 2,
+					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1760381848493,
+			"timeStamp" : 1760596585852,
 			"type" : 0,
 			"id" : 3,
 			"value" : "concat!!Ljava/lang/String;!:!0"
@@ -56,13 +56,13 @@
 			"incomingEdges" :[
 				 {
 					"source" : 0,
-					"type" : "s1"
+					"type" : "t"
 				}, {
 					"source" : 3,
-					"type" : "t"
+					"type" : "s1"
 				}],
 			"sourceConstraints" : [ ],
-			"timeStamp" : 1760381848493,
+			"timeStamp" : 1760596585852,
 			"type" : 0,
 			"id" : 4,
 			"value" : "equals!!Ljava/lang/Object;!:!0"
