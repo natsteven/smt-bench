@@ -1,0 +1,7 @@
+(declare-const string11 String)
+(assert (not (str.prefixof "wds.linkis.engineconn" string11)))
+(assert (not (str.prefixof "spark.executor" string11)))
+(assert (not (str.prefixof "spark.driver" string11)))
+(assert (not (str.prefixof "wds.linkis.rm.yarnqueue" string11)))
+(check-sat)
+(get-model)

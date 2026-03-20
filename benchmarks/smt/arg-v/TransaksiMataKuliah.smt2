@@ -1,0 +1,7 @@
+(declare-const string0 String)
+(assert (not (= string0 "D")))
+(assert (not (= string0 "C")))
+(assert (not (= string0 "B")))
+(assert (not (= string0 "A")))
+(check-sat)
+(get-model)

@@ -1,0 +1,8 @@
+(declare-const string2 String)
+(assert (not (= string2 "SymbolSetEncoding")))
+(assert (not (= string2 "StandardEncoding")))
+(assert (not (= string2 "WinAnsiEncoding")))
+(assert (not (= string2 "MacExpertEncoding")))
+(assert (not (= string2 "MacRomanEncoding")))
+(check-sat)
+(get-model)

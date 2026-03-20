@@ -1,0 +1,6 @@
+(declare-const string0 String)
+(assert (str.contains "Main@43534" string0))
+(assert (>= (str.len "Main@43534") ( +  (str.len string0) (str.indexof "Main@43534" string0))))
+(assert (>= (str.len "Main@43534") (str.indexof "Main@43534" string0)))
+(check-sat)
+(get-model)

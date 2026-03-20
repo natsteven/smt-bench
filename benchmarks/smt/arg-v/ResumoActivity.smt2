@@ -1,0 +1,7 @@
+(declare-const string0 String)
+(assert (= string0 "Carteira"))
+(assert (not (= string0 "Cartao")))
+(assert (not (= string0 "Carteira")))
+(assert (not (= string0 "Conta")))
+(check-sat)
+(get-model)

@@ -1,0 +1,5 @@
+(declare-const string0 String)
+(assert (not (str.prefixof "0x" string0)))
+(assert (not (= (str.len string0) 0)))
+(check-sat)
+(get-model)

@@ -1,0 +1,6 @@
+(declare-const string2 String)
+(assert (not (str.suffixof ".dtd" string2)))
+(assert (not (= string2 "rdf2html-functions.xsl")))
+(assert (not (= string2 "xsd2owl-functions.xsl")))
+(check-sat)
+(get-model)

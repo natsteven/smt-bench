@@ -1,0 +1,6 @@
+(declare-const string2 String)
+(assert (not (= string2 "JJ")))
+(assert (not (= string2 "VBD")))
+(assert (not (= string2 "VBN")))
+(check-sat)
+(get-model)

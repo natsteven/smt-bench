@@ -1,0 +1,8 @@
+(declare-const string1 String)
+(declare-const string0 String)
+(assert (not (= string0 string0)))
+(assert (= (str.++ string0 string1) (str.++ (str.++ "" string0) string1)))
+(assert (= string1 string1))
+(assert (= string0 string0))
+(check-sat)
+(get-model)

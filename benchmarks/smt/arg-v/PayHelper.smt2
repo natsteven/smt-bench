@@ -1,0 +1,7 @@
+(declare-const string4 String)
+(assert (not (str.prefixof "46003" string4)))
+(assert (not (str.prefixof "46001" string4)))
+(assert (not (str.prefixof "46002" string4)))
+(assert (not (str.prefixof "46000" string4)))
+(check-sat)
+(get-model)

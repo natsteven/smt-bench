@@ -1,0 +1,6 @@
+(declare-const string0 String)
+(assert (not (str.prefixof "WF-" string0)))
+(assert (not (str.prefixof "RC-" string0)))
+(assert (not (str.prefixof "TS-" string0)))
+(check-sat)
+(get-model)

@@ -1,0 +1,8 @@
+(declare-const string5 String)
+(declare-const string6 String)
+(declare-const string4 String)
+(declare-const string1 String)
+(assert (not (= (str.++ (str.++ (str.++ "" string1) string6) "2") string4)))
+(assert (not (= (str.++ (str.++ (str.++ "" string1) string5) "1") string4)))
+(check-sat)
+(get-model)

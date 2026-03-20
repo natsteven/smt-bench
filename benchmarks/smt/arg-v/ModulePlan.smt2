@@ -1,0 +1,6 @@
+(declare-const string0 String)
+(assert (not (= string0 "tournament")))
+(assert (not (= string0 "ctf")))
+(assert (not (= string0 "open")))
+(check-sat)
+(get-model)

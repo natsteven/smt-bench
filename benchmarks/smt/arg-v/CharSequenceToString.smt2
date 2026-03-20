@@ -1,0 +1,5 @@
+(declare-const string0 String)
+(assert (= string0 "case1"))
+(assert (not (= (str.len string0) (- 1))))
+(check-sat)
+(get-model)

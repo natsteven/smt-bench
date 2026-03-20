@@ -1,0 +1,5 @@
+(declare-const string2 String)
+(assert (not (= string2 "META_RELOAD")))
+(assert (not (= string2 "NOT_RELOADING")))
+(check-sat)
+(get-model)

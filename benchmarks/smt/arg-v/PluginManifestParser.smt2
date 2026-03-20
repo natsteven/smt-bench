@@ -1,0 +1,5 @@
+(declare-const string0 String)
+(assert (not (str.contains string0 ".")))
+(assert (not (str.prefixof "." string0)))
+(check-sat)
+(get-model)

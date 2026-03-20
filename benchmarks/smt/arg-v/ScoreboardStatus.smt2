@@ -1,0 +1,8 @@
+(declare-const string1 String)
+(assert (not (= string1 "public")))
+(assert (not (= string1 "classSpecific")))
+(assert (not (= string1 "adminOnly")))
+(assert (not (= string1 "open")))
+(assert (not (= string1 "closed")))
+(check-sat)
+(get-model)

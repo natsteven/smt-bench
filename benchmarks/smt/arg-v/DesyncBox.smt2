@@ -1,0 +1,5 @@
+(declare-const string1 String)
+(assert (not (= (str.++ (str.++ "" string1) ": ") "Transfer-Encoding: ")))
+(assert (not (= (str.++ (str.++ "" string1) ": ") "Content-Length: ")))
+(check-sat)
+(get-model)

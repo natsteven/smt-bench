@@ -1,0 +1,6 @@
+(declare-const string2 String)
+(declare-const string0 String)
+(assert (not (str.contains string2 "?")))
+(assert (not (str.contains string0 "?")))
+(check-sat)
+(get-model)

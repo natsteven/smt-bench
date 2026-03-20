@@ -1,0 +1,8 @@
+(declare-const string1 String)
+(assert (not (= string1 "file")))
+(assert (not (= string1 "encryptedAlgorithm")))
+(assert (not (= string1 "encrypted")))
+(assert (not (= string1 "last-change-date")))
+(assert (not (= string1 "title")))
+(check-sat)
+(get-model)

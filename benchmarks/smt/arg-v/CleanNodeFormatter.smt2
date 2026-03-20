@@ -1,0 +1,8 @@
+(declare-const string1 String)
+(declare-const string0 String)
+(assert (not (str.suffixof "/" string1)))
+(assert (not (str.prefixof "/" string0)))
+(assert (not (str.prefixof "https://" string0)))
+(assert (not (str.prefixof "http://" string0)))
+(check-sat)
+(get-model)

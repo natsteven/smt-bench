@@ -1,0 +1,5 @@
+(declare-const string1 String)
+(assert (not (= string1 "xml")))
+(assert (not (= string1 "brief")))
+(check-sat)
+(get-model)

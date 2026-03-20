@@ -1,0 +1,5 @@
+(declare-const string2 String)
+(assert (not (str.prefixof "$JAVANLP_HOME" string2)))
+(assert (not (str.prefixof "$NLP_DATA_HOME" string2)))
+(check-sat)
+(get-model)

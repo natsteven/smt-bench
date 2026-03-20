@@ -1,0 +1,7 @@
+(declare-const string0 String)
+(assert (not (str.prefixof "delete" string0)))
+(assert (not (str.prefixof "update" string0)))
+(assert (not (str.prefixof "insert" string0)))
+(assert (not (str.prefixof "select" string0)))
+(check-sat)
+(get-model)

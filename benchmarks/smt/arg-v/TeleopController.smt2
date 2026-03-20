@@ -1,0 +1,8 @@
+(declare-const string3 String)
+(declare-const string2 String)
+(assert (= string2 "Jeremy"))
+(assert (not (= string3 "Jackie")))
+(assert (not (= string2 "Gabe")))
+(assert (not (= string2 "Jeremy")))
+(check-sat)
+(get-model)

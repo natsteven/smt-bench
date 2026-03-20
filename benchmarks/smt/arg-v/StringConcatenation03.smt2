@@ -1,0 +1,5 @@
+(declare-const string1 String)
+(declare-const string0 String)
+(assert (not (= (str.++ string0 string1) "Happy at DiffBllue")))
+(check-sat)
+(get-model)

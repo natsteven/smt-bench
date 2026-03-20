@@ -1,0 +1,6 @@
+(declare-const string1 String)
+(assert (not (str.prefixof "video" string1)))
+(assert (not (str.prefixof "image" string1)))
+(assert (not (str.prefixof "audio" string1)))
+(check-sat)
+(get-model)

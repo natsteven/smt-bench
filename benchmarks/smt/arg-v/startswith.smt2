@@ -1,0 +1,5 @@
+(declare-const string0 String)
+(assert (not (= string0 "GOTCHA")))
+(assert (= string0 ""))
+(check-sat)
+(get-model)

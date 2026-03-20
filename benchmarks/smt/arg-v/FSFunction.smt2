@@ -1,0 +1,5 @@
+(declare-const string1 String)
+(declare-const string0 String)
+(assert (= string0 string1))
+(check-sat)
+(get-model)
