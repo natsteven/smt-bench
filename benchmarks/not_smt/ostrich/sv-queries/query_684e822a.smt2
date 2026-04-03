@@ -7,7 +7,7 @@
 (assert (= "ffmpeg" out_str))
 (assert (and (str.in_re string0 (re.++ ws (str.to_re out_str) ws)) (or (= out_str "")(and (str.in_re out_str (re.++ nwc re.all)) (str.in_re out_str (re.++ re.all nwc))))))
 (assert (= nwc (re.diff re.allchar (re.range (str.from_code 0) (str.from_code 32)))))
-(define-fun-rec toLower ((x String) (y String)) Bool (or (and (= x "") (= y "")) (and (not (= x "")) (not (= y "")) (let ((x_head (str.at x 0)) (y_head (str.at y 0)) (x_tail (str.substr x 1 (- (str.len x) 1))) (y_tail (str.substr y 1 (- (str.len y) 1)))) (and (= (str.to_code y_head) (ite (and (<= 65 (str.to_code x_head)) (<= (str.to_code x_head)                 90)) (+ (str.to_code x_head) 32) (str.to_code x_head))) (toLower x_tail y_tail))))))
+(define-fun-rec toLower ((x String) (y String)) Bool (or (and (= x "") (= y ""))(and (not (= x "")) (not (= y ""))(= (char.code (str.head y))(ite (and (<= 65 (char.code (str.head x)))(<= (char.code (str.head x)) 90))(+ (char.code (str.head x)) 32)(char.code (str.head x))))(toLower (str.tail x) (str.tail y)))))
 (assert (toLower out_str out_str))
 (assert (= ws (re.union (re.+ (re.range (str.from_code 0) (str.from_code 32))) (str.to_re ""))))
 (check-sat)

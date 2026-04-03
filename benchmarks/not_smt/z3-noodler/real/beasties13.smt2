@@ -1,13 +1,13 @@
 (set-logic ALL)
 (set-option :produce-models true)
-(define-fun-rec toLower ((x String) (y String)) Bool 	(or (and (= x "") (= y "")) 		(and (not (= x "")) (not (= y "")) 			(let ((x_head (str.at x 0)) 				(y_head (str.at y 0)) 				(x_tail (str.substr x 1 (- (str.len x) 1))) 				(y_tail (str.substr y 1 (- (str.len y) 1)))) 			(and (= (str.to_code y_head) 				(ite (and (<= 65 (str.to_code x_head)) (<= (str.to_code x_head) 90)) 					(+ (str.to_code x_head) 32) 					(str.to_code x_head))) 				(toLower x_tail y_tail))))))
+(define-fun toLowerCase ((s String)) String (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all (str.replace_all s "A" "a") "B" "b") "C" "c") "D" "d") "E" "e") "F" "f") "G" "g") "H" "h") "I" "i") "J" "j") "K" "k") "L" "l") "M" "m") "N" "n") "O" "o") "P" "p") "Q" "q") "R" "r") "S" "s") "T" "t") "U" "u") "V" "v") "W" "w") "X" "x") "Y" "y") "Z" "z"))
 (declare-fun sym209 () String)
 (declare-fun sym161 () String)
 (define-fun Alphabet () RegLan 
 	(re.* (re.union (str.to_re "A") (str.to_re "B") (str.to_re "C") (str.to_re "D") (str.to_re "E") (str.to_re "F") (str.to_re "G") (str.to_re "H") (str.to_re "I") (str.to_re "J") (str.to_re "K") (str.to_re "L") (str.to_re "M") (str.to_re "N") (str.to_re "O") (str.to_re "P") (str.to_re "Q") (str.to_re "R") (str.to_re "S") (str.to_re "T") (str.to_re "U") (str.to_re "V") (str.to_re "W") (str.to_re "X") (str.to_re "Y") (str.to_re "Z") (str.to_re "a") (str.to_re "b") (str.to_re "c") (str.to_re "d") (str.to_re "e") (str.to_re "f") (str.to_re "g") (str.to_re "h") (str.to_re "i") (str.to_re "j") (str.to_re "k") (str.to_re "l") (str.to_re "m") (str.to_re "n") (str.to_re "o") (str.to_re "p") (str.to_re "q") (str.to_re "r") (str.to_re "s") (str.to_re "t") (str.to_re "u") (str.to_re "v") (str.to_re "w") (str.to_re "x") (str.to_re "y") (str.to_re "z") ))
 )
 (declare-fun L0  () String)
-(assert (toLower (str.substr sym209  0 1) L0 ))
+(assert (= (toLowerCase (str.substr sym209  0 1)) L0 ))
 
 (assert (str.in_re sym161 Alphabet))
 (assert (str.in_re sym209 Alphabet))(assert (<= 1 (str.len sym209 )))

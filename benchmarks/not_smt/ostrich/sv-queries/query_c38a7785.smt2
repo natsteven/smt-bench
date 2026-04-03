@@ -3,7 +3,7 @@
 (declare-const string0 String)
 (declare-const out_str String)
 (assert (str.contains out_str "<bad/>"))
-(define-fun-rec toLower ((x String) (y String)) Bool (or (and (= x "") (= y "")) (and (not (= x "")) (not (= y "")) (let ((x_head (str.at x 0)) (y_head (str.at y 0)) (x_tail (str.substr x 1 (- (str.len x) 1))) (y_tail (str.substr y 1 (- (str.len y) 1)))) (and (= (str.to_code y_head) (ite (and (<= 65 (str.to_code x_head)) (<= (str.to_code x_head)                 90)) (+ (str.to_code x_head) 32) (str.to_code x_head))) (toLower x_tail y_tail))))))
+(define-fun-rec toLower ((x String) (y String)) Bool (or (and (= x "") (= y ""))(and (not (= x "")) (not (= y ""))(= (char.code (str.head y))(ite (and (<= 65 (char.code (str.head x)))(<= (char.code (str.head x)) 90))(+ (char.code (str.head x)) 32)(char.code (str.head x))))(toLower (str.tail x) (str.tail y)))))
 (assert (toLower string0 out_str))
 (check-sat)
 (get-model)

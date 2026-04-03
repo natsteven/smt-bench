@@ -41,7 +41,6 @@ query_a271a98f
 query_a1401ff5
 query_a48916c8
 query_b947447f
-query_ba771812
 query_be7a7c01
 query_c38a7785
 query_cb6e34df
@@ -52,4 +51,3 @@ query_eae9b91b
 query_f1a9bc5d
 query_f47b5ab1
 query_f86d5af6
-query_fa434918
