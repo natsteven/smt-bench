@@ -1,3 +1,5 @@
+(set-option :produce-models true)
+(set-option :parse-transducers true)
 (declare-const string0 String)
 (declare-const out_str String)
 (assert (str.contains (str.++ (str.++ "" string0) ";") "<bad/>"))

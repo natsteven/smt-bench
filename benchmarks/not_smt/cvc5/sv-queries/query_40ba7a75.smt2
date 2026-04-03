@@ -1,3 +1,4 @@
+(set-option :produce-models true)
 (declare-const string3 String)
 (declare-const string4 String)
 (declare-const out_str String)

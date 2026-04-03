@@ -1,3 +1,4 @@
+(set-option :produce-models true)
 (declare-const string1 String)
 (declare-const string2 String)
 (declare-const string0 String)

@@ -1,3 +1,4 @@
+(set-option :produce-models true)
 (declare-const string4 String)
 (assert (not (= (str.replace_all string4 "." "/") "org.springframework.web.servlet.handler.HandlerInterceptorAdapter")))
 (assert (not (= (str.replace_all string4 "." "/") "jakarta.servlet.http.HttpServlet")))

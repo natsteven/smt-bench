@@ -1,3 +1,5 @@
+(set-option :produce-models true)
+(set-option :parse-transducers true)
 (declare-const string3 String)
 (declare-const string4 String)
 (assert (not (= string3 string4)))

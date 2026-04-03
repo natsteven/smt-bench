@@ -1,3 +1,4 @@
+(set-option :produce-models true)
 (declare-const string1 String)
 (declare-const out_str String)
 (assert (= out_str string1))

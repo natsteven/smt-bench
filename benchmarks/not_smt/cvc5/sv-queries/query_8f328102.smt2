@@ -1,3 +1,4 @@
+(set-option :produce-models true)
 (declare-const string0 String)
 (assert (str.contains (str.++ string0 "abc") "<bad/>"))
 (assert (not (str.contains string0 "<bad/>")))

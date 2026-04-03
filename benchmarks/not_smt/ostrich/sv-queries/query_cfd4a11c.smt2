@@ -1,3 +1,5 @@
+(set-option :produce-models true)
+(set-option :parse-transducers true)
 (declare-const string1 String)
 (declare-const out_str String)
 (assert (not (= out_str string1)))

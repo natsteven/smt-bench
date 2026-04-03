@@ -1,3 +1,4 @@
+(set-option :produce-models true)
 (declare-const string0 String)
 (assert (not (= string0 (str.++ (str.++ "" string0) "s"))))
 (check-sat)
