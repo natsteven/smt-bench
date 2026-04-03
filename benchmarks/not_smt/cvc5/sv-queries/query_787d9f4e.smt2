@@ -1,0 +1,5 @@
+(declare-const string0 String)
+(assert (not (str.contains (str.++ string0 "abc") "<bad/>")))
+(assert (not (str.contains string0 "<bad/>")))
+(check-sat)
+(get-model)

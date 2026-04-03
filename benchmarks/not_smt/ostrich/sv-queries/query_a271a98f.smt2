@@ -1,0 +1,8 @@
+(declare-const string0 String)
+(declare-const out_str String)
+(assert (str.contains (str.++ (str.++ "" string0) ";") "<bad/>"))
+(assert (not (str.contains out_str "<bad/>")))
+(define-fun-rec toUpper ((x String) (y String)) Bool (or (and (= x "") (= y "")) (and (not (= x "")) (not (= y "")) (let ((x_head (str.at x 0)) (y_head (str.at y 0)) (x_tail (str.substr x 1 (- (str.len x) 1))) (y_tail (str.substr y 1 (- (str.len y) 1)))) (and (= (str.to_code y_head) (ite (and (<= 97 (str.to_code x_head)) (<= (str.to_code x_head) 122)) (- (str.to_code x_head) 32) (str.to_code x_head))) (toUpper x_tail y_tail))))))
+(assert (toUpper string0 out_str))
+(check-sat)
+(get-model)

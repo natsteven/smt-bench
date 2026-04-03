@@ -1,0 +1,5 @@
+(declare-const string3 String)
+(declare-const string4 String)
+(assert (not (= string3 string4)))
+(check-sat)
+(get-model)

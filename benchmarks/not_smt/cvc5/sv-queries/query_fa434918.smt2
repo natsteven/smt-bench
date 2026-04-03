@@ -1,0 +1,5 @@
+(declare-const string2 String)
+(declare-const string0 String)
+(assert (not (= string2 (str.replace_all string0 "Ǥ" "Ǣ"))))
+(check-sat)
+(get-model)

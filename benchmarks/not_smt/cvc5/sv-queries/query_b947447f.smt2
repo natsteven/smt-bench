@@ -1,0 +1,4 @@
+(declare-const string0 String)
+(assert (not (str.contains (str.replace string0 "jar:" "^zip:") ":")))
+(check-sat)
+(get-model)
