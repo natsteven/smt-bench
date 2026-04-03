@@ -15,7 +15,7 @@ rm "$out" 2>/dev/null
 if [ "$solver" == "bass" ]; then
     for file in *.log; do
         {
-        filename="$(basename "$file" .json.log)"
+        filename="$(basename "$file" .ser.log)"
         echo -n "$filename; ";
         tr '\n' ' ' < "$file";
         echo "";

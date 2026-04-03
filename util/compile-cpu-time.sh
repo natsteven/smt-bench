@@ -21,7 +21,7 @@ for file in "${filenames[@]}"; do
   	for solver in bass cvc5 ostrich z3-noodler; do
   		f="logs/$solver/$benchset/$file.smt2"
   		if [ $solver == "bass" ]; then
-  		  f="${f}.json"
+  		  f="${f%.smt2}.ser"
   		fi
   		f="${f}.time"
 
